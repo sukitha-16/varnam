@@ -19,7 +19,22 @@
   min-height: 100vh;
 }
 
-  
+  .animated-sphere {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #3498db;
+  animation: rotateSphere 6s linear infinite;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Rotation animation */
+@keyframes rotateSphere {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 
     .container {
       width: 90%;
@@ -146,7 +161,7 @@
 
   <div class="container">
     <div class="icon">
-      <img src="1000132889.jpg" alt="Let's Start Icon">
+      <img src="1000132889.jpg" alt="Let's Start Icon", class="animated-sphere">
     </div>
     <div class="title">WordPath</div>
     <div id="json-viewer"></div>
