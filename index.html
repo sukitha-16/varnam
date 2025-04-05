@@ -7,58 +7,60 @@
   <style>
     * {
       box-sizing: border-box;
+      margin: 0;
+      padding: 0;
     }
 
     body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       background: linear-gradient(to bottom, #e0f7ff, #ffffff);
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       min-height: 100vh;
     }
 
-    .container {
-      width: 90%;
-      max-width: 950px;
-      background: #fff;
-      border-radius: 20px;
-      padding: 2rem 1.5rem;
-      margin-top: 40px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .header-row {
+    .banner {
+      width: 100%;
+      background: white;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem 2rem;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 1.5rem;
-      flex-wrap: wrap;
+      position: relative;
+      z-index: 2;
+    }
+
+    .header-content {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
     }
 
     .globe {
-      width: 100px;
-      height: 100px;
+      width: 70px;
+      height: 70px;
     }
 
     .title {
-      font-size: 2.6rem;
-      color: #2c3e50;
+      font-size: 2.5rem;
       font-weight: bold;
+      color: #2c3e50;
+    }
+
+    .main-content {
+      padding: 2rem;
       text-align: center;
     }
 
     .footer {
-      margin: 2rem 0;
-      font-size: 1.3rem;
+      margin-top: 2rem;
+      font-size: 1.2rem;
       color: #333;
-      text-align: center;
     }
 
     @media (max-width: 600px) {
@@ -67,37 +69,37 @@
       }
 
       .globe {
-        width: 80px;
-        height: 80px;
-      }
-
-      .footer {
-        font-size: 1rem;
+        width: 60px;
+        height: 60px;
       }
     }
   </style>
 </head>
 <body>
 
-  <div class="container">
-    <div class="header-row">
+  <div class="banner">
+    <div class="header-content">
       <div class="globe" id="globe-container"></div>
       <div class="title">WordPath</div>
     </div>
+  </div>
 
-    <div id="json-viewer"></div>
+  <div class="main-content">
+    <!-- Put your app UI here -->
+    <details><summary>▶ Topics</summary></details>
   </div>
 
   <div class="footer">Suryudu ❤️</div>
 
+  <!-- 3D Globe Script -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r148/three.min.js"></script>
   <script>
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(50, 1, 0.1, 1000);
-    camera.position.z = 2.5;
+    camera.position.z = 2.8;
 
     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-    renderer.setSize(100, 100); // Match `.globe` size
+    renderer.setSize(70, 70);
     document.getElementById('globe-container').appendChild(renderer.domElement);
 
     const light = new THREE.DirectionalLight(0xffffff, 1);
@@ -105,18 +107,15 @@
     scene.add(light);
 
     const textureLoader = new THREE.TextureLoader();
-    textureLoader.load('1000132889.jpg', function (texture) {
+    textureLoader.load('image.png', function (texture) {
       const geometry = new THREE.SphereGeometry(1, 64, 64);
-      const material = new THREE.MeshPhongMaterial({
-        map: texture,
-        shininess: 10
-      });
+      const material = new THREE.MeshPhongMaterial({ map: texture, shininess: 10 });
       const sphere = new THREE.Mesh(geometry, material);
       scene.add(sphere);
 
       function animate() {
         requestAnimationFrame(animate);
-        sphere.rotation.y += 0.005;
+        sphere.rotation.y += 0.01;
         renderer.render(scene, camera);
       }
 
