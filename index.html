@@ -19,29 +19,28 @@
   min-height: 100vh;
 }
 .sphere-wrapper {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   overflow: hidden;
-  border: 4px solid #3498db;
-  animation: rotateSphere 6s linear infinite;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  border: 3px solid #a0cfff;
+  animation: rotateSphere 20s linear infinite; /* Slower animation */
+  box-shadow: inset -8px -8px 15px rgba(255, 255, 255, 0.6),
+              inset 8px 8px 20px rgba(0, 0, 0, 0.15),
+              0 8px 16px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fff;
+  background: radial-gradient(circle at 30% 30%, #cce6ff, #4da6ff); /* 3D lighting effect */
+  transition: transform 0.3s ease;
 }
 
 .sphere-wrapper img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-/* Animation */
-@keyframes rotateSphere {
-  0%   { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  border-radius: 50%;
+  opacity: 0.96;
 }
 
 
