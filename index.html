@@ -31,18 +31,24 @@
       box-shadow: 0 8px 24px rgba(0,0,0,0.1);
     }
 
-    .icon {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 1rem;
-      animation: pulse 2s infinite;
-    }
+    
 
-    .icon img {
-      height: 64px;
-      width: 64px;
-    }
+.icon {
+  position: fixed;  /* Fix the icon to the screen */
+  top: 0;           /* Position it at the top */
+  left: 0;          /* Position it at the left */
+  margin: 1rem;     /* Optional: adds space around the icon */
+  animation: pulse 5s infinite;
+}
 
+.icon img {
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;  /* Make the icon circular */
+  object-fit: cover;   /* Ensure the image covers the circle */
+}
+
+    
     @keyframes pulse {
       0% { transform: scale(1); opacity: 1; }
       50% { transform: scale(1.05); opacity: 0.85; }
