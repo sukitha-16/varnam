@@ -19,8 +19,8 @@
   min-height: 100vh;
 }
 .sphere-container {
-  width: 180px;
-  height: 180px;
+  width: 100px;
+  height: 100px;
   perspective: 800px;
   display: flex;
   align-items: center;
@@ -33,11 +33,11 @@
   border-radius: 50%;
   overflow: hidden;
   transform-style: preserve-3d;
-  animation: spin 18s linear infinite;
+  animation: spin 20s linear infinite;
   position: relative;
   box-shadow:
-    inset -20px -20px 40px rgba(255,255,255,0.2),
-    inset 20px 20px 40px rgba(0,0,0,0.3);
+    inset -10px -10px 20px rgba(255,255,255,0.25),
+    inset 10px 10px 25px rgba(0,0,0,0.35);
 }
 
 .sphere-inner img {
@@ -45,15 +45,15 @@
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
+  display: block;
   filter: brightness(1.05) contrast(1.1);
 }
 
-/* Smooth 3D spin */
+/* Smooth and slow 3D spin */
 @keyframes spin {
   0%   { transform: rotateY(0deg); }
   100% { transform: rotateY(360deg); }
 }
-
 
 
     .container {
