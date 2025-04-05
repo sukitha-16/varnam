@@ -18,42 +18,39 @@
   align-items: center;
   min-height: 100vh;
 }
-.sphere-realistic {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  overflow: hidden;
-  position: relative;
-  animation: rotate 20s linear infinite;
-  transform: rotateY(0deg);
-  background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.2), rgba(0,0,0,0.2));
-  box-shadow: inset -10px -10px 20px rgba(255,255,255,0.4),
-              inset 10px 10px 20px rgba(0,0,0,0.2),
-              0 10px 20px rgba(0, 0, 0, 0.25);
+.sphere-container {
+  width: 180px;
+  height: 180px;
+  perspective: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.sphere-realistic img {
+.sphere-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  animation: spin 18s linear infinite;
+  position: relative;
+  box-shadow:
+    inset -20px -20px 40px rgba(255,255,255,0.2),
+    inset 20px 20px 40px rgba(0,0,0,0.3);
+}
+
+.sphere-inner img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
-  filter: brightness(1.1) contrast(1.1);
+  filter: brightness(1.05) contrast(1.1);
 }
 
-.gloss-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.4) 0%, transparent 70%);
-  pointer-events: none;
-}
-
-/* Slow 3D-style spin */
-@keyframes rotate {
-  0% { transform: rotateY(0deg); }
+/* Smooth 3D spin */
+@keyframes spin {
+  0%   { transform: rotateY(0deg); }
   100% { transform: rotateY(360deg); }
 }
 
@@ -184,9 +181,11 @@
 
   <div class="container">
     <div class="icon">
-<div class="sphere-realistic">
+<div class="sphere-container">
+  <div class="sphere-inner">
+    
   <img src="1000132889.jpg" alt="Suryudu Icon">
-  <div class="gloss-overlay"></div>
+  </div>
 </div>
     </div>    
 
