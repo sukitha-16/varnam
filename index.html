@@ -21,34 +21,21 @@
 
   
 
-  
-.container {
-  position: fixed; /* Fix the container to the page */
-  top: 0; /* Position it at the top */
-  left: 0; /* Position it at the left side */
-  width: 90%;
-  max-width: 950px;
-  background: #fff;
-  border-radius: 20px;
-  padding: 2.2rem 1.5rem;
-  margin-top: 40px; /* You can adjust or remove this since position is fixed */
-  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-  z-index: 9999; /* Ensure the container is on top of other content */
-}
-
-.container .content {
-  float: left; /* This will float the content inside the container to the left */
-  width: 100%; /* Adjust width as needed */
-}
+    .container {
+      width: 90%;
+      max-width: 950px;
+      background: #fff;
+      border-radius: 20px;
+      padding: 2rem 1.5rem;
+      margin-top: 40px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    }
 
     .icon {
       display: flex;
-      justify-content: left;
+      justify-content: center;
       margin-bottom: 1rem;
-      animation: pulse 5s infinite;
-      
-  overflow: hidden; /* Ensure content inside stays within the circle */
-
+      animation: pulse 2s infinite;
     }
 
     .icon img {
@@ -63,7 +50,7 @@
     }
 
     .title {
-      text-align: left;
+      text-align: center;
       font-size: 2.6rem;
       color: #2c3e50;
       font-weight: bold;
@@ -160,12 +147,10 @@
   <div class="container">
     <div class="icon">
 
-      <img src="1000132889.jpg" alt="logo"/>
-
-  <h1 className="text-2xl font-bold text-slate-800">WordPath</h1>
+  <img src="1000132889.jpg" alt="logo"/>
+  <h1 className="text-3xl font-bold text-slate-800">WordPath</h1>
 </div>
 
-    </div>
       
   </div>
 <div id="json-viewer"></div>
