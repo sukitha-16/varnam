@@ -18,22 +18,32 @@
   align-items: center;
   min-height: 100vh;
 }
-
-  .animated-sphere {
-  height: 100px;
-  width: 100px;
+.sphere-wrapper {
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
-  object-fit: cover;
+  overflow: hidden;
   border: 4px solid #3498db;
   animation: rotateSphere 6s linear infinite;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
 }
 
-/* Rotation animation */
+.sphere-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Animation */
 @keyframes rotateSphere {
   0%   { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
 
 
     .container {
@@ -161,7 +171,11 @@
 
   <div class="container">
     <div class="icon">
-      <img src="1000132889.jpg" alt="Let's Start Icon", class="animated-sphere">
+<div class="sphere-wrapper">
+      <img src="1000132889.jpg" alt="Suryudu Icon">
+    </div>
+      
+
     </div>
     <div class="title">WordPath</div>
     <div id="json-viewer"></div>
