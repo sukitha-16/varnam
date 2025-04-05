@@ -19,20 +19,31 @@
   min-height: 100vh;
 }
 
-  
+ .container {
+  width: 50%;
+  height: auto; /* Change to auto so it can adjust based on content */
+  max-width: 950px;
+  background: linear-gradient(135deg, tomato, #ffffff); /* Tomato red to white gradient */
+  border-radius: 20px;
+  padding: 0.1rem 0.9rem;
+  margin-top: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333; /* Text color for better contrast */
+}
 
-    .container {
-      width: 50%;
-      height: 5%;
-      max-width: 950px;
-      background: #fff;
-      border-radius: 20px;
-      padding: 0.1rem 0.9rem;
-      margin-top: 20px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-    }
+/* Adding 3D-like text effect */
+.container h1, .container p {
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px rgba(0, 0, 0, 0.3); /* 3D text shadow effect */
+  font-size: 2rem; /* Adjust size as needed */
+}
 
-    
+.container p {
+  font-size: 1.5rem; /* Adjust size of paragraph text */
+}
+
+
 
 .icon {
   position: fixed;  /* Fix the icon to the screen */
