@@ -33,9 +33,12 @@
 
     .icon {
       display: flex;
-      justify-content: center;
+      justify-content: left;
       margin-bottom: 1rem;
-      animation: pulse 2s infinite;
+      animation: pulse 5s infinite;
+      border-radius: 50%;
+  overflow: hidden; /* Ensure content inside stays within the circle */
+
     }
 
     .icon img {
@@ -50,7 +53,7 @@
     }
 
     .title {
-      text-align: center;
+      text-align: left;
       font-size: 2.6rem;
       color: #2c3e50;
       font-weight: bold;
@@ -148,7 +151,7 @@
     <div class="icon">
 
   <img src="1000132889.jpg" alt="logo"/>
-  <h1 className="text-3xl font-bold text-slate-800">WordPath</h1>
+  <h1 className="text-2xl font-bold text-slate-800">WordPath</h1>
 </div>
 
     </div>
