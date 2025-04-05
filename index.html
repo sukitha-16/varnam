@@ -187,60 +187,14 @@
       });
       const sphere = new THREE.Mesh(geometry, material);
       scene.add(sphere);
-
-
-
-      // Track rotation step: 0 = Y, 1 = X, 2 = Z
-let rotateStep = 0;
-let isRotating = false;
-
-// Animation loop (keeps rendering)
-function animate() {
-  requestAnimationFrame(animate);
-  renderer.render(scene, camera);
-}
-animate();
-
-// Click-to-Rotate Logic
-sphereContainer.addEventListener('click', () => {
-  if (isRotating) return; // Prevent spamming
-
-  isRotating = true;
-
-  const rotationAxis = rotateStep % 3 === 0 ? 'y'
-                    : rotateStep % 3 === 1 ? 'x'
-                    : 'z';
-
-  const start = sphere.rotation[rotationAxis];
-  const target = start + Math.PI / 2; // 90 degrees
-  const duration = 500; // milliseconds
-  const startTime = performance.now();
-
-  function rotateStepAnimation(time) {
-    const elapsed = time - startTime;
-    const progress = Math.min(elapsed / duration, 1);
-    sphere.rotation[rotationAxis] = start + (target - start) * progress;
-
-    renderer.render(scene, camera);
-
-    if (progress < 1) {
-      requestAnimationFrame(rotateStepAnimation);
-    } else {
-      rotateStep++;
-      isRotating = false;
-    }
-  }
-
-  requestAnimationFrame(rotateStepAnimation);
-});
-
-      // Animation
-    //  function animate() {
-      //  requestAnimationFrame(animate);
-      //  sphere.rotation.y += 0.002;
-     //   renderer.render(scene, camera);
-     // }
-     // animate();
+    
+     // Animation
+      function animate() {
+       requestAnimationFrame(animate);
+        sphere.rotation.y += 0.002;
+        renderer.render(scene, camera);
+      }
+      animate();
     });
   </script>
   <script src="app.js"></script>
