@@ -115,11 +115,18 @@
     }
 
     .footer {
-      margin: 2rem 0;
-      font-size: 1.3rem;
-      color: #333;
-      text-align: center;
-    }
+  position: fixed;  /* Fix the footer to the screen */
+  bottom: 0;        /* Position it at the bottom */
+  right: 0;         /* Position it at the right */
+  margin: 2rem 0;
+  font-size: 1.3rem;
+  color: #333;
+  text-align: center;
+  padding: 1rem;  /* Optional: adds space inside the footer */
+  background-color: #fff;  /* Optional: adds background color for better visibility */
+  width: auto;  /* Optional: adjust the width to your needs */
+}
+
 
     /* Mobile tweaks */
     @media (max-width: 600px) {
