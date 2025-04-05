@@ -5,62 +5,155 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>WordPath</title>
   <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #eafaff;
+    * {
+      box-sizing: border-box;
+    }
+ body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #ffffff, #d9efff, #c2e0f7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+  
+
+    .container {
+      width: 90%;
+      max-width: 950px;
+      background: #fff;
+      border-radius: 20px;
+      padding: 2rem 1.5rem;
+      margin-top: 40px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    }
+
+    .icon {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1rem;
+      animation: pulse 2s infinite;
+    }
+
+    .icon img {
+      height: 64px;
+      width: 64px;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.05); opacity: 0.85; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    .title {
+      text-align: center;
+      font-size: 2.6rem;
+      color: #2c3e50;
+      font-weight: bold;
+      margin-bottom: 0.8rem;
+    }
+
+    #json-viewer {
+      font-size: 1rem;
+      padding-top: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin: 6px 0;
+      padding: 6px 8px;
+      transition: background 0.2s;
+      border-left: 4px solid transparent;
+    }
+
+    li:hover {
+      background: #f0f8ff;
+      border-left: 4px solid #3498db;
+    }
+
+    .key {
+      font-weight: 600;
+      cursor: pointer;
+      position: relative;
+      display: inline-block;
+      color: #333;
+      padding-left: 20px;
+    }
+
+    .key::before {
+      content: '▶';
+      position: absolute;
+      left: 0;
+      font-size: 0.8rem;
+      transition: transform 0.2s ease;
+    }
+
+    .expanded > .key::before {
+      transform: rotate(90deg);
+    }
+
+    .value {
+      color: #666;
+      margin-left: 1rem;
+      font-style: italic;
+    }
+
+    .nested {
+      display: none;
+    }
+
+    .expanded > .nested {
+      display: block;
+    }
+
+    .footer {
+      margin: 2rem 0;
+      font-size: 1.3rem;
+      color: #333;
       text-align: center;
     }
 
-    .banner {
-      background-color: white;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-      padding: 40px 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 20px;
-    }
+    /* Mobile tweaks */
+    @media (max-width: 600px) {
+      .title {
+        font-size: 2rem;
+      }
 
-    .banner img {
-      height: 70px;
-      width: 70px;
-      object-fit: cover;
-      border-radius: 50%;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    }
+      .icon img {
+        height: 50px;
+        width: 50px;
+      }
 
-    .banner h1 {
-      margin: 0;
-      font-size: 2.5rem;
-      color: #1e2d3b;
-    }
+      #json-viewer {
+        font-size: 0.95rem;
+      }
 
-    h2 {
-      font-size: 2.2rem;
-      margin-top: 50px;
-      color: #1e2d3b;
+      .footer {
+        font-size: 1rem;
+      }
     }
-
-    .topics {
-      margin-top: 20px;
-      font-size: 1.2rem;
-      color: #333;
-    }
-
   </style>
 </head>
 <body>
-  <div class="banner">
-    <img src="1000132889.jpg" alt="Logo" />
-    <h1>WordPath</h1>
+
+  <div class="container">
+    <div class="icon">
+      <img src="1000132889.jpg" alt="Let's Start Icon">
+    </div>
+    <div class="title">WordPath</div>
+    <div id="json-viewer"></div>
   </div>
 
-  <h2>WordPath</h2>
+  <div class="footer">Suryudu ❤️</div>
 
-  <div class="topics">
-    ▶ Topics
-  </div>
+  <script src="app.js"></script>
 </body>
 </html>
