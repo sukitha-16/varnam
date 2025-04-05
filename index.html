@@ -5,122 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>WordPath</title>
   <style>
-    * {
-      box-sizing: border-box;
+    body {
       margin: 0;
       padding: 0;
-    }
-
-    body {
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to bottom, #e0f7ff, #ffffff);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      min-height: 100vh;
-    }
-
-    .banner {
-      width: 100%;
-      background: white;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-      padding: 1.5rem 2rem;
-      border-bottom-left-radius: 20px;
-      border-bottom-right-radius: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      z-index: 2;
-    }
-
-    .header-content {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-    }
-
-    .globe {
-      width: 70px;
-      height: 70px;
-    }
-
-    .title {
-      font-size: 2.5rem;
-      font-weight: bold;
-      color: #2c3e50;
-    }
-
-    .main-content {
-      padding: 2rem;
+      background-color: #eafaff;
       text-align: center;
     }
 
-    .footer {
-      margin-top: 2rem;
+    .banner {
+      background-color: white;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      padding: 40px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .banner img {
+      height: 70px;
+      width: 70px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .banner h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #1e2d3b;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+      margin-top: 50px;
+      color: #1e2d3b;
+    }
+
+    .topics {
+      margin-top: 20px;
       font-size: 1.2rem;
       color: #333;
     }
 
-    @media (max-width: 600px) {
-      .title {
-        font-size: 2rem;
-      }
-
-      .globe {
-        width: 60px;
-        height: 60px;
-      }
-    }
   </style>
 </head>
 <body>
-
   <div class="banner">
-    <div class="header-content">
-      <div class="globe" id="globe-container"></div>
-      <div class="title">WordPath</div>
-    </div>
+    <img src="1000132889.jpg" alt="Logo" />
+    <h1>WordPath</h1>
   </div>
 
-  <div class="main-content">
-    <!-- Put your app UI here -->
-    <details><summary>▶ Topics</summary></details>
+  <h2>WordPath</h2>
+
+  <div class="topics">
+    ▶ Topics
   </div>
-
-  <div class="footer">Suryudu ❤️</div>
-
-  <!-- 3D Globe Script -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r148/three.min.js"></script>
-  <script>
-    const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(50, 1, 0.1, 1000);
-    camera.position.z = 2.8;
-
-    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-    renderer.setSize(70, 70);
-    document.getElementById('globe-container').appendChild(renderer.domElement);
-
-    const light = new THREE.DirectionalLight(0xffffff, 1);
-    light.position.set(5, 5, 5);
-    scene.add(light);
-
-    const textureLoader = new THREE.TextureLoader();
-    textureLoader.load('image.png', function (texture) {
-      const geometry = new THREE.SphereGeometry(1, 64, 64);
-      const material = new THREE.MeshPhongMaterial({ map: texture, shininess: 10 });
-      const sphere = new THREE.Mesh(geometry, material);
-      scene.add(sphere);
-
-      function animate() {
-        requestAnimationFrame(animate);
-        sphere.rotation.y += 0.01;
-        renderer.render(scene, camera);
-      }
-
-      animate();
-    });
-  </script>
 </body>
 </html>
