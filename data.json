@@ -76,8 +76,13 @@
         "The investigation elucidates core principles underlying...",
         "The methodological scaffold enables robust interpretation of...",
         "A salient contribution of this work lies in the formulation of..."
-      ],
-      "Words": {
+      ]
+    }
+
+    
+  },
+  
+   "Words": {
         "To~Signal~Objective~or~Problem~Statement": {
           "synonyms": [
             "A~persistent~challenge~in~sensor-driven~systems~is...",
@@ -151,9 +156,4 @@
           ]
         }
       }
-    }
-
-    
-    
-  }
 }
