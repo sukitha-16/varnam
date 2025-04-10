@@ -1167,15 +1167,6 @@
     "Such limitations underscore the exigency for..."
   ]
 },
-"Methodology": {
-  "phrases": [
-    "The procedural framework employed herein synthesizes...",
-    "Our experimental protocol is instantiated through a stratified design of...",
-    "The methodological blueprint encompasses both analytical rigor and computational scalability in...",
-    "A synergistic fusion of X and Y techniques facilitates...",
-    "We operationalize our hypothesis via a multilayered architecture for..."
-  ]
-},
 "Data_Collection": {
   "phrases": [
     "Primary data acquisition was facilitated through controlled instrumentation for...",
@@ -1525,15 +1516,6 @@
     "Unlike existing methods, our approach..."
   ]
 },
-"Methodology": {
-  "phrases": [
-    "The proposed method comprises the following steps...",
-    "An overview of the architecture is presented in...",
-    "Each module is described in detail below...",
-    "A step-wise process is employed to ensure...",
-    "The design integrates both theoretical and empirical elements..."
-  ]
-},
 "Acknowledgments": {
   "phrases": [
     "The authors thank...",
@@ -1572,16 +1554,6 @@
     "A common limitation among existing approaches is...",
     "The most relevant works include...",
     "In contrast to previous efforts, this paper..."
-  ]
-},
-
-"Methodology": {
-  "phrases": [
-    "The framework consists of multiple components including...",
-    "Our proposed method builds upon...",
-    "Each phase of the process is described in detail...",
-    "The model was developed using...",
-    "An overview of the technique is illustrated in..."
   ]
 },
 
@@ -1631,15 +1603,6 @@
     "It is still unclear how best to approach...",
     "The need for accuracy and scalability arises in...",
     "Real-world deployment is hindered by..."
-  ]
-},
-"Methodology": {
-  "phrases": [
-    "Our methodology is structured around...",
-    "The system is composed of several key components including...",
-    "We base our approach on the principles of...",
-    "The proposed framework relies on...",
-    "A hybrid pipeline was developed incorporating..."
   ]
 },
 "Data_Collection": {
@@ -1732,15 +1695,6 @@
     "...to establish a unified framework for real-time analytics.",
     "...to bridge theoretical insight with practical application.",
     "...to assess performance across diverse datasets."
-  ]
-},
-"Methodology": {
-  "phrases": [
-    "...follows a modular pipeline combining preprocessing and inference.",
-    "...is grounded in principled mathematical modeling.",
-    "...integrates temporal features for context-aware learning.",
-    "...employs supervised and unsupervised paradigms.",
-    "...ensures minimal latency with incremental updates."
   ]
 },
 "Experimental_Setup": {
@@ -2055,15 +2009,6 @@
     "Manual~calibration~is~impractical~in~large-scale~deployments~of~IoT~devices."
   ]
 },
-"Describe_Methodology": {
-  "phrases": [
-    "We~utilize~a~stacked~autoencoder~to~extract~deep~features~from~raw~sensor~signals.",
-    "The~proposed~framework~combines~unsupervised~learning~with~statistical~thresholding.",
-    "Temporal~patterns~are~captured~using~window-based~segmentation~of~the~input~stream.",
-    "KL~divergence~and~Hamming~distance~are~used~as~indicators~of~data~anomaly.",
-    "Each~sensor~reading~is~individually~assessed~via~domain-specific~threshold~rules."
-  ]
-},
 "Compare_With_Existing": {
   "phrases": [
     "Unlike~traditional~SVM-based~models,~our~framework~adapts~to~non-linear~sensor~faults.",
@@ -2163,14 +2108,7 @@
         "A~hybrid~learning-based~strategy~is~formulated~to~improve~robustness~under~uncertain~conditions."
       ]
     },
-    "Describe_Methodology": {
-      "phrases": [
-        "Our~methodology~involves~the~integration~of~deep~learning~and~probabilistic~inference.",
-        "The~proposed~system~leverages~both~statistical~and~machine~learning~models~to~identify~faults.",
-        "Sensor~data~are~preprocessed~using~signal~normalization,~followed~by~feature~extraction~using~autoencoders.",
-        "A~multi-layer~architecture~is~used~to~capture~temporal~dependencies~and~detect~deviations."
-      ]
-    },
+    
     
     "Discuss_Implications": {
       "phrases": [
@@ -2217,15 +2155,7 @@
   ]
 },
 
-"Methodology": {
-  "phrases": [
-    "The architecture draws from the layered model in [18], adapted to fit...",
-    "Our method modifies the probabilistic framework in [19] to accommodate...",
-    "Implementation details follow the guidelines of [25] with minor adjustments...",
-    "We incorporate the feature extraction process as introduced in [27]...",
-    "Parameter tuning strategies are aligned with those described in [30]..."
-  ]
-},
+
 
 
 "Acknowledgments": {
@@ -2260,15 +2190,6 @@
   ]
 },
 
-"Methodology": {
-  "phrases": [
-    "The proposed pipeline integrates a dual-stage architecture inspired by [20], enabling asynchronous data assimilation...",
-    "Following the variational inference mechanisms outlined in [22], posterior distributions are approximated using...",
-    "Our model employs a hierarchical latent structure akin to that described in [25], facilitating multi-level abstraction...",
-    "Algorithmic refinements are adapted from the evolutionary meta-heuristics in [19] to ensure convergence under constraints...",
-    "Feature projection techniques from [23] were enhanced via kernelized embedding to reduce redundancy and improve separability..."
-  ]
-},
 
 
 "Abstract": {
@@ -2290,18 +2211,6 @@
     "The hybrid reasoning frameworks in [65] support multi-sensor fusion, though integration with temporal priors remains a gap..."
   ]
 },
-
-"Methodology": {
-  "phrases": [
-    "The sensing layer employs a decentralized architecture adapted from [66], allowing asynchronous data flow...",
-    "Our feature extraction scheme extends the spectral decomposition models introduced in [67] for multi-channel sensors...",
-    "Sensor drift is managed via the error-compensation loop detailed in [68], with additional real-time calibration...",
-    "Inspired by the encoder-decoder designs in [69], the proposed system leverages context-aware embeddings for signal encoding...",
-    "Fault injection simulations follow the model constraints specified in [70] to evaluate real-world performance..."
-  ]
-},
-
-
 
 
 "Abstract": {
@@ -2330,7 +2239,56 @@
     "Loss regularization is achieved through a multi-term objective function adapted from [107]...",
     "The model initialization scheme follows the Xavier distribution principles presented in [108]...",
     "To ensure reproducibility, we follow the experimental design framework suggested in [109]...",
-    "Training utilizes a curriculum learning schedule, inspired by the staged training protocol in [110]..."
+    "Training utilizes a curriculum learning schedule, inspired by the staged training protocol in [110]...",
+"The procedural framework employed herein synthesizes...",
+    "Our experimental protocol is instantiated through a stratified design of...",
+    "The methodological blueprint encompasses both analytical rigor and computational scalability in...",
+    "A synergistic fusion of X and Y techniques facilitates...",
+    "We operationalize our hypothesis via a multilayered architecture for...",
+    "The proposed method comprises the following steps...",
+    "An overview of the architecture is presented in...",
+    "Each module is described in detail below...",
+    "A step-wise process is employed to ensure...",
+    "The design integrates both theoretical and empirical elements...",
+    "The framework consists of multiple components including...",
+    "Our proposed method builds upon...",
+    "Each phase of the process is described in detail...",
+    "The model was developed using...",
+    "An overview of the technique is illustrated in...",
+    "Our methodology is structured around...",
+    "The system is composed of several key components including...",
+    "We base our approach on the principles of...",
+    "The proposed framework relies on...",
+    "A hybrid pipeline was developed incorporating...",
+    "...follows a modular pipeline combining preprocessing and inference.",
+    "...is grounded in principled mathematical modeling.",
+    "...integrates temporal features for context-aware learning.",
+    "...employs supervised and unsupervised paradigms.",
+    "...ensures minimal latency with incremental updates.",
+    "We~utilize~a~stacked~autoencoder~to~extract~deep~features~from~raw~sensor~signals.",
+    "The~proposed~framework~combines~unsupervised~learning~with~statistical~thresholding.",
+    "Temporal~patterns~are~captured~using~window-based~segmentation~of~the~input~stream.",
+    "KL~divergence~and~Hamming~distance~are~used~as~indicators~of~data~anomaly.",
+    "Each~sensor~reading~is~individually~assessed~via~domain-specific~threshold~rules.",
+        "Our~methodology~involves~the~integration~of~deep~learning~and~probabilistic~inference.",
+        "The~proposed~system~leverages~both~statistical~and~machine~learning~models~to~identify~faults.",
+        "Sensor~data~are~preprocessed~using~signal~normalization,~followed~by~feature~extraction~using~autoencoders.",
+        "A~multi-layer~architecture~is~used~to~capture~temporal~dependencies~and~detect~deviations.",
+    "The architecture draws from the layered model in [18], adapted to fit...",
+    "Our method modifies the probabilistic framework in [19] to accommodate...",
+    "Implementation details follow the guidelines of [25] with minor adjustments...",
+    "We incorporate the feature extraction process as introduced in [27]...",
+    "Parameter tuning strategies are aligned with those described in [30]...",
+    "The proposed pipeline integrates a dual-stage architecture inspired by [20], enabling asynchronous data assimilation...",
+    "Following the variational inference mechanisms outlined in [22], posterior distributions are approximated using...",
+    "Our model employs a hierarchical latent structure akin to that described in [25], facilitating multi-level abstraction...",
+    "Algorithmic refinements are adapted from the evolutionary meta-heuristics in [19] to ensure convergence under constraints...",
+    "Feature projection techniques from [23] were enhanced via kernelized embedding to reduce redundancy and improve separability...",
+    "The sensing layer employs a decentralized architecture adapted from [66], allowing asynchronous data flow...",
+    "Our feature extraction scheme extends the spectral decomposition models introduced in [67] for multi-channel sensors...",
+    "Sensor drift is managed via the error-compensation loop detailed in [68], with additional real-time calibration...",
+    "Inspired by the encoder-decoder designs in [69], the proposed system leverages context-aware embeddings for signal encoding...",
+    "Fault injection simulations follow the model constraints specified in [70] to evaluate real-world performance..."
   ]
 },
 
@@ -2541,12 +2499,8 @@
     "As corroborated in [89], real-time diagnostics with minimal computational overhead remains a cornerstone for scalability...",
     "Future work should explore hybrid sensor fusion schemes as advocated by [90], particularly in resource-constrained environments..."
 
-
   ]
- }
-
-     
+ }     
+ 
   }
-
-  
 }
