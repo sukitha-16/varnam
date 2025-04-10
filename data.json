@@ -1616,15 +1616,7 @@
     "...continues to evolve in response to increasing system complexity."
   ]
 },
-"Research_Gap": {
-  "phrases": [
-    "...lacks comprehensive methods for handling non-stationary data.",
-    "...has limited support for real-time inference in constrained settings.",
-    "...fails to incorporate uncertainty in predictive modeling.",
-    "...is yet to fully exploit temporal patterns in streaming data.",
-    "...is constrained by high computational and annotation costs."
-  ]
-},
+
 "Proposed_Method": {
   "phrases": [
     "...is designed to operate efficiently under evolving conditions.",
@@ -1661,15 +1653,7 @@
     "Scalability~and~robustness~remain~critical~objectives~in~system~design."
   ]
 },
-"Research_Gap": {
-  "phrases": [
-    "Few~methods~have~demonstrated~robust~performance~under~non-stationary~conditions.",
-    "Current~frameworks~lack~mechanisms~to~efficiently~learn~from~limited~or~noisy~data.",
-    "The~absence~of~domain-agnostic~representations~remains~a~key~bottleneck.",
-    "Many~models~overlook~the~temporal~and~spatial~aspects~of~data~dependencies.",
-    "There~is~a~need~for~solutions~that~can~autonomously~adapt~to~changing~operational~contexts."
-  ]
-},
+
 "Proposed_Method": {
   "phrases": [
     "We~introduce~a~generalized~framework~designed~to~enhance~resilience~and~adaptability.",
@@ -1707,15 +1691,7 @@
     "The~complexity~of~real-time~systems~demands~efficient~error~detection~mechanisms."
   ]
 },
-"Research_Gap": {
-  "phrases": [
-    "Few~existing~approaches~adequately~account~for~real-time~variability~in~sensor~behaviour.",
-    "A~significant~limitation~in~prior~work~is~the~lack~of~support~for~scalable~multi-sensor~integration.",
-    "Prior~methods~fail~to~capture~the~non-linear~characteristics~of~sensor~faults.",
-    "Current~literature~lacks~generalizable~models~that~adapt~to~unseen~data~distributions.",
-    "There~is~a~need~for~frameworks~that~integrate~semantic~and~syntactic~data~features."
-  ]
-},
+
 "Proposed_Method": {
   "phrases": [
     "We~propose~a~novel~multi-stage~architecture~for~robust~fault~diagnosis~in~sensor~networks.",
@@ -1766,24 +1742,7 @@
 
 
 
-  "Introduce_Topic": {
-    "phrases": [
-      "Increasing~demand~for~reliability~in~sensor~networks~has~motivated~researchers~to~explore~...",
-      "The~ubiquity~of~embedded~systems~necessitates~the~development~of~robust~diagnostic~frameworks.",
-      "In~mission-critical~applications,~early~fault~detection~plays~a~vital~role~in~ensuring~system~safety.",
-      "Real-time~monitoring~and~analytics~are~becoming~integral~components~of~modern~IoT~systems.",
-      "With~the~growing~complexity~of~CPS,~conventional~diagnostic~tools~are~no~longer~sufficient."
-    ]
-  },
-  "Highlight_Research_Gap": {
-    "phrases": [
-      "Existing~approaches~fail~to~generalize~across~heterogeneous~sensor~modalities.",
-      "There~is~a~notable~scarcity~of~solutions~that~address~uncertainty-aware~fault~classification.",
-      "Previous~studies~have~overlooked~multi-layer~dependencies~in~streaming~sensor~data.",
-      "Few~frameworks~adequately~tackle~the~temporal~variability~of~sensor~faults.",
-      "Limited~effort~has~been~invested~in~cross-domain~transfer~of~fault~detection~models."
-    ]
-  },
+ 
   "Justify_Importance": {
     "phrases": [
       "Accurate~fault~detection~enhances~system~resilience~and~extends~component~lifespan.",
@@ -1793,15 +1752,7 @@
       "Reliable~sensor~data~serves~as~the~foundation~for~informed~decision-making~in~CPS."
     ]
   },
-  "Bridge_Gap_And_Contribution": {
-    "phrases": [
-      "To~bridge~this~gap,~we~introduce~a~multi-stage~learning~pipeline~for~fault~detection~and~classification.",
-      "This~work~proposes~a~scalable~and~generalizable~architecture~for~sensor~fault~management.",
-      "We~design~a~hybrid~framework~that~leverages~both~statistical~metrics~and~deep~features.",
-      "Our~method~demonstrates~robustness~against~noise,~drift,~and~multi-class~fault~conditions.",
-      "The~proposed~approach~is~validated~through~extensive~experiments~on~real-world~sensor~datasets."
-    ]
-  },
+ 
   "Formal_Tone_Transition_Words": {
     "phrases": [
       "Notably,",
@@ -1824,23 +1775,54 @@
         "With~the~growing~deployment~of~sensor-based~systems,~the~need~for~...",
         "In~the~context~of~real-time~systems,~ensuring~fault~resilience~is~paramount.",
         "Owing~to~the~pervasive~nature~of~CPS,~the~complexity~of~fault~detection~has~escalated.",
-        "Conventional~approaches~have~proven~inadequate~for~handling~non-stationary~faults."
+        "Conventional~approaches~have~proven~inadequate~for~handling~non-stationary~faults.",
+	"Increasing~demand~for~reliability~in~sensor~networks~has~motivated~researchers~to~explore~...",
+      "The~ubiquity~of~embedded~systems~necessitates~the~development~of~robust~diagnostic~frameworks.",
+      "In~mission-critical~applications,~early~fault~detection~plays~a~vital~role~in~ensuring~system~safety.",
+      "Real-time~monitoring~and~analytics~are~becoming~integral~components~of~modern~IoT~systems.",
+      "With~the~growing~complexity~of~CPS,~conventional~diagnostic~tools~are~no~longer~sufficient."
       ]
     },
-    "Highlight_Research_Gap": {
+
+"Highlight_Research_Gap": {
       "phrases": [
         "Nevertheless,~limited~attention~has~been~paid~to~...",
+"Existing~approaches~fail~to~generalize~across~heterogeneous~sensor~modalities.",
+      "There~is~a~notable~scarcity~of~solutions~that~address~uncertainty-aware~fault~classification.",
+      "Previous~studies~have~overlooked~multi-layer~dependencies~in~streaming~sensor~data.",
+      "Few~frameworks~adequately~tackle~the~temporal~variability~of~sensor~faults.",
+      "Limited~effort~has~been~invested~in~cross-domain~transfer~of~fault~detection~models.",
+    "Few~existing~approaches~adequately~account~for~real-time~variability~in~sensor~behaviour.",
+    "A~significant~limitation~in~prior~work~is~the~lack~of~support~for~scalable~multi-sensor~integration.",
+    "Prior~methods~fail~to~capture~the~non-linear~characteristics~of~sensor~faults.",
+    "Current~literature~lacks~generalizable~models~that~adapt~to~unseen~data~distributions.",
+    "There~is~a~need~for~frameworks~that~integrate~semantic~and~syntactic~data~features.",
+    "Few~methods~have~demonstrated~robust~performance~under~non-stationary~conditions.",
+    "Current~frameworks~lack~mechanisms~to~efficiently~learn~from~limited~or~noisy~data.",
+    "The~absence~of~domain-agnostic~representations~remains~a~key~bottleneck.",
+    "Many~models~overlook~the~temporal~and~spatial~aspects~of~data~dependencies.",
+    "There~is~a~need~for~solutions~that~can~autonomously~adapt~to~changing~operational~contexts.",
+    "...lacks comprehensive methods for handling non-stationary data.",
+    "...has limited support for real-time inference in constrained settings.",
+    "...fails to incorporate uncertainty in predictive modeling.",
+    "...is yet to fully exploit temporal patterns in streaming data.",
+    "...is constrained by high computational and annotation costs.",
         "Despite~the~existing~literature,~there~remains~a~lack~of~emphasis~on~...",
         "Few~studies~have~thoroughly~examined~sensor~anomalies~in~dynamic~environments.",
         "To~date,~a~comprehensive~framework~addressing~both~detection~and~diagnosis~remains~underexplored."
       ]
     },
-    "State_Contribution": {
+ "State_Contribution_And_Bridge_Gap": {
       "phrases": [
         "This~paper~presents~a~novel~method~for~real-time~sensor~fault~identification.",
         "The~primary~contribution~of~this~work~is~the~introduction~of~a~hybrid~diagnostic~mechanism.",
         "We~propose~an~integrated~architecture~that~detects~and~diagnoses~sensor~faults~in~real-time.",
-        "A~hybrid~learning-based~strategy~is~formulated~to~improve~robustness~under~uncertain~conditions."
+        "A~hybrid~learning-based~strategy~is~formulated~to~improve~robustness~under~uncertain~conditions.",
+	 "To~bridge~this~gap,~we~introduce~a~multi-stage~learning~pipeline~for~fault~detection~and~classification.",
+      "This~work~proposes~a~scalable~and~generalizable~architecture~for~sensor~fault~management.",
+      "We~design~a~hybrid~framework~that~leverages~both~statistical~metrics~and~deep~features.",
+      "Our~method~demonstrates~robustness~against~noise,~drift,~and~multi-class~fault~conditions.",
+      "The~proposed~approach~is~validated~through~extensive~experiments~on~real-world~sensor~datasets."
       ]
     },
     
@@ -2334,7 +2316,9 @@
 
   ]
  }
+
      
   }
- 
+
+  
 }
