@@ -1212,15 +1212,6 @@
     "Resultant patterns exhibit strong concordance with prior empirical findings on..."
   ]
 },
-"Discussion": {
-  "phrases": [
-    "The interpretive lens adopted herein elucidates the latent mechanisms behind...",
-    "These findings provoke a re-examination of conventional assumptions regarding...",
-    "The observed correlations may be indicative of deeper structural dependencies in...",
-    "Such results should be contextualized within the broader theoretical framework of...",
-    "Implications of this work extend to adjacent domains including..."
-  ]
-},
 "Future_Work": {
   "phrases": [
     "Ongoing investigations aim to incorporate probabilistic reasoning into...",
@@ -1570,15 +1561,6 @@
     "Performance remains consistent across trials..."
   ]
 },
-"Discussion": {
-  "phrases": [
-    "The observed behavior aligns with theoretical expectations...",
-    "Our results contrast with previous findings due to...",
-    "Limitations include potential biases in...",
-    "We hypothesize that the improvement is driven by...",
-    "The findings offer insights into future model enhancements..."
-  ]
-},
 "Acknowledgments": {
   "phrases": [
     "The authors thank...",
@@ -1650,15 +1632,6 @@
   ]
 },
 
-"Discussion": {
-  "phrases": [
-    "The observed outcomes suggest that...",
-    "Findings support the hypothesis that...",
-    "This behavior can be attributed to...",
-    "While promising, the results also indicate...",
-    "These insights offer a deeper understanding of..."
-  ]
-},
 
 "Acknowledgments": {
   "phrases": [
@@ -1758,15 +1731,6 @@
     "The ablation study highlights the importance of...",
     "Performance varied significantly without...",
     "We observed that the absence of Y led to..."
-  ]
-},
-"Discussion": {
-  "phrases": [
-    "These results support our initial hypothesis that...",
-    "Our approach offers greater flexibility when applied to...",
-    "The findings suggest broader applicability in...",
-    "Trade-offs between performance and complexity emerge in...",
-    "The model generalizes well across..."
   ]
 },
 "Future_Work": {
@@ -1897,15 +1861,6 @@
     "...establishes the value of temporal modeling."
   ]
 },
-"Discussion": {
-  "phrases": [
-    "...corroborates the hypothesis outlined earlier.",
-    "...suggests broader applicability beyond tested scenarios.",
-    "...implies practical integration into existing pipelines.",
-    "...points to possible enhancements in future iterations.",
-    "...raises questions regarding domain generalization."
-  ]
-},
 "Limitations": {
   "phrases": [
     "...may suffer from scalability constraints at edge nodes.",
@@ -1990,15 +1945,6 @@
     "...reflect operational trade-offs under varying load conditions."
   ]
 },
-"Discussion": {
-  "phrases": [
-    "...confirms the adaptability of the proposed approach across test conditions.",
-    "...suggests potential for deployment in real-time applications.",
-    "...underscores the importance of incorporating uncertainty modeling.",
-    "...demonstrates clear improvement over conventional baselines.",
-    "...highlights trade-offs between inference speed and prediction accuracy."
-  ]
-},
 "Limitations": {
   "phrases": [
     "...is currently limited by the availability of annotated datasets.",
@@ -2071,15 +2017,6 @@
     "Both~quantitative~and~qualitative~analyses~were~performed~to~support~findings."
   ]
 },
-"Discussion": {
-  "phrases": [
-    "Results~demonstrated~a~consistent~performance~gain~over~existing~alternatives.",
-    "The~method~exhibited~strong~resilience~under~varying~levels~of~disturbance.",
-    "A~trade-off~was~observed~between~complexity~and~computational~overhead.",
-    "Robustness~was~particularly~evident~in~low-data~or~noisy~environments.",
-    "Our~findings~highlight~the~importance~of~adaptive~learning~mechanisms~in~complex~systems."
-  ]
-},
 "Limitations": {
   "phrases": [
     "The~framework~relies~on~assumptions~that~may~not~hold~in~all~contexts.",
@@ -2150,15 +2087,6 @@
     "Confusion~matrices~were~analyzed~to~determine~false~positive~and~negative~rates.",
     "Our~evaluation~included~both~frame-level~and~sequence-level~analysis~of~fault~events.",
     "Computational~efficiency~was~measured~using~runtime~and~memory~footprint~benchmarks."
-  ]
-},
-"Discussion": {
-  "phrases": [
-    "Results~indicate~a~significant~improvement~over~existing~state-of-the-art~methods.",
-    "The~proposed~framework~demonstrated~resilience~to~noise~and~data~irregularities.",
-    "Temporal~consistency~was~preserved~across~multiple~fault~conditions.",
-    "Our~model~generalizes~well~to~different~sensor~modalities~and~deployment~scenarios.",
-    "We~discuss~the~trade-off~between~detection~accuracy~and~real-time~processing~requirements."
   ]
 },
 "Limitations": {
@@ -2399,16 +2327,6 @@
   ]
 },
 
-"Discussion": {
-  "phrases": [
-    "This divergence from results in [43] may be attributed to differences in...",
-    "Our observations reinforce the conclusions drawn by Ahmed et al. [44]...",
-    "Findings contradict earlier assumptions made in [46], potentially due to...",
-    "The pattern replicates those seen in [48], suggesting domain-specific consistency...",
-    "These interpretations are consistent with theoretical perspectives discussed in [47]..."
-  ]
-},
-
 "Acknowledgments": {
   "phrases": [
     "This study benefited from datasets provided by [55]...",
@@ -2471,17 +2389,6 @@
   ]
 },
 
-"Discussion": {
-  "phrases": [
-    "The observed gains resonate with the predictive uncertainty control theorized in [40]...",
-    "Departing from the instability trends outlined in [41], this framework maintains performance across nonlinear input domains...",
-    "These outcomes challenge the assumptions made in [42] regarding feature entanglement in sparse manifolds...",
-    "Our findings reinforce the necessity of hierarchical modeling, as previously hypothesized in [43]...",
-    "This divergence from [44] suggests an underlying sensitivity to initialization strategies in deep ensembles..."
-  ]
-},
-
-
 "Abstract": {
   "phrases": [
     "Building upon the sensor fusion strategies in [51], this work presents a real-time anomaly detection framework...",
@@ -2529,16 +2436,6 @@
     "The multi-sensor fault diagnosis outperforms existing ensemble techniques from [78] on F1-score and AUC metrics...",
     "Our model demonstrates superior fault recovery rates under injected drift, bias, and stuck faults, relative to [79]...",
     "The framework exhibits robustness under sensor dropout scenarios, as modeled in [80]..."
-  ]
-},
-
-"Discussion": {
-  "phrases": [
-    "These results validate the modularity-centric hypothesis introduced in [81] within sensor-oriented architectures...",
-    "Discrepancies in signal variance observed mirror the instability trends discussed in [82] under noisy sensor conditions...",
-    "Our fusion technique counters the entropy-induced uncertainty described in [83] using a confidence-weighted update...",
-    "The enhanced precision aligns with the calibration stability theories posited in [84] for MEMS sensors...",
-    "Interpretability remains a challenge, echoing sentiments in [85], necessitating attention in future revisions..."
   ]
 },
 
@@ -2599,7 +2496,62 @@
     "The regularization effect observed aligns with the findings in [122] on weight decay and sparsity control...",
     "Our model’s robustness to adversarial attacks reflects the principles presented in [123] on certified defense mechanisms...",
     "Contrary to the instability observed in dropout-heavy models in [124], our approach maintains steady performance across seeds...",
-    "The model’s behavior under noisy labels, as explored in [125], suggests inherent resilience without explicit denoising..."
+    "The model’s behavior under noisy labels, as explored in [125], suggests inherent resilience without explicit denoising...",
+"The interpretive lens adopted herein elucidates the latent mechanisms behind...",
+    "These findings provoke a re-examination of conventional assumptions regarding...",
+    "The observed correlations may be indicative of deeper structural dependencies in...",
+    "Such results should be contextualized within the broader theoretical framework of...",
+    "Implications of this work extend to adjacent domains including...",
+    "The observed behavior aligns with theoretical expectations...",
+    "Our results contrast with previous findings due to...",
+    "Limitations include potential biases in...",
+    "We hypothesize that the improvement is driven by...",
+    "The findings offer insights into future model enhancements...",
+    "The observed outcomes suggest that...",
+    "Findings support the hypothesis that...",
+    "This behavior can be attributed to...",
+    "While promising, the results also indicate...",
+    "These insights offer a deeper understanding of...",
+    "These results support our initial hypothesis that...",
+    "Our approach offers greater flexibility when applied to...",
+    "The findings suggest broader applicability in...",
+    "Trade-offs between performance and complexity emerge in...",
+    "The model generalizes well across...",
+    "...corroborates the hypothesis outlined earlier.",
+    "...suggests broader applicability beyond tested scenarios.",
+    "...implies practical integration into existing pipelines.",
+    "...points to possible enhancements in future iterations.",
+    "...raises questions regarding domain generalization.",
+    "...confirms the adaptability of the proposed approach across test conditions.",
+    "...suggests potential for deployment in real-time applications.",
+    "...underscores the importance of incorporating uncertainty modeling.",
+    "...demonstrates clear improvement over conventional baselines.",
+    "...highlights trade-offs between inference speed and prediction accuracy.",
+    "Results~demonstrated~a~consistent~performance~gain~over~existing~alternatives.",
+    "The~method~exhibited~strong~resilience~under~varying~levels~of~disturbance.",
+    "A~trade-off~was~observed~between~complexity~and~computational~overhead.",
+    "Robustness~was~particularly~evident~in~low-data~or~noisy~environments.",
+    "Our~findings~highlight~the~importance~of~adaptive~learning~mechanisms~in~complex~systems.",
+    "Results~indicate~a~significant~improvement~over~existing~state-of-the-art~methods.",
+    "The~proposed~framework~demonstrated~resilience~to~noise~and~data~irregularities.",
+    "Temporal~consistency~was~preserved~across~multiple~fault~conditions.",
+    "Our~model~generalizes~well~to~different~sensor~modalities~and~deployment~scenarios.",
+    "We~discuss~the~trade-off~between~detection~accuracy~and~real-time~processing~requirements.",
+    "This divergence from results in [43] may be attributed to differences in...",
+    "Our observations reinforce the conclusions drawn by Ahmed et al. [44]...",
+    "Findings contradict earlier assumptions made in [46], potentially due to...",
+    "The pattern replicates those seen in [48], suggesting domain-specific consistency...",
+    "These interpretations are consistent with theoretical perspectives discussed in [47]...",
+    "The observed gains resonate with the predictive uncertainty control theorized in [40]...",
+    "Departing from the instability trends outlined in [41], this framework maintains performance across nonlinear input domains...",
+    "These outcomes challenge the assumptions made in [42] regarding feature entanglement in sparse manifolds...",
+    "Our findings reinforce the necessity of hierarchical modeling, as previously hypothesized in [43]...",
+    "This divergence from [44] suggests an underlying sensitivity to initialization strategies in deep ensembles...",
+    "These results validate the modularity-centric hypothesis introduced in [81] within sensor-oriented architectures...",
+    "Discrepancies in signal variance observed mirror the instability trends discussed in [82] under noisy sensor conditions...",
+    "Our fusion technique counters the entropy-induced uncertainty described in [83] using a confidence-weighted update...",
+    "The enhanced precision aligns with the calibration stability theories posited in [84] for MEMS sensors...",
+    "Interpretability remains a challenge, echoing sentiments in [85], necessitating attention in future revisions..."
   ]
 },
 
@@ -2653,5 +2605,7 @@
   ]
  }
      
-  }  
+  }
+
+  
 }
