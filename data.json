@@ -5737,7 +5737,7 @@
 },
 "Rules_phase3":{
   "grammar_rules": [
-    {
+    
       "rule": "Passive Voice",
       "definition": "Use passive voice to emphasize the action or result rather than the subject performing it.",
       "examples": [
@@ -5765,12 +5765,11 @@
         "I proposed a novel approach.",
         "We validated the results.",
         "We configured the device before deployment."
-      ]
-    },
-    {
-      "rule": "Consistent Tense Usage",
-      "definition": "Use past tense for methodology/results and present tense for established facts or implications.",
-      "examples": [
+      ],
+
+      "rule2": "Consistent Tense Usage",
+      "definition2": "Use past tense for methodology/results and present tense for established facts or implications.",
+      "examples2": [
         "The algorithm was implemented in Python.",
         "The data were preprocessed using a moving average filter.",
         "The sensor recorded data every minute.",
@@ -5782,25 +5781,23 @@
         "Our results show a 15% improvement.",
         "The study confirms the effectiveness of the technique."
       ],
-      "alternatives": [
+      "alternatives2": [
         "The hypothesis was evaluated.",
         "This approach is widely used.",
         "The model demonstrates robustness.",
         "Prior research suggests similar outcomes.",
         "We observed that the system is stable."
       ],
-      "not_to_do": [
+      "not_to_do2": [
         "The algorithm is implemented in Python.",
         "We implement the method and test it.",
         "The system records data and was tested.",
         "Our study shows and showed improvements.",
         "It shows the experiment was conducted."
-      ]
-    },
-    {
-      "rule": "Subject-Verb Agreement",
-      "definition": "Ensure the subject and verb agree in number and form.",
-      "examples": [
+      ],
+      "rule3": "Subject-Verb Agreement",
+      "definition3": "Ensure the subject and verb agree in number and form.",
+      "examples3": [
         "The result indicates a strong correlation.",
         "Each method provides a unique advantage.",
         "Several sensors were deployed.",
@@ -5812,25 +5809,23 @@
         "These findings suggest improvement.",
         "The group of researchers agrees on the outcome."
       ],
-      "alternatives": [
+      "alternatives3": [
         "The analysis shows the pattern.",
         "The number of samples is sufficient.",
         "All results demonstrate validity.",
         "The dataset contains anomalies.",
         "Every component functions properly."
       ],
-      "not_to_do": [
+      "not_to_do3": [
         "Each method provide a unique advantage.",
         "Several sensor was deployed.",
         "The tests was conducted.",
         "These finding suggests improvement.",
         "The data shows inconsistencies."
-      ]
-    },
-    {
-      "rule": "Avoiding Contractions",
-      "definition": "Avoid using contractions in formal academic writing.",
-      "examples": [
+      ],
+      "rule4": "Avoiding Contractions",
+      "definition4": "Avoid using contractions in formal academic writing.",
+      "examples4": [
         "Do not assume linearity without evidence.",
         "It is important to control variables.",
         "They are commonly used in automation.",
@@ -5842,25 +5837,23 @@
         "The function has been optimized.",
         "They will extend the framework."
       ],
-      "alternatives": [
+      "alternatives4": [
         "We are aware of the limitations.",
         "It is known that accuracy decreases.",
         "The authors have compared two systems.",
         "She has demonstrated improved accuracy.",
         "This study does not address that."
       ],
-      "not_to_do": [
+      "not_to_do4": [
         "Don’t assume linearity.",
         "It’s important to control variables.",
         "They’re used in automation.",
         "There’s interest in this topic.",
         "We’ve evaluated five models."
-      ]
-    },
-    {
-      "rule": "Using Articles Appropriately",
-      "definition": "Use 'a', 'an', and 'the' correctly to define nouns.",
-      "examples": [
+      ],
+      "rule5": "Using Articles Appropriately",
+      "definition5": "Use 'a', 'an', and 'the' correctly to define nouns.",
+      "examples5": [
         "A sensor was used to detect vibration.",
         "An algorithm was designed for classification.",
         "The device operates under low power.",
@@ -5872,25 +5865,23 @@
         "The results show consistent performance.",
         "An improvement was observed in the second trial."
       ],
-      "alternatives": [
+      "alternatives5": [
         "A method is proposed in this study.",
         "The goal is to minimize error.",
         "The experiment was repeated.",
         "An evaluation was carried out.",
         "The approach reduces noise."
       ],
-      "not_to_do": [
+      "not_to_do5": [
         "Sensor was used to detect vibration.",
         "Algorithm was designed for classification.",
         "Device operates under low power.",
         "Dataset was divided...",
         "Improvement was observed..."
-      ]
-    },
-    {
-      "rule": "Correct Preposition Usage",
-      "definition": "Use correct prepositions to clarify relationships between elements.",
-      "examples": [
+      ],
+      "rule6": "Correct Preposition Usage",
+      "definition6": "Use correct prepositions to clarify relationships between elements.",
+      "examples6": [
         "The algorithm is applied to real data.",
         "This result is consistent with previous studies.",
         "The model depends on the initial conditions.",
@@ -5902,25 +5893,23 @@
         "The findings are related to error analysis.",
         "We derived results from empirical data."
       ],
-      "alternatives": [
+      "alternatives6": [
         "It is based on prior knowledge.",
         "The data were processed with Python.",
         "The framework was extended to include noise reduction.",
         "This study contributes to the literature.",
         "The tests resulted in high accuracy."
       ],
-      "not_to_do": [
+      "not_to_do6": [
         "Applied with real data.",
         "Consistent to previous studies.",
         "Model depends of conditions.",
         "Compared from a baseline.",
         "Results derived with data."
-      ]
-    },
-    {
-      "rule": "Avoiding Redundancy",
-      "definition": "Eliminate unnecessary repetition or verbose phrases.",
-      "examples": [
+      ],
+      "rule7": "Avoiding Redundancy",
+      "definition7": "Eliminate unnecessary repetition or verbose phrases.",
+      "examples7": [
         "The reason is that the system failed.",
         "Because the device overheated, it shut down.",
         "This method is more efficient.",
@@ -5932,25 +5921,23 @@
         "Due to limited space, only key results are shown.",
         "The approach is different from others."
       ],
-      "alternatives": [
+      "alternatives7": [
         "Because the battery failed...",
         "This is due to high variance.",
         "We tested the same method.",
         "The results confirm the hypothesis.",
         "They used the method once again."
       ],
-      "not_to_do": [
+      "not_to_do7": [
         "The reason is because...",
         "Due to the fact that...",
         "Repeated again...",
         "Tested it once more again...",
         "Same identical method..."
-      ]
-    },
-    {
-      "rule": "Using Formal Language",
-      "definition": "Use academic/formal vocabulary, avoiding colloquial terms.",
-      "examples": [
+      ],
+      "rule8": "Using Formal Language",
+      "definition8": "Use academic/formal vocabulary, avoiding colloquial terms.",
+      "examples8": [
         "Numerous approaches have been studied.",
         "The data were obtained from public datasets.",
         "A significant improvement was noted.",
@@ -5962,25 +5949,23 @@
         "All assumptions are explicitly stated.",
         "The outcomes are statistically valid."
       ],
-      "alternatives": [
+      "alternatives8": [
         "This paper presents a comparison.",
         "A thorough evaluation was conducted.",
         "The study investigates these effects.",
         "A theoretical model is developed.",
         "Performance metrics were recorded."
       ],
-      "not_to_do": [
+      "not_to_do8": [
         "A lot of methods were tried.",
         "We got good results.",
         "It works pretty well.",
         "This is kind of useful.",
         "The thing was tested."
-      ]
-    },
-    {
-      "rule": "Correct Use of Punctuation",
-      "definition": "Use commas, colons, semicolons, etc., correctly for lists, clauses, and clarity.",
-      "examples": [
+      ],
+      "rule9": "Correct Use of Punctuation",
+      "definition9": "Use commas, colons, semicolons, etc., correctly for lists, clauses, and clarity.",
+      "examples9": [
         "The system has three parts: sensor, processor, and actuator.",
         "The model is robust; however, it requires fine-tuning.",
         "The algorithm is simple, fast, and accurate.",
@@ -5992,25 +5977,23 @@
         "The test passed, although the setup was modified.",
         "The signal was noisy; nonetheless, it was usable."
       ],
-      "alternatives": [
+      "alternatives9": [
         "The three metrics are: precision, recall, and F1-score.",
         "Accuracy increased; however, error still exists.",
         "The signal is strong, consistent, and stable.",
         "This includes: input, processing, and output.",
         "Performance dropped; as a result, tuning was done."
       ],
-      "not_to_do": [
+      "not_to_do9": [
         "The system has three parts sensor processor actuator.",
         "Accuracy increased however error still exists.",
         "This includes input processing output.",
         "It is important hence should be emphasized.",
         "Temperature humidity pressure were monitored."
-      ]
-    },
-    {
-      "rule": "Use of Parallel Structure",
-      "definition": "Use the same grammatical structure in lists and comparisons.",
-      "examples": [
+      ],
+      "rule10": "Use of Parallel Structure",
+      "definition10": "Use the same grammatical structure in lists and comparisons.",
+      "examples10": [
         "The system is designed to sense, analyze, and respond.",
         "The goals are to reduce cost, improve speed, and increase efficiency.",
         "The algorithm identifies features, extracts patterns, and classifies inputs.",
@@ -6022,25 +6005,23 @@
         "Our focus is data acquisition, signal processing, and storage.",
         "The experiment was designed, implemented, and analyzed."
       ],
-      "alternatives": [
+      "alternatives10": [
         "To monitor, to control, and to evaluate.",
         "They aim to reduce delays, to improve output, and to minimize error.",
         "The objectives are simple: assess, optimize, and compare.",
         "Tasks are to read data, to write logs, and to process inputs.",
         "The system collects data, sends alerts, and logs errors."
       ],
-      "not_to_do": [
+      "not_to_do10": [
         "The system is designed to sense, analyzing, and to respond.",
         "Goals are reducing cost, improve speed, and efficiency increase.",
         "The algorithm extracts, patterns, and classifies.",
         "This includes reading, to write, and data storage.",
         "To monitor, controlling, and evaluations."
-      ]
-    },
-    {
-      "rule": "Avoiding Ambiguous Pronouns",
-      "definition": "Ensure pronouns clearly refer to specific nouns.",
-      "examples": [
+      ],
+      "rule11": "Avoiding Ambiguous Pronouns",
+      "definition11": "Ensure pronouns clearly refer to specific nouns.",
+      "examples11": [
         "This result indicates that the method is effective.",
         "The proposed model outperforms others; it achieves higher accuracy.",
         "The algorithm failed to converge, which suggests instability.",
@@ -6052,25 +6033,23 @@
         "The training process was rigorous. It took three hours.",
         "This paper introduces a method. It improves robustness."
       ],
-      "alternatives": [
+      "alternatives11": [
         "The approach improves reliability, and this is demonstrated in results.",
         "This enhancement is evident from the reduced error rate.",
         "That method improves both speed and accuracy.",
         "Such a system performs consistently.",
         "This observation highlights model generalization."
       ],
-      "not_to_do": [
+      "not_to_do11": [
         "This shows it works.",
         "They did better than them.",
         "It failed, which is bad.",
         "That proves it is useful.",
         "It was tested and that helped."
-      ]
-    },
-    {
-      "rule": "Maintaining Objectivity",
-      "definition": "Avoid personal opinions and use an academic, third-person tone.",
-      "examples": [
+      ],
+      "rule12": "Maintaining Objectivity",
+      "definition12": "Avoid personal opinions and use an academic, third-person tone.",
+      "examples12": [
         "The results suggest a positive correlation.",
         "It appears that the model is robust.",
         "This observation supports previous findings.",
@@ -6082,21 +6061,21 @@
         "The outcome aligns with theoretical expectations.",
         "The hypothesis was partially supported."
       ],
-      "alternatives": [
+      "alternatives12": [
         "One may infer that the method generalizes well.",
         "These findings demonstrate system stability.",
         "This supports the effectiveness of the design.",
         "The approach is empirically validated.",
         "Such results suggest high potential."
       ],
-      "not_to_do": [
+      "not_to_do12": [
         "I think the method works.",
         "We believe the model is accurate.",
         "In our opinion, this is useful.",
         "I feel this is the best solution.",
         "We assume the hypothesis is true."
       ]
-    }
+    
   ]
 },
 
