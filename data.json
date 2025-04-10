@@ -1221,15 +1221,6 @@
     "Implications of this work extend to adjacent domains including..."
   ]
 },
-"Conclusion": {
-  "phrases": [
-    "In synthesis, this work constitutes a significant stride toward...",
-    "Our conclusions are firmly undergirded by a rigorous evaluation of...",
-    "This manuscript charts a path for future inquiry into...",
-    "In essence, the methodology and findings coalesce to advance...",
-    "These insights serve as a springboard for the development of..."
-  ]
-},
 "Future_Work": {
   "phrases": [
     "Ongoing investigations aim to incorporate probabilistic reasoning into...",
@@ -1588,15 +1579,6 @@
     "The findings offer insights into future model enhancements..."
   ]
 },
-"Conclusion": {
-  "phrases": [
-    "In summary, the work introduces...",
-    "We conclude that the proposed approach is effective for...",
-    "This contribution advances the field by...",
-    "Future research may explore scalability and generalization...",
-    "Final remarks emphasize the potential applications of..."
-  ]
-},
 "Acknowledgments": {
   "phrases": [
     "The authors thank...",
@@ -1675,16 +1657,6 @@
     "This behavior can be attributed to...",
     "While promising, the results also indicate...",
     "These insights offer a deeper understanding of..."
-  ]
-},
-
-"Conclusion": {
-  "phrases": [
-    "This study provides a new perspective on...",
-    "The proposed approach contributes by...",
-    "In conclusion, the findings affirm the viability of...",
-    "Future work will explore extensions involving...",
-    "The implications of this research are far-reaching..."
   ]
 },
 
@@ -1795,15 +1767,6 @@
     "The findings suggest broader applicability in...",
     "Trade-offs between performance and complexity emerge in...",
     "The model generalizes well across..."
-  ]
-},
-"Conclusion": {
-  "phrases": [
-    "In conclusion, this study presents a solution for...",
-    "We have introduced a method capable of addressing...",
-    "The framework proposed here successfully improves upon...",
-    "This work lays the foundation for future exploration into...",
-    "Our contributions open avenues for further research in..."
   ]
 },
 "Future_Work": {
@@ -1950,15 +1913,6 @@
     "...assumes access to clean labeled data.",
     "...depends on parameter tuning for optimal performance.",
     "...has not yet been evaluated in safety-critical contexts."
-  ]
-},
-"Conclusion": {
-  "phrases": [
-    "...summarizes key contributions and empirical support.",
-    "...confirms the utility of the proposed framework.",
-    "...offers insights into future design possibilities.",
-    "...recommends further exploration into explainability.",
-    "...reinforces the relevance of this work to emerging applications."
   ]
 },
 "Future_Work": {
@@ -2455,16 +2409,6 @@
   ]
 },
 
-"Conclusion": {
-  "phrases": [
-    "Echoing the implications outlined in [49], our findings highlight...",
-    "This work substantiates claims made in [50] regarding the efficiency of...",
-    "Our conclusion is supported by evidence previously demonstrated in [52]...",
-    "Expanding on the framework in [53], this study presents new use cases for...",
-    "Final observations resonate with long-standing hypotheses from [54]..."
-  ]
-},
-
 "Acknowledgments": {
   "phrases": [
     "This study benefited from datasets provided by [55]...",
@@ -2537,15 +2481,6 @@
   ]
 },
 
-"Conclusion": {
-  "phrases": [
-    "Echoing the architectural recommendations of [45], we conclude that modularity enhances scalability and interpretability...",
-    "The results substantiate the hypothesis proposed in [47] that hybrid learning regimes improve temporal coherence...",
-    "As demonstrated through empirical validations and grounded in [48], the approach offers measurable real-world viability...",
-    "Synthesizing insights from [49] and this study, future exploration could pivot toward domain adaptation strategies...",
-    "Overall, the findings complement existing work [50], while advancing a reproducible and robust solution..."
-  ]
-},
 
 "Abstract": {
   "phrases": [
@@ -2604,16 +2539,6 @@
     "Our fusion technique counters the entropy-induced uncertainty described in [83] using a confidence-weighted update...",
     "The enhanced precision aligns with the calibration stability theories posited in [84] for MEMS sensors...",
     "Interpretability remains a challenge, echoing sentiments in [85], necessitating attention in future revisions..."
-  ]
-},
-
-"Conclusion": {
-  "phrases": [
-    "The findings underscore the significance of proactive sensor fault mitigation as emphasized in [86]...",
-    "This architecture affirms the utility of intelligent sensor redundancy, consistent with the assertions of [87]...",
-    "By aligning with the embedded system guidelines in [88], this work fosters compatibility in edge-device deployment...",
-    "As corroborated in [89], real-time diagnostics with minimal computational overhead remains a cornerstone for scalability...",
-    "Future work should explore hybrid sensor fusion schemes as advocated by [90], particularly in resource-constrained environments..."
   ]
 },
 
@@ -2684,12 +2609,49 @@
     "By integrating techniques from self-supervised and contrastive learning [127], we open avenues for data-efficient modeling...",
     "Our work contributes to the growing body of interpretable machine learning, extending the concepts in [128]...",
     "The findings motivate further investigation into continual learning frameworks, as theorized in [129]...",
-    "Future extensions may involve multi-task learning setups similar to those in [130], promoting shared representation benefits..."
+    "Future extensions may involve multi-task learning setups similar to those in [130], promoting shared representation benefits...",
+    "In synthesis, this work constitutes a significant stride toward...",
+    "Our conclusions are firmly undergirded by a rigorous evaluation of...",
+    "This manuscript charts a path for future inquiry into...",
+    "In essence, the methodology and findings coalesce to advance...",
+    "These insights serve as a springboard for the development of...",
+    "In summary, the work introduces...",
+    "We conclude that the proposed approach is effective for...",
+    "This contribution advances the field by...",
+    "Future research may explore scalability and generalization...",
+    "Final remarks emphasize the potential applications of...",
+     "This study provides a new perspective on...",
+    "The proposed approach contributes by...",
+    "In conclusion, the findings affirm the viability of...",
+    "Future work will explore extensions involving...",
+    "The implications of this research are far-reaching...",
+     "In conclusion, this study presents a solution for...",
+    "We have introduced a method capable of addressing...",
+    "The framework proposed here successfully improves upon...",
+    "This work lays the foundation for future exploration into...",
+    "Our contributions open avenues for further research in...",
+      "...summarizes key contributions and empirical support.",
+    "...confirms the utility of the proposed framework.",
+    "...offers insights into future design possibilities.",
+    "...recommends further exploration into explainability.",
+    "...reinforces the relevance of this work to emerging applications.",
+     "Echoing the implications outlined in [49], our findings highlight...",
+    "This work substantiates claims made in [50] regarding the efficiency of...",
+    "Our conclusion is supported by evidence previously demonstrated in [52]...",
+    "Expanding on the framework in [53], this study presents new use cases for...",
+    "Final observations resonate with long-standing hypotheses from [54]...",
+     "Echoing the architectural recommendations of [45], we conclude that modularity enhances scalability and interpretability...",
+    "The results substantiate the hypothesis proposed in [47] that hybrid learning regimes improve temporal coherence...",
+    "As demonstrated through empirical validations and grounded in [48], the approach offers measurable real-world viability...",
+    "Synthesizing insights from [49] and this study, future exploration could pivot toward domain adaptation strategies...",
+    "Overall, the findings complement existing work [50], while advancing a reproducible and robust solution...",
+      "The findings underscore the significance of proactive sensor fault mitigation as emphasized in [86]...",
+    "This architecture affirms the utility of intelligent sensor redundancy, consistent with the assertions of [87]...",
+    "By aligning with the embedded system guidelines in [88], this work fosters compatibility in edge-device deployment...",
+    "As corroborated in [89], real-time diagnostics with minimal computational overhead remains a cornerstone for scalability...",
+    "Future work should explore hybrid sensor fusion schemes as advocated by [90], particularly in resource-constrained environments..."
   ]
  }
-
      
-  }
-
-  
+  }  
 }
