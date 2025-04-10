@@ -6202,7 +6202,7 @@
   ]
 },
 "Essential":{
-  "essential_grammar_rules": [
+  "essential_grammar_rules": 
     {
       "rule": "Use of Passive Voice",
       "description": "Often preferred to focus on the process or result rather than the researcher.",
@@ -6225,7 +6225,8 @@
         "We tested the hypothesis."
       ]
     },
-    {
+    "essential_grammar_rules_2": 
+{
       "rule": "Consistent Tense Usage",
       "description": "Use past tense for methods/results and present tense for general truths or current implications.",
       "main_example": {
@@ -6247,7 +6248,8 @@
         "We uses the past tense inconsistently."
       ]
     },
-    {
+   "essential_grammar_rules3": 
+ {
       "rule": "Subject-Verb Agreement",
       "description": "The subject and verb must agree in number (singular/plural).",
       "main_example": {
@@ -6269,7 +6271,8 @@
         "A dataset of images are used."
       ]
     },
-    {
+    "essential_grammar_rules4": 
+{
       "rule": "Avoiding Contractions",
       "description": "Use full forms instead of contractions for formal tone.",
       "main_example": {
@@ -6291,7 +6294,8 @@
         "It doesn't influence the outcome."
       ]
     },
-    {
+    "essential_grammar_rules5": 
+{
       "rule": "Using Articles Appropriately (a, an, the)",
       "description": "Use definite and indefinite articles correctly.",
       "main_example": {
@@ -6313,7 +6317,8 @@
         "Analysis of variance was performed."
       ]
     },
-    {
+    "essential_grammar_rules6": 
+{
       "rule": "Correct Preposition Usage",
       "description": "Use domain-appropriate prepositions for describing relationships.",
       "main_example": {
@@ -6334,7 +6339,8 @@
         "Accuracy varies with respect of the method."
       ]
     },
-    {
+    "essential_grammar_rules7": 
+{
       "rule": "Avoiding Redundancy",
       "description": "Be concise. Do not repeat ideas unnecessarily.",
       "main_example": {
@@ -6356,7 +6362,8 @@
         "The reason for failure is because of the sample size."
       ]
     },
-    {
+    "essential_grammar_rules8": 
+{
       "rule": "Using Formal Language",
       "description": "Avoid colloquialisms and use domain-specific terms.",
       "main_example": {
@@ -6378,7 +6385,8 @@
         "The system was made better for performance."
       ]
     },
-    {
+    "essential_grammar_rules9": 
+{
       "rule": "Correct Use of Punctuation",
       "description": "Use commas, semicolons, and colons accurately for lists, clauses, and explanations.",
       "main_example": {
@@ -6399,7 +6407,8 @@
         "We examined three variables temperature, pressure and humidity."
       ]
     },
-    {
+    "essential_grammar_rules10": 
+{
       "rule": "Use of Parallel Structure",
       "description": "Ensure lists and compound structures follow the same grammatical form.",
       "main_example": {
@@ -6420,7 +6429,8 @@
         "Tasks include configuration of hardware, initializing software, and to record results."
       ]
     },
-    {
+    "essential_grammar_rules11": 
+{
       "rule": "Avoiding Ambiguous Pronouns",
       "description": "Ensure pronouns clearly refer to a specific noun.",
       "main_example": {
@@ -6442,7 +6452,8 @@
         "It is clear that this is important."
       ]
     },
-    {
+    "essential_grammar_rules12": 
+{
       "rule": "Maintaining Objectivity",
       "description": "Use third person and avoid personal opinions unless part of a discussion section.",
       "main_example": {
@@ -6464,10 +6475,10 @@
         "In our opinion, this works great."
       ]
     }
-  ]
+  
 },
 "General Grammar rules":{
-  "grammar_rules": [
+  "grammar_rules": 
     {
       "rule_name": "Passive Voice",
       "description": "Preferred to focus on actions or results, not the actor.",
@@ -6491,7 +6502,7 @@
         "The researcher developed the model."
       ]
     },
-    {
+    "grammar_rules2": {
       "rule_name": "Consistent Tense Usage",
       "description": "Use past tense for methods/results; present tense for facts or general knowledge.",
       "examples": [
@@ -6514,7 +6525,7 @@
         "The literature showed trends (for timeless truths)."
       ]
     },
-    {
+    "grammar_rules3": {
       "rule_name": "Subject-Verb Agreement",
       "description": "The verb must agree with the subject in number and form.",
       "examples": [
@@ -6537,7 +6548,7 @@
         "Each system show behavior."
       ]
     },
-    {
+   "grammar_rules4":  {
       "rule_name": "Avoiding Contractions",
       "description": "Write full forms for clarity and formality.",
       "examples": [
@@ -6560,7 +6571,7 @@
         "There’s no deviation."
       ]
     },
-    {
+   "grammar_rules5":  {
       "rule_name": "Article Usage (a, an, the)",
       "description": "Use articles appropriately based on specificity.",
       "examples": [
@@ -6582,7 +6593,7 @@
         "Results suggest..."
       ]
     },
-    {
+    "grammar_rules6": {
       "rule_name": "Preposition Usage",
       "description": "Use prepositions accurately for formal, technical relationships.",
       "examples": [
@@ -6604,7 +6615,7 @@
         "Focus in sensor accuracy."
       ]
     },
-    {
+   "grammar_rules7":  {
       "rule_name": "Avoiding Redundancy",
       "description": "Do not repeat the same idea or use unnecessary words.",
       "examples": [
@@ -6626,7 +6637,7 @@
         "In order to test → just To test"
       ]
     },
-    {
+    "grammar_rules8": {
       "rule_name": "Formal Language Use",
       "description": "Avoid casual or conversational language.",
       "examples": [
@@ -6649,7 +6660,7 @@
         "Stuff like that..."
       ]
     },
-    {
+    "grammar_rules9": {
       "rule_name": "Punctuation Usage",
       "description": "Use commas, semicolons, and colons correctly for clarity.",
       "examples": [
@@ -6671,7 +6682,7 @@
         "The sensors were noisy however, the data were usable."
       ]
     },
-    {
+    "grammar_rules10": {
       "rule_name": "Parallel Structure",
       "description": "Maintain grammatical consistency in lists or patterns.",
       "examples": [
@@ -6693,10 +6704,10 @@
         "The study develops tools, test methods, and evaluates outcomes."
       ]
     }
-  ]
+  
 },
 "Academic words":{
-  "Academic_Formal_Equivalents_Expanded": [
+  "Academic_Formal_Equivalents_Expanded1": 
     {
       "word": "but",
       "formal_equivalents": [
@@ -6712,7 +6723,8 @@
         "notwithstanding"
       ]
     },
-    {
+     "Academic_Formal_Equivalents_Expanded2": 
+{
       "word": "so",
       "formal_equivalents": [
         "therefore",
@@ -6727,7 +6739,8 @@
         "resultantly"
       ]
     },
-    {
+     "Academic_Formal_Equivalents_Expanded3": 
+{
       "word": "also",
       "formal_equivalents": [
         "moreover",
@@ -6741,7 +6754,9 @@
         "as well",
         "not only that"
       ]
-    },
+    }, 
+ "Academic_Formal_Equivalents_Expanded4": 
+
     {
       "word": "maybe",
       "formal_equivalents": [
@@ -6757,7 +6772,7 @@
         "there is a possibility"
       ]
     },
-    {
+   "Academic_Formal_Equivalents_Expanded5":  {
       "word": "get",
       "formal_equivalents": [
         "obtain",
@@ -6772,7 +6787,7 @@
         "collect"
       ]
     },
-    {
+   "Academic_Formal_Equivalents_Expanded6":  {
       "word": "important",
       "formal_equivalents": [
         "significant",
@@ -6787,7 +6802,7 @@
         "consequential"
       ]
     },
-    {
+   "Academic_Formal_Equivalents_Expanded7":  {
       "word": "a lot of",
       "formal_equivalents": [
         "numerous",
@@ -6802,7 +6817,7 @@
         "several"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded8": {
       "word": "thing",
       "formal_equivalents": [
         "factor",
@@ -6817,7 +6832,7 @@
         "item"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded9": {
       "word": "idea",
       "formal_equivalents": [
         "concept",
@@ -6832,7 +6847,7 @@
         "point"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded10": {
       "word": "help",
       "formal_equivalents": [
         "assist",
@@ -6847,7 +6862,7 @@
         "reinforce"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded11": {
       "word": "hard",
       "formal_equivalents": [
         "challenging",
@@ -6862,7 +6877,7 @@
         "intensive"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded12": {
       "word": "easy",
       "formal_equivalents": [
         "straightforward",
@@ -6877,7 +6892,7 @@
         "convenient"
       ]
     },
-    {
+   "Academic_Formal_Equivalents_Expanded13":  {
       "word": "say",
       "formal_equivalents": [
         "state",
@@ -6892,7 +6907,7 @@
         "report"
       ]
     },
- {
+ "Academic_Formal_Equivalents_Expanded14": {
       "word": "big",
       "formal_equivalents": [
         "significant",
@@ -6907,7 +6922,7 @@
         "far-reaching"
       ]
     },
-    {
+  "Academic_Formal_Equivalents_Expanded15":   {
       "word": "small",
       "formal_equivalents": [
         "minimal",
@@ -6922,7 +6937,7 @@
         "narrow"
       ]
     },
-    {
+   "Academic_Formal_Equivalents_Expanded16":  {
       "word": "start",
       "formal_equivalents": [
         "initiate",
@@ -6937,7 +6952,7 @@
         "activate"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded17": {
       "word": "end",
       "formal_equivalents": [
         "terminate",
@@ -6952,7 +6967,7 @@
         "bring to a close"
       ]
     },
-    {
+   "Academic_Formal_Equivalents_Expanded18":  {
       "word": "show",
       "formal_equivalents": [
         "demonstrate",
@@ -6967,7 +6982,7 @@
         "unveil"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded19": {
       "word": "prove",
       "formal_equivalents": [
         "validate",
@@ -6982,7 +6997,7 @@
         "reinforce"
       ]
     },
-    {
+   "Academic_Formal_Equivalents_Expanded20":  {
       "word": "deal with",
       "formal_equivalents": [
         "address",
@@ -6997,7 +7012,7 @@
         "process"
       ]
     },
-    {
+   "Academic_Formal_Equivalents_Expanded21":  {
       "word": "look into",
       "formal_equivalents": [
         "investigate",
@@ -7012,7 +7027,7 @@
         "review"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded22": {
       "word": "find out",
       "formal_equivalents": [
         "discover",
@@ -7027,7 +7042,7 @@
         "come to know"
       ]
     },
- {
+ "Academic_Formal_Equivalents_Expanded23": {
       "word": "get",
       "formal_equivalents": [
         "obtain",
@@ -7042,7 +7057,7 @@
         "achieve"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded24": {
       "word": "help",
       "formal_equivalents": [
         "assist",
@@ -7057,7 +7072,7 @@
         "bolster"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded25": {
       "word": "do",
       "formal_equivalents": [
         "perform",
@@ -7072,7 +7087,7 @@
         "pursue"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded26": {
       "word": "make",
       "formal_equivalents": [
         "create",
@@ -7087,7 +7102,7 @@
         "build"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded27": {
       "word": "bad",
       "formal_equivalents": [
         "inadequate",
@@ -7102,7 +7117,7 @@
         "detrimental"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded28": {
       "word": "good",
       "formal_equivalents": [
         "beneficial",
@@ -7117,7 +7132,7 @@
         "superior"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded29": {
       "word": "thing",
       "formal_equivalents": [
         "element",
@@ -7132,7 +7147,7 @@
         "feature"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded30": {
       "word": "really",
       "formal_equivalents": [
         "significantly",
@@ -7147,7 +7162,7 @@
         "profoundly"
       ]
     },
-    {
+   "Academic_Formal_Equivalents_Expanded31":  {
       "word": "so",
       "formal_equivalents": [
         "thus",
@@ -7162,7 +7177,7 @@
         "subsequently"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded32": {
       "word": "about",
       "formal_equivalents": [
         "concerning",
@@ -7177,7 +7192,7 @@
         "connected with"
       ]
     },
- {
+ "Academic_Formal_Equivalents_Expanded33": {
       "word": "increase",
       "formal_equivalents": [
         "amplification",
@@ -7192,7 +7207,7 @@
         "surge"
       ]
     },
-    {
+   "Academic_Formal_Equivalents_Expanded34":  {
       "word": "improve",
       "formal_equivalents": [
         "enhance",
@@ -7207,7 +7222,7 @@
         "perfect"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded35": {
       "word": "use",
       "formal_equivalents": [
         "employ",
@@ -7222,7 +7237,7 @@
         "engage"
       ]
     },
-    {
+   "Academic_Formal_Equivalents_Expanded36":  {
       "word": "start",
       "formal_equivalents": [
         "initiate",
@@ -7237,7 +7252,7 @@
         "inaugurate"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded37": {
       "word": "show",
       "formal_equivalents": [
         "demonstrate",
@@ -7252,7 +7267,7 @@
         "substantiate"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded38": {
       "word": "end",
       "formal_equivalents": [
         "terminate",
@@ -7267,7 +7282,7 @@
         "culminate"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded39": {
       "word": "think",
       "formal_equivalents": [
         "consider",
@@ -7282,7 +7297,7 @@
         "reason"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded40": {
       "word": "big",
       "formal_equivalents": [
         "significant",
@@ -7297,7 +7312,7 @@
         "tremendous"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded41": {
       "word": "small",
       "formal_equivalents": [
         "minor",
@@ -7312,7 +7327,7 @@
         "marginal"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded42": {
       "word": "fast",
       "formal_equivalents": [
         "rapid",
@@ -7327,7 +7342,7 @@
         "high-speed"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded43": {
       "word": "use",
       "formal_equivalents": [
         "utilize",
@@ -7342,7 +7357,7 @@
         "implement"
       ]
     },
-    {
+    "Academic_Formal_Equivalents_Expanded44": {
       "word": "need",
       "formal_equivalents": [
         "require",
@@ -7357,73 +7372,72 @@
         "be vital"
       ]
     }
-  ]
+
 },
 
 "Connectors_2":{
-  "Academic_Connectors_Extended": [
+  "Academic_Connectors_Extended": 
     {
       "connector": "Increase",
       "formal_equivalent": "Amplification",
       "additional_formal_equivalents": ["Augmentation", "Escalation", "Growth", "Proliferation", "Expansion"],
       "example": "There was a notable augmentation in accuracy across all datasets."
     },
-    {
+   "Academic_Connectors_Extended2":  {
       "connector": "Improve",
       "formal_equivalent": "Refine",
       "additional_formal_equivalents": ["Enhance", "Elevate", "Advance", "Augment", "Upgrade"],
       "example": "The architecture was refined to minimize latency."
     },
-    {
+   "Academic_Connectors_Extended3":  {
       "connector": "Use",
       "formal_equivalent": "Employ",
       "additional_formal_equivalents": ["Utilize", "Implement", "Leverage", "Adopt", "Apply"],
       "example": "The model employs a hybrid decision-making strategy."
     },
-    {
+   "Academic_Connectors_Extended4":  {
       "connector": "Start",
       "formal_equivalent": "Initiate",
       "additional_formal_equivalents": ["Commence", "Launch", "Embark", "Trigger", "Undertake"],
       "example": "The simulation was initiated after system calibration."
     },
-    {
+   "Academic_Connectors_Extended5":  {
       "connector": "Show",
       "formal_equivalent": "Illustrate",
       "additional_formal_equivalents": ["Demonstrate", "Present", "Reveal", "Indicate", "Substantiate"],
       "example": "The experimental outcomes illustrate a clear improvement."
     },
-    {
+    "Academic_Connectors_Extended6": {
       "connector": "End",
       "formal_equivalent": "Terminate",
       "additional_formal_equivalents": ["Conclude", "Finalize", "Wrap up", "Wind down", "Cease"],
       "example": "The monitoring process was terminated after 10 minutes."
     },
-    {
+    "Academic_Connectors_Extended7": {
       "connector": "Think",
       "formal_equivalent": "Contemplate",
       "additional_formal_equivalents": ["Consider", "Reflect on", "Evaluate", "Examine", "Speculate"],
       "example": "Researchers contemplated the implications of hybrid modeling."
     },
-    {
+    "Academic_Connectors_Extended8": {
       "connector": "Big",
       "formal_equivalent": "Considerable",
       "additional_formal_equivalents": ["Significant", "Substantial", "Vast", "Tremendous", "Profound"],
       "example": "A considerable enhancement in fault tolerance was achieved."
     },
-    {
+   "Academic_Connectors_Extended9":  {
       "connector": "Small",
       "formal_equivalent": "Negligible",
       "additional_formal_equivalents": ["Minimal", "Minor", "Limited", "Marginal", "Insignificant"],
       "example": "The impact of temperature variation was negligible."
     },
-    {
+    "Academic_Connectors_Extended10": {
       "connector": "Fast",
       "formal_equivalent": "Accelerated",
       "additional_formal_equivalents": ["Rapid", "Prompt", "Swift", "Expedited", "Immediate"],
       "example": "An accelerated response is necessary for real-time applications."
-    }
-  ],
-"Academic_Connectors": [
+    },
+"Academic_Connectors": 
     {
       "connector": "Increase",
       "formal_equivalent": "Growth",
@@ -7432,7 +7446,7 @@
       "formal_alternatives": ["Augmentation", "Upsurge", "Increment"],
       "example_usage": "The growth in sensor precision led to improved detection rates."
     },
-    {
+   "Academic_Connectors1": {
       "connector": "Improve",
       "formal_equivalent": "Enhance",
       "synonyms": ["Boost", "Refine", "Elevate", "Advance", "Augment"],
@@ -7440,7 +7454,7 @@
       "formal_alternatives": ["Optimize", "Upgrade", "Fortify"],
       "example_usage": "The algorithm was enhanced to support dynamic fault conditions."
     },
-    {
+  "Academic_Connectors2":  {
       "connector": "Use",
       "formal_equivalent": "Utilize",
       "synonyms": ["Employ", "Apply", "Implement", "Exploit", "Adopt"],
@@ -7448,7 +7462,7 @@
       "formal_alternatives": ["Leverage", "Make use of", "Deploy"],
       "example_usage": "This study utilizes a hybrid deep learning architecture."
     },
-    {
+  "Academic_Connectors3":  {
       "connector": "Start",
       "formal_equivalent": "Commence",
       "synonyms": ["Initiate", "Launch", "Begin", "Trigger", "Undertake"],
@@ -7456,7 +7470,7 @@
       "formal_alternatives": ["Set in motion", "Embark upon", "Inaugurate"],
       "example_usage": "The simulation commenced with a calibration phase."
     },
-    {
+   "Academic_Connectors4": {
       "connector": "Show",
       "formal_equivalent": "Demonstrate",
       "synonyms": ["Reveal", "Exhibit", "Present", "Indicate", "Display"],
@@ -7464,7 +7478,7 @@
       "formal_alternatives": ["Illustrate", "Substantiate", "Validate"],
       "example_usage": "The results demonstrate the robustness of the proposed method."
     },
-    {
+  "Academic_Connectors5":  {
       "connector": "End",
       "formal_equivalent": "Conclude",
       "synonyms": ["Finish", "Terminate", "Cease", "Complete", "Wrap up"],
@@ -7472,7 +7486,7 @@
       "formal_alternatives": ["Bring to a close", "Finalize", "Wind down"],
       "example_usage": "The study concludes with suggestions for future research."
     },
-    {
+    "Academic_Connectors6":{
       "connector": "Think",
       "formal_equivalent": "Consider",
       "synonyms": ["Contemplate", "Reflect", "Evaluate", "Examine", "Speculate"],
@@ -7480,7 +7494,7 @@
       "formal_alternatives": ["Take into account", "Assess", "Regard"],
       "example_usage": "Various fault scenarios are considered in the analysis."
     },
-    {
+   "Academic_Connectors7": {
       "connector": "Big",
       "formal_equivalent": "Significant",
       "synonyms": ["Substantial", "Considerable", "Major", "Vast", "Profound"],
@@ -7488,7 +7502,7 @@
       "formal_alternatives": ["Extensive", "Meaningful", "Noteworthy"],
       "example_usage": "A significant improvement was observed in detection accuracy."
     },
-    {
+   "Academic_Connectors8": {
       "connector": "Small",
       "formal_equivalent": "Minimal",
       "synonyms": ["Tiny", "Insignificant", "Minor", "Negligible", "Limited"],
@@ -7496,18 +7510,17 @@
       "formal_alternatives": ["Marginal", "Slight", "Nominal"],
       "example_usage": "Only a minimal variation was noticed in voltage readings."
     },
-    {
+   "Academic_Connectors9": {
       "connector": "Fast",
       "formal_equivalent": "Rapid",
       "synonyms": ["Quick", "Swift", "Speedy", "Prompt", "Immediate"],
       "antonyms": ["Slow", "Delayed", "Gradual", "Sluggish", "Prolonged"],
       "formal_alternatives": ["Accelerated", "Expedited", "High-speed"],
       "example_usage": "Rapid detection of anomalies is crucial for real-time systems."
-    }
-  ],
+    },
 
 
-  "Methodology": [
+  "Methodology": 
     {
       "connector": "Subsequently",
       "synonyms": ["Then", "Afterward", "Thereafter"],
@@ -7515,15 +7528,15 @@
       "formal_alternatives": ["Later on", "As a next step"],
       "example_usage": "Subsequently, the data were normalized before training."
     },
-    {
+   "Methodology2":  {
       "connector": "Whereas",
       "synonyms": ["While", "Although", "Though"],
       "antonyms": ["Likewise", "Similarly"],
       "formal_alternatives": ["In contrast", "However"],
       "example_usage": "The HMM model adapts sequentially, whereas SVM remains static."
-    }
-  ],
-  "Related Work": [
+    },
+
+  "Related Work": 
     {
       "connector": "Accordingly",
       "synonyms": ["Consequently", "As a result", "Hence"],
@@ -7531,15 +7544,14 @@
       "formal_alternatives": ["In accordance", "As per"],
       "example_usage": "Accordingly, several researchers have investigated alternative fault models."
     },
-    {
+     "Related Work2":  {
       "connector": "Conversely",
       "synonyms": ["On the other hand", "However"],
       "antonyms": ["Similarly", "Likewise"],
       "formal_alternatives": ["In contrast", "Contrarily"],
       "example_usage": "Conversely, traditional methods lack fault-tolerance capabilities."
-    }
-  ],
-  "Discussion": [
+    },
+  "Discussion": 
     {
       "connector": "Hence",
       "synonyms": ["Thus", "Therefore", "Consequently"],
@@ -7547,17 +7559,15 @@
       "formal_alternatives": ["For this reason", "It follows that"],
       "example_usage": "Hence, the model is robust against drift faults."
     },
-    {
+   "Discussion2":  {
       "connector": "Notably",
       "synonyms": ["Importantly", "Significantly", "Remarkably"],
       "antonyms": ["Trivially", "Marginally"],
       "formal_alternatives": ["It is worth noting", "Of significance"],
       "example_usage": "Notably, the proposed method reduced false positives by 25%."
-    }
-  ],
+    },
  
- 
- "Introduction": [
+ "Introduction": 
       {
         "connector": "Recently",
         "synonyms": ["Lately", "Of late", "In recent times"],
@@ -7573,7 +7583,7 @@
           "Often followed by citations or prior studies."
         ]
       },
-      {
+    "Introduction2":    {
         "connector": "There has been growing interest in",
         "synonyms": ["An increasing focus on", "A surge in research on"],
         "antonyms": ["A decline in attention to"],
@@ -7588,22 +7598,22 @@
           "Can precede research problem or gap."
         ]
       },
-	 {
+ "Introduction3": 	 {
       "connector": "However",
       "synonyms": ["Nevertheless", "Nonetheless", "Yet"],
       "antonyms": ["Therefore", "Thus"],
       "formal_alternatives": ["Despite that", "In contrast"],
       "example_usage": "However, previous studies have not addressed sensor accuracy under fault conditions."
     },
-    {
+     "Introduction4": {
       "connector": "Moreover",
       "synonyms": ["Furthermore", "In addition", "Also"],
       "antonyms": ["Conversely", "On the contrary"],
       "formal_alternatives": ["Additionally", "What is more"],
       "example_usage": "Moreover, the proposed system outperforms baseline models in accuracy."
-    }
-    ],
-    "Abstract": [
+    },
+
+    "Abstract": 
       {
         "connector": "This paper presents",
         "synonyms": ["This study proposes", "This article introduces"],
@@ -7619,7 +7629,7 @@
           "Follow with what and how concisely."
         ]
       },
-      {
+     "Abstract2":  {
         "connector": "The results demonstrate",
         "synonyms": ["The findings show", "The outcomes confirm"],
         "antonyms": ["The results contradict", "The outcomes disprove"],
@@ -7633,9 +7643,8 @@
           "Use to conclude abstract and highlight key contributions.",
           "Supports claims made earlier in the abstract."
         ]
-      }
-    ],
-    "Related Work / Background": [
+      },
+    "Related Work / Background": 
       {
         "connector": "Previous studies have shown",
         "synonyms": ["Earlier work indicated", "Prior research demonstrated"],
@@ -7651,7 +7660,7 @@
           "Summarize key points from existing literature."
         ]
       },
-      {
+     "Related Work / Background2": {
         "connector": "However, these methods",
         "synonyms": ["Nevertheless, those techniques", "Yet, such methods"],
         "antonyms": ["Similarly, these methods"],
@@ -7666,8 +7675,8 @@
           "Typically transitions to the motivation of your work."
         ]
       }
-    ],
-    "Methodology / System Design": [
+    ,
+    "Methodology / System Design": 
       {
         "connector": "The proposed method",
         "synonyms": ["Our approach", "The suggested technique"],
@@ -7683,7 +7692,7 @@
           "Follow with components or flow description."
         ]
       },
-      {
+      "Methodology / System Design2":  {
         "connector": "It is implemented using",
         "synonyms": ["It is developed with", "It utilizes"],
         "antonyms": ["It avoids using"],
@@ -7697,9 +7706,8 @@
           "Use to specify tools, platforms, or libraries.",
           "Provides technical details to the reader."
         ]
-      }
-    ],
-    "Discussion / Results": [
+      },
+    "Discussion / Results": 
       {
         "connector": "These findings suggest",
         "synonyms": ["The results imply", "This indicates"],
@@ -7715,7 +7723,8 @@
           "Should follow figures/tables or comparative analysis."
         ]
       },
-      {
+     "Discussion / Results2": 
+ {
         "connector": "Compared to previous methods",
         "synonyms": ["Relative to earlier approaches", "In contrast with existing models"],
         "antonyms": ["In similarity with", "Same as"],
@@ -7729,9 +7738,8 @@
           "Use when benchmarking or making comparisons.",
           "Follow with numerical or qualitative insights."
         ]
-      }
-    ],
-    "Future Work": [
+      }    ,
+    "Future Work": 
       {
         "connector": "Future work will focus on",
         "synonyms": ["Subsequent efforts will address", "Further research will investigate"],
@@ -7747,21 +7755,21 @@
           "Use to indicate ongoing or next-phase research."
         ]
       },
-	 {
+	  "Future Work2":  {
       "connector": "Subsequently",
       "synonyms": ["Later", "Thereafter", "In the future"],
       "antonyms": ["Previously", "Earlier"],
       "formal_alternatives": ["In forthcoming studies", "In subsequent phases"],
       "example_usage": "Subsequently, future work will focus on multi-sensor fusion strategies."
     },
-    {
+     "Future Work3":  {
       "connector": "Potentially",
       "synonyms": ["Possibly", "Plausibly", "Likely"],
       "antonyms": ["Certainly", "Definitely"],
       "formal_alternatives": ["Prospectively", "Feasibly"],
       "example_usage": "This approach potentially enables scalable deployment in CPS applications."
     },
-      {
+      "Future Work4":   {
         "connector": "This opens up possibilities for",
         "synonyms": ["This paves the way for", "This enables", "This initiates"],
         "antonyms": ["This restricts further work"],
@@ -7775,9 +7783,8 @@
           "Highlights broader impact and opportunities.",
           "Good for last paragraph in discussion or conclusion."
         ]
-      }
-    ],
-    "Conclusion": [
+      },
+    "Conclusion": 
       {
         "connector": "In conclusion",
         "synonyms": ["To summarize", "Overall", "In summary"],
@@ -7793,21 +7800,21 @@
           "Follow with summary of main contributions."
         ]
       },
- 	{
+ 	"Conclusion2":{
       "connector": "Therefore",
       "synonyms": ["Thus", "Hence", "Consequently"],
       "antonyms": ["However", "Nevertheless"],
       "formal_alternatives": ["Accordingly", "As a result"],
       "example_usage": "Therefore, the method proves effective for real-time fault diagnosis."
     },
-    {
+   "Conclusion3": {
       "connector": "In summary",
       "synonyms": ["To summarize", "To conclude", "In conclusion"],
       "antonyms": ["Conversely", "On the other hand"],
       "formal_alternatives": ["Overall", "In essence"],
       "example_usage": "In summary, the model demonstrates high precision and low latency."
     },
-      {
+    "Conclusion4":  {
         "connector": "This study has demonstrated",
         "synonyms": ["This paper has shown", "We have proven"],
         "antonyms": ["This study has failed to demonstrate"],
@@ -7821,9 +7828,8 @@
           "Summarize core achievement or takeaway.",
           "Avoid introducing new data or references here."
         ]
-      }
-    ],
-    "Clarification": [
+      },
+    "Clarification": 
       {
         "connector": "In other words",
         "synonyms": ["That is to say", "To put it differently", "Simply put"],
@@ -7839,7 +7845,7 @@
           "Follow with a clearer or more straightforward sentence."
         ]
       },
-      {
+     "Clarification2": {
         "connector": "To clarify",
         "synonyms": ["To explain", "To elaborate", "To expound"],
         "antonyms": ["To confuse", "To obscure"],
@@ -7853,9 +7859,8 @@
           "Use when elaborating on a technical term or statement.",
           "Often followed by a brief explanatory phrase."
         ]
-      }
-    ],
-    "Examples": [
+      },
+    "Examples": 
       {
         "connector": "For example",
         "synonyms": ["For instance", "Such as", "Namely"],
@@ -7871,7 +7876,7 @@
           "Follow with a concrete and relevant example."
         ]
       },
-      {
+     "Examples2":  {
         "connector": "Such as",
         "synonyms": ["Including", "Namely", "Like"],
         "antonyms": ["Excluding", "Omitting"],
@@ -7885,9 +7890,8 @@
           "Use for listing or specifying parts of a broader category.",
           "Ensure the listed items are representative and relevant."
         ]
-      }
-    ],
- "Addition": [
+      },
+ "Addition": 
       {
         "connector": "Moreover",
         "synonyms": ["Furthermore", "In addition", "Additionally", "What's more", "Besides"],
@@ -7903,7 +7907,7 @@
           "Avoid overusing; ensure each addition is relevant and significant."
         ]
       },
-      {
+    "Addition2":    {
         "connector": "Furthermore",
         "synonyms": ["Moreover", "In addition", "Additionally", "What's more", "Besides"],
         "antonyms": ["However", "On the other hand", "Conversely", "Nevertheless"],
@@ -7917,9 +7921,8 @@
           "Employ to add information that reinforces or extends the previous point.",
           "Ensure the additional information is directly related to the topic."
         ]
-      }
-    ],
-    "Contrast": [
+      },
+    "Contrast": 
       {
         "connector": "However",
         "synonyms": ["Nevertheless", "Nonetheless", "Yet", "But", "Still"],
@@ -7935,7 +7938,7 @@
           "Place a comma after 'however' when it starts a sentence."
         ]
       },
-      {
+     "Contrast2":  {
         "connector": "On the other hand",
         "synonyms": ["Conversely", "In contrast", "Alternatively"],
         "antonyms": ["Similarly", "Likewise", "Correspondingly"],
@@ -7949,9 +7952,8 @@
           "Use to present an alternative perspective or contrasting point.",
           "Ensure the contrast is clear and directly related to the previous point."
         ]
-      }
-    ],
-    "Cause and Effect": [
+      },
+    "Cause and Effect": 
       {
         "connector": "Therefore",
         "synonyms": ["Thus", "Consequently", "As a result", "Hence"],
@@ -7967,7 +7969,7 @@
           "Place a comma after 'therefore' when it starts a sentence."
         ]
       },
-      {
+    "Cause and Effect2":   {
         "connector": "Thus",
         "synonyms": ["Therefore", "Consequently", "As a result", "Hence"],
         "antonyms": ["Nevertheless", "However", "Nonetheless"],
@@ -7981,9 +7983,8 @@
           "Use to indicate a conclusion drawn from the previous information.",
           "Can be used at the beginning or in the middle of a sentence."
         ]
-      }
-    ],
-    "Comparison": [
+      },
+    "Comparison": 
       {
         "connector": "Similarly",
         "synonyms": ["Likewise", "In the same way", "Correspondingly"],
@@ -7999,7 +8000,7 @@
           "Ensure the similarity is clear and relevant."
         ]
       },
-      {
+     "Comparison2":  {
         "connector": "Likewise",
         "synonyms": ["Similarly", "In the same way", "Correspondingly"],
         "antonyms": ["Conversely", "On the other hand", "In contrast"],
@@ -8013,12 +8014,10 @@
           "Use to introduce a point that is similar to the previous one.",
           "Typically used at the beginning of a sentence."
         ]
-      }
-    ],
+      },
     
 
-"Emphasis": [
-      {
+"Emphasis":      {
         "connector": "Indeed",
         "synonyms": ["In fact", "Truly", "Certainly"],
         "antonyms": ["Doubtfully", "Uncertainly"],
@@ -8032,7 +8031,7 @@
           "Use to emphasize a point or confirm a previous statement.",
           "Can be used to introduce additional supportive information."   ]
 	},
-{"connector": "Notably",
+"Emphasis2":   {"connector": "Notably",
         "synonyms": ["Significantly", "Importantly", "Remarkably"],
         "antonyms": ["Marginally", "Unremarkably"],
         "formal_alternatives": ["Of particular note", "It is worth mentioning"],
@@ -8046,7 +8045,7 @@
           "Typically placed at the beginning of a sentence to attract attention."
         ]
       },
-      {
+   "Emphasis3":   {
         "connector": "In fact",
         "synonyms": ["Indeed", "Actually", "Truly"],
         "antonyms": ["Falsely", "Incorrectly"],
@@ -8060,9 +8059,6 @@
           "Use to reinforce a previous statement or to provide additional support.",
           "Avoid overuse; reserve for strong support points."   ]
       }
-
-    ]
-
   }
 }
   
