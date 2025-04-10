@@ -1103,34 +1103,8 @@
 
   "Phrase-Bank":{
 
-"Literature_Review": {
-  "phrases": [
-    "The extant body of literature reflects a divergence in perspectives regarding...",
-    "Scholarly consensus remains elusive on the implications of...",
-    "Prior investigations have largely converged upon...",
-    "Foundational contributions by X et al. posited that...",
-    "An emerging thread in current literature seeks to reconcile..."
-  ]
-},
 
-"Data_Collection": {
-  "phrases": [
-    "Primary data acquisition was facilitated through controlled instrumentation for...",
-    "The dataset encapsulates diverse operational regimes encompassing...",
-    "Sampling intervals were calibrated to capture the dynamical evolution of...",
-    "To mitigate observational bias, a randomized deployment strategy was employed for...",
-    "Sensor fidelity and temporal resolution were prioritized during the collection of..."
-  ]
-},
-"Preprocessing": {
-  "phrases": [
-    "The preprocessing pipeline entails dimensional homogenization via...",
-    "Noise attenuation was achieved using a bespoke filter tailored for...",
-    "Feature orthogonalization ensured independence among variables for...",
-    "Temporal alignment of sequences was realized through dynamic time warping on...",
-    "Ambiguities due to missing values were systematically resolved by..."
-  ]
-},
+
 
 "Significance": {
   "phrases": [
@@ -1148,15 +1122,6 @@
     "Data anonymity was preserved throughout in accordance with...",
     "The ethical oversight committee provided approval under protocol...",
     "Subjects were debriefed post-trial, ensuring full disclosure of..."
-  ]
-},
-"Justification": {
-  "phrases": [
-    "The rationale for adopting this framework is anchored in...",
-    "This approach was selected due to its proven efficacy in...",
-    "A principled justification lies in the inherent scalability of...",
-    "The choice of X technique was motivated by its robustness to...",
-    "Such design decisions were guided by precedents in the literature demonstrating..."
   ]
 },
 "Objectives": {
@@ -1250,33 +1215,6 @@
     "Utilizes heuristic refinement...",
     "Driven by feedback loops...",
     "Prioritizes computational efficiency..."
-  ]
-},
-"Parameter_Tuning": {
-  "phrases": [
-    "Hyperparameters were grid-searched...",
-    "Tuned via cross-validation...",
-    "Optimized for stability...",
-    "Selected based on convergence...",
-    "Calibrated empirically..."
-  ]
-},
-"Data_Handling": {
-  "phrases": [
-    "Preprocessed using standard normalization...",
-    "Filtered for noise suppression...",
-    "Segmented into logical intervals...",
-    "Imputed for missing values...",
-    "Balanced across classes..."
-  ]
-},
-"Feature_Selection": {
-  "phrases": [
-    "Ranked via mutual information...",
-    "Filtered by variance threshold...",
-    "Selected through recursive methods...",
-    "Derived from signal components...",
-    "Reduced using PCA..."
   ]
 },
 "Cross_Domain_Integration": {
@@ -1381,15 +1319,6 @@
     "Stabilized with momentum..."
   ]
 },
-"Data_Augmentation": {
-  "phrases": [
-    "Enriched via synthetic sampling...",
-    "Expanded using transformations...",
-    "Boosted with noise injection...",
-    "Generated from latent space...",
-    "Enhanced using interpolation..."
-  ]
-},
 
 "References": {
   "phrases": [
@@ -1406,44 +1335,28 @@
   ]
 },
 
-"Literature_Review": {
-  "phrases": [
-    "Earlier studies have primarily focused on...",
-    "Multiple approaches have been proposed for...",
-    "Existing literature indicates a trend toward...",
-    "Several models have attempted to tackle...",
-    "Prior work lacks comprehensive solutions for..."
-  ]
-},
 
-"Data_Collection": {
+"Data_Collection & Augmentation": {
   "phrases": [
     "Data were acquired from...",
     "The experimental dataset consists of...",
     "We sourced labeled data from...",
     "Observations were recorded using...",
-    "The collected data were preprocessed through..."
-  ]
-},
-"Data_Preprocessing": {
-  "phrases": [
-    "Initial preprocessing steps involved...",
-    "Outliers were removed based on...",
-    "Features were scaled using...",
-    "Time series data were segmented using...",
-    "Data normalization was applied to handle..."
+    "The collected data were preprocessed through...",
+    "Primary data acquisition was facilitated through controlled instrumentation for...",
+    "The dataset encapsulates diverse operational regimes encompassing...",
+    "Sampling intervals were calibrated to capture the dynamical evolution of...",
+    "To mitigate observational bias, a randomized deployment strategy was employed for...",
+    "Sensor fidelity and temporal resolution were prioritized during the collection of...",
+"Enriched via synthetic sampling...",
+    "Expanded using transformations...",
+    "Boosted with noise injection...",
+    "Generated from latent space...",
+    "Enhanced using interpolation..."
   ]
 },
 
-"Ablation_Study": {
-  "phrases": [
-    "Component-wise analysis confirmed the impact of...",
-    "Removing feature X resulted in decreased performance on...",
-    "The ablation study highlights the importance of...",
-    "Performance varied significantly without...",
-    "We observed that the absence of Y led to..."
-  ]
-},
+
 
 "Title_Justification": {
   "phrases": [
@@ -1451,7 +1364,12 @@
     "...encapsulates the methodology and objective.",
     "...aligns with the study's scope and intent.",
     "...signals novelty in the proposed framework.",
-    "...offers a concise representation of the findings."
+    "...offers a concise representation of the findings.",
+    "The rationale for adopting this framework is anchored in...",
+    "This approach was selected due to its proven efficacy in...",
+    "A principled justification lies in the inherent scalability of...",
+    "The choice of X technique was motivated by its robustness to...",
+    "Such design decisions were guided by precedents in the literature demonstrating..."
   ]
 },
 
@@ -1461,7 +1379,17 @@
     "...presents a diverse range of methodological approaches.",
     "...reveals a recurring gap in generalization capabilities.",
     "...underscores the need for scalable alternatives.",
-    "...suggests a shift towards data-driven paradigms."
+    "...suggests a shift towards data-driven paradigms.",
+"Earlier studies have primarily focused on...",
+    "Multiple approaches have been proposed for...",
+    "Existing literature indicates a trend toward...",
+    "Several models have attempted to tackle...",
+    "Prior work lacks comprehensive solutions for...",
+"The extant body of literature reflects a divergence in perspectives regarding...",
+    "Scholarly consensus remains elusive on the implications of...",
+    "Prior investigations have largely converged upon...",
+    "Foundational contributions by X et al. posited that...",
+    "An emerging thread in current literature seeks to reconcile..."
   ]
 },
 
@@ -1489,16 +1417,43 @@
     "...removes outliers and imputes missing values.",
     "...applies dimensionality reduction via PCA.",
     "...encodes categorical attributes using one-hot encoding.",
-    "...resamples sequences to maintain uniform time steps."
+    "...resamples sequences to maintain uniform time steps.",
+"Initial preprocessing steps involved...",
+    "Outliers were removed based on...",
+    "Features were scaled using...",
+    "Time series data were segmented using...",
+    "Data normalization was applied to handle...",
+    "The preprocessing pipeline entails dimensional homogenization via...",
+    "Noise attenuation was achieved using a bespoke filter tailored for...",
+    "Feature orthogonalization ensured independence among variables for...",
+    "Temporal alignment of sequences was realized through dynamic time warping on...",
+    "Ambiguities due to missing values were systematically resolved by...",
+"Preprocessed using standard normalization...",
+    "Filtered for noise suppression...",
+    "Segmented into logical intervals...",
+    "Imputed for missing values...",
+    "Balanced across classes..."
   ]
 },
-"Feature_Engineering": {
+
+
+"Feature_Engineering_selection & Parameter tuning": {
   "phrases": [
     "...includes handcrafted and learned representations.",
     "...extracts time-invariant and time-varying descriptors.",
     "...leverages statistical and domain-specific signals.",
     "...enhances model discriminability through augmentation.",
-    "...generates hybrid embeddings for multi-scale representation."
+    "...generates hybrid embeddings for multi-scale representation.",
+    "Hyperparameters were grid-searched...",
+    "Tuned via cross-validation...",
+    "Optimized for stability...",
+    "Selected based on convergence...",
+    "Calibrated empirically...",
+    "Ranked via mutual information...",
+    "Filtered by variance threshold...",
+    "Selected through recursive methods...",
+    "Derived from signal components...",
+    "Reduced using PCA..."
   ]
 },
 
@@ -1508,7 +1463,12 @@
     "...quantifies the contribution of selected features.",
     "...demonstrates performance degradation when excluding modules.",
     "...confirms the necessity of hybrid training.",
-    "...establishes the value of temporal modeling."
+    "...establishes the value of temporal modeling.",
+"Component-wise analysis confirmed the impact of...",
+    "Removing feature X resulted in decreased performance on...",
+    "The ablation study highlights the importance of...",
+    "Performance varied significantly without...",
+    "We observed that the absence of Y led to..."
   ]
 },
 
@@ -1519,61 +1479,12 @@
     "...remains a critical challenge in the development of adaptive intelligent systems.",
     "...has led to renewed interest in dynamic analysis frameworks.",
     "...necessitates robust and scalable methodologies.",
-    "...continues to evolve in response to increasing system complexity."
-  ]
-},
-
-"Proposed_Method": {
-  "phrases": [
-    "...is designed to operate efficiently under evolving conditions.",
-    "...builds upon prior architectures by integrating adaptive learning components.",
-    "...introduces a novel hybrid mechanism for sequential inference.",
-    "...addresses scalability through modular design principles.",
-    "...enhances classification precision by refining feature extraction."
-  ]
-},
-"Implementation": {
-  "phrases": [
-    "...was implemented using high-level scripting and compiled routines.",
-    "...utilizes asynchronous processing to minimize latency.",
-    "...leverages an extensible pipeline for modular experimentation.",
-    "...adopts configuration-free deployment for ease of integration.",
-    "...relies on cross-platform compatibility for portability."
-  ]
-},
-
-    "Motivation": {
-  "phrases": [
+    "...continues to evolve in response to increasing system complexity.",
     "Recent~developments~have~highlighted~the~need~for~enhanced~decision-making~strategies.",
     "The~complexity~of~modern~systems~necessitates~more~adaptive~approaches.",
     "Ensuring~reliable~operation~in~dynamic~environments~has~become~increasingly~challenging.",
     "There~exists~a~growing~demand~for~techniques~capable~of~handling~uncertainty~and~noise.",
-    "Scalability~and~robustness~remain~critical~objectives~in~system~design."
-  ]
-},
-
-"Proposed_Method": {
-  "phrases": [
-    "We~introduce~a~generalized~framework~designed~to~enhance~resilience~and~adaptability.",
-    "Our~approach~combines~rule-based~logic~with~statistical~learning~for~improved~accuracy.",
-    "Feature~construction~leverages~domain-agnostic~techniques~to~capture~essential~patterns.",
-    "A~multi-stage~architecture~is~utilized~to~support~both~detection~and~classification~tasks.",
-    "The~proposed~method~is~designed~to~support~scalable~real-time~inference."
-  ]
-},
-"Implementation": {
-  "phrases": [
-    "The~model~was~developed~using~a~modular~pipeline~to~ensure~flexibility~and~reproducibility.",
-    "All~components~were~integrated~within~a~unified~data~processing~framework.",
-    "Performance~optimization~was~achieved~via~parallel~processing~and~batch~operations.",
-    "Various~data~transformation~and~normalization~techniques~were~applied~prior~to~analysis.",
-    "Computational~requirements~were~evaluated~on~both~embedded~and~cloud~platforms."
-  ]
-},
-
-
-    "Motivation": {
-  "phrases": [
+    "Scalability~and~robustness~remain~critical~objectives~in~system~design.",
     "Rapid~advancement~in~sensor~technologies~has~necessitated~robust~data~interpretation~methods.",
     "The~prevalence~of~noisy~and~incomplete~sensor~data~necessitates~fault-tolerant~designs.",
     "Maintaining~data~integrity~in~large-scale~sensor~networks~remains~a~critical~challenge.",
@@ -1588,16 +1499,36 @@
     "The~framework~incorporates~temporal~filters~with~attention-based~deep~learning~modules.",
     "Feature~engineering~is~performed~using~domain-specific~statistical~and~transform~techniques.",
     "Our~pipeline~combines~anomaly~detection,~data~labeling,~and~fault~classification~into~a~unified~model.",
-    "We~employ~adaptive~thresholding~and~unsupervised~learning~for~online~detection."
+    "We~employ~adaptive~thresholding~and~unsupervised~learning~for~online~detection.",
+"We~introduce~a~generalized~framework~designed~to~enhance~resilience~and~adaptability.",
+    "Our~approach~combines~rule-based~logic~with~statistical~learning~for~improved~accuracy.",
+    "Feature~construction~leverages~domain-agnostic~techniques~to~capture~essential~patterns.",
+    "A~multi-stage~architecture~is~utilized~to~support~both~detection~and~classification~tasks.",
+    "The~proposed~method~is~designed~to~support~scalable~real-time~inference.",
+"...is designed to operate efficiently under evolving conditions.",
+    "...builds upon prior architectures by integrating adaptive learning components.",
+    "...introduces a novel hybrid mechanism for sequential inference.",
+    "...addresses scalability through modular design principles.",
+    "...enhances classification precision by refining feature extraction."
   ]
 },
 "Implementation": {
   "phrases": [
+"...was implemented using high-level scripting and compiled routines.",
+    "...utilizes asynchronous processing to minimize latency.",
+    "...leverages an extensible pipeline for modular experimentation.",
+    "...adopts configuration-free deployment for ease of integration.",
+    "...relies on cross-platform compatibility for portability.",
     "The~model~was~implemented~in~Python~using~TensorFlow~and~Scikit-learn~libraries.",
     "Sensor~data~was~collected~using~Arduino-based~setups~and~pre-processed~with~Matlab.",
     "KL~divergence~and~Hamming~distance~were~computed~for~each~principal~component~feature.",
     "Hyperparameters~were~optimized~using~grid~search~and~cross-validation.",
-    "All~experiments~were~conducted~on~a~standardized~dataset~with~multi-fault~annotations."
+    "All~experiments~were~conducted~on~a~standardized~dataset~with~multi-fault~annotations.",
+ "The~model~was~developed~using~a~modular~pipeline~to~ensure~flexibility~and~reproducibility.",
+    "All~components~were~integrated~within~a~unified~data~processing~framework.",
+    "Performance~optimization~was~achieved~via~parallel~processing~and~batch~operations.",
+    "Various~data~transformation~and~normalization~techniques~were~applied~prior~to~analysis.",
+    "Computational~requirements~were~evaluated~on~both~embedded~and~cloud~platforms."
   ]
 },
 "Training & Evaluation_Metrics": {
