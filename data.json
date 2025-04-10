@@ -100,6 +100,8 @@
     "Multi-domain exploration"
   ],
 
+ 
+
 
   "References": [
     "DOI links for datasets", "Preprint server citations", "Open-access journal articles",
@@ -2844,6 +2846,7 @@
         "Despite notable advancements, extant approaches often overlook...",
         "This research is anchored in the premise that...",
         "Our exposition is premised upon the critical insight that...",
+
         "Sensor-rich environments have become integral to cyber-physical systems, as emphasized by [56]...",
         "Despite notable progress in distributed sensor networks [57], fault detection remains underexplored in dynamic contexts...",
         "The integration of heterogeneous sensing modalities, discussed in [58], necessitates a unified interpretative layer...",
@@ -3427,7 +3430,343 @@
  }
 
      
+  },
+
+
+"Grammar Rules":{
+  "academic_verbs": {
+    "show": ["demonstrate", "illustrate", "indicate", "reveal", "present"],
+    "find": ["discover", "identify", "determine", "detect", "observe"],
+    "check": ["verify", "validate", "inspect", "assess", "examine"],
+    "make": ["construct", "formulate", "generate", "develop", "produce"],
+    "think": ["consider", "assume", "perceive", "theorize", "postulate"]
+  },
+  "hedging_expressions": {
+    "maybe": ["possibly", "potentially", "conceivably", "presumably", "arguably"],
+    "sure": ["likely", "probable", "expected", "anticipated", "plausible"],
+    "seems": ["appears", "suggests", "indicates", "implies", "evidences"],
+    "some": ["certain", "several", "a~number~of", "various", "a~few"],
+    "often": ["frequently", "commonly", "routinely", "typically", "regularly"]
+  },
+  "nominalizations": {
+    "decide": ["decision", "determination", "resolution", "judgment", "verdict"],
+    "analyze": ["analysis", "evaluation", "examination", "assessment", "scrutiny"],
+    "develop": ["development", "formulation", "progression", "creation", "advancement"],
+    "achieve": ["achievement", "attainment", "realization", "accomplishment", "success"],
+    "improve": ["improvement", "enhancement", "optimization", "refinement", "advancement"]
+  },
+  "informal_to_formal": {
+    "big": ["significant", "substantial", "considerable", "major", "extensive"],
+    "small": ["minor", "limited", "marginal", "slight", "minimal"],
+    "get": ["obtain", "receive", "acquire", "derive", "gain"],
+    "deal with": ["address", "handle", "manage", "tackle", "resolve"],
+    "show up": ["appear", "emerge", "present", "occur", "manifest"]
+  },
+  "phrases_to_avoid_in_academic_writing": {
+    "you know": ["omit"],
+    "a lot of": ["many", "numerous", "various", "several", "substantial"],
+    "kind of": ["somewhat", "relatively", "moderately", "slightly", "to~an~extent"],
+    "like": ["such~as", "for~instance", "for~example", "namely", "e.g."],
+    "stuff": ["materials", "elements", "components", "aspects", "items"]
+  },
+"verbs": {
+    "start": ["initiate", "commence", "launch", "begin", "originate"],
+    "stop": ["terminate", "conclude", "cease", "halt", "discontinue"],
+    "help": ["facilitate", "assist", "support", "enable", "aid"],
+    "lead to": ["result~in", "cause", "bring~about", "induce", "trigger"],
+    "deal with": ["address", "manage", "handle", "resolve", "tackle"]
+  },
+  "connectors": {
+    "comparison": ["similarly", "likewise", "in~comparison", "correspondingly", "equally"],
+    "sequence": ["first", "next", "then", "subsequently", "finally"],
+    "reinforcement": ["indeed", "in~fact", "notably", "in~particular", "significantly"],
+    "limitation": ["although", "even~though", "while", "nonetheless", "despite"],
+    "alternative": ["otherwise", "alternatively", "on~the~other~hand", "in~contrast", "rather"]
+  },
+  "nouns": {
+    "method": ["technique", "procedure", "approach", "strategy", "mechanism"],
+    "goal": ["objective", "aim", "target", "purpose", "intention"],
+    "development": ["progress", "advancement", "evolution", "growth", "expansion"],
+    "advantage": ["benefit", "gain", "merit", "strength", "asset"],
+    "limitation": ["drawback", "constraint", "shortcoming", "flaw", "weakness"]
+  },
+  "adjectives": {
+    "useful": ["beneficial", "advantageous", "practical", "valuable", "applicable"],
+    "common": ["frequent", "typical", "widespread", "recurrent", "prevalent"],
+    "clear": ["evident", "apparent", "explicit", "unambiguous", "obvious"],
+    "strong": ["robust", "solid", "powerful", "resilient", "intense"],
+    "weak": ["fragile", "poor", "limited", "insufficient", "unstable"]
+  },
+  "vague_to_precise": {
+    "thing": ["device", "method", "concept", "procedure", "artifact"],
+    "way": ["approach", "path", "technique", "manner", "strategy"],
+    "a lot": ["numerous", "substantial", "plentiful", "abundant", "significant"],
+    "bad": ["ineffective", "detrimental", "inadequate", "unsuitable", "adverse"],
+    "kind of": ["somewhat", "relatively", "moderately", "partially", "to~an~extent"]
+  },
+ "verbs": {
+    "get": ["obtain", "acquire", "secure", "gain", "attain"],
+    "use": ["employ", "apply", "utilize", "deploy", "execute"],
+    "show": ["indicate", "reveal", "demonstrate", "illustrate", "exhibit"],
+    "check": ["verify", "examine", "validate", "assess", "review"],
+    "make": ["construct", "develop", "generate", "formulate", "produce"]
+  },
+  "connectors": {
+    "addition": ["moreover", "furthermore", "also", "additionally", "besides"],
+    "contrast": ["however", "whereas", "nonetheless", "yet", "although"],
+    "cause": ["because", "since", "as", "due~to", "owing~to"],
+    "effect": ["thus", "hence", "therefore", "consequently", "accordingly"],
+    "example": ["for~example", "e.g.", "namely", "such~as", "specifically"],
+    "conclusion": ["therefore", "hence", "finally", "overall", "ultimately"]
+  },
+  "nouns": {
+    "result": ["outcome", "impact", "effect", "product", "finding"],
+    "change": ["shift", "adjustment", "revision", "transition", "variation"],
+    "data": ["evidence", "figures", "records", "inputs", "metrics"],
+    "study": ["analysis", "review", "investigation", "research", "examination"],
+    "problem": ["issue", "challenge", "obstacle", "barrier", "concern"]
+  },
+  "adjectives": {
+    "important": ["crucial", "vital", "key", "essential", "notable"],
+    "different": ["distinct", "varied", "diverse", "contrasting", "unlike"],
+    "big": ["major", "huge", "significant", "large", "extensive"],
+    "small": ["minor", "limited", "slight", "narrow", "minimal"],
+    "easy": ["simple", "straightforward", "uncomplicated", "clear", "direct"]
+  },
+  "vague_to_precise": {
+    "thing": ["factor", "element", "aspect", "variable", "feature"],
+    "stuff": ["items", "materials", "components", "objects", "resources"],
+    "lots": ["many", "numerous", "several", "abundant", "countless"],
+    "some": ["a~few", "certain", "selected", "specific", "a~portion"],
+    "good": ["effective", "efficient", "beneficial", "advantageous", "favorable"]
+  },
+
+  "academic_verbs": {
+    "increase": ["escalate", "amplify", "augment", "elevate", "intensify", "accelerate", "advance", "enhance", "broaden", "magnify"],
+    "show": ["demonstrate", "illustrate", "indicate", "reveal", "depict", "highlight", "exhibit", "display", "present", "elucidate"],
+    "use": ["utilize", "employ", "apply", "implement", "adopt", "execute", "exploit", "operate", "administer", "leverage"]
+  },
+  "academic_connectors": {
+    "addition": ["moreover", "furthermore", "in~addition", "additionally", "besides", "what~is~more", "also", "as~well", "not~only~that", "to~boot"],
+    "contrast": ["however", "nevertheless", "on~the~contrary", "on~the~other~hand", "nonetheless", "whereas", "alternatively", "conversely", "still", "albeit"],
+    "cause_effect": ["as~a~result", "therefore", "consequently", "thus", "hence", "accordingly", "resulting~in", "due~to~this", "this~leads~to", "in~turn"],
+    "examples": ["for~example", "for~instance", "namely", "such~as", "to~illustrate", "in~particular", "as~exemplified~by", "specifically", "including", "e.g."],
+    "conclusion": ["in~conclusion", "to~summarize", "in~summary", "overall", "to~recap", "ultimately", "all~things~considered", "hence", "in~brief", "as~a~final~point"]
+  },
+  "academic_nouns": {
+    "change": ["alteration", "modification", "transformation", "adjustment", "evolution", "transition", "reformation", "variation", "amendment", "shift"],
+    "result": ["outcome", "consequence", "effect", "impact", "repercussion", "ramification", "derivation", "aftereffect", "byproduct", "implication"],
+    "research": ["investigation", "study", "analysis", "examination", "inquiry", "evaluation", "scrutiny", "review", "exploration", "survey"]
+  },
+  "informal_to_formal": {
+    "a~lot~of": ["numerous", "many", "a~substantial~amount~of", "a~significant~number~of", "a~considerable~quantity~of", "abundant", "a~plethora~of", "extensive", "multitude~of", "ample"],
+    "get": ["obtain", "receive", "acquire", "secure", "gain", "procure", "attain", "collect", "derive", "fetch"],
+    "stuff": ["materials", "components", "items", "elements", "factors", "contents", "substances", "objects", "entities", "resources"]
+  },
+  "vague_to_precise": {
+    "things": ["factors", "elements", "components", "aspects", "features", "variables", "entities", "objects", "parameters", "criteria"],
+    "big": ["significant", "substantial", "extensive", "major", "considerable", "enormous", "marked", "pronounced", "important", "notable"],
+    "important": ["crucial", "essential", "vital", "pivotal", "key", "critical", "noteworthy", "paramount", "imperative", "indispensable"]
+  },
+  "common_mistakes": {
+    "tense_shift": "Inconsistent use of present and past tense",
+    "redundancy": "Repeating ideas unnecessarily",
+    "informal_language": "Use of contractions or casual expressions",
+    "imprecise_words": "Use of vague terms such as 'things', 'stuff'",
+    "unclear_pronouns": "Using 'this' or 'it' without a clear antecedent"
+  },
+  "strategies_to_correct_mistakes": {
+    "tense_shift": ["Use~past~for~methods", "Use~present~for~general~facts", "Maintain~tense~within~sections", "Check~verb~forms", "Proofread~for~tense~alignment"],
+    "redundancy": ["Eliminate~repetition", "Use~concise~phrases", "Avoid~double~phrases~(e.g.~'in~order~to')", "Summarize~repeated~ideas", "Revise~for~brevity"],
+    "informal_language": ["Replace~with~academic~synonyms", "Avoid~contractions", "Check~for~slang", "Use~formal~phrases", "Maintain~professional~tone"],
+    "imprecise_words": ["Use~specific~terms", "Replace~'things'~with~technical~nouns", "Clarify~context", "Avoid~generalities", "Choose~measurable~language"],
+    "unclear_pronouns": ["Define~what~'it'refers~to", "Repeat~the~noun~when~needed", "Avoid~ambiguous'this'", "Use~specific~descriptions", "Keep~pronoun~references~close"]
+  },
+
+ "Advanced_Academic_Language": {
+    "Verbs": {
+      "start": ["initiate", "commence", "launch", "undertake", "inaugurate", "trigger", "activate", "establish", "begin", "originate"],
+      "stop": ["cease", "terminate", "discontinue", "halt", "conclude", "end", "revoke", "abandon", "suspend", "withdraw"],
+      "think": ["consider", "contemplate", "evaluate", "reflect", "deliberate", "assess", "speculate", "examine", "analyze", "infer"],
+      "say": ["state", "declare", "assert", "claim", "mention", "indicate", "report", "express", "affirm", "note"],
+      "look": ["observe", "examine", "inspect", "analyze", "scrutinize", "scan", "review", "survey", "study", "monitor"]
+    },
+    "Academic_Connectors": {
+      "comparison": ["similarly", "likewise", "in the same way", "correspondingly", "equally", "analogously", "in like manner", "comparably", "paralleling", "uniformly"],
+      "clarification": ["in other words", "that is to say", "to clarify", "namely", "specifically", "put differently", "expressed differently", "to put it simply", "to elucidate", "i.e."],
+      "qualification": ["although", "even though", "while", "despite", "though", "whereas", "albeit", "notwithstanding", "regardless of", "yet"],
+      "purpose": ["in order to", "so that", "to this end", "with this aim", "for the purpose of", "so as to", "with the intention of", "thereby", "thus enabling", "in pursuit of"],
+      "reinforcement": ["indeed", "in fact", "as a matter of fact", "it is worth noting", "notably", "significantly", "it should be emphasized", "clearly", "importantly", "evidently"]
+    },
+    "Nouns": {
+      "result": ["outcome", "consequence", "effect", "product", "finding", "implication", "repercussion", "byproduct", "aftermath", "conclusion"],
+      "problem": ["issue", "challenge", "difficulty", "complication", "obstacle", "hindrance", "concern", "barrier", "setback", "dilemma"],
+      "idea": ["concept", "notion", "premise", "thought", "hypothesis", "theory", "framework", "model", "assumption", "proposition"],
+      "way": ["method", "approach", "technique", "procedure", "strategy", "process", "system", "pathway", "mechanism", "mode"],
+      "reason": ["cause", "justification", "explanation", "rationale", "basis", "ground", "determinant", "motive", "source", "factor"]
+    },
+    "Common_Mistakes_and_Corrections": {
+      "personal_language": {
+        "mistakes": ["I think", "In my opinion", "I believe", "We can see", "You can observe"],
+        "formal_equivalents": ["It is suggested that", "It appears that", "One could argue that", "This study demonstrates", "It is evident that"]
+      },
+      "casual_transitions": {
+        "mistakes": ["plus", "so", "also", "like", "but"],
+        "formal_equivalents": ["moreover", "therefore", "in addition", "such as", "however"]
+      },
+      "colloquial_phrases": {
+        "mistakes": ["a lot", "kind of", "sort of", "stuff", "thing"],
+        "formal_equivalents": ["numerous", "to some extent", "category", "materials", "aspect"]
+      },
+      "slang_in_writing": {
+        "mistakes": ["cool", "awesome", "a bunch of", "a ton of", "crazy"],
+        "formal_equivalents": ["effective", "impressive", "a considerable number of", "a large amount of", "complex"]
+      },
+      "repetition": {
+        "mistakes": ["very important", "very useful", "very big", "very good", "very bad"],
+        "formal_equivalents": ["crucial", "highly beneficial", "substantial", "commendable", "detrimental"]
+      }
+    },
+    "Vague_Language": {
+      "examples": ["some", "many", "thing", "a lot", "various", "etc.", "kind of", "sort of", "more or less", "stuff"],
+      "suggested_replacements": ["a specific number of", "numerous", "aspect", "a considerable amount of", "several", "including but not limited to", "to a certain degree", "type", "approximately", "materials"]
+    }
+  },
+ "General_Words": {
+      "increase": ["augmentation", "expansion", "escalation", "amplification", "proliferation", "elevation", "enhancement", "growth", "surge", "accumulation"],
+      "decrease": ["reduction", "decline", "diminution", "attenuation", "contraction", "drop", "curtailment", "retrenchment", "mitigation", "subsidence"],
+      "change": ["modification", "transformation", "alteration", "transition", "evolution", "adaptation", "conversion", "revision", "adjustment", "metamorphosis"],
+      "important": ["significant", "crucial", "vital", "noteworthy", "essential", "paramount", "pivotal", "instrumental", "momentous", "salient"],
+      "show": ["demonstrate", "illustrate", "depict", "represent", "highlight", "present", "exhibit", "reveal", "convey", "elucidate"],
+      "good": ["beneficial", "advantageous", "constructive", "favorable", "effective", "optimal", "commendable", "notable", "satisfactory", "laudable"],
+      "bad": ["detrimental", "adverse", "undesirable", "suboptimal", "ineffective", "inadequate", "flawed", "inferior", "unfavorable", "problematic"]
+    },
+    "Verbs": {
+      "use": ["utilize", "employ", "leverage", "apply", "adopt", "implement", "exploit", "incorporate", "deploy", "administer"],
+      "get": ["obtain", "acquire", "receive", "derive", "attain", "procure", "gain", "secure", "fetch", "access"],
+      "make": ["formulate", "construct", "develop", "design", "generate", "compose", "produce", "create", "assemble", "synthesize"],
+      "help": ["facilitate", "support", "aid", "assist", "enable", "promote", "enhance", "contribute", "bolster", "foster"],
+      "need": ["require", "necessitate", "demand", "call for", "entail", "warrant", "seek", "mandate", "obligate", "depend on"]
+    },
+    "Academic_Connectors": {
+      "addition": ["furthermore", "moreover", "in addition", "additionally", "likewise", "what is more", "besides", "also", "as well", "correspondingly"],
+      "contrast": ["however", "nevertheless", "nonetheless", "on the contrary", "whereas", "while", "conversely", "yet", "alternatively", "even so"],
+      "cause_effect": ["therefore", "thus", "consequently", "as a result", "hence", "accordingly", "due to this", "owing to this", "resultantly", "for this reason"],
+      "example": ["for instance", "for example", "to illustrate", "as evidenced by", "as demonstrated by", "namely", "such as", "including", "in particular", "to exemplify"],
+      "sequence": ["firstly", "secondly", "subsequently", "thereafter", "eventually", "ultimately", "then", "next", "afterward", "finally"],
+      "conclusion": ["in conclusion", "to conclude", "in summary", "to summarize", "ultimately", "overall", "in brief", "on the whole", "in essence", "in closing"]
+    },
+    "Formal_Phrase_Transformations": {
+      "a lot of": ["numerous", "a considerable number of", "a significant amount of", "a substantial quantity of", "a plethora of", "many", "a wide range of", "an abundance of", "a great deal of", "a multitude of"],
+      "kind of": ["somewhat", "to a certain extent", "relatively", "moderately", "comparatively", "in part", "partially", "fairly", "marginally", "rather"],
+      "thing": ["aspect", "factor", "element", "component", "attribute", "feature", "characteristic", "parameter", "variable", "constituent"],
+      "stuff": ["materials", "items", "components", "elements", "substances", "resources", "objects", "data", "content", "information"],
+      "big": ["substantial", "considerable", "immense", "significant", "major", "extensive", "enormous", "massive", "sizeable", "profound"]
+    },
+    "Common_Mistakes_and_Corrections": {
+      "contractions": {
+        "mistakes": ["don't", "can't", "won't", "isn't", "didn't"],
+        "formal_equivalents": ["do not", "cannot", "will not", "is not", "did not"]
+      },
+      "vague_language": {
+        "mistakes": ["things", "stuff", "nice", "good", "bad"],
+        "formal_equivalents": ["aspects", "materials", "appropriate", "effective", "ineffective"]
+      },
+      "redundancy": {
+        "mistakes": ["in order to", "the reason is because", "due to the fact that", "completely unanimous", "free gift"],
+        "formal_equivalents": ["to", "because", "since", "unanimous", "gift"]
+      },
+      "informal_verbs": {
+        "mistakes": ["get", "give", "do", "make", "put"],
+        "formal_equivalents": ["obtain", "provide", "perform", "develop", "place"]
+      },
+      "imprecise_quantifiers": {
+        "mistakes": ["lots of", "a bunch of", "tons of", "loads of", "heaps of"],
+        "formal_equivalents": ["a number of", "several", "a considerable amount of", "numerous", "a large quantity of"]
+      }
+    },
+ "General_Verbs": {
+      "show": ["substantiate", "underscore", "validate", "exemplify", "elucidate", "illuminate", "justify", "authenticate", "manifest", "corroborate"],
+      "tell": ["articulate", "disseminate", "elaborate", "elucidate", "relate", "outline", "summarize", "depict", "narrate", "document"],
+      "start": ["commence", "inaugurate", "originate", "institute", "spearhead", "activate", "initialize", "embark_on", "set_in_motion", "instigate"],
+      "end": ["culminate", "conclude", "wind_up", "finalize", "resolve", "discontinue", "dissolve", "complete", "expire", "wrap_up"],
+      "make": ["fabricate", "orchestrate", "instantiate", "configure", "engineer", "mold", "constitute", "synthesize", "assemble", "actualize"],
+      "do": ["facilitate", "coordinate", "operationalize", "prosecute", "instigate", "mobilize", "orchestrate", "supervise", "initiate", "enact"],
+      "think": ["deliberate", "contemplate", "discern", "evaluate", "infer", "reason", "speculate", "ruminate", "deduce", "analyze"],
+      "use": ["capitalize_on", "appropriately_apply", "deploy", "administer", "make_use_of", "optimize", "employ_with_precision", "integrate_effectively", "strategically_utilize", "exploit_advantageously"],
+      "get_better": ["augment", "fine-tune", "recalibrate", "rectify", "strengthen", "streamline", "revamp", "amplify", "bolster", "enrich"]
+    },
+    "Adjectives": {
+      "big": ["robust", "comprehensive", "all-encompassing", "macro-level", "immense", "significant_in_scope", "far-reaching", "substantially_scaled", "profound", "monumental"],
+      "small": ["granular", "subtle", "discrete", "limited_in_scope", "minor_scale", "infinitesimal", "compact", "marginal", "inconsequential", "microscopic"],
+      "good": ["commendable", "meritorious", "noteworthy", "laudable", "salient", "satisfactory", "positive", "substantive", "proficient", "sound"],
+      "bad": ["deficient", "problematic", "suboptimal", "unreliable", "inadequate", "erroneous", "undesirable", "fallacious", "incongruent", "counterproductive"],
+      "new": ["recently_developed", "progressive", "cutting-edge", "novelty_oriented", "pioneering", "previously_unexplored", "contemporary", "emergent", "state-of-the-art", "advancement-based"],
+      "old": ["archaic", "deprecated", "historically_utilized", "antiquated", "former_version", "legacy", "outdated_method", "preceding", "superseded", "traditional"]
+    },
+    "Quantifiers": {
+      "a_lot": ["plethora", "multitude", "proliferation", "overabundance", "superfluity", "copious_amount", "vast_number", "high_volume", "innumerable", "abundance"],
+      "few": ["a_scant_number", "underrepresented", "diminutive_portion", "a_sparse_set", "sporadic_cases", "a_small_fraction", "nominal_presence", "isolated_instances", "limited_appearance", "a_slight_share"],
+      "more": ["incremental", "enhanced", "augmented", "magnified", "expanded", "surged", "heightened", "exponentiated", "progressive", "advanced"],
+      "less": ["contracted", "attenuated", "streamlined", "recessed", "diminished", "abridged", "reduced_in_frequency", "limited_in_occurrence", "lower_in_density", "deflated"]
+    },
+    "Common_Nouns": {
+      "stuff": ["subject_matter", "material_entities", "technical_elements", "constituent_components", "empirical_assets", "physical_resources", "scientific_inputs", "data-driven_units", "experimental_matter", "compositional_items"],
+      "thing": ["construct", "phenomenon", "framework", "entity", "artifact", "module", "aspect", "element", "instance", "factor"],
+      "job": ["obligation", "mandate", "academic_assignment", "research_duty", "technical_task", "designated_function", "professional_responsibility", "executive_role", "operational_task", "institutional_duty"],
+      "goal": ["research_objective", "desired_outcome", "long-term_target", "strategic_intent", "academic_aspiration", "investigational_focus", "scientific_aim", "design_goal", "performance_benchmark", "analytical_purpose"],
+      "way": ["methodology", "scientific_approach", "structured_technique", "strategic_model", "analytical_path", "process_flow", "procedure", "implementation_scheme", "framework", "technical_routing"]
+    },
+    "Connectors": {
+      "addition": ["correspondingly", "simultaneously", "in_a_related_manner", "further_to_this", "as_a_supplement", "in_the_same_vein", "coextensively", "jointly", "cumulatively", "coherently"],
+      "contrast": ["in_dichotomy", "inversely", "diametrically_opposed", "at_variance", "in_polarity", "on_the_flip_side", "by_contrast", "in_disparity", "in_deviation", "contradictorily"],
+      "result": ["with_the_outcome_that", "leading_to", "culminating_in", "inducing", "yielding", "resultantly", "bringing_about", "triggering", "materializing", "subsequently_resulting"],
+      "cause": ["stemming_from", "initiated_by", "as_a_consequence_of", "derived_from", "owing_to_the_fact_that", "brought_about_by", "induced_by", "facilitated_by", "resulting_from", "founded_on"],
+      "clarification": ["to_be_more_precise", "explicitly", "in_specific_terms", "as_illustrated_by", "this_can_be_seen_in", "namely", "as_evidenced_by", "as_shown_by", "with_particular_reference_to", "for_greater_clarity"],
+      "emphasis": ["most_importantly", "it_should_be_noted", "above_all", "in_particular_emphasis", "with_focus_on", "most_significantly", "it_is_crucial_to_note", "predominantly", "markedly", "with_significant_attention"]
+    },
+
+"General_Verbs": {
+    "show": ["demonstrate", "illustrate", "reveal", "indicate", "present", "exhibit", "convey", "highlight", "display", "signify"],
+    "tell": ["inform", "notify", "state", "report", "declare", "convey", "explain", "communicate", "advise", "assert"],
+    "start": ["commence", "initiate", "begin", "launch", "open", "undertake", "establish", "introduce", "originate", "trigger"],
+    "end": ["conclude", "terminate", "finish", "complete", "close", "cease", "finalize", "halt", "bring to an end", "wrap up"],
+    "make": ["construct", "create", "produce", "generate", "formulate", "develop", "establish", "synthesize", "engineer", "derive"],
+    "do": ["perform", "conduct", "carry out", "execute", "implement", "undertake", "accomplish", "realize", "enact", "apply"],
+    "think": ["believe", "assume", "consider", "suppose", "hypothesize", "propose", "postulate", "assess", "reflect", "presume"],
+    "use": ["utilize", "employ", "apply", "adopt", "exploit", "implement", "leverage", "harness", "engage", "integrate"],
+    "get_better": ["improve", "enhance", "refine", "optimize", "advance", "develop", "upgrade", "progress", "boost", "evolve"]
+  },
+  "Adjectives": {
+    "big": ["large", "substantial", "considerable", "significant", "vast", "extensive", "immense", "enormous", "major", "broad"],
+    "small": ["minor", "minimal", "negligible", "slight", "limited", "modest", "trivial", "narrow", "compact", "marginal"],
+    "good": ["beneficial", "effective", "favorable", "suitable", "advantageous", "efficient", "useful", "constructive", "commendable", "valuable"],
+    "bad": ["poor", "inadequate", "undesirable", "ineffective", "inappropriate", "faulty", "substandard", "detrimental", "flawed", "unfavorable"],
+    "new": ["novel", "innovative", "recent", "current", "fresh", "emerging", "contemporary", "original", "updated", "latest"],
+    "old": ["previous", "prior", "former", "outdated", "traditional", "earlier", "obsolete", "historic", "ancient", "preceding"]
+  },
+  "Quantifiers": {
+    "a_lot": ["numerous", "a_great_deal", "considerable", "substantial", "a_significant_number", "an_abundance", "copious", "myriad", "a_multitude", "several"],
+    "few": ["a_limited_number", "a_small_subset", "a_minority", "not_many", "a_handful_of", "scarce", "minimal", "infrequent", "rare", "a_reduced_number"],
+    "more": ["additional", "further", "extra", "greater", "expanded", "increased", "extended", "surplus", "supplementary", "amplified"],
+    "less": ["reduced", "decreased", "diminished", "limited", "lesser", "lowered", "curtailed", "minimal", "restricted", "fewer"]
+  },
+  "Common_Nouns": {
+    "stuff": ["materials", "substances", "components", "items", "contents", "entities", "resources", "ingredients", "elements", "data"],
+    "thing": ["concept", "aspect", "factor", "component", "item", "entity", "feature", "variable", "issue", "object"],
+    "job": ["task", "responsibility", "duty", "occupation", "assignment", "role", "function", "position", "activity", "employment"],
+    "goal": ["objective", "aim", "target", "purpose", "intention", "outcome", "ambition", "aspiration", "end", "mission"],
+    "way": ["method", "approach", "manner", "strategy", "process", "mechanism", "technique", "mode", "pathway", "means"]
+  },
+  "Connectors": {
+    "addition": ["moreover", "furthermore", "in_addition", "additionally", "not_only_that", "likewise", "similarly", "what_is_more", "besides", "concurrently"],
+    "contrast": ["however", "nevertheless", "nonetheless", "on_the_other_hand", "conversely", "whereas", "although", "despite_that", "yet", "in_contrast"],
+    "result": ["therefore", "thus", "hence", "consequently", "accordingly", "as_a_result", "for_this_reason", "in_turn", "eventually", "subsequently"],
+    "cause": ["since", "as", "due_to_the_fact_that", "in_view_of", "owing_to", "given_that", "for_the_reason_that", "considering", "on_account_of", "because"],
+    "clarification": ["such_as", "for_example", "for_instance", "to_illustrate", "namely", "including", "as_demonstrated_by", "as_seen_in", "that_is", "as_follows"],
+    "emphasis": ["significantly", "particularly", "notably", "especially", "markedly", "considerably", "strongly", "substantially", "vitally", "extensively"]
   }
 
+}
   
 }
