@@ -5680,7 +5680,7 @@
 
   },
 "Rules_phase2":{
-  "additional_grammar_rules": [
+  "additional_grammar_rules": {
       "rule": "Use of consistent verb tense",
       "description": "Maintain the same verb tense throughout a section or paragraph. Use past tense for methods and results, present tense for established facts.",
       "rule2": "Avoid anthropomorphism",
@@ -5701,8 +5701,8 @@
       "description9": "Place adjectives, adverbs, and clauses near the words they modify to avoid ambiguity.",
       "rule10": "Use formal transitions",
       "description10": "Use academic connectors like 'Moreover', 'However', 'In addition', instead of informal ones like 'plus' or 'so'."
-  ],
-  "common_mistakes_by_students": [
+  },
+  "common_mistakes_by_students": {
       "mistake": "Using informal or conversational language",
       "description": "Using phrases like 'a lot of', 'kind of', or 'basically' reduces formality and clarity.",
       "mistake2": "Improper structure",
@@ -5733,10 +5733,10 @@
       "description14": "Failing to comply with the journal’s submission criteria.",
       "mistake15": "Not proofreading or peer reviewing before submission",
       "description15": "Submitting without revision leads to errors that could easily have been corrected."
-  ]
+  }
 },
 "Rules_phase3":{
-  "grammar_rules": [
+  "grammar_rules": {
     
       "rule": "Passive Voice",
       "definition": "Use passive voice to emphasize the action or result rather than the subject performing it.",
@@ -6076,7 +6076,7 @@
         "We assume the hypothesis is true."
       ]
     
-  ]
+  }
 },
 
 "Common examples of grammar rules":{
