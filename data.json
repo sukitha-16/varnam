@@ -465,8 +465,10 @@
             "Findings~suggest~wider~applicability~in~autonomous~systems",
             "The~framework~sets~the~foundation~for~future~adaptive~diagnostics",
             "This~approach~can~be~extended~to~heterogeneous~multi-sensor~networks",
-            "Our~work~contributes~towards~resilient~and~adaptive~CPS~design"
-          ]
+            "Our~work~contributes~towards~resilient~and~adaptive~CPS~design",
+		"This~suggests~that", "A~broader~implication~is", "It~can~be~inferred~that", "This~points~to", "This~leads~to~the~conclusion~that"
+          ],
+"description": "Used to present logical conclusions or broader significance."
         },
         
      "To~Introduce~Analytical~Context": {
@@ -698,7 +700,8 @@
             "Of~particular~importance~is",
             "Given~the~increasing~relevance~of",
             "In~light~of~recent~developments",
-            "Considering~the~complexity~of"
+            "Considering~the~complexity~of",
+"This~is~of~particular~importance", "A~key~implication~is", "This~contributes~to", "This~underscores"
         ],
         "description": "Used to justify the relevance and timeliness of the research."
     },
@@ -882,11 +885,7 @@
         "antonyms": [],
         "description": "Used to show how a study or idea continues from earlier work."
     },
-    "To~Conclude~with~Implications": {
-        "synonyms": ["This~suggests~that", "A~broader~implication~is", "It~can~be~inferred~that", "This~points~to", "This~leads~to~the~conclusion~that"],
-        "antonyms": [],
-        "description": "Used to present logical conclusions or broader significance."
-    },
+  
     "To~Introduce~Future~Outlook": {
         "synonyms": ["Future~directions~include", "This~paves~the~way~for", "Looking~ahead", "Potential~developments~may~involve"],
         "antonyms": [],
@@ -969,12 +968,7 @@
         "antonyms": [],
         "description": "Used to introduce or clarify precise meanings of terms or ideas."
     },
-    "To~Establish~Significance": {
-        "synonyms": ["This~is~of~particular~importance", "A~key~implication~is", "This~contributes~to", "This~underscores"],
-        "antonyms": [],
-        "description": "Used to emphasize the impact or relevance of findings or ideas."
-    },
-
+    
 
     "To~Introduce~an~Idea": {
         "synonyms": ["To~begin~with", "It~is~important~to~note~that", "Firstly", "Initially", "Primarily"],
@@ -1176,14 +1170,10 @@
         "antonyms": ["Chaos", "Disorganization", "Disarray"],
         "description": "The automated configuration and management of complex systems and workflows."
     },
-    "Validation": {
-        "synonyms": ["Verification", "Confirmation", "Testing", "Approval"],
-        "antonyms": ["Refutation", "Invalidation", "Denial"],
-        "description": "The process of ensuring a model or system meets its intended purpose or criteria."
-    },
+    
     "Optimization": {
-        "synonyms": ["Enhancement", "Tuning", "Maximization", "Improvement"],
-        "antonyms": ["Degradation", "Worsening", "Neglect"],
+        "synonyms": ["Enhancement", "Tuning", "Maximization", "Improvement", "Enhancement", "Improvement", "Refinement", "Tuning", "Maximization"],
+        "antonyms": ["Degradation", "Worsening", "Neglect", "Worsening", "Degradation", "Inefficiency"],
         "description": "The act of making a system or model as effective and efficient as possible."
     },
     "Fusion": {
@@ -1248,10 +1238,11 @@
         "description": "A step-by-step set of instructions for solving a problem or performing a computation."
     },
     "Latency": {
-        "synonyms": ["Delay", "Response time", "Wait time", "Lag"],
-        "antonyms": ["Immediacy", "Promptness"],
-        "description": "The time taken for a system to respond to an input or event."
+        "synonyms": ["Delay", "Lag", "Response time", "Waiting time", "Wait time", "Lag"],
+        "antonyms": ["Instantaneity", "Immediacy", "Promptness"],
+        "description": "The time delay between an input or stimulus and the corresponding system response."
     },
+
     "Throughput": {
         "synonyms": ["Bandwidth", "Processing rate", "Data rate", "Capacity"],
         "antonyms": ["Bottleneck", "Delay", "Slowdown"],
@@ -1318,7 +1309,7 @@
         "description": "A detectable action or occurrence within a system that may require a response."
     },
     "Analysis": {
-        "synonyms": ["Examination", "Evaluation", "Assessment", "Inspection", "Scrutiny", "Study", "Dissection", "Interpretation"],
+        "synonyms": ["Examination", "Evaluation", "Assessment", "Inspection", "Scrutiny", "Study", "Dissection", "Interpretation", "Examination", "Evaluation", "Assessment"],
         "antonyms": ["Neglect", "Ignore", "Overlook", "Disregard"],
         "description": "The process of methodically examining components, data, or systems to understand their structure, function, or performance."
     },
@@ -1372,11 +1363,7 @@
         "antonyms": ["Misalignment", "Drift", "Offset"],
         "description": "The process of configuring a system or sensor to provide accurate output by comparing it against a known standard."
     },
-    "Validation": {
-        "synonyms": ["Verification", "Authentication", "Confirmation", "Approval", "Certification"],
-        "antonyms": ["Rejection", "Disproof", "Invalidation"],
-        "description": "The act of ensuring that a system or component meets the requirements and performs as intended."
-    },
+   
     "Security": {
         "synonyms": ["Protection", "Safety", "Defense", "Safeguard", "Shielding"],
         "antonyms": ["Vulnerability", "Insecurity", "Exposure", "Risk"],
@@ -1387,21 +1374,13 @@
         "antonyms": ["Inaccuracy", "Error", "Imprecision", "Distortion"],
         "description": "The degree to which a measurement or output closely reflects the true value or intended result."
     },
-    "Latency": {
-        "synonyms": ["Delay", "Lag", "Response time", "Waiting time"],
-        "antonyms": ["Instantaneity", "Immediacy", "Promptness"],
-        "description": "The time delay between an input or stimulus and the corresponding system response."
-    },
+    
     "Redundancy": {
         "synonyms": ["Backup", "Duplication", "Failover", "Spare capacity"],
         "antonyms": ["Singularity", "Scarcity", "Insufficiency"],
         "description": "Inclusion of extra components or data to ensure reliability in case of failure."
     },
-    "Optimization": {
-        "synonyms": ["Enhancement", "Improvement", "Refinement", "Tuning", "Maximization"],
-        "antonyms": ["Worsening", "Degradation", "Inefficiency"],
-        "description": "The process of making a system or component as effective, functional, or efficient as possible."
-    },
+   
     "Model": {
         "synonyms": ["Representation", "Simulation", "Structure", "Blueprint", "Framework"],
         "antonyms": ["Reality", "Disorder", "Deviation"],
@@ -1413,12 +1392,6 @@
         "description": "Unwanted disturbances or variations in a signal that obscure or distort information."
     },
 
-
-                "Analysis": {
-                    "synonyms": ["Examination", "Evaluation", "Assessment"],
-                    "antonyms": ["Neglect", "Ignore"],
-                    "description": "The process of examining something methodically."
-                },
 
                 "Research": {
                     "synonyms": ["Investigation", "Study", "Exploration"],
@@ -1596,15 +1569,7 @@
     "Subjects were debriefed post-trial, ensuring full disclosure of..."
   ]
 },
-"Objectives": {
-  "phrases": [
-    "This study sets out to achieve three interlinked objectives...",
-    "Our overarching aim is to systematically interrogate...",
-    "This work seeks to establish a coherent methodology for...",
-    "We aim to elucidate the dynamics underpinning...",
-    "An auxiliary objective involves exploring the relationship between..."
-  ]
-},
+
 "Hypothesis": {
   "phrases": [
     "It is postulated that the deployment of X will result in...",
@@ -1648,7 +1613,10 @@
     "Cross-validation procedures reinforced the reliability of...",
     "Statistical significance was established via bootstrapped sampling of...",
     "Empirical validation lends credence to the robustness of..."
-  ]
+  ],
+"synonyms": ["Verification", "Confirmation", "Testing", "Approval", "Verification", "Authentication", "Confirmation", "Approval", "Certification"],
+        "antonyms": ["Refutation", "Invalidation", "Denial", "Rejection", "Disproof", "Invalidation"],
+        "description": "The process of ensuring a model or system meets its intended purpose or criteria."
 },
 "Interpretation": {
   "phrases": [
@@ -1864,9 +1832,13 @@
     "An emerging thread in current literature seeks to reconcile..."
   ]
 },
-
 "Objectives": {
   "phrases": [
+    "This study sets out to achieve three interlinked objectives...",
+    "Our overarching aim is to systematically interrogate...",
+    "This work seeks to establish a coherent methodology for...",
+    "We aim to elucidate the dynamics underpinning...",
+    "An auxiliary objective involves exploring the relationship between...",
     "...to develop a robust and interpretable model.",
     "...to evaluate the effectiveness under noisy conditions.",
     "...to establish a unified framework for real-time analytics.",
@@ -1874,6 +1846,7 @@
     "...to assess performance across diverse datasets."
   ]
 },
+
 "Experimental_Setup": {
   "phrases": [
     "...was implemented using open-source libraries and custom modules.",
@@ -3434,13 +3407,27 @@
 
 
 "Grammar Rules":{
-  "academic_verbs": {
-    "show": ["demonstrate", "illustrate", "indicate", "reveal", "present"],
+  "verbs": {
+    "show": ["demonstrate", "illustrate", "indicate", "reveal", "present", "indicate", "reveal", "demonstrate", "illustrate", "exhibit"],
     "find": ["discover", "identify", "determine", "detect", "observe"],
-    "check": ["verify", "validate", "inspect", "assess", "examine"],
-    "make": ["construct", "formulate", "generate", "develop", "produce"],
-    "think": ["consider", "assume", "perceive", "theorize", "postulate"]
-  },
+    "check": ["verify", "validate", "inspect", "assess", "examine", "verify", "examine", "validate", "assess", "review"],
+    "make": ["formulate", "construct", "develop", "design", "generate", "compose", "produce", "create", "assemble", "synthesize", "construct", "formulate", "generate", "develop", "produce", "construct", "develop", "generate", "formulate", "produce"],
+    "think": ["consider", "assume", "perceive", "theorize", "postulate", "consider", "contemplate", "evaluate", "reflect", "deliberate", "assess", "speculate", "examine", "analyze", "infer"],
+    "start": ["initiate", "commence", "launch", "begin", "originate", "initiate", "commence", "launch", "undertake", "inaugurate", "trigger", "activate", "establish", "begin", "originate"],
+    "stop": ["terminate", "conclude", "cease", "halt", "discontinue", "cease", "terminate", "discontinue", "halt", "conclude", "end", "revoke", "abandon", "suspend", "withdraw"],
+    "help": ["facilitate", "assist", "support", "enable", "aid", "facilitate", "support", "aid", "assist", "enable", "promote", "enhance", "contribute", "bolster", "foster"],
+    "lead to": ["result~in", "cause", "bring~about", "induce", "trigger"],
+    "deal with": ["address", "manage", "handle", "resolve", "tackle"],
+    "get": ["obtain", "acquire", "secure", "gain", "attain", "obtain", "acquire", "receive", "derive", "attain", "procure", "gain", "secure", "fetch", "access"],
+    "use": ["employ", "apply", "utilize", "deploy", "execute", "utilize", "employ", "leverage", "apply", "adopt", "implement", "exploit", "incorporate", "deploy", "administer"],
+    
+
+      "say": ["state", "declare", "assert", "claim", "mention", "indicate", "report", "express", "affirm", "note"],
+      "look": ["observe", "examine", "inspect", "analyze", "scrutinize", "scan", "review", "survey", "study", "monitor"],
+     
+      "need": ["require", "necessitate", "demand", "call for", "entail", "warrant", "seek", "mandate", "obligate", "depend on"]
+    },
+
   "hedging_expressions": {
     "maybe": ["possibly", "potentially", "conceivably", "presumably", "arguably"],
     "sure": ["likely", "probable", "expected", "anticipated", "plausible"],
@@ -3458,9 +3445,12 @@
   "informal_to_formal": {
     "big": ["significant", "substantial", "considerable", "major", "extensive"],
     "small": ["minor", "limited", "marginal", "slight", "minimal"],
-    "get": ["obtain", "receive", "acquire", "derive", "gain"],
+    "get": ["obtain", "receive", "acquire", "derive", "gain", "obtain", "receive", "acquire", "secure", "gain", "procure", "attain", "collect", "derive", "fetch"],
     "deal with": ["address", "handle", "manage", "tackle", "resolve"],
-    "show up": ["appear", "emerge", "present", "occur", "manifest"]
+    "show up": ["appear", "emerge", "present", "occur", "manifest"],
+  "a~lot~of": ["numerous", "many", "a~substantial~amount~of", "a~significant~number~of", "a~considerable~quantity~of", "abundant", "a~plethora~of", "extensive", "multitude~of", "ample"],
+    
+    "stuff": ["materials", "components", "items", "elements", "factors", "contents", "substances", "objects", "entities", "resources"]
   },
   "phrases_to_avoid_in_academic_writing": {
     "you know": ["omit"],
@@ -3469,49 +3459,13 @@
     "like": ["such~as", "for~instance", "for~example", "namely", "e.g."],
     "stuff": ["materials", "elements", "components", "aspects", "items"]
   },
-"verbs": {
-    "start": ["initiate", "commence", "launch", "begin", "originate"],
-    "stop": ["terminate", "conclude", "cease", "halt", "discontinue"],
-    "help": ["facilitate", "assist", "support", "enable", "aid"],
-    "lead to": ["result~in", "cause", "bring~about", "induce", "trigger"],
-    "deal with": ["address", "manage", "handle", "resolve", "tackle"]
-  },
+
   "connectors": {
     "comparison": ["similarly", "likewise", "in~comparison", "correspondingly", "equally"],
     "sequence": ["first", "next", "then", "subsequently", "finally"],
     "reinforcement": ["indeed", "in~fact", "notably", "in~particular", "significantly"],
     "limitation": ["although", "even~though", "while", "nonetheless", "despite"],
-    "alternative": ["otherwise", "alternatively", "on~the~other~hand", "in~contrast", "rather"]
-  },
-  "nouns": {
-    "method": ["technique", "procedure", "approach", "strategy", "mechanism"],
-    "goal": ["objective", "aim", "target", "purpose", "intention"],
-    "development": ["progress", "advancement", "evolution", "growth", "expansion"],
-    "advantage": ["benefit", "gain", "merit", "strength", "asset"],
-    "limitation": ["drawback", "constraint", "shortcoming", "flaw", "weakness"]
-  },
-  "adjectives": {
-    "useful": ["beneficial", "advantageous", "practical", "valuable", "applicable"],
-    "common": ["frequent", "typical", "widespread", "recurrent", "prevalent"],
-    "clear": ["evident", "apparent", "explicit", "unambiguous", "obvious"],
-    "strong": ["robust", "solid", "powerful", "resilient", "intense"],
-    "weak": ["fragile", "poor", "limited", "insufficient", "unstable"]
-  },
-  "vague_to_precise": {
-    "thing": ["device", "method", "concept", "procedure", "artifact"],
-    "way": ["approach", "path", "technique", "manner", "strategy"],
-    "a lot": ["numerous", "substantial", "plentiful", "abundant", "significant"],
-    "bad": ["ineffective", "detrimental", "inadequate", "unsuitable", "adverse"],
-    "kind of": ["somewhat", "relatively", "moderately", "partially", "to~an~extent"]
-  },
- "verbs": {
-    "get": ["obtain", "acquire", "secure", "gain", "attain"],
-    "use": ["employ", "apply", "utilize", "deploy", "execute"],
-    "show": ["indicate", "reveal", "demonstrate", "illustrate", "exhibit"],
-    "check": ["verify", "examine", "validate", "assess", "review"],
-    "make": ["construct", "develop", "generate", "formulate", "produce"]
-  },
-  "connectors": {
+    "alternative": ["otherwise", "alternatively", "on~the~other~hand", "in~contrast", "rather"],
     "addition": ["moreover", "furthermore", "also", "additionally", "besides"],
     "contrast": ["however", "whereas", "nonetheless", "yet", "although"],
     "cause": ["because", "since", "as", "due~to", "owing~to"],
@@ -3519,14 +3473,26 @@
     "example": ["for~example", "e.g.", "namely", "such~as", "specifically"],
     "conclusion": ["therefore", "hence", "finally", "overall", "ultimately"]
   },
+
   "nouns": {
+    "method": ["technique", "procedure", "approach", "strategy", "mechanism"],
+    "goal": ["objective", "aim", "target", "purpose", "intention"],
+    "development": ["progress", "advancement", "evolution", "growth", "expansion"],
+    "advantage": ["benefit", "gain", "merit", "strength", "asset"],
+    "limitation": ["drawback", "constraint", "shortcoming", "flaw", "weakness"],
     "result": ["outcome", "impact", "effect", "product", "finding"],
     "change": ["shift", "adjustment", "revision", "transition", "variation"],
     "data": ["evidence", "figures", "records", "inputs", "metrics"],
     "study": ["analysis", "review", "investigation", "research", "examination"],
     "problem": ["issue", "challenge", "obstacle", "barrier", "concern"]
   },
+
   "adjectives": {
+    "useful": ["beneficial", "advantageous", "practical", "valuable", "applicable"],
+    "common": ["frequent", "typical", "widespread", "recurrent", "prevalent"],
+    "clear": ["evident", "apparent", "explicit", "unambiguous", "obvious"],
+    "strong": ["robust", "solid", "powerful", "resilient", "intense"],
+    "weak": ["fragile", "poor", "limited", "insufficient", "unstable"],
     "important": ["crucial", "vital", "key", "essential", "notable"],
     "different": ["distinct", "varied", "diverse", "contrasting", "unlike"],
     "big": ["major", "huge", "significant", "large", "extensive"],
@@ -3534,11 +3500,18 @@
     "easy": ["simple", "straightforward", "uncomplicated", "clear", "direct"]
   },
   "vague_to_precise": {
-    "thing": ["factor", "element", "aspect", "variable", "feature"],
+    "thing": ["device", "method", "concept", "procedure", "artifact", "factor", "element", "aspect", "variable", "feature", "factors", "elements", "components", "aspects", "features", "variables", "entities", "objects", "parameters", "criteria"],
+    "way": ["approach", "path", "technique", "manner", "strategy"],
+    "a lot": ["numerous", "substantial", "plentiful", "abundant", "significant"],
+    "bad": ["ineffective", "detrimental", "inadequate", "unsuitable", "adverse"],
+    "kind of": ["somewhat", "relatively", "moderately", "partially", "to~an~extent"],
+ 
     "stuff": ["items", "materials", "components", "objects", "resources"],
     "lots": ["many", "numerous", "several", "abundant", "countless"],
     "some": ["a~few", "certain", "selected", "specific", "a~portion"],
-    "good": ["effective", "efficient", "beneficial", "advantageous", "favorable"]
+    "good": ["effective", "efficient", "beneficial", "advantageous", "favorable"],
+    "big": ["significant", "substantial", "extensive", "major", "considerable", "enormous", "marked", "pronounced", "important", "notable"],
+    "important": ["crucial", "essential", "vital", "pivotal", "key", "critical", "noteworthy", "paramount", "imperative", "indispensable"]
   },
 
   "academic_verbs": {
@@ -3558,16 +3531,8 @@
     "result": ["outcome", "consequence", "effect", "impact", "repercussion", "ramification", "derivation", "aftereffect", "byproduct", "implication"],
     "research": ["investigation", "study", "analysis", "examination", "inquiry", "evaluation", "scrutiny", "review", "exploration", "survey"]
   },
-  "informal_to_formal": {
-    "a~lot~of": ["numerous", "many", "a~substantial~amount~of", "a~significant~number~of", "a~considerable~quantity~of", "abundant", "a~plethora~of", "extensive", "multitude~of", "ample"],
-    "get": ["obtain", "receive", "acquire", "secure", "gain", "procure", "attain", "collect", "derive", "fetch"],
-    "stuff": ["materials", "components", "items", "elements", "factors", "contents", "substances", "objects", "entities", "resources"]
-  },
-  "vague_to_precise": {
-    "things": ["factors", "elements", "components", "aspects", "features", "variables", "entities", "objects", "parameters", "criteria"],
-    "big": ["significant", "substantial", "extensive", "major", "considerable", "enormous", "marked", "pronounced", "important", "notable"],
-    "important": ["crucial", "essential", "vital", "pivotal", "key", "critical", "noteworthy", "paramount", "imperative", "indispensable"]
-  },
+ 
+  
   "common_mistakes": {
     "tense_shift": "Inconsistent use of present and past tense",
     "redundancy": "Repeating ideas unnecessarily",
@@ -3584,13 +3549,7 @@
   },
 
  "Advanced_Academic_Language": {
-    "Verbs": {
-      "start": ["initiate", "commence", "launch", "undertake", "inaugurate", "trigger", "activate", "establish", "begin", "originate"],
-      "stop": ["cease", "terminate", "discontinue", "halt", "conclude", "end", "revoke", "abandon", "suspend", "withdraw"],
-      "think": ["consider", "contemplate", "evaluate", "reflect", "deliberate", "assess", "speculate", "examine", "analyze", "infer"],
-      "say": ["state", "declare", "assert", "claim", "mention", "indicate", "report", "express", "affirm", "note"],
-      "look": ["observe", "examine", "inspect", "analyze", "scrutinize", "scan", "review", "survey", "study", "monitor"]
-    },
+    
     "Academic_Connectors": {
       "comparison": ["similarly", "likewise", "in the same way", "correspondingly", "equally", "analogously", "in like manner", "comparably", "paralleling", "uniformly"],
       "clarification": ["in other words", "that is to say", "to clarify", "namely", "specifically", "put differently", "expressed differently", "to put it simply", "to elucidate", "i.e."],
@@ -3641,13 +3600,7 @@
       "good": ["beneficial", "advantageous", "constructive", "favorable", "effective", "optimal", "commendable", "notable", "satisfactory", "laudable"],
       "bad": ["detrimental", "adverse", "undesirable", "suboptimal", "ineffective", "inadequate", "flawed", "inferior", "unfavorable", "problematic"]
     },
-    "Verbs": {
-      "use": ["utilize", "employ", "leverage", "apply", "adopt", "implement", "exploit", "incorporate", "deploy", "administer"],
-      "get": ["obtain", "acquire", "receive", "derive", "attain", "procure", "gain", "secure", "fetch", "access"],
-      "make": ["formulate", "construct", "develop", "design", "generate", "compose", "produce", "create", "assemble", "synthesize"],
-      "help": ["facilitate", "support", "aid", "assist", "enable", "promote", "enhance", "contribute", "bolster", "foster"],
-      "need": ["require", "necessitate", "demand", "call for", "entail", "warrant", "seek", "mandate", "obligate", "depend on"]
-    },
+    
     "Academic_Connectors": {
       "addition": ["furthermore", "moreover", "in addition", "additionally", "likewise", "what is more", "besides", "also", "as well", "correspondingly"],
       "contrast": ["however", "nevertheless", "nonetheless", "on the contrary", "whereas", "while", "conversely", "yet", "alternatively", "even so"],
@@ -3686,91 +3639,45 @@
       }
     },
  "General_Verbs": {
-      "show": ["substantiate", "underscore", "validate", "exemplify", "elucidate", "illuminate", "justify", "authenticate", "manifest", "corroborate"],
-      "tell": ["articulate", "disseminate", "elaborate", "elucidate", "relate", "outline", "summarize", "depict", "narrate", "document"],
-      "start": ["commence", "inaugurate", "originate", "institute", "spearhead", "activate", "initialize", "embark_on", "set_in_motion", "instigate"],
-      "end": ["culminate", "conclude", "wind_up", "finalize", "resolve", "discontinue", "dissolve", "complete", "expire", "wrap_up"],
-      "make": ["fabricate", "orchestrate", "instantiate", "configure", "engineer", "mold", "constitute", "synthesize", "assemble", "actualize"],
-      "do": ["facilitate", "coordinate", "operationalize", "prosecute", "instigate", "mobilize", "orchestrate", "supervise", "initiate", "enact"],
-      "think": ["deliberate", "contemplate", "discern", "evaluate", "infer", "reason", "speculate", "ruminate", "deduce", "analyze"],
-      "use": ["capitalize_on", "appropriately_apply", "deploy", "administer", "make_use_of", "optimize", "employ_with_precision", "integrate_effectively", "strategically_utilize", "exploit_advantageously"],
-      "get_better": ["augment", "fine-tune", "recalibrate", "rectify", "strengthen", "streamline", "revamp", "amplify", "bolster", "enrich"]
+      "show": ["substantiate", "underscore", "validate", "exemplify", "elucidate", "illuminate", "justify", "authenticate", "manifest", "corroborate", "demonstrate", "illustrate", "reveal", "indicate", "present", "exhibit", "convey", "highlight", "display", "signify"],
+      "tell": ["inform", "notify", "state", "report", "declare", "convey", "explain", "communicate", "advise", "assert", "articulate", "disseminate", "elaborate", "elucidate", "relate", "outline", "summarize", "depict", "narrate", "document"],
+      "start": ["commence", "initiate", "begin", "launch", "open", "undertake", "establish", "introduce", "originate", "trigger", "commence", "inaugurate", "originate", "institute", "spearhead", "activate", "initialize", "embark_on", "set_in_motion", "instigate"],
+      "end": ["conclude", "terminate", "finish", "complete", "close", "cease", "finalize", "halt", "bring to an end", "wrap up", "culminate", "conclude", "wind_up", "finalize", "resolve", "discontinue", "dissolve", "complete", "expire", "wrap_up"],
+      "make": ["construct", "create", "produce", "generate", "formulate", "develop", "establish", "synthesize", "engineer", "derive", "fabricate", "orchestrate", "instantiate", "configure", "engineer", "mold", "constitute", "synthesize", "assemble", "actualize"],
+      "do": ["perform", "conduct", "carry out", "execute", "implement", "undertake", "accomplish", "realize", "enact", "apply", "facilitate", "coordinate", "operationalize", "prosecute", "instigate", "mobilize", "orchestrate", "supervise", "initiate", "enact"],
+      "think": ["believe", "assume", "consider", "suppose", "hypothesize", "propose", "postulate", "assess", "reflect", "presume", "deliberate", "contemplate", "discern", "evaluate", "infer", "reason", "speculate", "ruminate", "deduce", "analyze"],
+      "use": ["utilize", "employ", "apply", "adopt", "exploit", "implement", "leverage", "harness", "engage", "integrate", "capitalize_on", "appropriately_apply", "deploy", "administer", "make_use_of", "optimize", "employ_with_precision", "integrate_effectively", "strategically_utilize", "exploit_advantageously"],
+      "get_better": ["improve", "enhance", "refine", "optimize", "advance", "develop", "upgrade", "progress", "boost", "evolve", "augment", "fine-tune", "recalibrate", "rectify", "strengthen", "streamline", "revamp", "amplify", "bolster", "enrich"]
     },
     "Adjectives": {
-      "big": ["robust", "comprehensive", "all-encompassing", "macro-level", "immense", "significant_in_scope", "far-reaching", "substantially_scaled", "profound", "monumental"],
-      "small": ["granular", "subtle", "discrete", "limited_in_scope", "minor_scale", "infinitesimal", "compact", "marginal", "inconsequential", "microscopic"],
-      "good": ["commendable", "meritorious", "noteworthy", "laudable", "salient", "satisfactory", "positive", "substantive", "proficient", "sound"],
-      "bad": ["deficient", "problematic", "suboptimal", "unreliable", "inadequate", "erroneous", "undesirable", "fallacious", "incongruent", "counterproductive"],
-      "new": ["recently_developed", "progressive", "cutting-edge", "novelty_oriented", "pioneering", "previously_unexplored", "contemporary", "emergent", "state-of-the-art", "advancement-based"],
-      "old": ["archaic", "deprecated", "historically_utilized", "antiquated", "former_version", "legacy", "outdated_method", "preceding", "superseded", "traditional"]
+      "big": ["large", "substantial", "considerable", "significant", "vast", "extensive", "immense", "enormous", "major", "broad", "robust", "comprehensive", "all-encompassing", "macro-level", "immense", "significant_in_scope", "far-reaching", "substantially_scaled", "profound", "monumental"],
+      "small": ["minor", "minimal", "negligible", "slight", "limited", "modest", "trivial", "narrow", "compact", "marginal", "granular", "subtle", "discrete", "limited_in_scope", "minor_scale", "infinitesimal", "compact", "marginal", "inconsequential", "microscopic"],
+      "good": ["beneficial", "effective", "favorable", "suitable", "advantageous", "efficient", "useful", "constructive", "commendable", "valuable","commendable", "meritorious", "noteworthy", "laudable", "salient", "satisfactory", "positive", "substantive", "proficient", "sound"],
+      "bad": ["poor", "inadequate", "undesirable", "ineffective", "inappropriate", "faulty", "substandard", "detrimental", "flawed", "unfavorable","deficient", "problematic", "suboptimal", "unreliable", "inadequate", "erroneous", "undesirable", "fallacious", "incongruent", "counterproductive"],
+      "new": ["novel", "innovative", "recent", "current", "fresh", "emerging", "contemporary", "original", "updated", "latest", "recently_developed", "progressive", "cutting-edge", "novelty_oriented", "pioneering", "previously_unexplored", "contemporary", "emergent", "state-of-the-art", "advancement-based"],
+      "old": ["previous", "prior", "former", "outdated", "traditional", "earlier", "obsolete", "historic", "ancient", "preceding", "archaic", "deprecated", "historically_utilized", "antiquated", "former_version", "legacy", "outdated_method", "preceding", "superseded", "traditional"]
     },
     "Quantifiers": {
-      "a_lot": ["plethora", "multitude", "proliferation", "overabundance", "superfluity", "copious_amount", "vast_number", "high_volume", "innumerable", "abundance"],
-      "few": ["a_scant_number", "underrepresented", "diminutive_portion", "a_sparse_set", "sporadic_cases", "a_small_fraction", "nominal_presence", "isolated_instances", "limited_appearance", "a_slight_share"],
-      "more": ["incremental", "enhanced", "augmented", "magnified", "expanded", "surged", "heightened", "exponentiated", "progressive", "advanced"],
-      "less": ["contracted", "attenuated", "streamlined", "recessed", "diminished", "abridged", "reduced_in_frequency", "limited_in_occurrence", "lower_in_density", "deflated"]
+      "a_lot": ["numerous", "a_great_deal", "considerable", "substantial", "a_significant_number", "an_abundance", "copious", "myriad", "a_multitude", "several", "plethora", "multitude", "proliferation", "overabundance", "superfluity", "copious_amount", "vast_number", "high_volume", "innumerable", "abundance"],
+      "few": ["a_limited_number", "a_small_subset", "a_minority", "not_many", "a_handful_of", "scarce", "minimal", "infrequent", "rare", "a_reduced_number", "a_scant_number", "underrepresented", "diminutive_portion", "a_sparse_set", "sporadic_cases", "a_small_fraction", "nominal_presence", "isolated_instances", "limited_appearance", "a_slight_share"],
+      "more": ["additional", "further", "extra", "greater", "expanded", "increased", "extended", "surplus", "supplementary", "amplified", "incremental", "enhanced", "augmented", "magnified", "expanded", "surged", "heightened", "exponentiated", "progressive", "advanced"],
+      "less": ["reduced", "decreased", "diminished", "limited", "lesser", "lowered", "curtailed", "minimal", "restricted", "fewer", "contracted", "attenuated", "streamlined", "recessed", "diminished", "abridged", "reduced_in_frequency", "limited_in_occurrence", "lower_in_density", "deflated"]
     },
     "Common_Nouns": {
-      "stuff": ["subject_matter", "material_entities", "technical_elements", "constituent_components", "empirical_assets", "physical_resources", "scientific_inputs", "data-driven_units", "experimental_matter", "compositional_items"],
-      "thing": ["construct", "phenomenon", "framework", "entity", "artifact", "module", "aspect", "element", "instance", "factor"],
-      "job": ["obligation", "mandate", "academic_assignment", "research_duty", "technical_task", "designated_function", "professional_responsibility", "executive_role", "operational_task", "institutional_duty"],
-      "goal": ["research_objective", "desired_outcome", "long-term_target", "strategic_intent", "academic_aspiration", "investigational_focus", "scientific_aim", "design_goal", "performance_benchmark", "analytical_purpose"],
-      "way": ["methodology", "scientific_approach", "structured_technique", "strategic_model", "analytical_path", "process_flow", "procedure", "implementation_scheme", "framework", "technical_routing"]
+      "stuff": ["materials", "substances", "components", "items", "contents", "entities", "resources", "ingredients", "elements", "data", "subject_matter", "material_entities", "technical_elements", "constituent_components", "empirical_assets", "physical_resources", "scientific_inputs", "data-driven_units", "experimental_matter", "compositional_items"],
+      "thing": ["concept", "aspect", "factor", "component", "item", "entity", "feature", "variable", "issue", "object", "construct", "phenomenon", "framework", "entity", "artifact", "module", "aspect", "element", "instance", "factor"],
+      "job": ["task", "responsibility", "duty", "occupation", "assignment", "role", "function", "position", "activity", "employment", "obligation", "mandate", "academic_assignment", "research_duty", "technical_task", "designated_function", "professional_responsibility", "executive_role", "operational_task", "institutional_duty"],
+      "goal": ["objective", "aim", "target", "purpose", "intention", "outcome", "ambition", "aspiration", "end", "mission", "research_objective", "desired_outcome", "long-term_target", "strategic_intent", "academic_aspiration", "investigational_focus", "scientific_aim", "design_goal", "performance_benchmark", "analytical_purpose"],
+      "way": ["method", "approach", "manner", "strategy", "process", "mechanism", "technique", "mode", "pathway", "means", "methodology", "scientific_approach", "structured_technique", "strategic_model", "analytical_path", "process_flow", "procedure", "implementation_scheme", "framework", "technical_routing"]
     },
     "Connectors": {
-      "addition": ["correspondingly", "simultaneously", "in_a_related_manner", "further_to_this", "as_a_supplement", "in_the_same_vein", "coextensively", "jointly", "cumulatively", "coherently"],
-      "contrast": ["in_dichotomy", "inversely", "diametrically_opposed", "at_variance", "in_polarity", "on_the_flip_side", "by_contrast", "in_disparity", "in_deviation", "contradictorily"],
-      "result": ["with_the_outcome_that", "leading_to", "culminating_in", "inducing", "yielding", "resultantly", "bringing_about", "triggering", "materializing", "subsequently_resulting"],
-      "cause": ["stemming_from", "initiated_by", "as_a_consequence_of", "derived_from", "owing_to_the_fact_that", "brought_about_by", "induced_by", "facilitated_by", "resulting_from", "founded_on"],
-      "clarification": ["to_be_more_precise", "explicitly", "in_specific_terms", "as_illustrated_by", "this_can_be_seen_in", "namely", "as_evidenced_by", "as_shown_by", "with_particular_reference_to", "for_greater_clarity"],
-      "emphasis": ["most_importantly", "it_should_be_noted", "above_all", "in_particular_emphasis", "with_focus_on", "most_significantly", "it_is_crucial_to_note", "predominantly", "markedly", "with_significant_attention"]
+      "addition": ["moreover", "furthermore", "in_addition", "additionally", "not_only_that", "likewise", "similarly", "what_is_more", "besides", "concurrently", "correspondingly", "simultaneously", "in_a_related_manner", "further_to_this", "as_a_supplement", "in_the_same_vein", "coextensively", "jointly", "cumulatively", "coherently"],
+      "contrast": ["however", "nevertheless", "nonetheless", "on_the_other_hand", "conversely", "whereas", "although", "despite_that", "yet", "in_contrast", "in_dichotomy", "inversely", "diametrically_opposed", "at_variance", "in_polarity", "on_the_flip_side", "by_contrast", "in_disparity", "in_deviation", "contradictorily"],
+      "result": ["therefore", "thus", "hence", "consequently", "accordingly", "as_a_result", "for_this_reason", "in_turn", "eventually", "subsequently", "with_the_outcome_that", "leading_to", "culminating_in", "inducing", "yielding", "resultantly", "bringing_about", "triggering", "materializing", "subsequently_resulting"],
+      "cause": ["since", "as", "due_to_the_fact_that", "in_view_of", "owing_to", "given_that", "for_the_reason_that", "considering", "on_account_of", "because", "stemming_from", "initiated_by", "as_a_consequence_of", "derived_from", "owing_to_the_fact_that", "brought_about_by", "induced_by", "facilitated_by", "resulting_from", "founded_on"],
+      "clarification": ["such_as", "for_example", "for_instance", "to_illustrate", "namely", "including", "as_demonstrated_by", "as_seen_in", "that_is", "as_follows", "to_be_more_precise", "explicitly", "in_specific_terms", "as_illustrated_by", "this_can_be_seen_in", "namely", "as_evidenced_by", "as_shown_by", "with_particular_reference_to", "for_greater_clarity"],
+      "emphasis": ["significantly", "particularly", "notably", "especially", "markedly", "considerably", "strongly", "substantially", "vitally", "extensively","most_importantly", "it_should_be_noted", "above_all", "in_particular_emphasis", "with_focus_on", "most_significantly", "it_is_crucial_to_note", "predominantly", "markedly", "with_significant_attention"]
     },
-
-"General_Verbs": {
-    "show": ["demonstrate", "illustrate", "reveal", "indicate", "present", "exhibit", "convey", "highlight", "display", "signify"],
-    "tell": ["inform", "notify", "state", "report", "declare", "convey", "explain", "communicate", "advise", "assert"],
-    "start": ["commence", "initiate", "begin", "launch", "open", "undertake", "establish", "introduce", "originate", "trigger"],
-    "end": ["conclude", "terminate", "finish", "complete", "close", "cease", "finalize", "halt", "bring to an end", "wrap up"],
-    "make": ["construct", "create", "produce", "generate", "formulate", "develop", "establish", "synthesize", "engineer", "derive"],
-    "do": ["perform", "conduct", "carry out", "execute", "implement", "undertake", "accomplish", "realize", "enact", "apply"],
-    "think": ["believe", "assume", "consider", "suppose", "hypothesize", "propose", "postulate", "assess", "reflect", "presume"],
-    "use": ["utilize", "employ", "apply", "adopt", "exploit", "implement", "leverage", "harness", "engage", "integrate"],
-    "get_better": ["improve", "enhance", "refine", "optimize", "advance", "develop", "upgrade", "progress", "boost", "evolve"]
-  },
-  "Adjectives": {
-    "big": ["large", "substantial", "considerable", "significant", "vast", "extensive", "immense", "enormous", "major", "broad"],
-    "small": ["minor", "minimal", "negligible", "slight", "limited", "modest", "trivial", "narrow", "compact", "marginal"],
-    "good": ["beneficial", "effective", "favorable", "suitable", "advantageous", "efficient", "useful", "constructive", "commendable", "valuable"],
-    "bad": ["poor", "inadequate", "undesirable", "ineffective", "inappropriate", "faulty", "substandard", "detrimental", "flawed", "unfavorable"],
-    "new": ["novel", "innovative", "recent", "current", "fresh", "emerging", "contemporary", "original", "updated", "latest"],
-    "old": ["previous", "prior", "former", "outdated", "traditional", "earlier", "obsolete", "historic", "ancient", "preceding"]
-  },
-  "Quantifiers": {
-    "a_lot": ["numerous", "a_great_deal", "considerable", "substantial", "a_significant_number", "an_abundance", "copious", "myriad", "a_multitude", "several"],
-    "few": ["a_limited_number", "a_small_subset", "a_minority", "not_many", "a_handful_of", "scarce", "minimal", "infrequent", "rare", "a_reduced_number"],
-    "more": ["additional", "further", "extra", "greater", "expanded", "increased", "extended", "surplus", "supplementary", "amplified"],
-    "less": ["reduced", "decreased", "diminished", "limited", "lesser", "lowered", "curtailed", "minimal", "restricted", "fewer"]
-  },
-  "Common_Nouns": {
-    "stuff": ["materials", "substances", "components", "items", "contents", "entities", "resources", "ingredients", "elements", "data"],
-    "thing": ["concept", "aspect", "factor", "component", "item", "entity", "feature", "variable", "issue", "object"],
-    "job": ["task", "responsibility", "duty", "occupation", "assignment", "role", "function", "position", "activity", "employment"],
-    "goal": ["objective", "aim", "target", "purpose", "intention", "outcome", "ambition", "aspiration", "end", "mission"],
-    "way": ["method", "approach", "manner", "strategy", "process", "mechanism", "technique", "mode", "pathway", "means"]
-  },
-  "Connectors": {
-    "addition": ["moreover", "furthermore", "in_addition", "additionally", "not_only_that", "likewise", "similarly", "what_is_more", "besides", "concurrently"],
-    "contrast": ["however", "nevertheless", "nonetheless", "on_the_other_hand", "conversely", "whereas", "although", "despite_that", "yet", "in_contrast"],
-    "result": ["therefore", "thus", "hence", "consequently", "accordingly", "as_a_result", "for_this_reason", "in_turn", "eventually", "subsequently"],
-    "cause": ["since", "as", "due_to_the_fact_that", "in_view_of", "owing_to", "given_that", "for_the_reason_that", "considering", "on_account_of", "because"],
-    "clarification": ["such_as", "for_example", "for_instance", "to_illustrate", "namely", "including", "as_demonstrated_by", "as_seen_in", "that_is", "as_follows"],
-    "emphasis": ["significantly", "particularly", "notably", "especially", "markedly", "considerably", "strongly", "substantially", "vitally", "extensively"]
-  }
-
-
-
-
-},
 
 
  "academic_connectors_extended_2": {
@@ -4149,6 +4056,78 @@
         "Make sure the conclusion aligns with results"
       ]
     },
+"Correct Preposition Usage": {
+      "examples": [
+        "The algorithm is based *on* a hybrid neural network.",
+        "The findings are consistent *with* previous studies.",
+        "The signal was transmitted *through* a fiber optic cable.",
+        "This method is applicable *to* real-time systems.",
+        "The data were obtained *from* three different sensors."
+      ],
+      "common_locations": [
+        "Describing relationships between concepts",
+        "Explaining methods or mechanisms",
+        "In result interpretation",
+        "In references to figures/tables",
+        "When stating dependencies or conditions"
+      ],
+      "correction_phrases": [
+        "Use 'based on', not 'based in'",
+        "Say 'applied to', not 'applied with'",
+        "Use 'different from', not 'different than'",
+        "Say 'in accordance with', not 'according to' (when referring to documents)",
+        "Use 'with respect to', not 'with regards to'"
+      ],
+      "improvement_strategies": [
+        "Keep a list of technical prepositional phrases",
+        "Use corpus-based tools to check collocations",
+        "Read published papers in your field for usage patterns",
+        "Avoid translating phrases literally from your native language",
+        "Use grammar-checking tools like Grammarly or LanguageTool"
+      ],
+      "formal_equivalents": [
+        "The algorithm operates *on the basis of* an optimization framework.",
+        "This technique is consistent *with* standard practice.",
+        "The signal passed *through* the amplifier.",
+        "The solution is relevant *to* large-scale problems.",
+        "The inputs were derived *from* experimental observations."
+      ],
+      "examples_2": [
+        "The solution is consistent with previous work.",
+        "This method depends on accurate measurements.",
+        "The data were collected from multiple sensors.",
+        "The algorithm was applied to real-world datasets.",
+        "The results differ from those in earlier studies."
+      ],
+      "common_locations_2": [
+        "Methodology",
+        "Literature review",
+        "Discussion",
+        "Figures/Table captions",
+        "Comparative analysis"
+      ],
+      "correction_phrases_2": [
+        "Use 'different from' not 'different than'.",
+        "Use 'applied to' instead of 'applied on'.",
+        "Avoid mixing 'in' and 'into' incorrectly.",
+        "Ensure verbs pair with correct prepositions.",
+        "Do not translate prepositions literally from native language."
+      ],
+      "improvement_strategies_2": [
+        "Use preposition collocation dictionaries.",
+        "Check academic corpora (e.g., COCA) for usage.",
+        "Read more academic papers for correct usage.",
+        "Look up preposition+verb/adjective patterns.",
+        "Practice rewriting incorrect prepositions in context."
+      ],
+      "formal_equivalents_2": [
+        "This is consistent with recent studies.",
+        "The improvement resulted from the update.",
+        "The model was trained on benchmark data.",
+        "The signal was transmitted through the channel.",
+        "The finding aligns with theoretical expectations."
+      ]
+    },
  "Hedging_Tentativeness": {
       "examples": [
         "This proves the theory. → This may support the theory.",
@@ -4184,6 +4163,148 @@
         "These observations suggest a possible correlation.",
         "It is likely that the method is robust.",
         "There is some evidence supporting this hypothesis."
+      ]
+    },
+ "Nominalization": {
+      "examples": [
+        "We concluded that... → The conclusion was that...",
+        "They analyzed the data carefully. → The analysis of the data was thorough.",
+        "The model failed to detect the fault. → The model’s failure in fault detection was observed.",
+        "We evaluated the algorithm’s accuracy. → An evaluation of the algorithm’s accuracy was conducted.",
+        "He developed a new technique. → The development of a new technique was achieved."
+      ],
+      "common_locations": [
+        "Abstract (highlighting contributions)",
+        "Introduction (defining problems)",
+        "Methods (describing procedures)",
+        "Results (presenting findings)",
+        "Discussion (summarizing outcomes)"
+      ],
+      "correction_phrases": [
+        "Convert active verb to noun",
+        "Avoid first-person when possible",
+        "Use 'the + noun of verb' structure",
+        "Switch 'we did' → 'the [noun] was done'",
+        "Prefer impersonal construction"
+      ],
+      "improvement_strategies": [
+        "Use technical nouns instead of action verbs",
+        "Practice rewriting actions as entities",
+        "Observe nominalization in journal articles",
+        "Balance between clarity and abstraction",
+        "Combine nominalization with passive voice for formality"
+      ],
+      "formal_equivalents": [
+        "The investigation revealed substantial variation.",
+        "The derivation of the equations is shown in Section 3.",
+        "An analysis of the signal response was performed.",
+        "The classification performance was validated.",
+        "The design of the controller follows established theory."
+      ],
+      "examples_2": [
+        "They concluded that the system works. → The conclusion was that the system works.",
+        "We analyzed the data. → The analysis of the data was conducted.",
+        "They decided to implement the model. → The decision to implement the model was made.",
+        "The sensors failed to respond. → There was a failure in sensor response.",
+        "We discovered a problem. → A discovery of a problem was made."
+      ],
+      "common_locations_2": [
+        "Abstract (summarizing processes)",
+        "Introduction (describing contributions)",
+        "Methods (formalizing procedures)",
+        "Results (reporting outcomes)",
+        "Conclusion (summarizing findings)"
+      ],
+      "correction_phrases_2": [
+        "Turn action verbs into nouns for formal tone",
+        "Use ‘tion’, ‘ment’, ‘ance’, or ‘ity’ endings",
+        "Use articles (the/a) properly with noun forms",
+        "Avoid overuse that clouds clarity",
+        "Balance nominal forms with active structures"
+      ],
+      "improvement_strategies_2": [
+        "Revise sentences by spotting strong verbs",
+        "Convert repeated verbs into nouns to reduce redundancy",
+        "Use nominalization in summaries and overviews",
+        "Avoid too much stacking of nouns",
+        "Mix nominal and active voice for readability"
+      ],
+      "formal_equivalents_2": [
+        "The implementation of the algorithm improved performance.",
+        "This study focuses on the evaluation of accuracy.",
+        "The analysis supports the hypothesis.",
+        "A significant contribution was observed.",
+        "The recommendation is based on observed patterns."
+      ],
+      "examples_3": [
+        "We analyzed the data. → An analysis of the data was conducted.",
+        "They decided to stop the test. → A decision was made to terminate the test.",
+        "We failed to predict the output. → The prediction of the output failed.",
+        "They observed several failures. → Several observations of failures were made.",
+        "The system performs well. → The performance of the system is satisfactory."
+      ],
+      "common_locations_3": [
+        "Abstract (summarizing contributions)",
+        "Introduction (presenting motivations)",
+        "Discussion (explaining findings)",
+        "Conclusion (stating results)",
+        "Literature review"
+      ],
+      "correction_phrases_3": [
+        "Convert verb to noun for formal structure",
+        "Avoid personal pronouns by using nominal forms",
+        "Focus on results and concepts, not actions",
+        "Use passive voice with nominalization for objectivity",
+        "Maintain parallel structure in noun phrases"
+      ],
+      "improvement_strategies_3": [
+        "Identify verbs and rephrase using academic nouns",
+        "Use tools like academic wordlists",
+        "Avoid overusing nominalization in one sentence",
+        "Use nominalization to connect ideas logically",
+        "Practice rewriting conclusions using nominal forms"
+      ],
+      "formal_equivalents_3": [
+        "The analysis of sensor data revealed anomalies.",
+        "A significant improvement in accuracy was observed.",
+        "The failure in prediction led to system redesign.",
+        "Several observations support the hypothesis.",
+        "The implementation of the algorithm is straightforward."
+      ],
+      "examples_4": [
+        "We analyzed the data. → An analysis of the data was conducted.",
+        "They concluded that the method was effective. → The conclusion was that the method was effective.",
+        "We compared the techniques. → A comparison of the techniques was made.",
+        "They investigated the behavior of the system. → An investigation into the system's behavior was carried out.",
+        "We observed performance improvements. → Performance improvements were observed."
+      ],
+      "common_locations_4": [
+        "Introduction and Abstract (for general claims)",
+        "Methodology (to describe actions formally)",
+        "Results (to summarize findings)",
+        "Discussion (to reflect on implications)",
+        "Conclusion (to wrap up actions performed)"
+      ],
+      "correction_phrases_4": [
+        "Turn 'analyze' into 'analysis'",
+        "Turn 'compare' into 'comparison'",
+        "Turn 'investigate' into 'investigation'",
+        "Turn 'observe' into 'observation'",
+        "Turn 'evaluate' into 'evaluation'"
+      ],
+      "improvement_strategies_4": [
+        "Use thesaurus or vocabulary lists to find noun forms",
+        "Practice rewriting active sentences using nominal forms",
+        "Identify common academic nominalizations in published papers",
+        "Limit overuse to maintain sentence clarity",
+        "Combine nominalization with passive voice for formal tone"
+      ],
+      "formal_equivalents_4": [
+        "The analysis revealed significant trends.",
+        "A comparison of the algorithms demonstrated superiority.",
+        "The investigation confirmed the hypothesis.",
+        "An evaluation of the dataset was performed.",
+        "The observation supports the initial assumptions."
       ]
     },
  "Misplaced_Modifiers": {
@@ -4334,43 +4455,7 @@
         "These parameters can directly influence accuracy."
       ]
     },
-  "Nominalization": {
-      "examples": [
-        "We concluded that... → The conclusion was that...",
-        "They analyzed the data carefully. → The analysis of the data was thorough.",
-        "The model failed to detect the fault. → The model’s failure in fault detection was observed.",
-        "We evaluated the algorithm’s accuracy. → An evaluation of the algorithm’s accuracy was conducted.",
-        "He developed a new technique. → The development of a new technique was achieved."
-      ],
-      "common_locations": [
-        "Abstract (highlighting contributions)",
-        "Introduction (defining problems)",
-        "Methods (describing procedures)",
-        "Results (presenting findings)",
-        "Discussion (summarizing outcomes)"
-      ],
-      "correction_phrases": [
-        "Convert active verb to noun",
-        "Avoid first-person when possible",
-        "Use 'the + noun of verb' structure",
-        "Switch 'we did' → 'the [noun] was done'",
-        "Prefer impersonal construction"
-      ],
-      "improvement_strategies": [
-        "Use technical nouns instead of action verbs",
-        "Practice rewriting actions as entities",
-        "Observe nominalization in journal articles",
-        "Balance between clarity and abstraction",
-        "Combine nominalization with passive voice for formality"
-      ],
-      "formal_equivalents": [
-        "The investigation revealed substantial variation.",
-        "The derivation of the equations is shown in Section 3.",
-        "An analysis of the signal response was performed.",
-        "The classification performance was validated.",
-        "The design of the controller follows established theory."
-      ]
-    },
+ 
  "Parallel_Structure": {
       "examples": [
         "The method is efficient, cost-effective, and it saves time. → The method is efficient, cost-effective, and time-saving.",
@@ -4667,43 +4752,6 @@
         "Confidence in the output remains high."
       ]
     },
-"Nominalization": {
-      "examples": [
-        "They concluded that the system works. → The conclusion was that the system works.",
-        "We analyzed the data. → The analysis of the data was conducted.",
-        "They decided to implement the model. → The decision to implement the model was made.",
-        "The sensors failed to respond. → There was a failure in sensor response.",
-        "We discovered a problem. → A discovery of a problem was made."
-      ],
-      "common_locations": [
-        "Abstract (summarizing processes)",
-        "Introduction (describing contributions)",
-        "Methods (formalizing procedures)",
-        "Results (reporting outcomes)",
-        "Conclusion (summarizing findings)"
-      ],
-      "correction_phrases": [
-        "Turn action verbs into nouns for formal tone",
-        "Use ‘tion’, ‘ment’, ‘ance’, or ‘ity’ endings",
-        "Use articles (the/a) properly with noun forms",
-        "Avoid overuse that clouds clarity",
-        "Balance nominal forms with active structures"
-      ],
-      "improvement_strategies": [
-        "Revise sentences by spotting strong verbs",
-        "Convert repeated verbs into nouns to reduce redundancy",
-        "Use nominalization in summaries and overviews",
-        "Avoid too much stacking of nouns",
-        "Mix nominal and active voice for readability"
-      ],
-      "formal_equivalents": [
-        "The implementation of the algorithm improved performance.",
-        "This study focuses on the evaluation of accuracy.",
-        "The analysis supports the hypothesis.",
-        "A significant contribution was observed.",
-        "The recommendation is based on observed patterns."
-      ]
-    },
   "Modifiers": {
       "examples": [
         "We only tested the first method. → We tested only the first method.",
@@ -4852,43 +4900,6 @@
         "A straightforward procedure was followed."
       ]
     },
-"Nominalization": {
-      "examples": [
-        "We analyzed the data. → An analysis of the data was conducted.",
-        "They decided to stop the test. → A decision was made to terminate the test.",
-        "We failed to predict the output. → The prediction of the output failed.",
-        "They observed several failures. → Several observations of failures were made.",
-        "The system performs well. → The performance of the system is satisfactory."
-      ],
-      "common_locations": [
-        "Abstract (summarizing contributions)",
-        "Introduction (presenting motivations)",
-        "Discussion (explaining findings)",
-        "Conclusion (stating results)",
-        "Literature review"
-      ],
-      "correction_phrases": [
-        "Convert verb to noun for formal structure",
-        "Avoid personal pronouns by using nominal forms",
-        "Focus on results and concepts, not actions",
-        "Use passive voice with nominalization for objectivity",
-        "Maintain parallel structure in noun phrases"
-      ],
-      "improvement_strategies": [
-        "Identify verbs and rephrase using academic nouns",
-        "Use tools like academic wordlists",
-        "Avoid overusing nominalization in one sentence",
-        "Use nominalization to connect ideas logically",
-        "Practice rewriting conclusions using nominal forms"
-      ],
-      "formal_equivalents": [
-        "The analysis of sensor data revealed anomalies.",
-        "A significant improvement in accuracy was observed.",
-        "The failure in prediction led to system redesign.",
-        "Several observations support the hypothesis.",
-        "The implementation of the algorithm is straightforward."
-      ]
-    },
 "Formal Verb Usage": {
       "examples": [
         "We looked into the issue. → We investigated the issue.",
@@ -5000,43 +5011,7 @@
         "Substantially, the integration reduced latency."
       ]
     },
- "Nominalization": {
-      "examples": [
-        "We analyzed the data. → An analysis of the data was conducted.",
-        "They concluded that the method was effective. → The conclusion was that the method was effective.",
-        "We compared the techniques. → A comparison of the techniques was made.",
-        "They investigated the behavior of the system. → An investigation into the system's behavior was carried out.",
-        "We observed performance improvements. → Performance improvements were observed."
-      ],
-      "common_locations": [
-        "Introduction and Abstract (for general claims)",
-        "Methodology (to describe actions formally)",
-        "Results (to summarize findings)",
-        "Discussion (to reflect on implications)",
-        "Conclusion (to wrap up actions performed)"
-      ],
-      "correction_phrases": [
-        "Turn 'analyze' into 'analysis'",
-        "Turn 'compare' into 'comparison'",
-        "Turn 'investigate' into 'investigation'",
-        "Turn 'observe' into 'observation'",
-        "Turn 'evaluate' into 'evaluation'"
-      ],
-      "improvement_strategies": [
-        "Use thesaurus or vocabulary lists to find noun forms",
-        "Practice rewriting active sentences using nominal forms",
-        "Identify common academic nominalizations in published papers",
-        "Limit overuse to maintain sentence clarity",
-        "Combine nominalization with passive voice for formal tone"
-      ],
-      "formal_equivalents": [
-        "The analysis revealed significant trends.",
-        "A comparison of the algorithms demonstrated superiority.",
-        "The investigation confirmed the hypothesis.",
-        "An evaluation of the dataset was performed.",
-        "The observation supports the initial assumptions."
-      ]
-    },
+ 
  "Use of Passive Voice": {
       "examples": [
         "The system was designed to improve response time.",
@@ -5074,43 +5049,7 @@
         "The samples were prepared under controlled conditions."
       ]
     },
- "Correct Preposition Usage": {
-      "examples": [
-        "The algorithm is based *on* a hybrid neural network.",
-        "The findings are consistent *with* previous studies.",
-        "The signal was transmitted *through* a fiber optic cable.",
-        "This method is applicable *to* real-time systems.",
-        "The data were obtained *from* three different sensors."
-      ],
-      "common_locations": [
-        "Describing relationships between concepts",
-        "Explaining methods or mechanisms",
-        "In result interpretation",
-        "In references to figures/tables",
-        "When stating dependencies or conditions"
-      ],
-      "correction_phrases": [
-        "Use 'based on', not 'based in'",
-        "Say 'applied to', not 'applied with'",
-        "Use 'different from', not 'different than'",
-        "Say 'in accordance with', not 'according to' (when referring to documents)",
-        "Use 'with respect to', not 'with regards to'"
-      ],
-      "improvement_strategies": [
-        "Keep a list of technical prepositional phrases",
-        "Use corpus-based tools to check collocations",
-        "Read published papers in your field for usage patterns",
-        "Avoid translating phrases literally from your native language",
-        "Use grammar-checking tools like Grammarly or LanguageTool"
-      ],
-      "formal_equivalents": [
-        "The algorithm operates *on the basis of* an optimization framework.",
-        "This technique is consistent *with* standard practice.",
-        "The signal passed *through* the amplifier.",
-        "The solution is relevant *to* large-scale problems.",
-        "The inputs were derived *from* experimental observations."
-      ]
-    },
+ 
  "Consistency in Style and Terminology": {
       "examples": [
         "The term 'cyber-physical system' is used consistently throughout the paper.",
@@ -5185,80 +5124,7 @@
         "This outcome supports the previous hypothesis."
       ]
     },
-    "Maintaining Objectivity": {
-      "examples": [
-        "The study demonstrates a significant improvement in detection accuracy.",
-        "The results suggest that the proposed framework is robust.",
-        "The evidence indicates that the algorithm performs reliably.",
-        "Experimental findings validate the theoretical assumptions.",
-        "The data supports the feasibility of the approach."
-      ],
-      "common_locations": [
-        "Introduction",
-        "Results",
-        "Discussion",
-        "Abstract",
-        "Conclusion"
-      ],
-      "correction_phrases": [
-        "Avoid personal pronouns like 'I', 'we', or 'our'.",
-        "Use impersonal constructions: 'It is observed that...'",
-        "Focus on the action or result, not the researcher.",
-        "Report facts, not personal beliefs.",
-        "Limit the use of subjective adjectives like 'interesting', 'important'."
-      ],
-      "improvement_strategies": [
-        "Rewrite personal sentences in passive voice.",
-        "Practice using 'it is found that' structures.",
-        "Refer to the work instead of the researcher.",
-        "Use quantifiable terms instead of vague adjectives.",
-        "Replace opinions with evidence-based claims."
-      ],
-      "formal_equivalents": [
-        "The experiment was conducted to validate the approach.",
-        "It is evident that the system meets the performance criteria.",
-        "The analysis reveals the effectiveness of the method.",
-        "Findings demonstrate the system’s consistency.",
-        "The outcomes validate the proposed technique."
-      ]
-    },
-"Use of Parallel Structure": {
-      "examples": [
-        "The method aims to collect data, analyze results, and generate reports.",
-        "The system is scalable, efficient, and reliable.",
-        "Participants were instructed to read the article, answer the questions, and submit feedback.",
-        "The algorithm is designed to detect, isolate, and correct faults.",
-        "The research focuses on accuracy, robustness, and efficiency."
-      ],
-      "common_locations": [
-        "Aims and objectives",
-        "Methodology steps",
-        "Bullet or numbered lists",
-        "Abstract summaries",
-        "Conclusion highlights"
-      ],
-      "correction_phrases": [
-        "Ensure all items in a list use the same verb form.",
-        "Match noun forms within compound lists.",
-        "Use consistent tense in lists of actions.",
-        "Avoid mixing phrases with clauses.",
-        "Maintain symmetry in comparative expressions."
-      ],
-      "improvement_strategies": [
-        "Review lists for grammatical symmetry.",
-        "Read aloud to identify inconsistencies.",
-        "Practice rewriting imbalanced sentences.",
-        "Check sentence rhythm and flow.",
-        "Compare to parallel structures in journals."
-      ],
-      "formal_equivalents": [
-        "The technique is accurate, robust, and scalable.",
-        "The system collects, processes, and transmits data.",
-        "The goals are to develop, evaluate, and optimize the model.",
-        "The paper describes the approach, the dataset, and the evaluation metrics.",
-        "The objectives include improving performance, reducing latency, and increasing reliability."
-      ]
-    },
+    
     "Consistent Tense Usage": {
       "examples": [
         "The experiment was conducted using three datasets.",
@@ -5296,43 +5162,7 @@
         "The paper explores the implications of the findings."
       ]
     },
- "Correct Preposition Usage": {
-      "examples": [
-        "The solution is consistent with previous work.",
-        "This method depends on accurate measurements.",
-        "The data were collected from multiple sensors.",
-        "The algorithm was applied to real-world datasets.",
-        "The results differ from those in earlier studies."
-      ],
-      "common_locations": [
-        "Methodology",
-        "Literature review",
-        "Discussion",
-        "Figures/Table captions",
-        "Comparative analysis"
-      ],
-      "correction_phrases": [
-        "Use 'different from' not 'different than'.",
-        "Use 'applied to' instead of 'applied on'.",
-        "Avoid mixing 'in' and 'into' incorrectly.",
-        "Ensure verbs pair with correct prepositions.",
-        "Do not translate prepositions literally from native language."
-      ],
-      "improvement_strategies": [
-        "Use preposition collocation dictionaries.",
-        "Check academic corpora (e.g., COCA) for usage.",
-        "Read more academic papers for correct usage.",
-        "Look up preposition+verb/adjective patterns.",
-        "Practice rewriting incorrect prepositions in context."
-      ],
-      "formal_equivalents": [
-        "This is consistent with recent studies.",
-        "The improvement resulted from the update.",
-        "The model was trained on benchmark data.",
-        "The signal was transmitted through the channel.",
-        "The finding aligns with theoretical expectations."
-      ]
-    },
+ 
     "Correct Use of Punctuation": {
       "examples": [
         "The method includes three steps: sampling, filtering, and analysis.",
@@ -5444,7 +5274,7 @@
         "To achieve convergence..."
       ]
     },
-    "Avoiding Ambiguous Pronouns": {
+    "Avoiding Ambiguous Pronouns_2": {
       "examples": [
         "This method increases performance significantly.",
         "Such improvements make the model more robust.",
@@ -5483,34 +5313,69 @@
     },
     "Maintaining Objectivity": {
       "examples": [
+        "The study demonstrates a significant improvement in detection accuracy.",
+        "The results suggest that the proposed framework is robust.",
+        "The evidence indicates that the algorithm performs reliably.",
+        "Experimental findings validate the theoretical assumptions.",
+        "The data supports the feasibility of the approach."
+      ],
+      "common_locations": [
+        "Introduction",
+        "Results",
+        "Discussion",
+        "Abstract",
+        "Conclusion"
+      ],
+      "correction_phrases": [
+        "Avoid personal pronouns like 'I', 'we', or 'our'.",
+        "Use impersonal constructions: 'It is observed that...'",
+        "Focus on the action or result, not the researcher.",
+        "Report facts, not personal beliefs.",
+        "Limit the use of subjective adjectives like 'interesting', 'important'."
+      ],
+      "improvement_strategies": [
+        "Rewrite personal sentences in passive voice.",
+        "Practice using 'it is found that' structures.",
+        "Refer to the work instead of the researcher.",
+        "Use quantifiable terms instead of vague adjectives.",
+        "Replace opinions with evidence-based claims."
+      ],
+      "formal_equivalents": [
+        "The experiment was conducted to validate the approach.",
+        "It is evident that the system meets the performance criteria.",
+        "The analysis reveals the effectiveness of the method.",
+        "Findings demonstrate the system’s consistency.",
+        "The outcomes validate the proposed technique."
+      ],
+      "examples_2": [
         "The data indicate a significant trend.",
         "The proposed system demonstrates improved performance.",
         "Results support the hypothesis.",
         "Evidence suggests that the approach is effective.",
         "The observed behavior matches the expected pattern."
       ],
-      "common_locations": [
+      "common_locations_2": [
         "Abstract",
         "Discussion",
         "Results",
         "Conclusion",
         "Limitations section"
       ],
-      "correction_phrases": [
+      "correction_phrases_2": [
         "Avoid using 'I think', 'we believe'.",
         "Use data as the subject: 'the data show'.",
         "Avoid value-laden words like 'obviously', 'clearly'.",
         "Stay neutral in language, even in strong findings.",
         "Use 'it is suggested' instead of 'we think'."
       ],
-      "improvement_strategies": [
+      "improvement_strategies_2": [
         "Reframe sentences to be evidence-based.",
         "Use passive voice where necessary.",
         "State facts, not opinions.",
         "Use academic hedging (e.g., 'appears', 'may suggest').",
         "Read published papers for tone reference."
       ],
-      "formal_equivalents": [
+      "formal_equivalents_2": [
         "The findings indicate...",
         "It is evident that...",
         "The results demonstrate...",
@@ -5557,34 +5422,69 @@
     },
     "Use of Parallel Structure": {
       "examples": [
+        "The method aims to collect data, analyze results, and generate reports.",
+        "The system is scalable, efficient, and reliable.",
+        "Participants were instructed to read the article, answer the questions, and submit feedback.",
+        "The algorithm is designed to detect, isolate, and correct faults.",
+        "The research focuses on accuracy, robustness, and efficiency."
+      ],
+      "common_locations": [
+        "Aims and objectives",
+        "Methodology steps",
+        "Bullet or numbered lists",
+        "Abstract summaries",
+        "Conclusion highlights"
+      ],
+      "correction_phrases": [
+        "Ensure all items in a list use the same verb form.",
+        "Match noun forms within compound lists.",
+        "Use consistent tense in lists of actions.",
+        "Avoid mixing phrases with clauses.",
+        "Maintain symmetry in comparative expressions."
+      ],
+      "improvement_strategies": [
+        "Review lists for grammatical symmetry.",
+        "Read aloud to identify inconsistencies.",
+        "Practice rewriting imbalanced sentences.",
+        "Check sentence rhythm and flow.",
+        "Compare to parallel structures in journals."
+      ],
+      "formal_equivalents": [
+        "The technique is accurate, robust, and scalable.",
+        "The system collects, processes, and transmits data.",
+        "The goals are to develop, evaluate, and optimize the model.",
+        "The paper describes the approach, the dataset, and the evaluation metrics.",
+        "The objectives include improving performance, reducing latency, and increasing reliability."
+      ],
+      "examples_2": [
         "The algorithm filters data, detects outliers, and normalizes inputs.",
         "The system is designed to monitor, analyze, and alert.",
         "The model improves speed, accuracy, and scalability.",
         "The approach is scalable, efficient, and robust.",
         "The user can input values, view results, and export data."
       ],
-      "common_locations": [
+      "common_locations_2": [
         "Abstract",
         "Methodology",
         "Results section",
         "Conclusion",
         "Figure captions"
       ],
-      "correction_phrases": [
+      "correction_phrases_2": [
         "Ensure items in a list share the same grammatical form.",
         "Use parallel verbs for multiple actions.",
         "Maintain consistent structure in bullet points.",
         "Match nouns with nouns, verbs with verbs.",
         "Align adjectives/adverbs when listing properties."
       ],
-      "improvement_strategies": [
+      "improvement_strategies_2": [
         "Highlight parallel parts and match forms.",
         "Recast lists to simplify grammatical structure.",
         "Use grammar checkers for stylistic consistency.",
         "Practice writing parallel structures.",
         "Consult examples from academic texts."
       ],
-      "formal_equivalents": [
+      "formal_equivalents_2": [
         "Designed to model, evaluate, and deploy",
         "Capable of learning, adapting, and predicting",
         "Provides accuracy, speed, and reliability",
@@ -7531,7 +7431,7 @@
   ]
 },
 
-"Connectors":{
+"Connectors_2":{
   "Academic_Connectors_Extended": [
     {
       "connector": "Increase",
@@ -7676,22 +7576,8 @@
       "example_usage": "Rapid detection of anomalies is crucial for real-time systems."
     }
   ],
- "Introduction": [
-    {
-      "connector": "However",
-      "synonyms": ["Nevertheless", "Nonetheless", "Yet"],
-      "antonyms": ["Therefore", "Thus"],
-      "formal_alternatives": ["Despite that", "In contrast"],
-      "example_usage": "However, previous studies have not addressed sensor accuracy under fault conditions."
-    },
-    {
-      "connector": "Moreover",
-      "synonyms": ["Furthermore", "In addition", "Also"],
-      "antonyms": ["Conversely", "On the contrary"],
-      "formal_alternatives": ["Additionally", "What is more"],
-      "example_usage": "Moreover, the proposed system outperforms baseline models in accuracy."
-    }
-  ],
+
+
   "Methodology": [
     {
       "connector": "Subsequently",
@@ -7740,38 +7626,8 @@
       "example_usage": "Notably, the proposed method reduced false positives by 25%."
     }
   ],
-  "Conclusion": [
-    {
-      "connector": "Therefore",
-      "synonyms": ["Thus", "Hence", "Consequently"],
-      "antonyms": ["However", "Nevertheless"],
-      "formal_alternatives": ["Accordingly", "As a result"],
-      "example_usage": "Therefore, the method proves effective for real-time fault diagnosis."
-    },
-    {
-      "connector": "In summary",
-      "synonyms": ["To summarize", "To conclude", "In conclusion"],
-      "antonyms": ["Conversely", "On the other hand"],
-      "formal_alternatives": ["Overall", "In essence"],
-      "example_usage": "In summary, the model demonstrates high precision and low latency."
-    }
-  ],
-  "Future Work": [
-    {
-      "connector": "Subsequently",
-      "synonyms": ["Later", "Thereafter", "In the future"],
-      "antonyms": ["Previously", "Earlier"],
-      "formal_alternatives": ["In forthcoming studies", "In subsequent phases"],
-      "example_usage": "Subsequently, future work will focus on multi-sensor fusion strategies."
-    },
-    {
-      "connector": "Potentially",
-      "synonyms": ["Possibly", "Plausibly", "Likely"],
-      "antonyms": ["Certainly", "Definitely"],
-      "formal_alternatives": ["Prospectively", "Feasibly"],
-      "example_usage": "This approach potentially enables scalable deployment in CPS applications."
-    }
-  ],
+ 
+ 
  "Introduction": [
       {
         "connector": "Recently",
@@ -7802,7 +7658,21 @@
           "Effective for signaling relevance or justification for the research.",
           "Can precede research problem or gap."
         ]
-      }
+      },
+	 {
+      "connector": "However",
+      "synonyms": ["Nevertheless", "Nonetheless", "Yet"],
+      "antonyms": ["Therefore", "Thus"],
+      "formal_alternatives": ["Despite that", "In contrast"],
+      "example_usage": "However, previous studies have not addressed sensor accuracy under fault conditions."
+    },
+    {
+      "connector": "Moreover",
+      "synonyms": ["Furthermore", "In addition", "Also"],
+      "antonyms": ["Conversely", "On the contrary"],
+      "formal_alternatives": ["Additionally", "What is more"],
+      "example_usage": "Moreover, the proposed system outperforms baseline models in accuracy."
+    }
     ],
     "Abstract": [
       {
@@ -7948,6 +7818,20 @@
           "Use to indicate ongoing or next-phase research."
         ]
       },
+	 {
+      "connector": "Subsequently",
+      "synonyms": ["Later", "Thereafter", "In the future"],
+      "antonyms": ["Previously", "Earlier"],
+      "formal_alternatives": ["In forthcoming studies", "In subsequent phases"],
+      "example_usage": "Subsequently, future work will focus on multi-sensor fusion strategies."
+    },
+    {
+      "connector": "Potentially",
+      "synonyms": ["Possibly", "Plausibly", "Likely"],
+      "antonyms": ["Certainly", "Definitely"],
+      "formal_alternatives": ["Prospectively", "Feasibly"],
+      "example_usage": "This approach potentially enables scalable deployment in CPS applications."
+    },
       {
         "connector": "This opens up possibilities for",
         "synonyms": ["This paves the way for", "This enables", "This initiates"],
@@ -7980,6 +7864,20 @@
           "Follow with summary of main contributions."
         ]
       },
+ 	{
+      "connector": "Therefore",
+      "synonyms": ["Thus", "Hence", "Consequently"],
+      "antonyms": ["However", "Nevertheless"],
+      "formal_alternatives": ["Accordingly", "As a result"],
+      "example_usage": "Therefore, the method proves effective for real-time fault diagnosis."
+    },
+    {
+      "connector": "In summary",
+      "synonyms": ["To summarize", "To conclude", "In conclusion"],
+      "antonyms": ["Conversely", "On the other hand"],
+      "formal_alternatives": ["Overall", "In essence"],
+      "example_usage": "In summary, the model demonstrates high precision and low latency."
+    },
       {
         "connector": "This study has demonstrated",
         "synonyms": ["This paper has shown", "We have proven"],
@@ -7993,38 +7891,6 @@
         "usage_tips": [
           "Summarize core achievement or takeaway.",
           "Avoid introducing new data or references here."
-        ]
-      }
-    ],
- "Emphasis": [
-      {
-        "connector": "Notably",
-        "synonyms": ["Significantly", "Importantly", "Remarkably"],
-        "antonyms": ["Marginally", "Unremarkably"],
-        "formal_alternatives": ["Of particular note", "It is worth mentioning"],
-        "examples": [
-          "Notably, the proposed algorithm reduces processing time by 30%.",
-          "Several methods were tested. Notably, Method C showed the highest precision."
-        ],
-        "academic_contexts": ["Discussion", "Results", "Conclusion"],
-        "usage_tips": [
-          "Use to highlight an important or striking point.",
-          "Typically placed at the beginning of a sentence to attract attention."
-        ]
-      },
-      {
-        "connector": "In fact",
-        "synonyms": ["Indeed", "Actually", "Truly"],
-        "antonyms": ["Falsely", "Incorrectly"],
-        "formal_alternatives": ["As a matter of fact", "It is important to note"],
-        "examples": [
-          "The technique is simple. In fact, it requires no additional hardware.",
-          "In fact, most researchers agree with this interpretation."
-        ],
-        "academic_contexts": ["Emphasis", "Support", "Clarification"],
-        "usage_tips": [
-          "Use to reinforce a previous statement or to provide additional support.",
-          "Avoid overuse; reserve for strong support points."
         ]
       }
     ],
@@ -8220,7 +8086,9 @@
         ]
       }
     ],
-    "Emphasis": [
+    
+
+"Emphasis": [
       {
         "connector": "Indeed",
         "synonyms": ["In fact", "Truly", "Certainly"],
@@ -8233,10 +8101,40 @@
         "academic_contexts": ["Discussion", "Conclusion", "Introduction"],
         "usage_tips": [
           "Use to emphasize a point or confirm a previous statement.",
-          "Can be used to introduce additional supportive information."
+          "Can be used to introduce additional supportive information."   ]
+	},
+{"connector": "Notably",
+        "synonyms": ["Significantly", "Importantly", "Remarkably"],
+        "antonyms": ["Marginally", "Unremarkably"],
+        "formal_alternatives": ["Of particular note", "It is worth mentioning"],
+        "examples": [
+          "Notably, the proposed algorithm reduces processing time by 30%.",
+          "Several methods were tested. Notably, Method C showed the highest precision."
+        ],
+        "academic_contexts": ["Discussion", "Results", "Conclusion"],
+        "usage_tips": [
+          "Use to highlight an important or striking point.",
+          "Typically placed at the beginning of a sentence to attract attention."
         ]
-	}
-]
+      },
+      {
+        "connector": "In fact",
+        "synonyms": ["Indeed", "Actually", "Truly"],
+        "antonyms": ["Falsely", "Incorrectly"],
+        "formal_alternatives": ["As a matter of fact", "It is important to note"],
+        "examples": [
+          "The technique is simple. In fact, it requires no additional hardware.",
+          "In fact, most researchers agree with this interpretation."
+        ],
+        "academic_contexts": ["Emphasis", "Support", "Clarification"],
+        "usage_tips": [
+          "Use to reinforce a previous statement or to provide additional support.",
+          "Avoid overuse; reserve for strong support points."   ]
+      }
+
+    ]
+
+  }
 }
   
 }
