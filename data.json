@@ -1314,15 +1314,6 @@
 
 
 
-"Theoretical_Background": {
-  "phrases": [
-    "Grounded in prior models of...",
-    "Anchored by foundational work in...",
-    "Extends classical assumptions of...",
-    "Builds upon well-established principles in...",
-    "Refines prior constructs by integrating..."
-  ]
-},
 "Mathematical_Modeling": {
   "phrases": [
     "Formalized using differential systems...",
@@ -1507,15 +1498,7 @@
     "Our findings suggest potential for..."
   ]
 },
-"Related_Work": {
-  "phrases": [
-    "Previous approaches have focused primarily on...",
-    "Numerous studies have explored...",
-    "Recent advancements include...",
-    "Comparative analysis reveals gaps in...",
-    "Unlike existing methods, our approach..."
-  ]
-},
+
 "Acknowledgments": {
   "phrases": [
     "The authors thank...",
@@ -1546,17 +1529,6 @@
     "Experimental findings validate the effectiveness of..."
   ]
 },
-
-"Related_Work": {
-  "phrases": [
-    "Prior studies have explored...",
-    "Several methods have been proposed to...",
-    "A common limitation among existing approaches is...",
-    "The most relevant works include...",
-    "In contrast to previous efforts, this paper..."
-  ]
-},
-
 
 
 "Acknowledgments": {
@@ -1790,15 +1762,6 @@
     "...continues to evolve in response to increasing system complexity."
   ]
 },
-"Background": {
-  "phrases": [
-    "...is grounded in foundational principles of computational modeling.",
-    "...has traditionally been addressed using rule-based approaches.",
-    "...has witnessed a paradigm shift with the advent of data-driven methods.",
-    "...has been extensively studied, yet gaps remain in practical deployment.",
-    "...requires a nuanced understanding of system-environment interaction."
-  ]
-},
 "Research_Gap": {
   "phrases": [
     "...lacks comprehensive methods for handling non-stationary data.",
@@ -1862,15 +1825,6 @@
     "Scalability~and~robustness~remain~critical~objectives~in~system~design."
   ]
 },
-"Background": {
-  "phrases": [
-    "Traditional~techniques~often~fail~to~address~the~variability~in~real-world~conditions.",
-    "Recent~approaches~have~sought~to~incorporate~contextual~information~into~the~modeling~process.",
-    "Advancements~in~data-driven~methods~have~opened~new~avenues~for~automation.",
-    "Existing~models~frequently~suffer~from~limited~generalizability.",
-    "Adaptive~architectures~have~emerged~as~a~promising~solution~to~these~challenges."
-  ]
-},
 "Research_Gap": {
   "phrases": [
     "Few~methods~have~demonstrated~robust~performance~under~non-stationary~conditions.",
@@ -1932,15 +1886,6 @@
     "Maintaining~data~integrity~in~large-scale~sensor~networks~remains~a~critical~challenge.",
     "As~smart~systems~become~ubiquitous,~ensuring~data~veracity~is~paramount.",
     "The~complexity~of~real-time~systems~demands~efficient~error~detection~mechanisms."
-  ]
-},
-"Background": {
-  "phrases": [
-    "Sensor~networks~are~integral~to~modern~cyber-physical~and~IoT~applications.",
-    "Traditional~fault~diagnosis~methods~are~limited~by~static~thresholds~and~heuristics.",
-    "Hybrid~approaches~that~combine~statistical~and~machine~learning~techniques~are~emerging.",
-    "Context-awareness~is~increasingly~vital~in~adaptive~sensor~system~design.",
-    "Recent~studies~have~emphasized~the~role~of~temporal~and~spatial~correlation~in~fault~detection."
   ]
 },
 "Research_Gap": {
@@ -2145,17 +2090,6 @@
 },
 
 
-"Related_Work": {
-  "phrases": [
-    "Jones and colleagues [4] were among the first to propose...",
-    "The comparative analysis in [17] reveals a significant gap in...",
-    "The taxonomy presented in [15] classifies these approaches into...",
-    "As discussed in [20], hybrid strategies have yielded promising results in...",
-    "However, the limitations of techniques in [22, 24] highlight the need for..."
-  ]
-},
-
-
 
 
 "Acknowledgments": {
@@ -2180,16 +2114,6 @@
 },
 
 
-"Related_Work": {
-  "phrases": [
-    "The ontological classification proposed in [13] offers a hierarchical view of similar mechanisms...",
-    "Comparative analyses in [14, 17] expose critical trade-offs in latency and computational complexity...",
-    "Contrary to the homogenous assumptions in [16], our work accounts for dynamic environmental variability...",
-    "Methodologies based on graph-theoretic representations [10] demonstrate partial success in structured domains...",
-    "The Bayesian fusion strategies employed in [18] serve as a foundational backbone for multi-source reasoning..."
-  ]
-},
-
 
 
 "Abstract": {
@@ -2199,16 +2123,6 @@
     "Our approach refines multi-modal sensing outlined in [53], enhancing fault isolation with minimal latency...",
     "Consistent with the adaptive sensing paradigm proposed in [54], this method optimizes spatial coverage dynamically...",
     "Inspired by noise-tolerant models in [55], the proposed system maintains integrity under varying signal-to-noise ratios..."
-  ]
-},
-
-"Related_Work": {
-  "phrases": [
-    "The sensor fault taxonomies outlined in [61] provide a foundation for comparative evaluation...",
-    "Kalman-based estimators, as explored in [62], remain prevalent in sensor drift mitigation yet suffer under nonlinearity...",
-    "Rule-based diagnostics proposed in [63] demonstrate efficacy in single-sensor setups, but lack generalization...",
-    "Cross-validation of sensor redundancy, described in [64], informs the redundancy-aware architecture proposed herein...",
-    "The hybrid reasoning frameworks in [65] support multi-sensor fusion, though integration with temporal priors remains a gap..."
   ]
 },
 
@@ -2223,13 +2137,58 @@
   ]
 },
 
-"Related_Work": {
+"Related_Work & Background": {
   "phrases": [
     "The optimization dynamics of gradient-based methods, as explored in [101], provide context for our convergence analysis...",
     "Transfer learning pipelines reviewed in [102] demonstrate the power of pretrained representations but lack domain adaptation mechanisms...",
     "The ensemble learning strategies discussed in [103] inspire our hybrid architecture, integrating weak and strong learners...",
     "Federated learning models like those in [104] guide our design for decentralized model updates...",
-    "The limitations of traditional cross-validation techniques, observed in [105], are mitigated through our adaptive resampling strategy..."
+    "The limitations of traditional cross-validation techniques, observed in [105], are mitigated through our adaptive resampling strategy...",
+"The sensor fault taxonomies outlined in [61] provide a foundation for comparative evaluation...",
+    "Kalman-based estimators, as explored in [62], remain prevalent in sensor drift mitigation yet suffer under nonlinearity...",
+    "Rule-based diagnostics proposed in [63] demonstrate efficacy in single-sensor setups, but lack generalization...",
+    "Cross-validation of sensor redundancy, described in [64], informs the redundancy-aware architecture proposed herein...",
+    "The hybrid reasoning frameworks in [65] support multi-sensor fusion, though integration with temporal priors remains a gap...",
+    "The ontological classification proposed in [13] offers a hierarchical view of similar mechanisms...",
+    "Comparative analyses in [14, 17] expose critical trade-offs in latency and computational complexity...",
+    "Contrary to the homogenous assumptions in [16], our work accounts for dynamic environmental variability...",
+    "Methodologies based on graph-theoretic representations [10] demonstrate partial success in structured domains...",
+    "The Bayesian fusion strategies employed in [18] serve as a foundational backbone for multi-source reasoning...",
+    "Jones and colleagues [4] were among the first to propose...",
+    "The comparative analysis in [17] reveals a significant gap in...",
+    "The taxonomy presented in [15] classifies these approaches into...",
+    "As discussed in [20], hybrid strategies have yielded promising results in...",
+    "However, the limitations of techniques in [22, 24] highlight the need for...",
+    "Prior studies have explored...",
+    "Several methods have been proposed to...",
+    "A common limitation among existing approaches is...",
+    "The most relevant works include...",
+    "In contrast to previous efforts, this paper...",
+    "Previous approaches have focused primarily on...",
+    "Numerous studies have explored...",
+    "Recent advancements include...",
+    "Comparative analysis reveals gaps in...",
+    "Unlike existing methods, our approach...",
+    "Grounded in prior models of...",
+    "Anchored by foundational work in...",
+    "Extends classical assumptions of...",
+    "Builds upon well-established principles in...",
+    "Refines prior constructs by integrating...",
+    "...is grounded in foundational principles of computational modeling.",
+    "...has traditionally been addressed using rule-based approaches.",
+    "...has witnessed a paradigm shift with the advent of data-driven methods.",
+    "...has been extensively studied, yet gaps remain in practical deployment.",
+    "...requires a nuanced understanding of system-environment interaction.",
+    "Traditional~techniques~often~fail~to~address~the~variability~in~real-world~conditions.",
+    "Recent~approaches~have~sought~to~incorporate~contextual~information~into~the~modeling~process.",
+    "Advancements~in~data-driven~methods~have~opened~new~avenues~for~automation.",
+    "Existing~models~frequently~suffer~from~limited~generalizability.",
+    "Adaptive~architectures~have~emerged~as~a~promising~solution~to~these~challenges.",
+    "Sensor~networks~are~integral~to~modern~cyber-physical~and~IoT~applications.",
+    "Traditional~fault~diagnosis~methods~are~limited~by~static~thresholds~and~heuristics.",
+    "Hybrid~approaches~that~combine~statistical~and~machine~learning~techniques~are~emerging.",
+    "Context-awareness~is~increasingly~vital~in~adaptive~sensor~system~design.",
+    "Recent~studies~have~emphasized~the~role~of~temporal~and~spatial~correlation~in~fault~detection."
   ]
 },
 
@@ -2499,8 +2458,12 @@
     "As corroborated in [89], real-time diagnostics with minimal computational overhead remains a cornerstone for scalability...",
     "Future work should explore hybrid sensor fusion schemes as advocated by [90], particularly in resource-constrained environments..."
 
+
   ]
- }     
- 
+ }
+
+     
   }
+
+  
 }
