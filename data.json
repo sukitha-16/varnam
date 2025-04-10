@@ -1489,60 +1489,15 @@
 },
 
 
-"Abstract": {
-  "phrases": [
-    "This study presents...",
-    "We propose a novel approach to...",
-    "The results demonstrate that...",
-    "Significant improvements were observed in...",
-    "Our findings suggest potential for..."
-  ]
-},
 
-"Acknowledgments": {
-  "phrases": [
-    "The authors thank...",
-    "Support from [institution/funding] is gratefully acknowledged...",
-    "This research was funded by...",
-    "Special thanks to collaborators from...",
-    "Gratitude is extended to all who contributed..."
-  ]
-},
+
 "References": {
   "phrases": [
     "Cited works provide context for...",
     "Relevant foundational work includes...",
     "Prior art that inspired this includes...",
     "As shown in [Author, Year]...",
-    "Literature on this topic continues to evolve..."
-  ]
-},
-
-
-
-"Abstract": {
-  "phrases": [
-    "This paper introduces a novel...",
-    "The objective of this study is to...",
-    "A comparative evaluation demonstrates...",
-    "The proposed approach achieves significant...",
-    "Experimental findings validate the effectiveness of..."
-  ]
-},
-
-
-"Acknowledgments": {
-  "phrases": [
-    "The authors would like to thank...",
-    "This work was supported by...",
-    "We acknowledge the contribution of...",
-    "Funding was provided by...",
-    "Technical assistance from... is gratefully acknowledged..."
-  ]
-},
-
-"References": {
-  "phrases": [
+    "Literature on this topic continues to evolve...",
     "Based on the foundational work of...",
     "As demonstrated in previous research by...",
     "For a detailed discussion, refer to...",
@@ -1550,15 +1505,7 @@
     "This aligns with the conclusions of..."
   ]
 },
-"Abstract": {
-  "phrases": [
-    "This paper investigates the potential of...",
-    "The findings demonstrate improvements in...",
-    "Our study addresses the gap in...",
-    "The proposed approach significantly enhances...",
-    "Results validate the feasibility of..."
-  ]
-},
+
 "Literature_Review": {
   "phrases": [
     "Earlier studies have primarily focused on...",
@@ -1633,15 +1580,7 @@
     "...offers a concise representation of the findings."
   ]
 },
-"Abstract": {
-  "phrases": [
-    "...aims to address the limitations of prior techniques.",
-    "...proposes a novel strategy for improving predictive accuracy.",
-    "...summarizes key findings with practical implications.",
-    "...contributes a scalable solution to an existing challenge.",
-    "...offers a robust framework validated through extensive experimentation."
-  ]
-},
+
 "Literature_Review": {
   "phrases": [
     "...has been extensively explored in prior studies.",
@@ -1963,16 +1902,6 @@
     "This~distinguishes~our~work~from~supervised~techniques~requiring~exhaustive~labeling."
   ]
 },
-"Conclude_And_Implication": {
-  "phrases": [
-    "The~proposed~system~provides~a~scalable~solution~for~real-time~fault~diagnosis~in~IoT.",
-    "Findings~suggest~significant~potential~for~deployment~in~safety-critical~applications.",
-    "This~research~paves~the~way~for~intelligent~sensor~management~in~smart~environments.",
-    "Our~results~highlight~the~importance~of~context-aware~detection~strategies.",
-    "Future~work~will~focus~on~extending~the~approach~to~multi-modal~sensor~networks."
-  ]
-},
-
 
 
 
@@ -2071,26 +2000,7 @@
         "A~limitation~is~the~assumption~of~independence~among~fault~types,~which~will~be~addressed~in~future~research."
       ]
     },
-     "Conclude": {
-      "phrases": [
-        "In~summary,~this~work~proposes~a~robust,~scalable~framework~for~real-time~sensor~fault~management.",
-        "The~framework~offers~enhanced~reliability~for~intelligent~monitoring~systems.",
-        "This~approach~demonstrates~substantial~improvement~in~timely~fault~identification~and~classification.",
-        "Overall,~the~proposed~architecture~contributes~towards~trustworthy~and~self-healing~CPS~design."
-      ]
-    },
-    "Abstract": {
-  "phrases": [
-    "Building on the work of Smith et al. [12], this study enhances...",
-    "Unlike the approach in [7], our method leverages...",
-    "Following the methodology outlined in [21], the model was adapted to...",
-    "Consistent with recent findings in [5], our results indicate that...",
-    "As demonstrated in [9], integrating X improves Y, which is also observed in our findings..."
-  ]
-},
-
-
-
+     
 
 "Acknowledgments": {
   "phrases": [
@@ -2098,37 +2008,59 @@
     "The authors acknowledge prior contributions and tools from [56]...",
     "Methodological inspirations were partially drawn from [57]...",
     "The work was shaped by expert insights described in [58]...",
-    "Support aligned with the foundational efforts of [59] is gratefully noted..."
+    "Support aligned with the foundational efforts of [59] is gratefully noted...",
+	"The authors would like to thank...",
+    "This work was supported by...",
+    "We acknowledge the contribution of...",
+    "Funding was provided by...",
+    "Technical assistance from... is gratefully acknowledged...",
+    "The authors thank...",
+    "Support from [institution/funding] is gratefully acknowledged...",
+    "This research was funded by...",
+    "Special thanks to collaborators from...",
+    "Gratitude is extended to all who contributed..."
   ]
 },
 
 
 "Abstract": {
   "phrases": [
+"Building on the work of Smith et al. [12], this study enhances...",
+    "Unlike the approach in [7], our method leverages...",
+"...aims to address the limitations of prior techniques.",
+    "...proposes a novel strategy for improving predictive accuracy.",
+    "...summarizes key findings with practical implications.",
+    "...contributes a scalable solution to an existing challenge.",
+    "...offers a robust framework validated through extensive experimentation.",
+    "This paper investigates the potential of...",
+    "The findings demonstrate improvements in...",
+    "Our study addresses the gap in...",
+    "The proposed approach significantly enhances...",
+    "Results validate the feasibility of...",
+    "This paper introduces a novel...",
+    "The objective of this study is to...",
+    "A comparative evaluation demonstrates...",
+    "The proposed approach achieves significant...",
+    "Experimental findings validate the effectiveness of...",
+    "This study presents...",
+    "We propose a novel approach to...",
+    "The results demonstrate that...",
+    "Significant improvements were observed in...",
+    "Our findings suggest potential for...",
+    "Following the methodology outlined in [21], the model was adapted to...",
+    "Consistent with recent findings in [5], our results indicate that...",
+    "As demonstrated in [9], integrating X improves Y, which is also observed in our findings...",
     "Leveraging the paradigm introduced by X et al. [4], this framework advances adaptive decision-making under uncertainty...",
     "Anchored in the formalism of [12], the current study demonstrates a scalable alternative...",
     "Drawing upon the stochastic modeling of [15], our approach mitigates variability across temporal regimes...",
     "Inspired by the architectural constraints noted in [9], the present work proposes a modular solution for heterogeneous environments...",
-    "Consistent with empirical trends in [6], this implementation exhibits statistically significant improvements..."
-  ]
-},
-
-
-
-
-"Abstract": {
-  "phrases": [
+    
+    "Consistent with empirical trends in [6], this implementation exhibits statistically significant improvements...",
     "Building upon the sensor fusion strategies in [51], this work presents a real-time anomaly detection framework...",
     "Driven by the limitations of low-fidelity sensor data observed in [52], we introduce a self-corrective mechanism...",
     "Our approach refines multi-modal sensing outlined in [53], enhancing fault isolation with minimal latency...",
     "Consistent with the adaptive sensing paradigm proposed in [54], this method optimizes spatial coverage dynamically...",
-    "Inspired by noise-tolerant models in [55], the proposed system maintains integrity under varying signal-to-noise ratios..."
-  ]
-},
-
-
-"Abstract": {
-  "phrases": [
+    "Inspired by noise-tolerant models in [55], the proposed system maintains integrity under varying signal-to-noise ratios...",
     "Building upon recent advancements in representation learning [91], this study proposes a lightweight yet expressive framework...",
     "Motivated by the limitations of traditional classifiers in non-stationary environments [92], we introduce a robust alternative...",
     "Leveraging the attention mechanisms detailed in [93], our approach dynamically adapts to feature salience...",
@@ -2417,6 +2349,15 @@
     "Our work contributes to the growing body of interpretable machine learning, extending the concepts in [128]...",
     "The findings motivate further investigation into continual learning frameworks, as theorized in [129]...",
     "Future extensions may involve multi-task learning setups similar to those in [130], promoting shared representation benefits...",
+    "The~proposed~system~provides~a~scalable~solution~for~real-time~fault~diagnosis~in~IoT.",
+    "Findings~suggest~significant~potential~for~deployment~in~safety-critical~applications.",
+    "This~research~paves~the~way~for~intelligent~sensor~management~in~smart~environments.",
+    "Our~results~highlight~the~importance~of~context-aware~detection~strategies.",
+    "Future~work~will~focus~on~extending~the~approach~to~multi-modal~sensor~networks.",
+        "In~summary,~this~work~proposes~a~robust,~scalable~framework~for~real-time~sensor~fault~management.",
+        "The~framework~offers~enhanced~reliability~for~intelligent~monitoring~systems.",
+        "This~approach~demonstrates~substantial~improvement~in~timely~fault~identification~and~classification.",
+        "Overall,~the~proposed~architecture~contributes~towards~trustworthy~and~self-healing~CPS~design.",
     "In synthesis, this work constitutes a significant stride toward...",
     "Our conclusions are firmly undergirded by a rigorous evaluation of...",
     "This manuscript charts a path for future inquiry into...",
@@ -2462,8 +2403,6 @@
   ]
  }
 
-     
   }
-
   
 }
