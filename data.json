@@ -135,15 +135,7 @@
             "Our~work~contributes~towards~resilient~and~adaptive~CPS~design"
           ]
         },
-        "To~Acknowledge~Limitations~or~Future~Scope": {
-          "synonyms": [
-            "While~promising,~the~model~requires~further~validation~on~field~data",
-            "Scalability~to~cloud-integrated~systems~is~reserved~for~future~work",
-            "Dynamic~fault~injection~scenarios~remain~under~exploration",
-            "Limitations~include~dependency~on~label-rich~datasets",
-            "Extending~the~framework~for~multi-fault~interactions~is~ongoing"
-          ]
-        }, 
+        
      "To~Introduce~Analytical~Context": {
         "synonyms": [
             "Under~dynamic~operating~conditions,",
@@ -427,16 +419,7 @@
         ],
         "description": "Used to state the broader relevance of the work."
     },
-    "To~Suggest~Future~Work": {
-        "synonyms": [
-            "Future~research~should~explore",
-            "Additional~investigations~are~warranted",
-            "Further~refinement~is~required~to",
-            "Subsequent~studies~could~extend~this~framework",
-            "Prospective~research~may~integrate"
-        ],
-        "description": "Used to point to opportunities for future research."
-    },
+    
     "To~Conclude": {
         "synonyms": [
             "In~conclusion",
@@ -1194,24 +1177,6 @@
     "The architecture was benchmarked across heterogeneous datasets, revealing..."
   ]
 },
-"Future_Work": {
-  "phrases": [
-    "Ongoing investigations aim to incorporate probabilistic reasoning into...",
-    "Subsequent endeavors will explore the translational applicability of...",
-    "Future trajectories include real-world validation in multi-agent environments involving...",
-    "The next logical extension of this work lies in the automation of...",
-    "Further refinement is anticipated through the integration of explainability modules into..."
-  ]
-},
-"Limitations": {
-  "phrases": [
-    "While our findings are promising, they are constrained by...",
-    "A salient limitation of the present study lies in...",
-    "Caution must be exercised in generalizing results beyond...",
-    "These outcomes are inherently bounded by the scope of...",
-    "The reliance on X imposes a boundary condition that may affect..."
-  ]
-},
 "Significance": {
   "phrases": [
     "This contribution advances the frontier of research in...",
@@ -1478,18 +1443,6 @@
     "Enhanced using interpolation..."
   ]
 },
-"Future_Work": {
-  "phrases": [
-    "Future directions include...",
-    "Can be extended to...",
-    "Next steps involve exploring...",
-    "Upcoming research will consider...",
-    "Further investigation is warranted..."
-  ]
-},
-
-
-
 
 "References": {
   "phrases": [
@@ -1560,16 +1513,6 @@
     "We observed that the absence of Y led to..."
   ]
 },
-"Future_Work": {
-  "phrases": [
-    "We plan to extend this framework to support...",
-    "Future studies will explore the integration of...",
-    "A natural next step involves deploying the system on...",
-    "Subsequent work may investigate scalability with...",
-    "Long-term goals include adapting the approach for..."
-  ]
-},
-
 
 "Title_Justification": {
   "phrases": [
@@ -1662,34 +1605,6 @@
     "...establishes the value of temporal modeling."
   ]
 },
-"Limitations": {
-  "phrases": [
-    "...may suffer from scalability constraints at edge nodes.",
-    "...requires further testing under extreme conditions.",
-    "...assumes access to clean labeled data.",
-    "...depends on parameter tuning for optimal performance.",
-    "...has not yet been evaluated in safety-critical contexts."
-  ]
-},
-"Future_Work": {
-  "phrases": [
-    "...aims to incorporate active learning strategies.",
-    "...seeks to expand to unsupervised learning settings.",
-    "...intends to automate configuration across datasets.",
-    "...will explore interpretability using attention mechanisms.",
-    "...targets long-term deployment in real-time systems."
-  ]
-},
-"Acknowledgements": {
-  "phrases": [
-    "...express gratitude for institutional support.",
-    "...acknowledge funding agencies and collaborators.",
-    "...thank reviewers for their constructive feedback.",
-    "...recognize contributions from research assistants.",
-    "...appreciate access to computing infrastructure."
-  ]
-},
-
 
 
 "Motivation": {
@@ -1737,24 +1652,6 @@
     "...reflect operational trade-offs under varying load conditions."
   ]
 },
-"Limitations": {
-  "phrases": [
-    "...is currently limited by the availability of annotated datasets.",
-    "...requires manual configuration for certain hyperparameters.",
-    "...has not yet been validated on large-scale real-world deployments.",
-    "...may not generalize well to unseen or highly heterogeneous domains.",
-    "...exhibits sensitivity to initialization parameters under some settings."
-  ]
-},
-"Future_Work": {
-  "phrases": [
-    "...will aim to incorporate transfer learning for broader applicability.",
-    "...seeks to expand integration with edge computing platforms.",
-    "...includes investigating semi-supervised and unsupervised variants.",
-    "...targets dynamic adaptation without prior retraining.",
-    "...will focus on lifelong learning and continual calibration mechanisms."
-  ]
-},
     "Motivation": {
   "phrases": [
     "Recent~developments~have~highlighted~the~need~for~enhanced~decision-making~strategies.",
@@ -1800,24 +1697,7 @@
     "Both~quantitative~and~qualitative~analyses~were~performed~to~support~findings."
   ]
 },
-"Limitations": {
-  "phrases": [
-    "The~framework~relies~on~assumptions~that~may~not~hold~in~all~contexts.",
-    "Some~degree~of~manual~configuration~is~required~prior~to~deployment.",
-    "Evaluation~was~limited~to~synthetic~and~controlled~scenarios.",
-    "The~current~implementation~does~not~support~fully~autonomous~adaptation.",
-    "Future~iterations~may~incorporate~more~flexible~parameter~tuning~strategies."
-  ]
-},
-"Future_Work": {
-  "phrases": [
-    "Upcoming~work~will~focus~on~extending~the~framework~to~support~distributed~architectures.",
-    "Further~investigation~is~planned~into~the~use~of~self-supervised~learning.",
-    "Cross-domain~transferability~is~expected~to~be~a~key~area~of~future~research.",
-    "We~aim~to~explore~the~integration~of~knowledge~graphs~for~enhanced~contextual~awareness.",
-    "Scalable~deployment~on~edge~and~fog~nodes~will~be~considered~in~subsequent~studies."
-  ]
-},
+
     "Motivation": {
   "phrases": [
     "Rapid~advancement~in~sensor~technologies~has~necessitated~robust~data~interpretation~methods.",
@@ -1863,25 +1743,6 @@
     "Computational~efficiency~was~measured~using~runtime~and~memory~footprint~benchmarks."
   ]
 },
-"Limitations": {
-  "phrases": [
-    "The~model~performance~declines~in~the~presence~of~high-frequency~signal~distortions.",
-    "Limited~training~data~may~reduce~generalization~to~unseen~fault~types.",
-    "Hyperparameter~tuning~remains~a~manual~process~in~this~version~of~the~framework.",
-    "The~current~setup~does~not~support~real-time~distributed~fault~aggregation.",
-    "Future~enhancements~may~involve~integration~with~edge~computing~platforms."
-  ]
-},
-"Future_Work": {
-  "phrases": [
-    "We~plan~to~extend~our~approach~to~support~cross-domain~transfer~learning.",
-    "Integration~with~digital~twins~could~enhance~predictive~maintenance~capabilities.",
-    "Exploration~of~federated~learning~techniques~is~a~natural~next~step.",
-    "We~intend~to~investigate~multimodal~sensor~fusion~for~complex~event~detection.",
-    "Adaptive~online~learning~mechanisms~will~be~incorporated~for~deployment~in~dynamic~environments."
-  ]
-},
-
 
 
 "Define_Problem": {
@@ -1983,17 +1844,79 @@
       ]
     },
     
-    
-    "Discuss_Implications": {
+
+"Limitations_And_Future_Work": {
       "phrases": [
-        "These~findings~suggest~that~the~framework~is~suitable~for~deployment~in~edge-computing~applications.",
-        "The~results~underscore~the~model’s~applicability~to~autonomous~sensor~networks.",
-        "This~work~lays~the~foundation~for~developing~adaptive~and~resilient~CPS.",
-        "The~proposed~architecture~is~scalable~and~modular,~enabling~integration~into~existing~IoT~platforms."
-      ]
-    },
-    "Limitations_And_Future_Work": {
-      "phrases": [
+"The~model~performance~declines~in~the~presence~of~high-frequency~signal~distortions.",
+    "Limited~training~data~may~reduce~generalization~to~unseen~fault~types.",
+    "Hyperparameter~tuning~remains~a~manual~process~in~this~version~of~the~framework.",
+    "The~current~setup~does~not~support~real-time~distributed~fault~aggregation.",
+    "Future~enhancements~may~involve~integration~with~edge~computing~platforms.",
+    "The~framework~relies~on~assumptions~that~may~not~hold~in~all~contexts.",
+    "Some~degree~of~manual~configuration~is~required~prior~to~deployment.",
+    "Evaluation~was~limited~to~synthetic~and~controlled~scenarios.",
+    "The~current~implementation~does~not~support~fully~autonomous~adaptation.",
+    "Future~iterations~may~incorporate~more~flexible~parameter~tuning~strategies.",
+"...is currently limited by the availability of annotated datasets.",
+    "...requires manual configuration for certain hyperparameters.",
+    "...has not yet been validated on large-scale real-world deployments.",
+    "...may not generalize well to unseen or highly heterogeneous domains.",
+    "...exhibits sensitivity to initialization parameters under some settings.",
+"...may suffer from scalability constraints at edge nodes.",
+    "...requires further testing under extreme conditions.",
+    "...assumes access to clean labeled data.",
+    "...depends on parameter tuning for optimal performance.",
+    "...has not yet been evaluated in safety-critical contexts.",
+    "While our findings are promising, they are constrained by...",
+    "A salient limitation of the present study lies in...",
+    "Caution must be exercised in generalizing results beyond...",
+    "These outcomes are inherently bounded by the scope of...",
+    "The reliance on X imposes a boundary condition that may affect...",
+    "Upcoming~work~will~focus~on~extending~the~framework~to~support~distributed~architectures.",
+"We~plan~to~extend~our~approach~to~support~cross-domain~transfer~learning.",
+    "Integration~with~digital~twins~could~enhance~predictive~maintenance~capabilities.",
+    "Exploration~of~federated~learning~techniques~is~a~natural~next~step.",
+    "We~intend~to~investigate~multimodal~sensor~fusion~for~complex~event~detection.",
+    "Adaptive~online~learning~mechanisms~will~be~incorporated~for~deployment~in~dynamic~environments.",
+    "Further~investigation~is~planned~into~the~use~of~self-supervised~learning.",
+    "Cross-domain~transferability~is~expected~to~be~a~key~area~of~future~research.",
+    "We~aim~to~explore~the~integration~of~knowledge~graphs~for~enhanced~contextual~awareness.",
+    "Scalable~deployment~on~edge~and~fog~nodes~will~be~considered~in~subsequent~studies.",
+"...will aim to incorporate transfer learning for broader applicability.",
+    "...seeks to expand integration with edge computing platforms.",
+    "...includes investigating semi-supervised and unsupervised variants.",
+    "...targets dynamic adaptation without prior retraining.",
+    "...will focus on lifelong learning and continual calibration mechanisms.",
+    "...aims to incorporate active learning strategies.",
+    "...seeks to expand to unsupervised learning settings.",
+    "...intends to automate configuration across datasets.",
+    "...will explore interpretability using attention mechanisms.",
+    "...targets long-term deployment in real-time systems.",
+            "While~promising,~the~model~requires~further~validation~on~field~data",
+            "Scalability~to~cloud-integrated~systems~is~reserved~for~future~work",
+            "Dynamic~fault~injection~scenarios~remain~under~exploration",
+            "Limitations~include~dependency~on~label-rich~datasets",
+            "Extending~the~framework~for~multi-fault~interactions~is~ongoing",
+            "Future~research~should~explore",
+            "Additional~investigations~are~warranted",
+            "Further~refinement~is~required~to",
+            "Subsequent~studies~could~extend~this~framework",
+            "Prospective~research~may~integrate",
+    "Ongoing investigations aim to incorporate probabilistic reasoning into...",
+    "Subsequent endeavors will explore the translational applicability of...",
+    "Future trajectories include real-world validation in multi-agent environments involving...",
+    "The next logical extension of this work lies in the automation of...",
+    "Further refinement is anticipated through the integration of explainability modules into...",
+    "Future directions include...",
+    "Can be extended to...",
+    "Next steps involve exploring...",
+    "Upcoming research will consider...",
+    "Further investigation is warranted...",
+    "We plan to extend this framework to support...",
+    "Future studies will explore the integration of...",
+    "A natural next step involves deploying the system on...",
+    "Subsequent work may investigate scalability with...",
+    "Long-term goals include adapting the approach for...",
         "While~the~results~are~promising,~further~validation~on~heterogeneous~datasets~is~required.",
         "Future~work~will~involve~testing~under~real-world~conditions~and~continuous~data~streams.",
         "The~current~framework~relies~on~supervised~learning;~unsupervised~extensions~are~planned.",
@@ -2004,6 +1927,11 @@
 
 "Acknowledgments": {
   "phrases": [
+"...express gratitude for institutional support.",
+    "...acknowledge funding agencies and collaborators.",
+    "...thank reviewers for their constructive feedback.",
+    "...recognize contributions from research assistants.",
+    "...appreciate access to computing infrastructure.",
     "This study benefited from datasets provided by [55]...",
     "The authors acknowledge prior contributions and tools from [56]...",
     "Methodological inspirations were partially drawn from [57]...",
@@ -2285,6 +2213,10 @@
     "Contrary to the instability observed in dropout-heavy models in [124], our approach maintains steady performance across seeds...",
     "The model’s behavior under noisy labels, as explored in [125], suggests inherent resilience without explicit denoising...",
 "The interpretive lens adopted herein elucidates the latent mechanisms behind...",
+"These~findings~suggest~that~the~framework~is~suitable~for~deployment~in~edge-computing~applications.",
+        "The~results~underscore~the~model’s~applicability~to~autonomous~sensor~networks.",
+        "This~work~lays~the~foundation~for~developing~adaptive~and~resilient~CPS.",
+        "The~proposed~architecture~is~scalable~and~modular,~enabling~integration~into~existing~IoT~platforms.",
     "These findings provoke a re-examination of conventional assumptions regarding...",
     "The observed correlations may be indicative of deeper structural dependencies in...",
     "Such results should be contextualized within the broader theoretical framework of...",
@@ -2402,7 +2334,7 @@
 
   ]
  }
-
+     
   }
-  
+ 
 }
