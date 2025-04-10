@@ -5681,108 +5681,58 @@
   },
 "Rules_phase2":{
   "additional_grammar_rules": [
-    {
       "rule": "Use of consistent verb tense",
-      "description": "Maintain the same verb tense throughout a section or paragraph. Use past tense for methods and results, present tense for established facts."
-    },
-    {
-      "rule": "Avoid anthropomorphism",
-      "description": "Do not attribute human characteristics to inanimate objects or concepts. For example, 'The study suggests' should be 'The results suggest'."
-    },
-    {
-      "rule": "Avoid contractions",
-      "description": "Use full forms in formal writing. For example, use 'do not' instead of 'don't'."
-    },
-    {
-      "rule": "Avoid vague words",
-      "description": "Avoid using terms like 'a lot', 'things', or 'stuff'. Be specific and precise in your language."
-    },
-    {
-      "rule": "Use appropriate articles",
-      "description": "Ensure correct use of 'a', 'an', and 'the' to maintain clarity and grammatical accuracy."
-    },
-    {
-      "rule": "Maintain parallel structure",
-      "description": "When using lists or multiple phrases in a sentence, ensure the structure is consistent."
-    },
-    {
-      "rule": "Avoid passive voice when active is clearer",
-      "description": "Use active voice to make writing more direct and clear, unless passive voice emphasizes the action over the actor."
-    },
-    {
-      "rule": "Avoid redundancy",
-      "description": "Do not use repetitive or unnecessary phrases like 'basic fundamentals' or 'advance planning'."
-    },
-    {
-      "rule": "Correct placement of modifiers",
-      "description": "Place adjectives, adverbs, and clauses near the words they modify to avoid ambiguity."
-    },
-    {
-      "rule": "Use formal transitions",
-      "description": "Use academic connectors like 'Moreover', 'However', 'In addition', instead of informal ones like 'plus' or 'so'."
-    }
+      "description": "Maintain the same verb tense throughout a section or paragraph. Use past tense for methods and results, present tense for established facts.",
+      "rule2": "Avoid anthropomorphism",
+      "description2": "Do not attribute human characteristics to inanimate objects or concepts. For example, 'The study suggests' should be 'The results suggest'.",
+      "rule3": "Avoid contractions",
+      "description3": "Use full forms in formal writing. For example, use 'do not' instead of 'don't'.",
+      "rule4": "Avoid vague words",
+      "description4": "Avoid using terms like 'a lot', 'things', or 'stuff'. Be specific and precise in your language.",
+      "rule5": "Use appropriate articles",
+      "description5": "Ensure correct use of 'a', 'an', and 'the' to maintain clarity and grammatical accuracy.",
+      "rule6": "Maintain parallel structure",
+      "description6": "When using lists or multiple phrases in a sentence, ensure the structure is consistent.",
+      "rule7": "Avoid passive voice when active is clearer",
+      "description7": "Use active voice to make writing more direct and clear, unless passive voice emphasizes the action over the actor.",
+      "rule8": "Avoid redundancy",
+      "description8": "Do not use repetitive or unnecessary phrases like 'basic fundamentals' or 'advance planning'.",
+      "rule9": "Correct placement of modifiers",
+      "description9": "Place adjectives, adverbs, and clauses near the words they modify to avoid ambiguity.",
+      "rule10": "Use formal transitions",
+      "description10": "Use academic connectors like 'Moreover', 'However', 'In addition', instead of informal ones like 'plus' or 'so'."
   ],
   "common_mistakes_by_students": [
-    {
       "mistake": "Using informal or conversational language",
-      "description": "Using phrases like 'a lot of', 'kind of', or 'basically' reduces formality and clarity."
-    },
-    {
-      "mistake": "Improper structure",
-      "description": "Failing to organize content into Introduction, Methodology, Results, Discussion, and Conclusion sections."
-    },
-    {
-      "mistake": "Unclear thesis or contribution",
-      "description": "Not clearly stating the novelty or significance of the research work."
-    },
-    {
-      "mistake": "Overuse of passive voice",
-      "description": "Can make writing harder to follow and less engaging when overused."
-    },
-    {
-      "mistake": "Plagiarism or poor paraphrasing",
-      "description": "Copying content without proper citation or changing only a few words."
-    },
-    {
-      "mistake": "Poor citation style",
-      "description": "Inconsistent referencing or incorrect use of citation styles required by the journal."
-    },
-    {
-      "mistake": "Overuse of jargon",
-      "description": "Using technical terms without adequate explanation assumes too much prior knowledge."
-    },
-    {
-      "mistake": "Too much focus on background",
-      "description": "Devoting excessive space to known material at the expense of presenting original findings."
-    },
-    {
-      "mistake": "Grammatical and spelling errors",
-      "description": "Frequent in non-native writing; can be avoided with proofreading tools or peer review."
-    },
-    {
-      "mistake": "Lack of logical flow",
-      "description": "Presenting ideas in a disorganized or disconnected manner without smooth transitions."
-    },
-    {
-      "mistake": "Figures and tables not explained",
-      "description": "Including visuals without referencing or interpreting them in the main text."
-    },
-    {
-      "mistake": "Unclear or inconsistent terminology",
-      "description": "Using different terms for the same concept or undefined technical terms."
-    },
-    {
-      "mistake": "Long, complex sentences",
-      "description": "Using overly complicated sentence structures that hinder readability and clarity."
-    },
-    {
-      "mistake": "Ignoring word limits and formatting guidelines",
-      "description": "Failing to comply with the journal’s submission criteria."
-    },
-    {
-      "mistake": "Not proofreading or peer reviewing before submission",
-      "description": "Submitting without revision leads to errors that could easily have been corrected."
-    }
+      "description": "Using phrases like 'a lot of', 'kind of', or 'basically' reduces formality and clarity.",
+      "mistake2": "Improper structure",
+      "description2": "Failing to organize content into Introduction, Methodology, Results, Discussion, and Conclusion sections.",
+      "mistake3": "Unclear thesis or contribution",
+      "description3": "Not clearly stating the novelty or significance of the research work.",
+      "mistake4": "Overuse of passive voice",
+      "description4": "Can make writing harder to follow and less engaging when overused.",
+      "mistake5": "Plagiarism or poor paraphrasing",
+      "description5": "Copying content without proper citation or changing only a few words.",
+      "mistake6": "Poor citation style",
+      "description6": "Inconsistent referencing or incorrect use of citation styles required by the journal.",
+      "mistake7": "Overuse of jargon",
+      "description7": "Using technical terms without adequate explanation assumes too much prior knowledge.",
+      "mistake8": "Too much focus on background",
+      "description8": "Devoting excessive space to known material at the expense of presenting original findings.",
+      "mistake9": "Grammatical and spelling errors",
+      "description9": "Frequent in non-native writing; can be avoided with proofreading tools or peer review.",
+      "mistake10": "Lack of logical flow",
+      "description10": "Presenting ideas in a disorganized or disconnected manner without smooth transitions.",
+      "mistake11": "Figures and tables not explained",
+      "description11": "Including visuals without referencing or interpreting them in the main text.",
+      "mistake12": "Unclear or inconsistent terminology",
+      "description12": "Using different terms for the same concept or undefined technical terms.",
+      "mistake13": "Long, complex sentences",
+      "description13": "Using overly complicated sentence structures that hinder readability and clarity.",
+      "mistake14": "Ignoring word limits and formatting guidelines",
+      "description14": "Failing to comply with the journal’s submission criteria.",
+      "mistake15": "Not proofreading or peer reviewing before submission",
+      "description15": "Submitting without revision leads to errors that could easily have been corrected."
   ]
 },
 "Rules_phase3":{
