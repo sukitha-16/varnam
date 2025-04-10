@@ -3767,6 +3767,4476 @@
     "emphasis": ["significantly", "particularly", "notably", "especially", "markedly", "considerably", "strongly", "substantially", "vitally", "extensively"]
   }
 
+
+
+
+},
+
+
+ "academic_connectors_extended_2": {
+    "Nonetheless": {
+      "synonyms": ["Nevertheless", "Even so", "Still", "Yet", "All the same"],
+      "antonyms": ["Therefore", "As a result", "Thus", "Consequently", "Accordingly"],
+      "formal_alternatives": ["Regardless", "Notwithstanding", "Despite that", "Even with this", "In spite of this"],
+      "examples": [
+        "The accuracy was slightly lower. Nonetheless, the method was preferred due to simplicity.",
+        "There were computational limitations. Nonetheless, the system performed adequately.",
+        "The sample size was small; nonetheless, significant results were observed.",
+        "User satisfaction was low. Nonetheless, adoption rates increased.",
+        "The model failed under high noise. Nonetheless, it excelled in clean environments."
+      ],
+      "academic_contexts": ["Discussion", "Conclusion", "Limitations", "Contrasts", "Implications"],
+      "usage_tips": [
+        "Use when presenting an exception to a previous negative or limiting statement",
+        "Avoid overuse; reserve for key arguments",
+        "Prefer in results and discussion sections",
+        "Avoid casual phrasing like 'but still'",
+        "Follow with a comma for clarity"
+      ]
+    },
+    "Conversely": {
+      "synonyms": ["On the contrary", "In contrast", "On the other hand", "Oppositely", "Inversely"],
+      "antonyms": ["Similarly", "Correspondingly", "Likewise", "In the same way", "Equally"],
+      "formal_alternatives": ["In reverse", "By comparison", "Opposingly", "In opposition", "Contrarily"],
+      "examples": [
+        "Traditional systems are rigid. Conversely, adaptive systems evolve with context.",
+        "Model A focuses on precision. Conversely, Model B emphasizes recall.",
+        "Humans can generalize well. Conversely, machines require large datasets.",
+        "Unsupervised learning explores patterns. Conversely, supervised learning uses labels.",
+        "In qualitative analysis, depth is prioritized. Conversely, quantitative approaches favor breadth."
+      ],
+      "academic_contexts": ["Comparison", "Discussion", "Contrast", "Interpretation", "Results"],
+      "usage_tips": [
+        "Use at beginning of sentence to highlight contrast",
+        "Don't confuse with contradiction; it shows complementary difference",
+        "Avoid mixing with causal words like 'because'",
+        "Pair with measurable characteristics or features",
+        "Use in balanced argumentation"
+      ]
+    },
+    "Hence": {
+      "synonyms": ["Thus", "Therefore", "Consequently", "As a result", "Accordingly"],
+      "antonyms": ["Nevertheless", "However", "Still", "Conversely", "Despite this"],
+      "formal_alternatives": ["For this reason", "It follows that", "As such", "From this, it can be inferred", "This implies"],
+      "examples": [
+        "The model was trained on diverse data, hence improving generalizability.",
+        "There were fewer parameters; hence, the training time decreased.",
+        "Hence, it can be concluded that preprocessing is critical.",
+        "The results were consistent across trials, hence reliable.",
+        "The algorithm optimizes performance, hence widely adopted."
+      ],
+      "academic_contexts": ["Conclusion", "Results", "Causal explanation", "Summary", "Abstract"],
+      "usage_tips": [
+        "Follow with a comma when used at start of sentence",
+        "Avoid using with overly casual statements",
+        "Use to link results with reasons or implications",
+        "Stronger than 'so', more formal in tone",
+        "Use in formal summaries and logical conclusions"
+      ]
+    },
+    "Albeit": {
+      "synonyms": ["Although", "Though", "Even though", "While", "Despite"],
+      "antonyms": ["Certainly", "Indeed", "Clearly", "Surely", "Absolutely"],
+      "formal_alternatives": ["Although it is true that", "Even though", "Despite being", "While it may be", "Though"],
+      "examples": [
+        "The results were promising, albeit preliminary.",
+        "Albeit complex, the model offers interpretability.",
+        "The dataset is large, albeit imbalanced.",
+        "Albeit not ideal, the framework supports real-time inference.",
+        "The implementation is feasible, albeit resource-intensive."
+      ],
+      "academic_contexts": ["Limitations", "Nuanced Arguments", "Discussion", "Balance of Pros and Cons", "Abstracts"],
+      "usage_tips": [
+        "Use to soften a statement by adding a contrasting clause",
+        "Follow with an adjective or short phrase",
+        "Avoid stacking with other contrast words",
+        "Do not use to start long sentences",
+        "Adds subtlety and formality to arguments"
+      ]
+    },
+    "Subsequently": {
+      "synonyms": ["Thereafter", "Later", "Afterwards", "Following this", "Then"],
+      "antonyms": ["Previously", "Earlier", "Before that", "Initially", "Formerly"],
+      "formal_alternatives": ["In the next step", "Following that", "At a later stage", "In a subsequent phase", "As the next action"],
+      "examples": [
+        "Data were cleaned. Subsequently, features were extracted.",
+        "The system was tested in lab settings. Subsequently, field tests were conducted.",
+        "Models were compared. Subsequently, the best was deployed.",
+        "The fault was detected. Subsequently, the system triggered isolation procedures.",
+        "Participants were surveyed. Subsequently, results were analyzed statistically."
+      ],
+      "academic_contexts": ["Methodology", "Experimental Procedure", "Temporal Order", "Process Descriptions", "Literature Flow"],
+      "usage_tips": [
+        "Use to show logical or temporal sequence",
+        "Do not overuse—avoid repetition of temporal flow",
+        "Place after the period for clarity, or after a semicolon",
+        "Use to improve flow between experimental steps",
+        "Avoid casual versions like 'then'"
+      ]
+    },
+  "For_example": {
+      "synonyms": ["Such as", "Namely", "To illustrate", "For instance", "As an illustration"],
+      "antonyms": ["In general", "On average", "Broadly speaking", "Typically", "As a whole"],
+      "formal_alternatives": ["An illustration of this is", "To exemplify this", "One instance of this is", "As can be exemplified by", "To demonstrate"],
+      "examples": [
+        "For example, Kalman filters are widely used in sensor fusion.",
+        "For example, anomaly detection can be applied to fault diagnosis.",
+        "For example, the IoT framework uses MQTT protocols.",
+        "For example, supervised learning is suitable for labeled datasets.",
+        "For example, in CPS, latency must be minimized."
+      ],
+      "academic_contexts": ["Methodology", "Results", "Literature Review", "Discussion", "Application Scenarios"],
+      "usage_tips": [
+        "Use sparingly; one or two strong examples are better than many",
+        "Ensure example is clearly tied to the main point",
+        "Avoid overly generic examples in formal writing",
+        "Follow with a sentence explaining the relevance",
+        "Avoid starting every paragraph with 'for example'"
+      ]
+    },
+    "Because": {
+      "synonyms": ["Since", "As", "Due to the fact that", "Owing to the fact that", "Given that"],
+      "antonyms": ["Although", "Even though", "Despite", "Nevertheless", "However"],
+      "formal_alternatives": ["Given that", "Owing to", "As a result of", "In light of the fact that", "Considering that"],
+      "examples": [
+        "The model was discarded because it lacked generalization.",
+        "Results were inconsistent because of sensor drift.",
+        "Because the dataset was imbalanced, class weights were applied.",
+        "Because this approach is deterministic, variance is minimal.",
+        "Training was repeated because the validation loss increased."
+      ],
+      "academic_contexts": ["Justification", "Explanation", "Discussion", "Introduction", "Limitations"],
+      "usage_tips": [
+        "Use 'because' for causal clarity, not opinion",
+        "Formal alternatives like 'since' or 'as' may vary tone",
+        "Avoid 'because of' when a verb is needed; use 'because + clause'",
+        "Prefer 'due to' for noun-based phrases",
+        "Avoid emotional reasoning in scientific justifications"
+      ]
+    },
+    "In_addition": {
+      "synonyms": ["Also", "Moreover", "Furthermore", "Besides", "What's more"],
+      "antonyms": ["Conversely", "However", "In contrast", "Nevertheless", "On the other hand"],
+      "formal_alternatives": ["Additionally", "Apart from this", "It is also noteworthy that", "Beyond this", "An added point is that"],
+      "examples": [
+        "In addition, the algorithm achieves lower energy consumption.",
+        "In addition, preprocessing improves model performance.",
+        "In addition, hardware acceleration was applied.",
+        "In addition, this method reduces manual labeling.",
+        "In addition, the system has been deployed in real-time."
+      ],
+      "academic_contexts": ["Advantages", "Discussion", "Literature Review", "Results", "Extensions"],
+      "usage_tips": [
+        "Use to extend a prior point with new but related info",
+        "Combine with technical detail—not filler",
+        "Avoid repetition of points under the guise of 'in addition'",
+        "Use at paragraph level or sentence linking",
+        "Can follow semicolon or full stop, depending on flow"
+      ]
+    },
+    "Whereas": {
+      "synonyms": ["While", "Although", "Though", "On the other hand", "In contrast"],
+      "antonyms": ["Similarly", "Likewise", "Equally", "Correspondingly", "In the same way"],
+      "formal_alternatives": ["In contrast to", "Unlike", "While it is true that", "Although", "Conversely"],
+      "examples": [
+        "SVMs require fewer features, whereas neural networks need large datasets.",
+        "Sensor A is high-resolution, whereas Sensor B is faster.",
+        "The simulation is idealized, whereas the real system is noisy.",
+        "User feedback was positive, whereas developer adoption was limited.",
+        "The classifier is robust, whereas the regressor is sensitive to noise."
+      ],
+      "academic_contexts": ["Comparison", "Results", "Discussion", "Related Work", "Trade-offs"],
+      "usage_tips": [
+        "Place between two contrasting clauses",
+        "Maintain parallel sentence structure on both sides",
+        "Use to highlight subtle or technical contrasts",
+        "Avoid casual use—clarify the implication of contrast",
+        "Pair with quantifiers to enhance clarity (e.g., 'whereas only 5%'...)"
+      ]
+    },
+ "Therefore": {
+      "synonyms": ["Thus", "Hence", "Consequently", "As a result", "Accordingly"],
+      "antonyms": ["However", "Nevertheless", "Conversely", "On the contrary", "Yet"],
+      "formal_alternatives": ["Subsequently", "As a consequence", "This implies that", "Following this", "This necessitates that"],
+      "examples": [
+        "The proposed algorithm achieved lower latency. Therefore, it is more suitable for real-time applications.",
+        "The samples were contaminated. Therefore, the results may be invalid.",
+        "All variables were normalized. Therefore, comparisons are consistent.",
+        "Data quality improved. Therefore, less preprocessing was required.",
+        "The network was trained on imbalanced data. Therefore, class weights were introduced."
+      ],
+      "academic_contexts": ["Results", "Discussion", "Abstract", "Conclusion", "Evaluation"],
+      "usage_tips": [
+        "Use to show logical result from prior sentence",
+        "Followed by a comma when starting a sentence",
+        "Do not repeat 'therefore' multiple times in a paragraph",
+        "Ensure it reflects direct consequence—not assumption",
+        "Prefer alternatives for variety and tone"
+      ]
+    },
+    "However": {
+      "synonyms": ["Nevertheless", "Nonetheless", "Yet", "Still", "Even so"],
+      "antonyms": ["Therefore", "Thus", "Consequently", "Hence", "As a result"],
+      "formal_alternatives": ["In contrast", "Contrarily", "Despite this", "Be that as it may", "Notwithstanding"],
+      "examples": [
+        "The method is effective. However, it is computationally expensive.",
+        "The simulation produced accurate results. However, it lacks real-world validation.",
+        "This framework is well-documented. However, implementation complexity remains high.",
+        "The findings support the hypothesis. However, further research is necessary.",
+        "Storage requirements were met. However, scalability is still limited."
+      ],
+      "academic_contexts": ["Discussion", "Results", "Related Work", "Limitations", "Introduction"],
+      "usage_tips": [
+        "Use to present contrast to previous sentence",
+        "Start a new sentence for emphasis",
+        "Avoid overuse—combine with structure changes",
+        "Make contrast meaningful, not superficial",
+        "Support the claim with data or references"
+      ]
+    },
+    "Moreover": {
+      "synonyms": ["Furthermore", "In addition", "Also", "Additionally", "Besides"],
+      "antonyms": ["Conversely", "On the contrary", "However", "Nonetheless", "Instead"],
+      "formal_alternatives": ["What is more", "It is also worth noting", "To add further", "In like manner", "To build upon this"],
+      "examples": [
+        "The results were promising. Moreover, the method showed robustness to noise.",
+        "The algorithm reduced time complexity. Moreover, it enhanced accuracy.",
+        "The system is open-source. Moreover, it is actively maintained.",
+        "The model generalizes well. Moreover, it requires fewer parameters.",
+        "Battery life was extended. Moreover, sensor calibration remained stable."
+      ],
+      "academic_contexts": ["Related Work", "Discussion", "Abstract", "Advantages", "Results"],
+      "usage_tips": [
+        "Use to build upon a positive or neutral point",
+        "Avoid redundancy—add distinct and valuable information",
+        "Prefer at paragraph transitions or mid-sentence",
+        "Avoid casual tone like 'plus'",
+        "Pair with evidence when possible"
+      ]
+    },
+    "Although": {
+      "synonyms": ["Though", "Even though", "While", "Whereas", "Despite the fact that"],
+      "antonyms": ["Because", "Since", "Due to", "Owing to", "As"],
+      "formal_alternatives": ["Albeit", "In spite of the fact", "Despite the existence of", "Though it may be the case", "Even with"],
+      "examples": [
+        "Although the system is efficient, it lacks fault-tolerance.",
+        "Although promising, the approach needs large datasets.",
+        "Although several parameters were tuned, accuracy was suboptimal.",
+        "Although widely used, this model is rarely benchmarked.",
+        "Although data were collected, preprocessing was incomplete."
+      ],
+      "academic_contexts": ["Introduction", "Discussion", "Limitations", "Results", "Future Work"],
+      "usage_tips": [
+        "Use at sentence start for emphasis or mid-sentence for subtlety",
+        "Avoid sentence fragments when using conjunction",
+        "Clarify both positive and negative aspects",
+        "Balance clauses in complexity and tone",
+        "Use formal alternatives to vary style"
+      ]
+    },
+    "In_conclusion": {
+      "synonyms": ["To conclude", "To summarize", "Overall", "In summary", "Finally"],
+      "antonyms": ["To begin with", "Initially", "Firstly", "To start with", "Beforehand"],
+      "formal_alternatives": ["In closing", "As a final point", "Taking all findings into account", "Thus, it can be concluded", "The evidence suggests that"],
+      "examples": [
+        "In conclusion, the proposed system is reliable and scalable.",
+        "In conclusion, our method meets real-time constraints with high precision.",
+        "In conclusion, the experiment validates the initial hypothesis.",
+        "In conclusion, the results show clear improvement over baselines.",
+        "In conclusion, further investigation is warranted despite positive findings."
+      ],
+      "academic_contexts": ["Conclusion", "Discussion", "Abstract", "Summary", "Implications"],
+      "usage_tips": [
+        "Use only once per major section",
+        "Avoid repeating earlier sentences verbatim",
+        "Summarize, don’t introduce new data",
+        "Use to synthesize—not simply list—results",
+        "Follow with a strong implication or recommendation"
+      ]
+    },
+"Cause_and_Effect": {
+      "connectors": ["Therefore", "Thus", "Consequently", "As a result", "Hence"],
+      "examples": [
+        "The algorithm achieved higher accuracy. Therefore, it is preferred for real-time systems.",
+        "The data were incomplete. Thus, the analysis was limited.",
+        "There were inconsistencies in measurement. Consequently, the outcome varied.",
+        "The sensor malfunctioned. As a result, the readings were discarded.",
+        "The system was calibrated. Hence, no drift was observed."
+      ],
+      "common_sections": ["Results", "Discussion", "Conclusion", "Abstract", "Evaluation"],
+      "alternatives": ["Accordingly", "For this reason", "This leads to", "Due to this", "That being so"],
+      "usage_tips": [
+        "Avoid starting multiple consecutive sentences with effect connectors",
+        "Use after presenting a cause",
+        "Use comma after connector when starting a sentence",
+        "Vary the connectors to avoid repetition",
+        "Combine with passive voice to increase objectivity"
+      ]
+    },
+    "Contrast": {
+      "connectors": ["However", "Nevertheless", "Although", "Whereas", "On the other hand"],
+      "examples": [
+        "The model performed well on synthetic data. However, it struggled with real-world noise.",
+        "The system is efficient. Nevertheless, it consumes significant power.",
+        "Although the framework is flexible, it lacks scalability.",
+        "Method A is simpler, whereas Method B is more accurate.",
+        "Classical approaches are fast. On the other hand, deep models offer better generalization."
+      ],
+      "common_sections": ["Introduction", "Discussion", "Related Work", "Results", "Limitations"],
+      "alternatives": ["Nonetheless", "Yet", "Even so", "In contrast", "Though"],
+      "usage_tips": [
+        "Do not overuse ‘however’; alternate with similar connectors",
+        "Avoid sentence fragments following contrast terms",
+        "Clarify what the contrast is between",
+        "Prefer sentence-initial position for emphasis",
+        "Ensure contrast adds academic value"
+      ]
+    },
+    "Addition": {
+      "connectors": ["Moreover", "Furthermore", "In addition", "Also", "Besides"],
+      "examples": [
+        "The model reduces complexity. Moreover, it enhances interpretability.",
+        "The framework is modular. Furthermore, it is extensible.",
+        "In addition to accuracy, robustness was evaluated.",
+        "The technique was effective. Also, it was computationally efficient.",
+        "Besides its portability, the platform supports cloud deployment."
+      ],
+      "common_sections": ["Introduction", "Related Work", "Results", "Discussion", "Methodology"],
+      "alternatives": ["What is more", "Additionally", "As well", "Coupled with this", "To add to that"],
+      "usage_tips": [
+        "Use to reinforce a prior argument",
+        "Do not use multiple additive connectors in a row",
+        "Ensure added idea logically supports the previous one",
+        "Combine with parallel sentence structures",
+        "Avoid starting paragraphs with ‘Also’—use more formal options"
+      ]
+    },
+    "Comparison": {
+      "connectors": ["Similarly", "Likewise", "In the same way", "Correspondingly", "Equally"],
+      "examples": [
+        "The output of the second model was similarly accurate.",
+        "Likewise, the new version maintained low latency.",
+        "In the same way, the controller adapts to external inputs.",
+        "Correspondingly, the second experiment yielded consistent trends.",
+        "Equally, all components contributed to the system’s reliability."
+      ],
+      "common_sections": ["Results", "Discussion", "Related Work", "Abstract", "Evaluation"],
+      "alternatives": ["Analogously", "Equivalently", "Just as", "As with", "By the same token"],
+      "usage_tips": [
+        "Use when comparing models, techniques, or findings",
+        "Ensure parallel grammar structure",
+        "Don’t overuse within the same paragraph",
+        "Introduce comparisons after establishing the first case",
+        "Maintain clarity by referring to the comparison target"
+      ]
+    },
+    "Summarizing_or_Concluding": {
+      "connectors": ["In conclusion", "To summarize", "Overall", "In brief", "Ultimately"],
+      "examples": [
+        "In conclusion, the proposed model is both accurate and efficient.",
+        "To summarize, the experiment confirms the hypothesis.",
+        "Overall, the system performed as expected under varied conditions.",
+        "In brief, the methodology ensures real-time detection.",
+        "Ultimately, the goal of reducing complexity was achieved."
+      ],
+      "common_sections": ["Conclusion", "Abstract", "Discussion", "Executive Summary", "Highlights"],
+      "alternatives": ["In sum", "As a final point", "In totality", "In short", "From the analysis"],
+      "usage_tips": [
+        "Use only once per major section",
+        "Avoid vague restatements; synthesize key points",
+        "Prefer formal over colloquial phrases (avoid 'All in all')",
+        "Link back to research questions or objectives",
+        "Make sure the conclusion aligns with results"
+      ]
+    },
+ "Hedging_Tentativeness": {
+      "examples": [
+        "This proves the theory. → This may support the theory.",
+        "The method is perfect. → The method appears to perform reliably.",
+        "These results show causation. → These results suggest a potential causal link.",
+        "The solution solves all problems. → The solution could address the identified problems.",
+        "It will work in every case. → It is likely to work under similar conditions."
+      ],
+      "common_locations": [
+        "Abstract (summarizing conclusions)",
+        "Discussion (interpreting data)",
+        "Conclusion (suggesting implications)",
+        "Introduction (reviewing prior work)",
+        "Limitations (describing uncertainty)"
+      ],
+      "correction_phrases": [
+        "Add modals like may, might, could",
+        "Use verbs like suggest, indicate, imply",
+        "Avoid absolute phrases (e.g., always, never)",
+        "Use ‘appears’, ‘seems’ instead of ‘is’",
+        "Avoid overgeneralization"
+      ],
+      "improvement_strategies": [
+        "Replace strong verbs with cautious alternatives",
+        "Use epistemic modals to express doubt",
+        "Refer to likelihoods not certainties",
+        "Cite uncertainty when applicable",
+        "Compare with literature to justify hedging"
+      ],
+      "formal_equivalents": [
+        "This may indicate a novel behavior.",
+        "The results appear consistent with prior studies.",
+        "These observations suggest a possible correlation.",
+        "It is likely that the method is robust.",
+        "There is some evidence supporting this hypothesis."
+      ]
+    },
+ "Misplaced_Modifiers": {
+      "examples": [
+        "Using machine learning, the results improved. → Using machine learning, we improved the results.",
+        "To analyze the data, the sensor was calibrated.  → To analyze the data, the researchers calibrated the sensor.",
+        "After finishing the simulation, the graphs were plotted. → After finishing the simulation, we plotted the graphs.",
+        "Running efficiently, the experiment succeeded. → The experiment succeeded by running efficiently.",
+        "While optimizing parameters, the accuracy increased. → While optimizing parameters, we observed an increase in accuracy."
+      ],
+      "common_locations": [
+        "Abstract (summarizing actions)",
+        "Method (describing steps)",
+        "Results (interpreting output)",
+        "Discussion (analyzing improvements)",
+        "Figures and Tables (explanations)"
+      ],
+      "correction_phrases": [
+        "Place modifiers next to subject they describe",
+        "Avoid passive structures if they obscure action",
+        "Make actor explicit when unclear",
+        "Rephrase for clarity in long clauses",
+        "Avoid dangling gerunds or infinitives"
+      ],
+      "improvement_strategies": [
+        "Reread for clarity in subject-action relation",
+        "Use active voice to clarify actor",
+        "Break long sentences with modifiers into two",
+        "Highlight subject before modifier",
+        "Peer-review for awkward phrasing"
+      ],
+      "formal_equivalents": [
+        "The results were improved using machine learning techniques.",
+        "The researchers calibrated the sensor to analyze the data.",
+        "Upon completing the simulation, graphs were generated.",
+        "The experiment succeeded due to efficient execution.",
+        "An increase in accuracy was observed during parameter optimization."
+      ]
+    }, 
+ "Transition_Words_Misuse": {
+      "examples": [
+        "However the method failed. → However, the method failed.",
+        "Therefore the results are unreliable. → Therefore, the results are unreliable.",
+        "The accuracy improved, moreover it was faster. → The accuracy improved; moreover, it was faster.",
+        "Although the algorithm is efficient. It lacks flexibility. → Although the algorithm is efficient, it lacks flexibility.",
+        "In conclusion the hypothesis was validated. → In conclusion, the hypothesis was validated."
+      ],
+      "common_locations": [
+        "Introduction (contrast or support)",
+        "Results (comparing models)",
+        "Discussion (elaborating on findings)",
+        "Conclusion (drawing implications)",
+        "Abstract (linking ideas)"
+      ],
+      "correction_phrases": [
+        "Use commas after introductory transitions",
+        "Do not start sentence fragments with conjunctions",
+        "Replace redundant transitions",
+        "Clarify logical flow between sentences",
+        "Group similar transitions for consistent tone"
+      ],
+      "improvement_strategies": [
+        "List common transitions and their functions",
+        "Avoid stacking multiple transitions",
+        "Ensure coherence between ideas",
+        "Break long sentences when needed",
+        "Review top papers for transition usage"
+      ],
+      "formal_equivalents": [
+        "However, this observation contradicts the expected trend.",
+        "Therefore, the revised configuration is adopted.",
+        "Moreover, the system achieved higher efficiency.",
+        "Although promising, the model exhibits some instability.",
+        "In conclusion, the proposed method outperforms existing approaches."
+      ]
+    },
+"Subject_Verb_Agreement_Complex": {
+      "examples": [
+        "The data from multiple sensors is processed. → The data from multiple sensors are processed.",
+        "A list of measurements were recorded. → A list of measurements was recorded.",
+        "The accuracy and robustness is vital. → The accuracy and robustness are vital.",
+        "Neither the algorithm nor the technique were applied. → Neither the algorithm nor the technique was applied.",
+        "Each of the methods have limitations. → Each of the methods has limitations."
+      ],
+      "common_locations": [
+        "Methodology (listing items)",
+        "Results (describing outcomes)",
+        "Discussion (elaborating on models)",
+        "Figures (describing trends)",
+        "Conclusion (summarizing points)"
+      ],
+      "correction_phrases": [
+        "Identify core subject before verb",
+        "Ignore phrases between subject and verb",
+        "Match singular/plural verb properly",
+        "Check either/or, neither/nor structures",
+        "Review compound subject rules"
+      ],
+      "improvement_strategies": [
+        "Isolate the real subject when proofreading",
+        "Rephrase complex subject for clarity",
+        "Avoid long subject-verb gaps",
+        "Consult grammar checker for agreement",
+        "Use examples from top papers"
+      ],
+      "formal_equivalents": [
+        "The results of the experiments are presented.",
+        "A detailed explanation of the parameters is included.",
+        "The model and the controller are synchronized.",
+        "Neither option was considered viable.",
+        "Each module has a defined function."
+      ]
+    },
+ "Avoid_Ambiguous_Pronouns": {
+      "examples": [
+        "It was observed during testing. → The performance issue was observed during testing.",
+        "This is important. → This optimization step is important.",
+        "They failed to improve results. → The proposed methods failed to improve results.",
+        "It is unclear why. → The reason for the discrepancy is unclear.",
+        "This can affect outcomes. → This parameter setting can affect outcomes."
+      ],
+      "common_locations": [
+        "Results (referencing metrics)",
+        "Discussion (making comparisons)",
+        "Conclusion (summarizing impact)",
+        "Limitations (describing flaws)",
+        "Figures and Tables (discussing visuals)"
+      ],
+      "correction_phrases": [
+        "Clarify what 'this' or 'it' refers to",
+        "Replace vague pronouns with precise nouns",
+        "Avoid using standalone 'this'",
+        "Repeat noun for clarity where needed",
+        "Ensure no multiple subjects before pronoun"
+      ],
+      "improvement_strategies": [
+        "Ask: What does the pronoun refer to?",
+        "Re-read to detect vagueness",
+        "Use precise scientific terminology",
+        "Have peer reviewers spot ambiguous references",
+        "Avoid multiple possible referents near pronouns"
+      ],
+      "formal_equivalents": [
+        "The anomaly observed during validation caused instability.",
+        "This evaluation metric plays a critical role.",
+        "The methods tested did not improve performance.",
+        "The origin of the mismatch is uncertain.",
+        "These parameters can directly influence accuracy."
+      ]
+    },
+  "Nominalization": {
+      "examples": [
+        "We concluded that... → The conclusion was that...",
+        "They analyzed the data carefully. → The analysis of the data was thorough.",
+        "The model failed to detect the fault. → The model’s failure in fault detection was observed.",
+        "We evaluated the algorithm’s accuracy. → An evaluation of the algorithm’s accuracy was conducted.",
+        "He developed a new technique. → The development of a new technique was achieved."
+      ],
+      "common_locations": [
+        "Abstract (highlighting contributions)",
+        "Introduction (defining problems)",
+        "Methods (describing procedures)",
+        "Results (presenting findings)",
+        "Discussion (summarizing outcomes)"
+      ],
+      "correction_phrases": [
+        "Convert active verb to noun",
+        "Avoid first-person when possible",
+        "Use 'the + noun of verb' structure",
+        "Switch 'we did' → 'the [noun] was done'",
+        "Prefer impersonal construction"
+      ],
+      "improvement_strategies": [
+        "Use technical nouns instead of action verbs",
+        "Practice rewriting actions as entities",
+        "Observe nominalization in journal articles",
+        "Balance between clarity and abstraction",
+        "Combine nominalization with passive voice for formality"
+      ],
+      "formal_equivalents": [
+        "The investigation revealed substantial variation.",
+        "The derivation of the equations is shown in Section 3.",
+        "An analysis of the signal response was performed.",
+        "The classification performance was validated.",
+        "The design of the controller follows established theory."
+      ]
+    },
+ "Parallel_Structure": {
+      "examples": [
+        "The method is efficient, cost-effective, and it saves time. → The method is efficient, cost-effective, and time-saving.",
+        "The algorithm is fast, scalable, and has high accuracy. → The algorithm is fast, scalable, and accurate.",
+        "We aim to reduce cost, improve reliability, and system stability. → We aim to reduce cost, improve reliability, and enhance system stability.",
+        "The tasks include collecting data, processing, and then analysis. → The tasks include data collection, data processing, and data analysis.",
+        "The robot moves quickly, silently, and with precision. → The robot moves quickly, silently, and precisely."
+      ],
+      "common_locations": [
+        "Abstract (listing contributions)",
+        "Methodology (listing tasks)",
+        "Results (reporting metrics)",
+        "Discussion (describing comparisons)",
+        "Conclusion (summarizing advantages)"
+      ],
+      "correction_phrases": [
+        "Ensure all elements in a list use same part of speech",
+        "Match verb forms, nouns, or adjectives consistently",
+        "Avoid mixing gerunds, infinitives, and noun phrases",
+        "Revise for readability and rhythm",
+        "Use parallel structure in enumerations"
+      ],
+      "improvement_strategies": [
+        "Underline parts of the sentence to check alignment",
+        "Practice revising mixed-structure lists",
+        "Read aloud to detect rhythm inconsistencies",
+        "Use bullet lists during drafting",
+        "Review common patterns in journals"
+      ],
+      "formal_equivalents": [
+        "The system is scalable, adaptable, and resilient.",
+        "Our objectives include increasing accuracy, reducing cost, and improving robustness.",
+        "The results are consistent, interpretable, and verifiable.",
+        "The experiment involves preparing materials, configuring equipment, and collecting data.",
+        "The device operates efficiently, quietly, and reliably."
+      ]
+    },
+ "Avoid_Informal_Vocabulary": {
+      "examples": [
+        "The sensors are cool and small. → The sensors are compact and efficient.",
+        "A lot of data was collected. → A significant volume of data was collected.",
+        "The stuff was useful. → The materials were valuable.",
+        "Kids used the app easily. → Children used the application with ease.",
+        "They did a bunch of experiments. → They conducted multiple experiments."
+      ],
+      "common_locations": [
+        "Abstract (summary of findings)",
+        "Methodology (describing tools)",
+        "Results (explaining outcomes)",
+        "Discussion (analysis)",
+        "Conclusion (wrap-up)"
+      ],
+      "correction_phrases": [
+        "Replace 'cool' with 'efficient', 'effective'",
+        "Use academic nouns in place of casual references",
+        "Avoid idioms and phrasal verbs",
+        "Use objective and technical vocabulary",
+        "Convert informal adjectives to formal descriptors"
+      ],
+      "improvement_strategies": [
+        "Maintain a formal tone list",
+        "Review vocabulary from peer-reviewed articles",
+        "Use discipline-specific terminology",
+        "Avoid conversational expressions",
+        "Use academic thesaurus for replacements"
+      ],
+      "formal_equivalents": [
+        "The device exhibits compactness and precision.",
+        "A substantial dataset was acquired.",
+        "The framework includes necessary components.",
+        "Children interacted effectively with the interface.",
+        "Numerous trials were executed to ensure reliability."
+      ]
+    },
+"Avoid_Contractions": {
+      "examples": [
+        "Don’t include irrelevant data. → Do not include irrelevant data.",
+        "We can’t confirm the outcome. → We cannot confirm the outcome.",
+        "The device doesn’t function properly. → The device does not function properly.",
+        "It isn’t reliable. → It is not reliable.",
+        "They weren’t considered. → They were not considered."
+      ],
+      "common_locations": [
+        "Abstract (summarizing limitations)",
+        "Introduction (stating objectives)",
+        "Discussion (describing issues)",
+        "Conclusion (reinforcing arguments)",
+        "Limitations (noting constraints)"
+      ],
+      "correction_phrases": [
+        "Expand all contractions",
+        "Replace 'can't' with 'cannot', 'won’t' with 'will not'",
+        "Use full auxiliary verbs",
+        "Avoid informal tone",
+        "Maintain objectivity"
+      ],
+      "improvement_strategies": [
+        "Search and replace common contractions",
+        "Use grammar-check tools to flag informality",
+        "Practice paraphrasing in formal tone",
+        "Use institutional style guides",
+        "Review examples from journal papers"
+      ],
+      "formal_equivalents": [
+        "Do not introduce personal bias in results.",
+        "The model cannot guarantee accuracy.",
+        "It is not supported by empirical evidence.",
+        "They were not informed prior to testing.",
+        "The system does not exhibit instability."
+      ]
+    },
+  "Vague_Quantifiers": {
+      "examples": [
+        "A lot of data was processed. → A significant amount of data was processed.",
+        "Some results were interesting. → Several results indicated meaningful trends.",
+        "They did some tests. → They conducted a series of tests.",
+        "The algorithm improved a lot. → The algorithm improved significantly.",
+        "We collected stuff from sensors. → We collected various sensor outputs."
+      ],
+      "common_locations": [
+        "Abstract (reporting findings)",
+        "Results (describing observations)",
+        "Methodology (explaining procedures)",
+        "Discussion (interpreting significance)",
+        "Conclusion (summarizing outcomes)"
+      ],
+      "correction_phrases": [
+        "Replace 'a lot of' with 'numerous', 'a significant number of'",
+        "Use domain-specific terms instead of 'stuff'",
+        "Specify quantity or type where possible",
+        "Avoid vague generalities",
+        "Quantify findings wherever appropriate"
+      ],
+      "improvement_strategies": [
+        "Use numeric approximations where available",
+        "Train to replace vague words with academic collocations",
+        "Add specificity to replace general statements",
+        "Consult frequency wordlists in academic writing",
+        "Edit final drafts for vague language"
+      ],
+      "formal_equivalents": [
+        "A considerable amount of data was analyzed.",
+        "Several outcomes support the hypothesis.",
+        "The algorithm demonstrated substantial improvement.",
+        "Multiple sensor modalities were collected.",
+        "The tests yielded statistically significant results."
+      ]
+    },
+ "Determiners": {
+      "examples": [
+        "Much experiments were conducted. → Many experiments were conducted.",
+        "Less papers were published this year. → Fewer papers were published this year.",
+        "Few knowledge is dangerous. → Little knowledge is dangerous.",
+        "Many equipment were tested. → Much equipment was tested.",
+        "Fewer data was analyzed. → Less data was analyzed."
+      ],
+      "common_locations": [
+        "Abstract (summarizing scope)",
+        "Introduction (discussing existing literature)",
+        "Results (quantifying outputs)",
+        "Discussion (describing limitations)",
+        "Conclusion (describing scope)"
+      ],
+      "correction_phrases": [
+        "Use 'many', 'few', 'fewer' with countable nouns",
+        "Use 'much', 'little', 'less' with uncountable nouns",
+        "Check plural and singular noun forms",
+        "Avoid 'less' with countable items (e.g., less experiments → fewer experiments)",
+        "Avoid overgeneralizations"
+      ],
+      "improvement_strategies": [
+        "Create two columns of countable vs uncountable nouns",
+        "Practice using 'much/few/many/less/fewer' in context",
+        "Memorize exceptions (e.g., data is uncountable in academic tone)",
+        "Use domain examples (e.g., equipment, software)",
+        "Revise using parallel structures for quantity comparison"
+      ],
+      "formal_equivalents": [
+        "Many studies support this hypothesis.",
+        "Less evidence was found in the follow-up phase.",
+        "Few parameters affected the model's accuracy.",
+        "Much attention has been given to privacy concerns.",
+        "Fewer interruptions led to better results."
+      ]
+    },
+"Gerunds_vs_Infinitives": {
+      "examples": [
+        "We recommend to use filters. → We recommend using filters.",
+        "It is important completing the analysis. → It is important to complete the analysis.",
+        "The system allows to monitor data. → The system allows monitoring data.",
+        "We attempted training the model. → We attempted to train the model.",
+        "Avoid to make assumptions. → Avoid making assumptions."
+      ],
+      "common_locations": [
+        "Abstract (describing aims)",
+        "Methodology (describing processes)",
+        "Conclusion (stating outcomes)",
+        "Discussion (offering suggestions)",
+        "Limitations (recommending improvements)"
+      ],
+      "correction_phrases": [
+        "Use gerunds after verbs like avoid, recommend, suggest",
+        "Use infinitives after adjectives (important to, necessary to)",
+        "Avoid mixing gerunds and infinitives incorrectly",
+        "Ensure clarity by using appropriate verb forms",
+        "Use gerunds after prepositions"
+      ],
+      "improvement_strategies": [
+        "Make a list of gerund-based verbs (e.g., recommend, avoid)",
+        "Use infinitives for expressing intent",
+        "Use gerunds when the action is the subject",
+        "Avoid ambiguity by checking prepositions",
+        "Practice using examples in context"
+      ],
+      "formal_equivalents": [
+        "We recommend using advanced filtering techniques.",
+        "It is necessary to repeat the measurements.",
+        "This approach allows monitoring of real-time signals.",
+        "The authors attempted to optimize performance.",
+        "Avoid making assumptions without empirical data."
+      ]
+    },
+"Comparative Structures": {
+      "examples": [
+        "Our method is better than theirs. → Our method outperforms the existing one.",
+        "This approach is more accurate. → This approach yields higher accuracy.",
+        "The algorithm is faster. → The algorithm exhibits superior speed.",
+        "Results were less clear. → The results demonstrated reduced clarity.",
+        "It works as good as the other model. → It performs as well as the other model."
+      ],
+      "common_locations": [
+        "Related Work (comparing methods)",
+        "Results (comparing output)",
+        "Discussion (contrasting implications)",
+        "Conclusion (summarizing strengths)",
+        "Introduction (highlighting innovation)"
+      ],
+      "correction_phrases": [
+        "Avoid vague comparisons like 'better'",
+        "Use measurable comparisons (faster by %, more accurate by x)",
+        "Use 'compared to', 'relative to', 'in contrast with'",
+        "Ensure subject and object match in structure",
+        "Do not mix comparative forms (e.g., more better)"
+      ],
+      "improvement_strategies": [
+        "Quantify differences instead of generalizing",
+        "Use comparative linking phrases (while, whereas)",
+        "Check for parallel structure in comparison",
+        "Avoid illogical or unclear comparisons",
+        "Use domain-specific metrics (precision, recall, etc.)"
+      ],
+      "formal_equivalents": [
+        "The proposed method demonstrates superior performance.",
+        "Compared to baseline models, this approach yields better accuracy.",
+        "The system is significantly faster in real-time applications.",
+        "This model outperforms others in terms of stability.",
+        "It performs comparably to existing standards."
+      ]
+    },
+ "Intensifiers": {
+      "examples": [
+        "This is very important. → This is critical.",
+        "The results are really good. → The results are highly promising.",
+        "It is so useful. → It is particularly useful.",
+        "The model is very fast. → The model is exceptionally fast.",
+        "We are really sure. → We are highly confident."
+      ],
+      "common_locations": [
+        "Abstract (to describe findings)",
+        "Results (to emphasize values)",
+        "Discussion (to interpret implications)",
+        "Conclusion (to highlight significance)",
+        "Methodology (to stress improvements)"
+      ],
+      "correction_phrases": [
+        "Replace 'very' with domain-specific adjectives",
+        "Use modifiers like 'significantly', 'substantially'",
+        "Avoid stacking of intensifiers",
+        "Use statistical significance where possible",
+        "Emphasize through evidence, not adjectives"
+      ],
+      "improvement_strategies": [
+        "Use vocabulary lists for academic intensifiers",
+        "Avoid emotional emphasis (e.g., really amazing)",
+        "Replace intensifiers with quantitative expressions",
+        "Back claims with data instead of adjectives",
+        "Edit for neutrality in tone"
+      ],
+      "formal_equivalents": [
+        "This is of critical importance.",
+        "The results demonstrate significant improvement.",
+        "It is particularly effective for large datasets.",
+        "Performance improved substantially.",
+        "Confidence in the output remains high."
+      ]
+    },
+"Nominalization": {
+      "examples": [
+        "They concluded that the system works. → The conclusion was that the system works.",
+        "We analyzed the data. → The analysis of the data was conducted.",
+        "They decided to implement the model. → The decision to implement the model was made.",
+        "The sensors failed to respond. → There was a failure in sensor response.",
+        "We discovered a problem. → A discovery of a problem was made."
+      ],
+      "common_locations": [
+        "Abstract (summarizing processes)",
+        "Introduction (describing contributions)",
+        "Methods (formalizing procedures)",
+        "Results (reporting outcomes)",
+        "Conclusion (summarizing findings)"
+      ],
+      "correction_phrases": [
+        "Turn action verbs into nouns for formal tone",
+        "Use ‘tion’, ‘ment’, ‘ance’, or ‘ity’ endings",
+        "Use articles (the/a) properly with noun forms",
+        "Avoid overuse that clouds clarity",
+        "Balance nominal forms with active structures"
+      ],
+      "improvement_strategies": [
+        "Revise sentences by spotting strong verbs",
+        "Convert repeated verbs into nouns to reduce redundancy",
+        "Use nominalization in summaries and overviews",
+        "Avoid too much stacking of nouns",
+        "Mix nominal and active voice for readability"
+      ],
+      "formal_equivalents": [
+        "The implementation of the algorithm improved performance.",
+        "This study focuses on the evaluation of accuracy.",
+        "The analysis supports the hypothesis.",
+        "A significant contribution was observed.",
+        "The recommendation is based on observed patterns."
+      ]
+    },
+  "Modifiers": {
+      "examples": [
+        "We only tested the first method. → We tested only the first method.",
+        "Almost failed all tests. → Failed almost all tests.",
+        "The model predicts accurately the results. → The model accurately predicts the results.",
+        "Clearly, the method is flawed. → The method is clearly flawed.",
+        "The results are shown in Figure 2 exactly. → The results are shown exactly in Figure 2."
+      ],
+      "common_locations": [
+        "Results (quantifiers like 'only', 'almost')",
+        "Discussion (adverbs modifying adjectives)",
+        "Abstract (summarizing models)",
+        "Methodology (step details)",
+        "Conclusion (scope of claims)"
+      ],
+      "correction_phrases": [
+        "Place adverbs next to verbs/adjectives they modify",
+        "Avoid ambiguous placement of 'only', 'almost'",
+        "Check clarity by reading sentence aloud",
+        "Avoid stacking multiple modifiers before a noun",
+        "Revise modifiers for strength/clarity"
+      ],
+      "improvement_strategies": [
+        "Use Grammarly or style-check tools",
+        "Reword for directness and precision",
+        "Limit use of multiple adverbs in one sentence",
+        "Check academic examples for modifier placement",
+        "Ensure adverb enhances—not weakens—meaning"
+      ],
+      "formal_equivalents": [
+        "The method clearly fails under high noise.",
+        "We tested only the first configuration.",
+        "The algorithm accurately classifies input signals.",
+        "Most errors occurred during initialization.",
+        "Almost all results confirmed the hypothesis."
+      ]
+    },
+  "Transitions": {
+      "examples": [
+        "But the result was different. → However, the result differed.",
+        "So the experiment failed. → Therefore, the experiment failed.",
+        "Then we measured it. → Subsequently, we performed measurements.",
+        "Also, this helps. → In addition, this method offers support.",
+        "Because it was late. → Due to the delay, the experiment failed."
+      ],
+      "common_locations": [
+        "Introduction (to outline flow)",
+        "Related work (comparing studies)",
+        "Methods (describing procedures)",
+        "Results (sequence of findings)",
+        "Discussion (contrasting or linking ideas)"
+      ],
+      "correction_phrases": [
+        "Use 'however' instead of 'but'",
+        "Use 'thus' or 'therefore' instead of 'so'",
+        "Use 'in addition' instead of 'also'",
+        "Use 'due to' or 'owing to' instead of 'because'",
+        "Use 'subsequently' instead of 'then'"
+      ],
+      "improvement_strategies": [
+        "Categorize transitions (contrast, cause, time)",
+        "Replace informal connectors with academic ones",
+        "Ensure transitions are at sentence/paragraph start",
+        "Link similar ideas with cohesive devices",
+        "Avoid excessive use of 'and', 'but', 'so'"
+      ],
+      "formal_equivalents": [
+        "However, this did not align with expectations.",
+        "Therefore, the hypothesis was adjusted.",
+        "Subsequently, we measured the temperature.",
+        "In addition, this reduces computational cost.",
+        "Due to constraints, the sample size was reduced."
+      ]
+    },
+ "Hedging": {
+      "examples": [
+        "This proves the theory. → This appears to support the theory.",
+        "It will reduce error. → It may reduce error.",
+        "This model works best. → This model seems to perform well.",
+        "This result confirms X. → This result might indicate support for X.",
+        "The solution solves all issues. → The solution potentially addresses the issues."
+      ],
+      "common_locations": [
+        "Abstract (stating findings)",
+        "Results (describing observations)",
+        "Discussion (interpreting data)",
+        "Introduction (reviewing literature)",
+        "Conclusion (avoiding overstatements)"
+      ],
+      "correction_phrases": [
+        "Replace 'prove' with 'suggest' or 'indicate'",
+        "Use 'may', 'might', 'could' for possible outcomes",
+        "Avoid definitive verbs unless statistically validated",
+        "Use modal verbs to express uncertainty",
+        "Use 'appears to', 'seems to', 'is likely to'"
+      ],
+      "improvement_strategies": [
+        "Use softeners unless evidence is very strong",
+        "Match hedging level with statistical significance",
+        "Compare with literature cautiously",
+        "Use hedging to express trends, not absolutes",
+        "Revise modal verbs for tone balance"
+      ],
+      "formal_equivalents": [
+        "The results suggest an improvement.",
+        "This method appears to be effective.",
+        "The algorithm could outperform existing models.",
+        "It seems that the data supports the hypothesis.",
+        "The proposed model may offer a viable alternative."
+      ]
+    },
+"Adjective-Noun Collocations": {
+      "examples": [
+        "Strong algorithm → Robust algorithm",
+        "Big improvement → Significant improvement",
+        "Good result → Promising result",
+        "Fast speed → High velocity",
+        "Easy method → Straightforward method"
+      ],
+      "common_locations": [
+        "Abstract (qualifying contributions)",
+        "Results (describing observations)",
+        "Conclusion (summarizing effectiveness)",
+        "Methodology (describing tools)",
+        "Related work (comparing models)"
+      ],
+      "correction_phrases": [
+        "Avoid vague adjectives like 'good' or 'big'",
+        "Use academic collocations: 'significant increase', 'robust solution'",
+        "Use technical nouns with precise adjectives",
+        "Choose adjectives based on quantitative results",
+        "Align adjective intensity with your claim"
+      ],
+      "improvement_strategies": [
+        "Create a list of research collocations",
+        "Analyze top papers in your domain",
+        "Use thesaurus cautiously—check for common usage",
+        "Match tone of adjectives with data evidence",
+        "Use discipline-specific terminology"
+      ],
+      "formal_equivalents": [
+        "A robust architecture was implemented.",
+        "A significant improvement was achieved in accuracy.",
+        "The experiment yielded promising results.",
+        "The vehicle moved at high velocity.",
+        "A straightforward procedure was followed."
+      ]
+    },
+"Nominalization": {
+      "examples": [
+        "We analyzed the data. → An analysis of the data was conducted.",
+        "They decided to stop the test. → A decision was made to terminate the test.",
+        "We failed to predict the output. → The prediction of the output failed.",
+        "They observed several failures. → Several observations of failures were made.",
+        "The system performs well. → The performance of the system is satisfactory."
+      ],
+      "common_locations": [
+        "Abstract (summarizing contributions)",
+        "Introduction (presenting motivations)",
+        "Discussion (explaining findings)",
+        "Conclusion (stating results)",
+        "Literature review"
+      ],
+      "correction_phrases": [
+        "Convert verb to noun for formal structure",
+        "Avoid personal pronouns by using nominal forms",
+        "Focus on results and concepts, not actions",
+        "Use passive voice with nominalization for objectivity",
+        "Maintain parallel structure in noun phrases"
+      ],
+      "improvement_strategies": [
+        "Identify verbs and rephrase using academic nouns",
+        "Use tools like academic wordlists",
+        "Avoid overusing nominalization in one sentence",
+        "Use nominalization to connect ideas logically",
+        "Practice rewriting conclusions using nominal forms"
+      ],
+      "formal_equivalents": [
+        "The analysis of sensor data revealed anomalies.",
+        "A significant improvement in accuracy was observed.",
+        "The failure in prediction led to system redesign.",
+        "Several observations support the hypothesis.",
+        "The implementation of the algorithm is straightforward."
+      ]
+    },
+"Formal Verb Usage": {
+      "examples": [
+        "We looked into the issue. → We investigated the issue.",
+        "The experiment was set up. → The experiment was established.",
+        "They found out the cause. → They identified the cause.",
+        "The idea was put forward. → The idea was proposed.",
+        "The method was carried out. → The method was implemented."
+      ],
+      "common_locations": [
+        "Methodology (explaining steps)",
+        "Discussion (describing insights)",
+        "Abstract (describing actions)",
+        "Conclusion (summarizing tasks)",
+        "Problem statement sections"
+      ],
+      "correction_phrases": [
+        "Replace 'look into' with 'investigate'",
+        "Replace 'set up' with 'establish/configure'",
+        "Replace 'find out' with 'identify'",
+        "Replace 'put forward' with 'propose/suggest'",
+        "Replace 'carry out' with 'conduct/implement'"
+      ],
+      "improvement_strategies": [
+        "Use academic synonym lists for phrasal verbs",
+        "Avoid colloquial action words",
+        "Create a lookup table for phrasal → formal verbs",
+        "Check published academic articles for verb usage",
+        "Practice rewriting informal steps into formal style"
+      ],
+      "formal_equivalents": [
+        "The system was configured for initial deployment.",
+        "We investigated the anomalies observed.",
+        "The study identified key factors influencing performance.",
+        "A novel algorithm was proposed in this context.",
+        "The approach was implemented using Python."
+      ]
+    },
+"Compound Adjectives": {
+      "examples": [
+        "The system that runs in real time. → The real-time system.",
+        "A sensor that is based on infrared. → An infrared-based sensor.",
+        "A model that is trained with data. → A data-trained model.",
+        "A system with high speed. → A high-speed system.",
+        "A method using rule-based logic. → A rule-based method."
+      ],
+      "common_locations": [
+        "Abstract (describing systems)",
+        "Methodology (defining architectures)",
+        "Figure captions (labeling models)",
+        "Result sections (explaining outcomes)",
+        "Discussion (comparing designs)"
+      ],
+      "correction_phrases": [
+        "Use hyphen to join compound adjectives before nouns",
+        "Convert descriptive phrases into modifiers",
+        "Use form: [adjective/noun]-[past participle/noun]",
+        "Avoid repeating 'that is/which is' for modifiers",
+        "Avoid ambiguous compound modifiers (clarify logic)"
+      ],
+      "improvement_strategies": [
+        "Identify repeated descriptive phrases in your draft",
+        "Create a personal library of common compound adjectives",
+        "Analyze journal papers for patterns",
+        "Avoid redundant compound forms (e.g., 'fast-speed')",
+        "Use hyphenation rules consistently"
+      ],
+      "formal_equivalents": [
+        "The real-time detection framework performs well.",
+        "The infrared-based module showed superior accuracy.",
+        "A data-driven model was trained on 10,000 samples.",
+        "The sensor-fusion technique improved robustness.",
+        "We propose a fault-tolerant, rule-based system."
+      ]
+    },
+  "Use of Formal Adverbs": {
+      "examples": [
+        "Basically, the system works. → Fundamentally, the system functions as intended.",
+        "A lot of results were found. → Significant results were obtained.",
+        "Really important conclusions were made. → Highly important conclusions were drawn.",
+        "The model works very well. → The model performs effectively.",
+        "The change is kind of good. → The change is moderately beneficial."
+      ],
+      "common_locations": [
+        "Introduction (stating the objective)",
+        "Discussion (interpreting results)",
+        "Abstract (summarizing importance)",
+        "Conclusion (highlighting significance)",
+        "Comparative analysis sections"
+      ],
+      "correction_phrases": [
+        "Replace 'basically' with 'fundamentally' or 'essentially'",
+        "Replace 'a lot of' with 'numerous', 'substantial', or 'significant'",
+        "Replace 'really/very' with 'extremely', 'highly', or 'remarkably'",
+        "Replace 'kind of' with 'somewhat', 'moderately', or 'marginally'",
+        "Replace 'so' (e.g., 'so good') with 'considerably', 'notably'"
+      ],
+      "improvement_strategies": [
+        "Create a list of informal adverbs and their academic equivalents",
+        "Revise writing to replace vague intensifiers with domain-specific terms",
+        "Practice writing summaries using formal adverbs",
+        "Read journal abstracts to extract useful formal expressions",
+        "Avoid stacking intensifiers (e.g., 'very really important')"
+      ],
+      "formal_equivalents": [
+        "Fundamentally, the framework supports distributed processing.",
+        "Significantly, the error rate decreased after retraining.",
+        "Effectively, the hybrid approach outperforms existing models.",
+        "Moderately, the parameter tuning improved efficiency.",
+        "Substantially, the integration reduced latency."
+      ]
+    },
+ "Nominalization": {
+      "examples": [
+        "We analyzed the data. → An analysis of the data was conducted.",
+        "They concluded that the method was effective. → The conclusion was that the method was effective.",
+        "We compared the techniques. → A comparison of the techniques was made.",
+        "They investigated the behavior of the system. → An investigation into the system's behavior was carried out.",
+        "We observed performance improvements. → Performance improvements were observed."
+      ],
+      "common_locations": [
+        "Introduction and Abstract (for general claims)",
+        "Methodology (to describe actions formally)",
+        "Results (to summarize findings)",
+        "Discussion (to reflect on implications)",
+        "Conclusion (to wrap up actions performed)"
+      ],
+      "correction_phrases": [
+        "Turn 'analyze' into 'analysis'",
+        "Turn 'compare' into 'comparison'",
+        "Turn 'investigate' into 'investigation'",
+        "Turn 'observe' into 'observation'",
+        "Turn 'evaluate' into 'evaluation'"
+      ],
+      "improvement_strategies": [
+        "Use thesaurus or vocabulary lists to find noun forms",
+        "Practice rewriting active sentences using nominal forms",
+        "Identify common academic nominalizations in published papers",
+        "Limit overuse to maintain sentence clarity",
+        "Combine nominalization with passive voice for formal tone"
+      ],
+      "formal_equivalents": [
+        "The analysis revealed significant trends.",
+        "A comparison of the algorithms demonstrated superiority.",
+        "The investigation confirmed the hypothesis.",
+        "An evaluation of the dataset was performed.",
+        "The observation supports the initial assumptions."
+      ]
+    },
+ "Use of Passive Voice": {
+      "examples": [
+        "The system was designed to improve response time.",
+        "Data were collected using three independent sensors.",
+        "A simulation was conducted to evaluate performance.",
+        "The proposed algorithm was tested on benchmark datasets.",
+        "All experiments were repeated three times to ensure reliability."
+      ],
+      "common_locations": [
+        "Abstract and Methodology sections",
+        "Describing experimental setup",
+        "Presenting results or procedures",
+        "Detailing steps in the implementation",
+        "When emphasizing process over the researcher"
+      ],
+      "correction_phrases": [
+        "Avoid saying 'We performed' → use 'was performed'",
+        "Replace 'I analyzed' with 'was analyzed'",
+        "Use 'was developed' instead of 'I developed'",
+        "Change 'We collected the data' to 'The data were collected'",
+        "Avoid 'We tested the model' → use 'The model was tested'"
+      ],
+      "improvement_strategies": [
+        "Identify verbs that highlight the action rather than the doer",
+        "Use passive when the subject is obvious or unimportant",
+        "Alternate between passive and active voice to maintain variety",
+        "Use discipline-specific examples from top journals",
+        "Revise drafts to convert active to passive where appropriate"
+      ],
+      "formal_equivalents": [
+        "The parameters were optimized using a genetic algorithm.",
+        "Measurements were taken at 10-minute intervals.",
+        "The classifier was evaluated using cross-validation.",
+        "Noise was reduced using a low-pass filter.",
+        "The samples were prepared under controlled conditions."
+      ]
+    },
+ "Correct Preposition Usage": {
+      "examples": [
+        "The algorithm is based *on* a hybrid neural network.",
+        "The findings are consistent *with* previous studies.",
+        "The signal was transmitted *through* a fiber optic cable.",
+        "This method is applicable *to* real-time systems.",
+        "The data were obtained *from* three different sensors."
+      ],
+      "common_locations": [
+        "Describing relationships between concepts",
+        "Explaining methods or mechanisms",
+        "In result interpretation",
+        "In references to figures/tables",
+        "When stating dependencies or conditions"
+      ],
+      "correction_phrases": [
+        "Use 'based on', not 'based in'",
+        "Say 'applied to', not 'applied with'",
+        "Use 'different from', not 'different than'",
+        "Say 'in accordance with', not 'according to' (when referring to documents)",
+        "Use 'with respect to', not 'with regards to'"
+      ],
+      "improvement_strategies": [
+        "Keep a list of technical prepositional phrases",
+        "Use corpus-based tools to check collocations",
+        "Read published papers in your field for usage patterns",
+        "Avoid translating phrases literally from your native language",
+        "Use grammar-checking tools like Grammarly or LanguageTool"
+      ],
+      "formal_equivalents": [
+        "The algorithm operates *on the basis of* an optimization framework.",
+        "This technique is consistent *with* standard practice.",
+        "The signal passed *through* the amplifier.",
+        "The solution is relevant *to* large-scale problems.",
+        "The inputs were derived *from* experimental observations."
+      ]
+    },
+ "Consistency in Style and Terminology": {
+      "examples": [
+        "The term 'cyber-physical system' is used consistently throughout the paper.",
+        "Temperature data were recorded every 10 seconds using the same unit (Celsius) across all experiments.",
+        "The acronym ‘ML’ is introduced as ‘machine learning’ initially and used consistently thereafter.",
+        "The term ‘model accuracy’ refers to the percentage of correct predictions and is not confused with precision or recall.",
+        "The word 'dataset' is used throughout instead of alternating with 'data set'."
+      ],
+      "common_locations": [
+        "Abstract and Introduction",
+        "Methodology (to maintain variable names and definitions)",
+        "Results (to use consistent measurement units)",
+        "Tables and Figures (to align terminology)",
+        "Conclusion (to avoid switching terms)"
+      ],
+      "correction_phrases": [
+        "Use the same term for the same concept throughout.",
+        "Ensure all acronyms are introduced once and reused consistently.",
+        "Do not alternate between British and American spelling styles.",
+        "Maintain consistent tenses in descriptions.",
+        "Avoid changing technical terms mid-way."
+      ],
+      "improvement_strategies": [
+        "Create a terminology list before writing.",
+        "Define key terms and acronyms in the introduction.",
+        "Review each section for consistency in technical jargon.",
+        "Stick to one style guide (APA, IEEE, etc.) and citation format.",
+        "Use find/replace tools to identify inconsistent usage."
+      ],
+      "formal_equivalents": [
+        "The term ‘autonomous system’ is defined and reused consistently.",
+        "‘Sensor accuracy’ refers to a fixed metric throughout the text.",
+        "‘Artificial Intelligence (AI)’ is abbreviated and used uniformly.",
+        "The same naming scheme is followed across figures and tables.",
+        "Units such as ‘seconds’, ‘Celsius’, and ‘Hz’ are used consistently."
+      ]
+    },
+"Avoiding Ambiguous Pronouns": {
+      "examples": [
+        "This study confirms that the proposed model improves performance.",
+        "The results show that the algorithm outperforms traditional methods.",
+        "The dataset was preprocessed before it was used in training the model.",
+        "This finding supports the hypothesis presented earlier.",
+        "The paper evaluates the impact of these modifications on accuracy."
+      ],
+      "common_locations": [
+        "Results and Discussion sections",
+        "Conclusions",
+        "Abstract summaries",
+        "Comparisons and evaluations",
+        "Transitions between ideas"
+      ],
+      "correction_phrases": [
+        "Replace 'it' with the specific noun.",
+        "Use demonstratives clearly: 'this result', 'that approach'.",
+        "Avoid vague references like 'these' or 'they'.",
+        "Clarify antecedents before introducing pronouns.",
+        "Ensure pronouns refer to the most recent noun logically."
+      ],
+      "improvement_strategies": [
+        "Identify all pronouns and underline them.",
+        "Trace each pronoun to its noun.",
+        "Rephrase vague sentences using specific terms.",
+        "Limit the use of pronouns in formal writing.",
+        "Use demonstrative adjectives with nouns."
+      ],
+      "formal_equivalents": [
+        "This result confirms the model’s reliability.",
+        "The approach outperforms existing techniques.",
+        "The algorithm was validated using the dataset.",
+        "These modifications significantly improve precision.",
+        "This outcome supports the previous hypothesis."
+      ]
+    },
+    "Maintaining Objectivity": {
+      "examples": [
+        "The study demonstrates a significant improvement in detection accuracy.",
+        "The results suggest that the proposed framework is robust.",
+        "The evidence indicates that the algorithm performs reliably.",
+        "Experimental findings validate the theoretical assumptions.",
+        "The data supports the feasibility of the approach."
+      ],
+      "common_locations": [
+        "Introduction",
+        "Results",
+        "Discussion",
+        "Abstract",
+        "Conclusion"
+      ],
+      "correction_phrases": [
+        "Avoid personal pronouns like 'I', 'we', or 'our'.",
+        "Use impersonal constructions: 'It is observed that...'",
+        "Focus on the action or result, not the researcher.",
+        "Report facts, not personal beliefs.",
+        "Limit the use of subjective adjectives like 'interesting', 'important'."
+      ],
+      "improvement_strategies": [
+        "Rewrite personal sentences in passive voice.",
+        "Practice using 'it is found that' structures.",
+        "Refer to the work instead of the researcher.",
+        "Use quantifiable terms instead of vague adjectives.",
+        "Replace opinions with evidence-based claims."
+      ],
+      "formal_equivalents": [
+        "The experiment was conducted to validate the approach.",
+        "It is evident that the system meets the performance criteria.",
+        "The analysis reveals the effectiveness of the method.",
+        "Findings demonstrate the system’s consistency.",
+        "The outcomes validate the proposed technique."
+      ]
+    },
+"Use of Parallel Structure": {
+      "examples": [
+        "The method aims to collect data, analyze results, and generate reports.",
+        "The system is scalable, efficient, and reliable.",
+        "Participants were instructed to read the article, answer the questions, and submit feedback.",
+        "The algorithm is designed to detect, isolate, and correct faults.",
+        "The research focuses on accuracy, robustness, and efficiency."
+      ],
+      "common_locations": [
+        "Aims and objectives",
+        "Methodology steps",
+        "Bullet or numbered lists",
+        "Abstract summaries",
+        "Conclusion highlights"
+      ],
+      "correction_phrases": [
+        "Ensure all items in a list use the same verb form.",
+        "Match noun forms within compound lists.",
+        "Use consistent tense in lists of actions.",
+        "Avoid mixing phrases with clauses.",
+        "Maintain symmetry in comparative expressions."
+      ],
+      "improvement_strategies": [
+        "Review lists for grammatical symmetry.",
+        "Read aloud to identify inconsistencies.",
+        "Practice rewriting imbalanced sentences.",
+        "Check sentence rhythm and flow.",
+        "Compare to parallel structures in journals."
+      ],
+      "formal_equivalents": [
+        "The technique is accurate, robust, and scalable.",
+        "The system collects, processes, and transmits data.",
+        "The goals are to develop, evaluate, and optimize the model.",
+        "The paper describes the approach, the dataset, and the evaluation metrics.",
+        "The objectives include improving performance, reducing latency, and increasing reliability."
+      ]
+    },
+    "Consistent Tense Usage": {
+      "examples": [
+        "The experiment was conducted using three datasets.",
+        "The results indicate a strong correlation.",
+        "Prior studies have shown similar findings.",
+        "The model was trained on historical data.",
+        "This suggests that the method is effective."
+      ],
+      "common_locations": [
+        "Abstract (mixed tense)",
+        "Method (past tense)",
+        "Results (past or present depending on focus)",
+        "Discussion (present tense for interpretations)",
+        "Introduction (present for general knowledge)"
+      ],
+      "correction_phrases": [
+        "Use past tense for completed actions (e.g., 'was conducted').",
+        "Use present tense for interpretations and truths.",
+        "Avoid switching tense within the same paragraph.",
+        "Maintain consistency within sections.",
+        "Use present perfect when connecting past with present relevance."
+      ],
+      "improvement_strategies": [
+        "Color-code different tenses while reviewing drafts.",
+        "Stick to standard tense-per-section patterns.",
+        "Proofread backwards (paragraph by paragraph).",
+        "Use tense guides provided by journals.",
+        "Practice rewriting past-to-present summaries."
+      ],
+      "formal_equivalents": [
+        "The algorithm was validated using benchmark datasets.",
+        "This finding supports previous research.",
+        "The results demonstrate improved accuracy.",
+        "The technique has been applied in various domains.",
+        "The paper explores the implications of the findings."
+      ]
+    },
+ "Correct Preposition Usage": {
+      "examples": [
+        "The solution is consistent with previous work.",
+        "This method depends on accurate measurements.",
+        "The data were collected from multiple sensors.",
+        "The algorithm was applied to real-world datasets.",
+        "The results differ from those in earlier studies."
+      ],
+      "common_locations": [
+        "Methodology",
+        "Literature review",
+        "Discussion",
+        "Figures/Table captions",
+        "Comparative analysis"
+      ],
+      "correction_phrases": [
+        "Use 'different from' not 'different than'.",
+        "Use 'applied to' instead of 'applied on'.",
+        "Avoid mixing 'in' and 'into' incorrectly.",
+        "Ensure verbs pair with correct prepositions.",
+        "Do not translate prepositions literally from native language."
+      ],
+      "improvement_strategies": [
+        "Use preposition collocation dictionaries.",
+        "Check academic corpora (e.g., COCA) for usage.",
+        "Read more academic papers for correct usage.",
+        "Look up preposition+verb/adjective patterns.",
+        "Practice rewriting incorrect prepositions in context."
+      ],
+      "formal_equivalents": [
+        "This is consistent with recent studies.",
+        "The improvement resulted from the update.",
+        "The model was trained on benchmark data.",
+        "The signal was transmitted through the channel.",
+        "The finding aligns with theoretical expectations."
+      ]
+    },
+    "Correct Use of Punctuation": {
+      "examples": [
+        "The method includes three steps: sampling, filtering, and analysis.",
+        "The experiment was successful; however, further validation is required.",
+        "We used a low-pass filter, which attenuates high frequencies.",
+        "The results—despite the limited dataset—are encouraging.",
+        "Figure 2 illustrates the system architecture, components, and connections."
+      ],
+      "common_locations": [
+        "Lists",
+        "Compound/complex sentences",
+        "Appositive clauses",
+        "Transition words",
+        "Captions and annotations"
+      ],
+      "correction_phrases": [
+        "Use a semicolon before transition words.",
+        "Place commas after introductory clauses.",
+        "Avoid comma splices (two sentences joined by a comma).",
+        "Use colons for explanations or lists.",
+        "Use em dashes for emphasis or interruption."
+      ],
+      "improvement_strategies": [
+        "Review punctuation rules with academic examples.",
+        "Use grammar checkers to highlight errors.",
+        "Practice re-punctuating sample text.",
+        "Read aloud to sense natural pauses.",
+        "Compare journal samples to personal writing."
+      ],
+      "formal_equivalents": [
+        "The results are promising; however, further testing is necessary.",
+        "Three factors were considered: speed, accuracy, and cost.",
+        "This algorithm, developed in 2023, outperforms prior methods.",
+        "The dataset—although limited—provided useful insights.",
+        "We observed the pattern, which repeated consistently."
+      ]
+    },
+    "Using Formal Language": {
+      "examples": [
+        "Numerous studies have investigated this issue.",
+        "The system was developed to optimize performance.",
+        "The experiment yielded promising results.",
+        "The proposed technique addresses the stated objectives.",
+        "The findings contribute to the current understanding."
+      ],
+      "common_locations": [
+        "Abstract",
+        "Introduction",
+        "Discussion",
+        "Conclusion",
+        "Recommendations"
+      ],
+      "correction_phrases": [
+        "Replace informal verbs: 'get' → 'obtain'.",
+        "Avoid contractions: 'can't' → 'cannot'.",
+        "Replace 'a lot of' → 'many' or 'numerous'.",
+        "Avoid casual connectors: 'so', 'like', 'thing'.",
+        "Avoid filler words: 'very', 'really'."
+      ],
+      "improvement_strategies": [
+        "Use academic vocabulary lists (AWL).",
+        "Study phrases from journal articles.",
+        "Replace vague words with specific terminology.",
+        "Review formal vs. informal equivalents.",
+        "Avoid spoken language constructions."
+      ],
+      "formal_equivalents": [
+        "Many researchers have explored this domain.",
+        "The system was designed to enhance efficiency.",
+        "The technique significantly improves accuracy.",
+        "This approach aligns with current frameworks.",
+        "The study presents a novel contribution."
+      ]
+    },
+ "Avoiding Redundancy": {
+      "examples": [
+        "The study results clearly indicate a trend.",
+        "Due to limited space, only selected results are shown.",
+        "Because of system constraints, further tests were postponed.",
+        "The reason for the delay was a system malfunction.",
+        "The model was trained using a subset of the data."
+      ],
+      "common_locations": [
+        "Abstract",
+        "Discussion",
+        "Methodology",
+        "Limitations section",
+        "Conclusion"
+      ],
+      "correction_phrases": [
+        "Avoid saying 'the reason is because...'",
+        "Replace 'in order to' with 'to' where possible.",
+        "Eliminate repetitive phrases like 'advance planning'.",
+        "Do not use 'completely eliminate'; just 'eliminate'.",
+        "Use one precise word instead of multiple vague ones."
+      ],
+      "improvement_strategies": [
+        "Review each sentence for repeated meaning.",
+        "Use concise vocabulary from academic dictionaries.",
+        "Read aloud to hear unnecessary repetition.",
+        "Ask: ‘Can I say this more directly?’",
+        "Highlight redundant phrases and replace them."
+      ],
+      "formal_equivalents": [
+        "The delay was caused by...",
+        "Because the system was slow...",
+        "The reason is that...",
+        "The analysis revealed...",
+        "To achieve convergence..."
+      ]
+    },
+    "Avoiding Ambiguous Pronouns": {
+      "examples": [
+        "This method increases performance significantly.",
+        "Such improvements make the model more robust.",
+        "These results confirm the hypothesis.",
+        "This observation supports the conclusion.",
+        "The algorithm is effective; it reduces error rates."
+      ],
+      "common_locations": [
+        "Results",
+        "Discussion",
+        "Figures/Table explanations",
+        "Conclusion",
+        "Related work"
+      ],
+      "correction_phrases": [
+        "Replace 'it' with the specific noun it refers to.",
+        "Clarify 'this' or 'that' with a noun (e.g., 'this method').",
+        "Avoid long gaps between pronoun and reference.",
+        "Ensure one clear antecedent exists.",
+        "Avoid using 'they' for singular objects."
+      ],
+      "improvement_strategies": [
+        "Backtrack and name the subject.",
+        "Use pronouns only after a clear noun reference.",
+        "Scan for ambiguous pronouns during editing.",
+        "Ask a peer if the sentence is clear.",
+        "Use consistent technical terms instead of pronouns."
+      ],
+      "formal_equivalents": [
+        "This technique improves accuracy.",
+        "These findings suggest...",
+        "Such outcomes support...",
+        "This mechanism ensures...",
+        "The method achieves..."
+      ]
+    },
+    "Maintaining Objectivity": {
+      "examples": [
+        "The data indicate a significant trend.",
+        "The proposed system demonstrates improved performance.",
+        "Results support the hypothesis.",
+        "Evidence suggests that the approach is effective.",
+        "The observed behavior matches the expected pattern."
+      ],
+      "common_locations": [
+        "Abstract",
+        "Discussion",
+        "Results",
+        "Conclusion",
+        "Limitations section"
+      ],
+      "correction_phrases": [
+        "Avoid using 'I think', 'we believe'.",
+        "Use data as the subject: 'the data show'.",
+        "Avoid value-laden words like 'obviously', 'clearly'.",
+        "Stay neutral in language, even in strong findings.",
+        "Use 'it is suggested' instead of 'we think'."
+      ],
+      "improvement_strategies": [
+        "Reframe sentences to be evidence-based.",
+        "Use passive voice where necessary.",
+        "State facts, not opinions.",
+        "Use academic hedging (e.g., 'appears', 'may suggest').",
+        "Read published papers for tone reference."
+      ],
+      "formal_equivalents": [
+        "The findings indicate...",
+        "It is evident that...",
+        "The results demonstrate...",
+        "This suggests that...",
+        "The analysis supports the view that..."
+      ]
+    },
+  "Subject-Verb Agreement": {
+      "examples": [
+        "The model predicts accurate outcomes.",
+        "Each of the sensors functions independently.",
+        "The results indicate a clear trend.",
+        "There are multiple variables in the experiment.",
+        "The dataset includes noise and anomalies."
+      ],
+      "common_locations": [
+        "Introduction",
+        "Results section",
+        "Discussion",
+        "Methodology",
+        "Literature Review"
+      ],
+      "correction_phrases": [
+        "Match singular subjects with singular verbs.",
+        "Match plural subjects with plural verbs.",
+        "Watch out for subjects with intervening phrases.",
+        "Be cautious with collective nouns.",
+        "Double-check subjects that follow 'there is/are'."
+      ],
+      "improvement_strategies": [
+        "Isolate the subject and verb when proofreading.",
+        "Use grammar tools that flag disagreements.",
+        "Practice identifying the subject in complex sentences.",
+        "Avoid overly long subjects.",
+        "Cross-check with subject-verb agreement rules."
+      ],
+      "formal_equivalents": [
+        "The analysis reveals",
+        "Each method provides",
+        "The experiments show",
+        "The paper discusses",
+        "The systems operate"
+      ]
+    },
+    "Use of Parallel Structure": {
+      "examples": [
+        "The algorithm filters data, detects outliers, and normalizes inputs.",
+        "The system is designed to monitor, analyze, and alert.",
+        "The model improves speed, accuracy, and scalability.",
+        "The approach is scalable, efficient, and robust.",
+        "The user can input values, view results, and export data."
+      ],
+      "common_locations": [
+        "Abstract",
+        "Methodology",
+        "Results section",
+        "Conclusion",
+        "Figure captions"
+      ],
+      "correction_phrases": [
+        "Ensure items in a list share the same grammatical form.",
+        "Use parallel verbs for multiple actions.",
+        "Maintain consistent structure in bullet points.",
+        "Match nouns with nouns, verbs with verbs.",
+        "Align adjectives/adverbs when listing properties."
+      ],
+      "improvement_strategies": [
+        "Highlight parallel parts and match forms.",
+        "Recast lists to simplify grammatical structure.",
+        "Use grammar checkers for stylistic consistency.",
+        "Practice writing parallel structures.",
+        "Consult examples from academic texts."
+      ],
+      "formal_equivalents": [
+        "Designed to model, evaluate, and deploy",
+        "Capable of learning, adapting, and predicting",
+        "Provides accuracy, speed, and reliability",
+        "Supports collection, transmission, and analysis",
+        "Optimized for memory usage, computation time, and throughput"
+      ]
+    },
+    "Correct Use of Articles (a, an, the)": {
+      "examples": [
+        "The proposed algorithm performs well.",
+        "An effective solution is presented.",
+        "A novel approach is introduced.",
+        "The system was tested under constraints.",
+        "An overview of the technique is provided."
+      ],
+      "common_locations": [
+        "Abstract",
+        "Introduction",
+        "Methodology",
+        "Figure captions",
+        "Discussion"
+      ],
+      "correction_phrases": [
+        "Use 'a' before words beginning with consonant sounds.",
+        "Use 'an' before words beginning with vowel sounds.",
+        "Use 'the' for known or previously mentioned items.",
+        "Avoid article misuse in technical noun phrases.",
+        "Be specific with 'the' when referring to unique items."
+      ],
+      "improvement_strategies": [
+        "Learn common technical noun phrases with articles.",
+        "Practice article usage in writing exercises.",
+        "Use resources or guides on article rules.",
+        "Review published papers for consistent usage.",
+        "Check for unnecessary article repetition."
+      ],
+      "formal_equivalents": [
+        "A novel technique",
+        "The method outlined",
+        "An alternative solution",
+        "The experiment conducted",
+        "A comprehensive analysis"
+      ]
+    },
+  "Avoid contractions": {
+      "examples": [
+        "Do not include irrelevant results.",
+        "It is evident from the findings.",
+        "They have not considered the outliers.",
+        "We will demonstrate the proposed method.",
+        "The system does not perform optimally."
+      ],
+      "common_locations": [
+        "Abstract",
+        "Conclusion",
+        "Discussion",
+        "Methodology",
+        "Limitations"
+      ],
+      "correction_phrases": [
+        "Replace contractions with full forms.",
+        "Search for apostrophes to identify contractions.",
+        "Use formal expressions for negative statements.",
+        "Rephrase with auxiliary verbs fully written.",
+        "Maintain formality by avoiding spoken forms."
+      ],
+      "improvement_strategies": [
+        "Disable autocorrect features that add contractions.",
+        "Use academic tone check tools.",
+        "Practice writing with formal phrases.",
+        "Compare informal vs. formal sentences.",
+        "Read journal papers to learn tone."
+      ],
+      "formal_equivalents": [
+        "Cannot → Cannot",
+        "Don't → Do not",
+        "It's → It is",
+        "They're → They are",
+        "We'll → We will"
+      ]
+    },
+    "Avoid vague language": {
+      "examples": [
+        "The results were kind of accurate.",
+        "It shows a lot of variation.",
+        "There are some interesting effects.",
+        "The system worked pretty well.",
+        "A big improvement was seen."
+      ],
+      "common_locations": [
+        "Results section",
+        "Abstract",
+        "Introduction",
+        "Discussion",
+        "Conclusion"
+      ],
+      "correction_phrases": [
+        "Replace vague terms with precise data.",
+        "Avoid terms like 'many', 'a lot', 'some'.",
+        "Use quantifiable terms like percentages.",
+        "Describe exact performance metrics.",
+        "State exact observed effects."
+      ],
+      "improvement_strategies": [
+        "Practice replacing vague words with data-driven alternatives.",
+        "Use discipline-specific vocabulary.",
+        "Avoid emotional adjectives.",
+        "Use comparison terms.",
+        "Employ scientific descriptors."
+      ],
+      "formal_equivalents": [
+        "A lot of → A significant number of",
+        "Somewhat accurate → Approximately accurate",
+        "Pretty good → Satisfactory",
+        "Kind of → Partially",
+        "Big improvement → Notable improvement"
+      ]
+    },
+   "Use of consistent verb tense": {
+      "examples": [
+        "The data were collected using sensor A.",
+        "The results show significant improvement.",
+        "Previous studies indicated a similar trend.",
+        "This paper presents a new method.",
+        "The experiment was performed under controlled conditions."
+      ],
+      "common_locations": [
+        "Abstract",
+        "Methods section",
+        "Results section",
+        "Introduction",
+        "Discussion"
+      ],
+      "correction_phrases": [
+        "Ensure all verbs in the Results section use past tense.",
+        "Present general findings in the present tense.",
+        "Use past perfect when describing events prior to past actions.",
+        "Check for tense shifts in long paragraphs.",
+        "Use consistent tense within the same paragraph."
+      ],
+      "improvement_strategies": [
+        "Read each section separately and highlight tenses.",
+        "Practice rewriting in correct tense.",
+        "Use grammar checkers focused on tense shifts.",
+        "Create a checklist for tense use by section.",
+        "Peer review for tense consistency."
+      ],
+      "formal_equivalents": [
+        "The study was conducted",
+        "The findings suggest",
+        "The approach was validated",
+        "This method demonstrates",
+        "The results were interpreted"
+      ]
+    },
+    "Avoid anthropomorphism": {
+      "examples": [
+        "This paper discusses...",
+        "The model suggests...",
+        "The figure shows...",
+        "The table illustrates...",
+        "This section presents..."
+      ],
+      "common_locations": [
+        "Introduction",
+        "Results section",
+        "Figure/Table captions",
+        "Discussion",
+        "Abstract"
+      ],
+      "correction_phrases": [
+        "Avoid attributing human actions to inanimate objects.",
+        "Replace 'the paper argues' with 'we argue'.",
+        "Use passive constructions for object descriptions.",
+        "Use 'The results indicate' instead of 'The data says'.",
+        "Use impersonal phrasing like 'It was observed that...'."
+      ],
+      "improvement_strategies": [
+        "Review common anthropomorphic verbs (say, argue, believe).",
+        "Replace inanimate subjects with authors or passive voice.",
+        "List accepted academic alternatives.",
+        "Edit captions with formal description verbs.",
+        "Practice rewriting anthropomorphic sentences."
+      ],
+      "formal_equivalents": [
+        "The data indicate",
+        "The results reveal",
+        "This section describes",
+        "The model demonstrates",
+        "Figure 2 depicts"
+      ]
+    }
+
+  },
+"Rules_phase2":{
+  "additional_grammar_rules": [
+    {
+      "rule": "Use of consistent verb tense",
+      "description": "Maintain the same verb tense throughout a section or paragraph. Use past tense for methods and results, present tense for established facts."
+    },
+    {
+      "rule": "Avoid anthropomorphism",
+      "description": "Do not attribute human characteristics to inanimate objects or concepts. For example, 'The study suggests' should be 'The results suggest'."
+    },
+    {
+      "rule": "Avoid contractions",
+      "description": "Use full forms in formal writing. For example, use 'do not' instead of 'don't'."
+    },
+    {
+      "rule": "Avoid vague words",
+      "description": "Avoid using terms like 'a lot', 'things', or 'stuff'. Be specific and precise in your language."
+    },
+    {
+      "rule": "Use appropriate articles",
+      "description": "Ensure correct use of 'a', 'an', and 'the' to maintain clarity and grammatical accuracy."
+    },
+    {
+      "rule": "Maintain parallel structure",
+      "description": "When using lists or multiple phrases in a sentence, ensure the structure is consistent."
+    },
+    {
+      "rule": "Avoid passive voice when active is clearer",
+      "description": "Use active voice to make writing more direct and clear, unless passive voice emphasizes the action over the actor."
+    },
+    {
+      "rule": "Avoid redundancy",
+      "description": "Do not use repetitive or unnecessary phrases like 'basic fundamentals' or 'advance planning'."
+    },
+    {
+      "rule": "Correct placement of modifiers",
+      "description": "Place adjectives, adverbs, and clauses near the words they modify to avoid ambiguity."
+    },
+    {
+      "rule": "Use formal transitions",
+      "description": "Use academic connectors like 'Moreover', 'However', 'In addition', instead of informal ones like 'plus' or 'so'."
+    }
+  ],
+  "common_mistakes_by_students": [
+    {
+      "mistake": "Using informal or conversational language",
+      "description": "Using phrases like 'a lot of', 'kind of', or 'basically' reduces formality and clarity."
+    },
+    {
+      "mistake": "Improper structure",
+      "description": "Failing to organize content into Introduction, Methodology, Results, Discussion, and Conclusion sections."
+    },
+    {
+      "mistake": "Unclear thesis or contribution",
+      "description": "Not clearly stating the novelty or significance of the research work."
+    },
+    {
+      "mistake": "Overuse of passive voice",
+      "description": "Can make writing harder to follow and less engaging when overused."
+    },
+    {
+      "mistake": "Plagiarism or poor paraphrasing",
+      "description": "Copying content without proper citation or changing only a few words."
+    },
+    {
+      "mistake": "Poor citation style",
+      "description": "Inconsistent referencing or incorrect use of citation styles required by the journal."
+    },
+    {
+      "mistake": "Overuse of jargon",
+      "description": "Using technical terms without adequate explanation assumes too much prior knowledge."
+    },
+    {
+      "mistake": "Too much focus on background",
+      "description": "Devoting excessive space to known material at the expense of presenting original findings."
+    },
+    {
+      "mistake": "Grammatical and spelling errors",
+      "description": "Frequent in non-native writing; can be avoided with proofreading tools or peer review."
+    },
+    {
+      "mistake": "Lack of logical flow",
+      "description": "Presenting ideas in a disorganized or disconnected manner without smooth transitions."
+    },
+    {
+      "mistake": "Figures and tables not explained",
+      "description": "Including visuals without referencing or interpreting them in the main text."
+    },
+    {
+      "mistake": "Unclear or inconsistent terminology",
+      "description": "Using different terms for the same concept or undefined technical terms."
+    },
+    {
+      "mistake": "Long, complex sentences",
+      "description": "Using overly complicated sentence structures that hinder readability and clarity."
+    },
+    {
+      "mistake": "Ignoring word limits and formatting guidelines",
+      "description": "Failing to comply with the journal’s submission criteria."
+    },
+    {
+      "mistake": "Not proofreading or peer reviewing before submission",
+      "description": "Submitting without revision leads to errors that could easily have been corrected."
+    }
+  ]
+},
+"Rules_phase3":{
+  "grammar_rules": [
+    {
+      "rule": "Passive Voice",
+      "definition": "Use passive voice to emphasize the action or result rather than the subject performing it.",
+      "examples": [
+        "The data were collected from three sensors.",
+        "The model was trained using historical datasets.",
+        "A novel approach was proposed.",
+        "The experiments were conducted in a controlled setting.",
+        "An evaluation metric was used to assess performance.",
+        "The results were validated through cross-validation.",
+        "Measurements were taken every 10 seconds.",
+        "The device was configured prior to deployment.",
+        "A threshold was established based on prior studies.",
+        "The hypothesis was confirmed by statistical analysis."
+      ],
+      "alternatives": [
+        "The experiment was repeated five times.",
+        "The proposed system was tested on real-world data.",
+        "The sensors were calibrated before use.",
+        "A significant difference was observed.",
+        "All variables were kept constant during the trial."
+      ],
+      "not_to_do": [
+        "We collected the data from three sensors.",
+        "Our team trained the model.",
+        "I proposed a novel approach.",
+        "We validated the results.",
+        "We configured the device before deployment."
+      ]
+    },
+    {
+      "rule": "Consistent Tense Usage",
+      "definition": "Use past tense for methodology/results and present tense for established facts or implications.",
+      "examples": [
+        "The algorithm was implemented in Python.",
+        "The data were preprocessed using a moving average filter.",
+        "The sensor recorded data every minute.",
+        "The approach was validated using real datasets.",
+        "The analysis revealed a significant trend.",
+        "Machine learning provides powerful tools for prediction.",
+        "This method improves the detection rate.",
+        "The findings support the existing literature.",
+        "Our results show a 15% improvement.",
+        "The study confirms the effectiveness of the technique."
+      ],
+      "alternatives": [
+        "The hypothesis was evaluated.",
+        "This approach is widely used.",
+        "The model demonstrates robustness.",
+        "Prior research suggests similar outcomes.",
+        "We observed that the system is stable."
+      ],
+      "not_to_do": [
+        "The algorithm is implemented in Python.",
+        "We implement the method and test it.",
+        "The system records data and was tested.",
+        "Our study shows and showed improvements.",
+        "It shows the experiment was conducted."
+      ]
+    },
+    {
+      "rule": "Subject-Verb Agreement",
+      "definition": "Ensure the subject and verb agree in number and form.",
+      "examples": [
+        "The result indicates a strong correlation.",
+        "Each method provides a unique advantage.",
+        "Several sensors were deployed.",
+        "A series of tests was conducted.",
+        "Multiple parameters affect accuracy.",
+        "The approach yields consistent outcomes.",
+        "This study focuses on neural networks.",
+        "Each hypothesis has implications.",
+        "These findings suggest improvement.",
+        "The group of researchers agrees on the outcome."
+      ],
+      "alternatives": [
+        "The analysis shows the pattern.",
+        "The number of samples is sufficient.",
+        "All results demonstrate validity.",
+        "The dataset contains anomalies.",
+        "Every component functions properly."
+      ],
+      "not_to_do": [
+        "Each method provide a unique advantage.",
+        "Several sensor was deployed.",
+        "The tests was conducted.",
+        "These finding suggests improvement.",
+        "The data shows inconsistencies."
+      ]
+    },
+    {
+      "rule": "Avoiding Contractions",
+      "definition": "Avoid using contractions in formal academic writing.",
+      "examples": [
+        "Do not assume linearity without evidence.",
+        "It is important to control variables.",
+        "They are commonly used in automation.",
+        "There is significant interest in this topic.",
+        "We have evaluated five models.",
+        "It does not meet the required threshold.",
+        "The results are not consistent.",
+        "It is evident from the results.",
+        "The function has been optimized.",
+        "They will extend the framework."
+      ],
+      "alternatives": [
+        "We are aware of the limitations.",
+        "It is known that accuracy decreases.",
+        "The authors have compared two systems.",
+        "She has demonstrated improved accuracy.",
+        "This study does not address that."
+      ],
+      "not_to_do": [
+        "Don’t assume linearity.",
+        "It’s important to control variables.",
+        "They’re used in automation.",
+        "There’s interest in this topic.",
+        "We’ve evaluated five models."
+      ]
+    },
+    {
+      "rule": "Using Articles Appropriately",
+      "definition": "Use 'a', 'an', and 'the' correctly to define nouns.",
+      "examples": [
+        "A sensor was used to detect vibration.",
+        "An algorithm was designed for classification.",
+        "The device operates under low power.",
+        "The dataset was divided into training and testing.",
+        "A threshold of 0.5 was used.",
+        "An analysis of variance was performed.",
+        "The system utilizes a microcontroller.",
+        "A framework was proposed for integration.",
+        "The results show consistent performance.",
+        "An improvement was observed in the second trial."
+      ],
+      "alternatives": [
+        "A method is proposed in this study.",
+        "The goal is to minimize error.",
+        "The experiment was repeated.",
+        "An evaluation was carried out.",
+        "The approach reduces noise."
+      ],
+      "not_to_do": [
+        "Sensor was used to detect vibration.",
+        "Algorithm was designed for classification.",
+        "Device operates under low power.",
+        "Dataset was divided...",
+        "Improvement was observed..."
+      ]
+    },
+    {
+      "rule": "Correct Preposition Usage",
+      "definition": "Use correct prepositions to clarify relationships between elements.",
+      "examples": [
+        "The algorithm is applied to real data.",
+        "This result is consistent with previous studies.",
+        "The model depends on the initial conditions.",
+        "They compared it with a baseline.",
+        "The output varies according to the input.",
+        "This parameter is used for calibration.",
+        "It aligns with theoretical expectations.",
+        "They focused on real-time implementation.",
+        "The findings are related to error analysis.",
+        "We derived results from empirical data."
+      ],
+      "alternatives": [
+        "It is based on prior knowledge.",
+        "The data were processed with Python.",
+        "The framework was extended to include noise reduction.",
+        "This study contributes to the literature.",
+        "The tests resulted in high accuracy."
+      ],
+      "not_to_do": [
+        "Applied with real data.",
+        "Consistent to previous studies.",
+        "Model depends of conditions.",
+        "Compared from a baseline.",
+        "Results derived with data."
+      ]
+    },
+    {
+      "rule": "Avoiding Redundancy",
+      "definition": "Eliminate unnecessary repetition or verbose phrases.",
+      "examples": [
+        "The reason is that the system failed.",
+        "Because the device overheated, it shut down.",
+        "This method is more efficient.",
+        "We repeated the experiment.",
+        "The model was trained using labeled data.",
+        "All samples were used for testing.",
+        "The hypothesis was rejected.",
+        "The figure illustrates the concept.",
+        "Due to limited space, only key results are shown.",
+        "The approach is different from others."
+      ],
+      "alternatives": [
+        "Because the battery failed...",
+        "This is due to high variance.",
+        "We tested the same method.",
+        "The results confirm the hypothesis.",
+        "They used the method once again."
+      ],
+      "not_to_do": [
+        "The reason is because...",
+        "Due to the fact that...",
+        "Repeated again...",
+        "Tested it once more again...",
+        "Same identical method..."
+      ]
+    },
+    {
+      "rule": "Using Formal Language",
+      "definition": "Use academic/formal vocabulary, avoiding colloquial terms.",
+      "examples": [
+        "Numerous approaches have been studied.",
+        "The data were obtained from public datasets.",
+        "A significant improvement was noted.",
+        "The proposed method demonstrates robustness.",
+        "Results indicate superior performance.",
+        "The investigation provides insight.",
+        "This framework facilitates integration.",
+        "The design reduces energy consumption.",
+        "All assumptions are explicitly stated.",
+        "The outcomes are statistically valid."
+      ],
+      "alternatives": [
+        "This paper presents a comparison.",
+        "A thorough evaluation was conducted.",
+        "The study investigates these effects.",
+        "A theoretical model is developed.",
+        "Performance metrics were recorded."
+      ],
+      "not_to_do": [
+        "A lot of methods were tried.",
+        "We got good results.",
+        "It works pretty well.",
+        "This is kind of useful.",
+        "The thing was tested."
+      ]
+    },
+    {
+      "rule": "Correct Use of Punctuation",
+      "definition": "Use commas, colons, semicolons, etc., correctly for lists, clauses, and clarity.",
+      "examples": [
+        "The system has three parts: sensor, processor, and actuator.",
+        "The model is robust; however, it requires fine-tuning.",
+        "The algorithm is simple, fast, and accurate.",
+        "This requires three elements: data, method, and metrics.",
+        "It is important; hence, it should be emphasized.",
+        "Temperature, humidity, and pressure were monitored.",
+        "Accuracy dropped; thus, retraining was needed.",
+        "The results are clear: performance improved.",
+        "The test passed, although the setup was modified.",
+        "The signal was noisy; nonetheless, it was usable."
+      ],
+      "alternatives": [
+        "The three metrics are: precision, recall, and F1-score.",
+        "Accuracy increased; however, error still exists.",
+        "The signal is strong, consistent, and stable.",
+        "This includes: input, processing, and output.",
+        "Performance dropped; as a result, tuning was done."
+      ],
+      "not_to_do": [
+        "The system has three parts sensor processor actuator.",
+        "Accuracy increased however error still exists.",
+        "This includes input processing output.",
+        "It is important hence should be emphasized.",
+        "Temperature humidity pressure were monitored."
+      ]
+    },
+    {
+      "rule": "Use of Parallel Structure",
+      "definition": "Use the same grammatical structure in lists and comparisons.",
+      "examples": [
+        "The system is designed to sense, analyze, and respond.",
+        "The goals are to reduce cost, improve speed, and increase efficiency.",
+        "The algorithm identifies features, extracts patterns, and classifies inputs.",
+        "This approach enhances scalability, maintainability, and reliability.",
+        "We tested accuracy, latency, and robustness.",
+        "The method includes: pre-processing, feature selection, and classification.",
+        "Tasks include reading, writing, and editing.",
+        "The robot navigates, maps, and avoids obstacles.",
+        "Our focus is data acquisition, signal processing, and storage.",
+        "The experiment was designed, implemented, and analyzed."
+      ],
+      "alternatives": [
+        "To monitor, to control, and to evaluate.",
+        "They aim to reduce delays, to improve output, and to minimize error.",
+        "The objectives are simple: assess, optimize, and compare.",
+        "Tasks are to read data, to write logs, and to process inputs.",
+        "The system collects data, sends alerts, and logs errors."
+      ],
+      "not_to_do": [
+        "The system is designed to sense, analyzing, and to respond.",
+        "Goals are reducing cost, improve speed, and efficiency increase.",
+        "The algorithm extracts, patterns, and classifies.",
+        "This includes reading, to write, and data storage.",
+        "To monitor, controlling, and evaluations."
+      ]
+    },
+    {
+      "rule": "Avoiding Ambiguous Pronouns",
+      "definition": "Ensure pronouns clearly refer to specific nouns.",
+      "examples": [
+        "This result indicates that the method is effective.",
+        "The proposed model outperforms others; it achieves higher accuracy.",
+        "The algorithm failed to converge, which suggests instability.",
+        "We present a new technique. It reduces computation time.",
+        "The device was tested. Its performance was optimal.",
+        "These findings support the conclusion.",
+        "The model achieved 95% accuracy. This validates its effectiveness.",
+        "Each method was evaluated. They show different outcomes.",
+        "The training process was rigorous. It took three hours.",
+        "This paper introduces a method. It improves robustness."
+      ],
+      "alternatives": [
+        "The approach improves reliability, and this is demonstrated in results.",
+        "This enhancement is evident from the reduced error rate.",
+        "That method improves both speed and accuracy.",
+        "Such a system performs consistently.",
+        "This observation highlights model generalization."
+      ],
+      "not_to_do": [
+        "This shows it works.",
+        "They did better than them.",
+        "It failed, which is bad.",
+        "That proves it is useful.",
+        "It was tested and that helped."
+      ]
+    },
+    {
+      "rule": "Maintaining Objectivity",
+      "definition": "Avoid personal opinions and use an academic, third-person tone.",
+      "examples": [
+        "The results suggest a positive correlation.",
+        "It appears that the model is robust.",
+        "This observation supports previous findings.",
+        "It is likely that environmental factors influenced the result.",
+        "The study shows consistency across datasets.",
+        "Evidence indicates a relationship between variables.",
+        "It can be inferred that the approach is effective.",
+        "The analysis implies statistical significance.",
+        "The outcome aligns with theoretical expectations.",
+        "The hypothesis was partially supported."
+      ],
+      "alternatives": [
+        "One may infer that the method generalizes well.",
+        "These findings demonstrate system stability.",
+        "This supports the effectiveness of the design.",
+        "The approach is empirically validated.",
+        "Such results suggest high potential."
+      ],
+      "not_to_do": [
+        "I think the method works.",
+        "We believe the model is accurate.",
+        "In our opinion, this is useful.",
+        "I feel this is the best solution.",
+        "We assume the hypothesis is true."
+      ]
+    }
+  ]
+},
+
+"Common examples of grammar rules":{
+  "Passive Voice": [
+    "The data were analyzed using a standard MATLAB script.",
+    "The experiment was conducted under controlled environmental conditions.",
+    "A novel algorithm was implemented to enhance prediction accuracy.",
+    "Sensor readings were recorded at 10-second intervals.",
+    "The simulation was run for 100 iterations.",
+    "Statistical significance was assessed through a two-tailed t-test.",
+    "The network was trained using a labeled dataset.",
+    "Anomalies were detected based on threshold deviations.",
+    "The proposed technique was validated using a benchmark dataset.",
+    "Power consumption was measured during peak operational periods."
+  ],
+  "Consistent Tense Usage": [
+    "The study was conducted over a period of six months.",
+    "The model was trained on 10,000 samples.",
+    "Results indicate that the proposed method is more robust.",
+    "The sensors were calibrated before deployment.",
+    "It is known that deep learning performs well with large datasets.",
+    "Our findings suggest a strong correlation.",
+    "The framework was evaluated on two real-world scenarios.",
+    "This problem remains an open research question.",
+    "The devices were programmed using embedded C.",
+    "Current studies focus on reducing computational overhead."
+  ],
+  "Subject-Verb Agreement": [
+    "Each experiment yields consistent outcomes.",
+    "The set of parameters was determined empirically.",
+    "Several approaches have been explored previously.",
+    "A group of researchers has investigated similar phenomena.",
+    "The number of iterations depends on convergence criteria.",
+    "These variables represent the system’s dynamic behavior.",
+    "An increase in voltage causes a rise in temperature.",
+    "A series of tests was performed to ensure reliability.",
+    "The findings support the proposed hypothesis.",
+    "A combination of methods is applied to improve accuracy."
+  ],
+  "Avoiding Contractions": [
+    "Do not confuse correlation with causation.",
+    "It is important to validate the model against real-world data.",
+    "They are expected to follow a linear trend.",
+    "She has demonstrated consistent performance across trials.",
+    "We will extend this approach in future work.",
+    "There is evidence supporting the initial assumption.",
+    "We have considered all possible edge cases.",
+    "It does not align with the theoretical prediction.",
+    "They will implement this in the next phase.",
+    "That is consistent with earlier studies."
+  ],
+  "Using Articles Appropriately": [
+    "A simulation was run to evaluate the proposed method.",
+    "An approach based on reinforcement learning is introduced.",
+    "The algorithm demonstrates high fault tolerance.",
+    "A threshold was set at 0.5 for classification.",
+    "The model exhibits robust generalization.",
+    "An improved design was proposed for energy efficiency.",
+    "The system achieves real-time performance.",
+    "A comparison was drawn between traditional and proposed techniques.",
+    "The sensor network covers a larger area.",
+    "An example is provided to illustrate the method."
+  ],
+  "Correct Preposition Usage": [
+    "The model depends on the input parameters.",
+    "The results are consistent with the hypothesis.",
+    "The algorithm is applied to large datasets.",
+    "The approach is based on fuzzy logic.",
+    "This method differs from conventional solutions.",
+    "Accuracy improves with additional training data.",
+    "The findings correspond to earlier research.",
+    "The technique was validated against baseline models.",
+    "The system was trained on annotated data.",
+    "The hypothesis aligns with theoretical expectations."
+  ],
+  "Avoiding Redundancy": [
+    "The reason is that...",
+    "Because the device failed...",
+    "This method is superior...",
+    "The algorithm improved performance...",
+    "It is essential to note...",
+    "The results confirm...",
+    "The figure illustrates...",
+    "The test was repeated...",
+    "All participants completed the survey.",
+    "The model was trained using 1000 samples."
+  ],
+  "Using Formal Language": [
+    "Numerous methods have been proposed.",
+    "The data were obtained.",
+    "Significant improvement was observed.",
+    "The error rate decreased.",
+    "The results demonstrate...",
+    "This work investigates...",
+    "This approach facilitates...",
+    "The parameters were adjusted accordingly.",
+    "The issue was addressed.",
+    "The experiment yielded consistent results."
+  ],
+  "Correct Use of Punctuation": [
+    "The system consists of three components: the sensor, the processor, and the actuator.",
+    "The results were inconclusive; therefore, further testing is required.",
+    "This approach is robust, scalable, and efficient.",
+    "The parameters include: threshold, tolerance, and gain.",
+    "The process was repeated multiple times; however, the outcome remained unchanged.",
+    "To clarify, the value is normalized before comparison.",
+    "The model performed well: 98% accuracy was achieved.",
+    "The system failed, although it passed earlier tests.",
+    "Temperature, humidity, and pressure were monitored continuously.",
+    "The design is modular; hence, components can be replaced easily."
+  ],
+  "Parallel Structure": [
+    "The system is designed to monitor temperature, detect anomalies, and alert users.",
+    "The objectives were to analyze data, develop a model, and validate results.",
+    "This approach improves speed, enhances accuracy, and reduces cost.",
+    "The study focuses on signal detection, noise reduction, and data integrity.",
+    "The robot was programmed to navigate, avoid obstacles, and return to base.",
+    "The algorithm segments images, classifies regions, and generates outputs.",
+    "The method is scalable, adaptable, and efficient.",
+    "The procedure includes identifying features, selecting attributes, and training classifiers.",
+    "We aim to increase reliability, decrease latency, and optimize throughput.",
+    "The experiment was designed, executed, and evaluated in three phases."
+  ]
+},
+"Essential":{
+  "essential_grammar_rules": [
+    {
+      "rule": "Use of Passive Voice",
+      "description": "Often preferred to focus on the process or result rather than the researcher.",
+      "main_example": {
+        "active": "We conducted the experiment.",
+        "passive": "The experiment was conducted."
+      },
+      "correct_examples": [
+        "The algorithm was evaluated on multiple datasets.",
+        "The measurements were recorded at five-minute intervals.",
+        "The samples were prepared using standard procedures.",
+        "The data were analyzed using statistical methods.",
+        "The hypothesis was tested under controlled conditions."
+      ],
+      "incorrect_examples": [
+        "We evaluated the algorithm on multiple datasets.",
+        "I recorded the measurements every five minutes.",
+        "We prepared the samples.",
+        "I analyzed the data.",
+        "We tested the hypothesis."
+      ]
+    },
+    {
+      "rule": "Consistent Tense Usage",
+      "description": "Use past tense for methods/results and present tense for general truths or current implications.",
+      "main_example": {
+        "past": "The data were collected from three sensors.",
+        "present": "The results indicate a significant improvement."
+      },
+      "correct_examples": [
+        "The algorithm was trained on 1,000 data points.",
+        "The values were averaged to reduce noise.",
+        "The model performs well under noisy conditions.",
+        "This technique improves classification accuracy.",
+        "The experiment was repeated five times."
+      ],
+      "incorrect_examples": [
+        "The data is collected from sensors.",
+        "The results indicated a strong correlation.",
+        "This technique improved the accuracy.",
+        "The model was performs well.",
+        "We uses the past tense inconsistently."
+      ]
+    },
+    {
+      "rule": "Subject-Verb Agreement",
+      "description": "The subject and verb must agree in number (singular/plural).",
+      "main_example": {
+        "singular": "The algorithm produces accurate results.",
+        "plural": "Multiple sensors were used in the system."
+      },
+      "correct_examples": [
+        "Each method has its own advantage.",
+        "The experiment confirms the hypothesis.",
+        "The models perform differently across tasks.",
+        "These parameters influence the results.",
+        "A dataset of images is used for training."
+      ],
+      "incorrect_examples": [
+        "Each method have its own advantage.",
+        "The experiment confirm the hypothesis.",
+        "The models performs differently.",
+        "These parameters influences the results.",
+        "A dataset of images are used."
+      ]
+    },
+    {
+      "rule": "Avoiding Contractions",
+      "description": "Use full forms instead of contractions for formal tone.",
+      "main_example": {
+        "contraction": "Don't",
+        "formal": "Do not"
+      },
+      "correct_examples": [
+        "It is known that temperature affects resistance.",
+        "There is no significant deviation.",
+        "We did not observe any changes.",
+        "They have reported similar results.",
+        "It does not influence the outcome."
+      ],
+      "incorrect_examples": [
+        "It's known that temperature affects resistance.",
+        "There's no significant deviation.",
+        "We didn't observe any changes.",
+        "They've reported similar results.",
+        "It doesn't influence the outcome."
+      ]
+    },
+    {
+      "rule": "Using Articles Appropriately (a, an, the)",
+      "description": "Use definite and indefinite articles correctly.",
+      "main_example": {
+        "indefinite": "A model was developed to predict temperature variations.",
+        "definite": "The model was tested under various conditions."
+      },
+      "correct_examples": [
+        "An experiment was conducted to validate the method.",
+        "The approach yields promising results.",
+        "A sensor was placed near the heat source.",
+        "The data were collected from the field.",
+        "An analysis of variance was performed."
+      ],
+      "incorrect_examples": [
+        "Experiment was conducted to validate method.",
+        "Approach yields promising results.",
+        "Sensor was placed near heat source.",
+        "Data were collected from field.",
+        "Analysis of variance was performed."
+      ]
+    },
+    {
+      "rule": "Correct Preposition Usage",
+      "description": "Use domain-appropriate prepositions for describing relationships.",
+      "main_example": {
+        "example": "The approach is consistent with existing literature."
+      },
+      "correct_examples": [
+        "The performance depends on the input data.",
+        "The algorithm is applied to time-series analysis.",
+        "Results are consistent with previous studies.",
+        "This is due to a hardware limitation.",
+        "Accuracy varies according to the method."
+      ],
+      "incorrect_examples": [
+        "The performance depends of the input data.",
+        "The algorithm is applied on time-series analysis.",
+        "Results are consistent by previous studies.",
+        "This is due for a hardware limitation.",
+        "Accuracy varies with respect of the method."
+      ]
+    },
+    {
+      "rule": "Avoiding Redundancy",
+      "description": "Be concise. Do not repeat ideas unnecessarily.",
+      "main_example": {
+        "redundant": "The reason is because...",
+        "concise": "The reason is that..."
+      },
+      "correct_examples": [
+        "Because the data were incomplete, the analysis was postponed.",
+        "The system failed due to a power outage.",
+        "As the temperature increased, the resistance also rose.",
+        "The algorithm did not converge, possibly due to noise.",
+        "Since the sample size was small, the results are limited."
+      ],
+      "incorrect_examples": [
+        "The reason is because the data were incomplete.",
+        "Due to the fact that the power failed, the system stopped.",
+        "As a result of the temperature increasing, the resistance increased.",
+        "It did not converge due to the fact that the data were noisy.",
+        "The reason for failure is because of the sample size."
+      ]
+    },
+    {
+      "rule": "Using Formal Language",
+      "description": "Avoid colloquialisms and use domain-specific terms.",
+      "main_example": {
+        "informal": "A lot of",
+        "formal": "Numerous / Many"
+      },
+      "correct_examples": [
+        "Numerous factors influence system stability.",
+        "Many studies support this conclusion.",
+        "The data were acquired from multiple sources.",
+        "The device malfunctioned due to excessive heat.",
+        "The system was optimized for performance."
+      ],
+      "incorrect_examples": [
+        "A lot of factors influence system stability.",
+        "Lots of studies support this.",
+        "We got the data from multiple sources.",
+        "The device broke because it got too hot.",
+        "The system was made better for performance."
+      ]
+    },
+    {
+      "rule": "Correct Use of Punctuation",
+      "description": "Use commas, semicolons, and colons accurately for lists, clauses, and explanations.",
+      "main_example": {
+        "example": "The method includes three steps: data collection, processing, and analysis."
+      },
+      "correct_examples": [
+        "The sensor is accurate, efficient, and reliable.",
+        "He used two techniques: Fourier analysis and wavelet transform.",
+        "The method failed; however, the model remained stable.",
+        "The outcomes were as follows: increased speed, reduced cost, and enhanced safety.",
+        "We examined three variables: temperature, pressure, and humidity."
+      ],
+      "incorrect_examples": [
+        "The sensor is accurate efficient and reliable.",
+        "He used two techniques Fourier analysis and wavelet transform.",
+        "The method failed however the model remained stable.",
+        "The outcomes were as follows increased speed reduced cost and enhanced safety.",
+        "We examined three variables temperature, pressure and humidity."
+      ]
+    },
+    {
+      "rule": "Use of Parallel Structure",
+      "description": "Ensure lists and compound structures follow the same grammatical form.",
+      "main_example": {
+        "example": "The system is designed to collect data, analyze trends, and generate reports."
+      },
+      "correct_examples": [
+        "The goals are to reduce error, increase efficiency, and save time.",
+        "The program aims at identifying, evaluating, and correcting faults.",
+        "He is responsible for managing resources, training staff, and overseeing operations.",
+        "We need to validate the model, test its accuracy, and report the findings.",
+        "Tasks include configuring the hardware, initializing the software, and recording results."
+      ],
+      "incorrect_examples": [
+        "The goals are to reduce error, increasing efficiency, and save time.",
+        "The program aims at identifying, evaluation, and correcting faults.",
+        "He is responsible for managing resources, train staff, and overseeing operations.",
+        "We need to validate the model, to test accuracy, and report findings.",
+        "Tasks include configuration of hardware, initializing software, and to record results."
+      ]
+    },
+    {
+      "rule": "Avoiding Ambiguous Pronouns",
+      "description": "Ensure pronouns clearly refer to a specific noun.",
+      "main_example": {
+        "ambiguous": "This proves that it is effective.",
+        "clear": "This result proves that the method is effective."
+      },
+      "correct_examples": [
+        "This method achieves high accuracy in prediction.",
+        "The model outperformed others; this result supports its robustness.",
+        "The system was redesigned, and this change improved stability.",
+        "The sensor malfunctioned. This issue affected data quality.",
+        "We used Algorithm A. This approach is widely accepted."
+      ],
+      "incorrect_examples": [
+        "This proves it is better.",
+        "It was redesigned and it improved performance.",
+        "This shows it can be done.",
+        "They did it because it helps.",
+        "It is clear that this is important."
+      ]
+    },
+    {
+      "rule": "Maintaining Objectivity",
+      "description": "Use third person and avoid personal opinions unless part of a discussion section.",
+      "main_example": {
+        "subjective": "We believe this is accurate.",
+        "objective": "This result appears to be accurate."
+      },
+      "correct_examples": [
+        "The findings suggest a correlation between variables.",
+        "The data support the proposed hypothesis.",
+        "The results confirm the expected behavior.",
+        "Evidence indicates that the system is stable.",
+        "The experiment demonstrates the validity of the approach."
+      ],
+      "incorrect_examples": [
+        "I think the system is working well.",
+        "We feel this method is best.",
+        "This looks good to us.",
+        "We believe the results are fine.",
+        "In our opinion, this works great."
+      ]
+    }
+  ]
+},
+"General Grammar rules":{
+  "grammar_rules": [
+    {
+      "rule_name": "Passive Voice",
+      "description": "Preferred to focus on actions or results, not the actor.",
+      "examples": [
+        "The experiment was conducted.",
+        "Data were collected from various sources.",
+        "The samples were analyzed using spectrometry.",
+        "The results were obtained after filtering the noise.",
+        "A model was developed based on the observations.",
+        "The equations were derived from first principles.",
+        "The system was designed to reduce energy consumption.",
+        "A comparison was made between the two methods.",
+        "The error was calculated using standard deviation.",
+        "The methodology was validated through simulations."
+      ],
+      "not_cases": [
+        "We conducted the experiment.",
+        "They analyzed the samples.",
+        "I calculated the error.",
+        "Our team designed the system.",
+        "The researcher developed the model."
+      ]
+    },
+    {
+      "rule_name": "Consistent Tense Usage",
+      "description": "Use past tense for methods/results; present tense for facts or general knowledge.",
+      "examples": [
+        "The system was tested under multiple scenarios.",
+        "The sensors were calibrated before deployment.",
+        "The results indicate a high level of accuracy.",
+        "It is known that temperature affects resistance.",
+        "The study confirms the effectiveness of the method.",
+        "The algorithm was implemented in Python.",
+        "The data were processed using standard techniques.",
+        "The literature shows consistent trends.",
+        "The model predicts future temperature variations.",
+        "Temperature and pressure are related variables."
+      ],
+      "not_cases": [
+        "The system tests under multiple scenarios.",
+        "The sensors calibrate before deployment.",
+        "The results indicated (when reporting ongoing implications).",
+        "It was known that... (for current facts).",
+        "The literature showed trends (for timeless truths)."
+      ]
+    },
+    {
+      "rule_name": "Subject-Verb Agreement",
+      "description": "The verb must agree with the subject in number and form.",
+      "examples": [
+        "The algorithm produces accurate results.",
+        "These methods are widely used in literature.",
+        "The sensor detects motion effectively.",
+        "The data were collected carefully.",
+        "This model has multiple layers.",
+        "Each system shows unique behavior.",
+        "The papers discuss various approaches.",
+        "The process involves three main steps.",
+        "Every result supports the hypothesis.",
+        "Several observations confirm the pattern."
+      ],
+      "not_cases": [
+        "The algorithm produce results.",
+        "These methods is widely used.",
+        "The sensor detect motion.",
+        "The data was collected.",
+        "Each system show behavior."
+      ]
+    },
+    {
+      "rule_name": "Avoiding Contractions",
+      "description": "Write full forms for clarity and formality.",
+      "examples": [
+        "It is essential to validate the data.",
+        "Do not include biased terms.",
+        "The method cannot generalize well.",
+        "They are able to reproduce the findings.",
+        "It will not affect the results.",
+        "We are interested in the underlying process.",
+        "This does not apply to all cases.",
+        "The algorithm is not optimal.",
+        "It is based on prior knowledge.",
+        "There is no significant deviation."
+      ],
+      "not_cases": [
+        "It’s essential to validate the data.",
+        "Don’t include biased terms.",
+        "Can’t generalize well.",
+        "We’re interested...",
+        "There’s no deviation."
+      ]
+    },
+    {
+      "rule_name": "Article Usage (a, an, the)",
+      "description": "Use articles appropriately based on specificity.",
+      "examples": [
+        "A sensor was used to detect temperature.",
+        "An algorithm was proposed for classification.",
+        "The method was evaluated using cross-validation.",
+        "The data suggest a new trend.",
+        "A significant improvement was noted.",
+        "The system was redesigned for efficiency.",
+        "An experiment was conducted.",
+        "The results support the hypothesis.",
+        "A comparison was made between two techniques.",
+        "The paper addresses this issue."
+      ],
+      "not_cases": [
+        "Sensor was used...",
+        "Algorithm was proposed...",
+        "Method was evaluated...",
+        "Results suggest..."
+      ]
+    },
+    {
+      "rule_name": "Preposition Usage",
+      "description": "Use prepositions accurately for formal, technical relationships.",
+      "examples": [
+        "The paper is consistent with previous studies.",
+        "The results depend on the configuration.",
+        "The system is sensitive to noise.",
+        "This method is based on statistical theory.",
+        "The signal was transmitted through the network.",
+        "The study focuses on sensor accuracy.",
+        "The parameters are related to temperature.",
+        "The findings correspond to the simulation.",
+        "The system was subjected to stress testing.",
+        "The model was applied to real data."
+      ],
+      "not_cases": [
+        "The paper is consistent to previous studies.",
+        "Depends in the configuration.",
+        "Sensitive with noise.",
+        "Focus in sensor accuracy."
+      ]
+    },
+    {
+      "rule_name": "Avoiding Redundancy",
+      "description": "Do not repeat the same idea or use unnecessary words.",
+      "examples": [
+        "The reason is that the data were noisy.",
+        "Because the signal was weak, it was ignored.",
+        "The result was unexpected due to hardware failure.",
+        "The method was both simple and effective.",
+        "The system failed due to overloading.",
+        "The study demonstrates that...",
+        "The analysis includes only relevant data.",
+        "The signal was amplified for clarity.",
+        "The experiment was stopped due to risk.",
+        "The algorithm was optimized to reduce time."
+      ],
+      "not_cases": [
+        "The reason is because...",
+        "Due to the fact that...",
+        "It is clearly evident that...",
+        "In order to test → just To test"
+      ]
+    },
+    {
+      "rule_name": "Formal Language Use",
+      "description": "Avoid casual or conversational language.",
+      "examples": [
+        "Numerous approaches have been proposed.",
+        "The model was trained using a large dataset.",
+        "The error margin was significant.",
+        "The algorithm performs efficiently.",
+        "Results were obtained with high accuracy.",
+        "The study aims to solve this issue.",
+        "Data were gathered systematically.",
+        "The objective is clearly defined.",
+        "A comparison is provided.",
+        "The framework is presented."
+      ],
+      "not_cases": [
+        "A lot of approaches...",
+        "Got results...",
+        "Big dataset...",
+        "Kinda solves the issue...",
+        "Stuff like that..."
+      ]
+    },
+    {
+      "rule_name": "Punctuation Usage",
+      "description": "Use commas, semicolons, and colons correctly for clarity.",
+      "examples": [
+        "The study includes three steps: data collection, preprocessing, and evaluation.",
+        "The sensors were noisy; however, the data were usable.",
+        "It is accurate, robust, and interpretable.",
+        "The model was trained, validated, and tested.",
+        "The paper provides results, discussions, and future work.",
+        "Several errors were identified: noise, bias, and drift.",
+        "The algorithm works well, but it requires fine-tuning.",
+        "The analysis was thorough; the outcome was reliable.",
+        "All metrics—accuracy, precision, and recall—were reported.",
+        "The data were analyzed using two tools: Python and MATLAB."
+      ],
+      "not_cases": [
+        "The study includes: data, preprocessing.",
+        "It is accurate robust and interpretable.",
+        "The model was trained validated and tested.",
+        "The sensors were noisy however, the data were usable."
+      ]
+    },
+    {
+      "rule_name": "Parallel Structure",
+      "description": "Maintain grammatical consistency in lists or patterns.",
+      "examples": [
+        "The system collects, processes, and stores data.",
+        "The objectives are to detect faults, reduce noise, and improve performance.",
+        "The algorithm was tested for accuracy, speed, and reliability.",
+        "The paper discusses advantages, disadvantages, and improvements.",
+        "The device is compact, efficient, and scalable.",
+        "The study aims to develop tools, test methods, and evaluate outcomes.",
+        "The sensor detects, measures, and reports temperature.",
+        "We analyzed trends, compared results, and proposed improvements.",
+        "The approach is simple, elegant, and effective.",
+        "The research addresses detection, diagnosis, and correction."
+      ],
+      "not_cases": [
+        "The system collects data, processing it, and storing.",
+        "The objectives are to detect faults, noise reduction, and improving.",
+        "The algorithm tested for accuracy, speed, and to be reliable.",
+        "The study develops tools, test methods, and evaluates outcomes."
+      ]
+    }
+  ]
+},
+"Academic words":{
+  "Academic_Formal_Equivalents_Expanded": [
+    {
+      "word": "but",
+      "formal_equivalents": [
+        "however",
+        "nevertheless",
+        "nonetheless",
+        "yet",
+        "on the contrary",
+        "conversely",
+        "still",
+        "although",
+        "despite this",
+        "notwithstanding"
+      ]
+    },
+    {
+      "word": "so",
+      "formal_equivalents": [
+        "therefore",
+        "thus",
+        "hence",
+        "accordingly",
+        "as a result",
+        "consequently",
+        "for this reason",
+        "in turn",
+        "then",
+        "resultantly"
+      ]
+    },
+    {
+      "word": "also",
+      "formal_equivalents": [
+        "moreover",
+        "in addition",
+        "furthermore",
+        "likewise",
+        "similarly",
+        "what is more",
+        "besides",
+        "additionally",
+        "as well",
+        "not only that"
+      ]
+    },
+    {
+      "word": "maybe",
+      "formal_equivalents": [
+        "possibly",
+        "perhaps",
+        "potentially",
+        "it is conceivable",
+        "it is plausible",
+        "it might be",
+        "there is a likelihood",
+        "it can be assumed",
+        "it is likely",
+        "there is a possibility"
+      ]
+    },
+    {
+      "word": "get",
+      "formal_equivalents": [
+        "obtain",
+        "acquire",
+        "receive",
+        "attain",
+        "derive",
+        "gain",
+        "secure",
+        "earn",
+        "achieve",
+        "collect"
+      ]
+    },
+    {
+      "word": "important",
+      "formal_equivalents": [
+        "significant",
+        "crucial",
+        "vital",
+        "essential",
+        "noteworthy",
+        "key",
+        "pivotal",
+        "critical",
+        "major",
+        "consequential"
+      ]
+    },
+    {
+      "word": "a lot of",
+      "formal_equivalents": [
+        "numerous",
+        "a large number of",
+        "many",
+        "a considerable amount of",
+        "a substantial number of",
+        "a high quantity of",
+        "an abundance of",
+        "a plethora of",
+        "a myriad of",
+        "several"
+      ]
+    },
+    {
+      "word": "thing",
+      "formal_equivalents": [
+        "factor",
+        "aspect",
+        "element",
+        "component",
+        "parameter",
+        "feature",
+        "issue",
+        "variable",
+        "characteristic",
+        "item"
+      ]
+    },
+    {
+      "word": "idea",
+      "formal_equivalents": [
+        "concept",
+        "notion",
+        "perspective",
+        "viewpoint",
+        "proposal",
+        "suggestion",
+        "theory",
+        "hypothesis",
+        "argument",
+        "point"
+      ]
+    },
+    {
+      "word": "help",
+      "formal_equivalents": [
+        "assist",
+        "facilitate",
+        "support",
+        "enable",
+        "aid",
+        "promote",
+        "contribute to",
+        "enhance",
+        "improve",
+        "reinforce"
+      ]
+    },
+    {
+      "word": "hard",
+      "formal_equivalents": [
+        "challenging",
+        "difficult",
+        "complex",
+        "demanding",
+        "rigorous",
+        "laborious",
+        "onerous",
+        "strenuous",
+        "tough",
+        "intensive"
+      ]
+    },
+    {
+      "word": "easy",
+      "formal_equivalents": [
+        "straightforward",
+        "uncomplicated",
+        "simple",
+        "manageable",
+        "user-friendly",
+        "accessible",
+        "effortless",
+        "undemanding",
+        "smooth",
+        "convenient"
+      ]
+    },
+    {
+      "word": "say",
+      "formal_equivalents": [
+        "state",
+        "declare",
+        "mention",
+        "note",
+        "assert",
+        "indicate",
+        "argue",
+        "suggest",
+        "propose",
+        "report"
+      ]
+    },
+ {
+      "word": "big",
+      "formal_equivalents": [
+        "significant",
+        "substantial",
+        "considerable",
+        "extensive",
+        "major",
+        "profound",
+        "sizeable",
+        "noteworthy",
+        "large-scale",
+        "far-reaching"
+      ]
+    },
+    {
+      "word": "small",
+      "formal_equivalents": [
+        "minimal",
+        "insignificant",
+        "minor",
+        "limited",
+        "negligible",
+        "trivial",
+        "modest",
+        "slight",
+        "restricted",
+        "narrow"
+      ]
+    },
+    {
+      "word": "start",
+      "formal_equivalents": [
+        "initiate",
+        "commence",
+        "begin",
+        "launch",
+        "inaugurate",
+        "trigger",
+        "instigate",
+        "originate",
+        "undertake",
+        "activate"
+      ]
+    },
+    {
+      "word": "end",
+      "formal_equivalents": [
+        "terminate",
+        "conclude",
+        "complete",
+        "finalize",
+        "cease",
+        "wrap up",
+        "culminate",
+        "close",
+        "wind up",
+        "bring to a close"
+      ]
+    },
+    {
+      "word": "show",
+      "formal_equivalents": [
+        "demonstrate",
+        "illustrate",
+        "indicate",
+        "reveal",
+        "depict",
+        "present",
+        "display",
+        "exhibit",
+        "highlight",
+        "unveil"
+      ]
+    },
+    {
+      "word": "prove",
+      "formal_equivalents": [
+        "validate",
+        "confirm",
+        "establish",
+        "substantiate",
+        "corroborate",
+        "authenticate",
+        "demonstrate",
+        "justify",
+        "attest to",
+        "reinforce"
+      ]
+    },
+    {
+      "word": "deal with",
+      "formal_equivalents": [
+        "address",
+        "handle",
+        "manage",
+        "cope with",
+        "tackle",
+        "resolve",
+        "engage with",
+        "consider",
+        "accommodate",
+        "process"
+      ]
+    },
+    {
+      "word": "look into",
+      "formal_equivalents": [
+        "investigate",
+        "examine",
+        "analyze",
+        "explore",
+        "study",
+        "assess",
+        "inspect",
+        "evaluate",
+        "scrutinize",
+        "review"
+      ]
+    },
+    {
+      "word": "find out",
+      "formal_equivalents": [
+        "discover",
+        "identify",
+        "detect",
+        "uncover",
+        "observe",
+        "reveal",
+        "discern",
+        "ascertain",
+        "realize",
+        "come to know"
+      ]
+    },
+ {
+      "word": "get",
+      "formal_equivalents": [
+        "obtain",
+        "acquire",
+        "secure",
+        "receive",
+        "attain",
+        "procure",
+        "earn",
+        "collect",
+        "garner",
+        "achieve"
+      ]
+    },
+    {
+      "word": "help",
+      "formal_equivalents": [
+        "assist",
+        "facilitate",
+        "support",
+        "enable",
+        "aid",
+        "contribute to",
+        "promote",
+        "advance",
+        "guide",
+        "bolster"
+      ]
+    },
+    {
+      "word": "do",
+      "formal_equivalents": [
+        "perform",
+        "conduct",
+        "execute",
+        "undertake",
+        "accomplish",
+        "carry out",
+        "administer",
+        "implement",
+        "orchestrate",
+        "pursue"
+      ]
+    },
+    {
+      "word": "make",
+      "formal_equivalents": [
+        "create",
+        "develop",
+        "formulate",
+        "design",
+        "establish",
+        "construct",
+        "compose",
+        "generate",
+        "initiate",
+        "build"
+      ]
+    },
+    {
+      "word": "bad",
+      "formal_equivalents": [
+        "inadequate",
+        "ineffective",
+        "inappropriate",
+        "substandard",
+        "unsatisfactory",
+        "inferior",
+        "unacceptable",
+        "flawed",
+        "deficient",
+        "detrimental"
+      ]
+    },
+    {
+      "word": "good",
+      "formal_equivalents": [
+        "beneficial",
+        "advantageous",
+        "effective",
+        "optimal",
+        "favorable",
+        "commendable",
+        "admirable",
+        "noteworthy",
+        "satisfactory",
+        "superior"
+      ]
+    },
+    {
+      "word": "thing",
+      "formal_equivalents": [
+        "element",
+        "aspect",
+        "factor",
+        "component",
+        "item",
+        "entity",
+        "variable",
+        "parameter",
+        "characteristic",
+        "feature"
+      ]
+    },
+    {
+      "word": "really",
+      "formal_equivalents": [
+        "significantly",
+        "considerably",
+        "notably",
+        "substantially",
+        "highly",
+        "greatly",
+        "materially",
+        "markedly",
+        "clearly",
+        "profoundly"
+      ]
+    },
+    {
+      "word": "so",
+      "formal_equivalents": [
+        "thus",
+        "therefore",
+        "consequently",
+        "accordingly",
+        "as a result",
+        "for this reason",
+        "hence",
+        "in turn",
+        "this leads to",
+        "subsequently"
+      ]
+    },
+    {
+      "word": "about",
+      "formal_equivalents": [
+        "concerning",
+        "regarding",
+        "with respect to",
+        "with reference to",
+        "in relation to",
+        "in terms of",
+        "pertaining to",
+        "relating to",
+        "associated with",
+        "connected with"
+      ]
+    },
+ {
+      "word": "increase",
+      "formal_equivalents": [
+        "amplification",
+        "augmentation",
+        "expansion",
+        "growth",
+        "escalation",
+        "acceleration",
+        "intensification",
+        "boost",
+        "enhancement",
+        "surge"
+      ]
+    },
+    {
+      "word": "improve",
+      "formal_equivalents": [
+        "enhance",
+        "refine",
+        "advance",
+        "upgrade",
+        "optimize",
+        "elevate",
+        "develop",
+        "strengthen",
+        "reinforce",
+        "perfect"
+      ]
+    },
+    {
+      "word": "use",
+      "formal_equivalents": [
+        "employ",
+        "utilize",
+        "leverage",
+        "implement",
+        "apply",
+        "exploit",
+        "adopt",
+        "administer",
+        "deploy",
+        "engage"
+      ]
+    },
+    {
+      "word": "start",
+      "formal_equivalents": [
+        "initiate",
+        "commence",
+        "launch",
+        "begin",
+        "undertake",
+        "embark",
+        "trigger",
+        "originate",
+        "activate",
+        "inaugurate"
+      ]
+    },
+    {
+      "word": "show",
+      "formal_equivalents": [
+        "demonstrate",
+        "illustrate",
+        "reveal",
+        "indicate",
+        "display",
+        "exhibit",
+        "present",
+        "highlight",
+        "elucidate",
+        "substantiate"
+      ]
+    },
+    {
+      "word": "end",
+      "formal_equivalents": [
+        "terminate",
+        "conclude",
+        "finalize",
+        "complete",
+        "wrap up",
+        "close",
+        "cease",
+        "halt",
+        "discontinue",
+        "culminate"
+      ]
+    },
+    {
+      "word": "think",
+      "formal_equivalents": [
+        "consider",
+        "contemplate",
+        "reflect",
+        "evaluate",
+        "analyze",
+        "speculate",
+        "assess",
+        "examine",
+        "infer",
+        "reason"
+      ]
+    },
+    {
+      "word": "big",
+      "formal_equivalents": [
+        "significant",
+        "substantial",
+        "considerable",
+        "major",
+        "extensive",
+        "enormous",
+        "profound",
+        "remarkable",
+        "exceptional",
+        "tremendous"
+      ]
+    },
+    {
+      "word": "small",
+      "formal_equivalents": [
+        "minor",
+        "minimal",
+        "negligible",
+        "modest",
+        "insignificant",
+        "limited",
+        "slight",
+        "trivial",
+        "narrow",
+        "marginal"
+      ]
+    },
+    {
+      "word": "fast",
+      "formal_equivalents": [
+        "rapid",
+        "accelerated",
+        "swift",
+        "prompt",
+        "expedited",
+        "quick",
+        "instantaneous",
+        "immediate",
+        "fast-paced",
+        "high-speed"
+      ]
+    },
+    {
+      "word": "use",
+      "formal_equivalents": [
+        "utilize",
+        "employ",
+        "apply",
+        "adopt",
+        "exploit",
+        "leverage",
+        "engage",
+        "exercise",
+        "make use of",
+        "implement"
+      ]
+    },
+    {
+      "word": "need",
+      "formal_equivalents": [
+        "require",
+        "necessitate",
+        "demand",
+        "call for",
+        "be essential",
+        "be required",
+        "be needed",
+        "entail",
+        "be obligatory",
+        "be vital"
+      ]
+    }
+  ]
+},
+
+"Connectors":{
+  "Academic_Connectors_Extended": [
+    {
+      "connector": "Increase",
+      "formal_equivalent": "Amplification",
+      "additional_formal_equivalents": ["Augmentation", "Escalation", "Growth", "Proliferation", "Expansion"],
+      "example": "There was a notable augmentation in accuracy across all datasets."
+    },
+    {
+      "connector": "Improve",
+      "formal_equivalent": "Refine",
+      "additional_formal_equivalents": ["Enhance", "Elevate", "Advance", "Augment", "Upgrade"],
+      "example": "The architecture was refined to minimize latency."
+    },
+    {
+      "connector": "Use",
+      "formal_equivalent": "Employ",
+      "additional_formal_equivalents": ["Utilize", "Implement", "Leverage", "Adopt", "Apply"],
+      "example": "The model employs a hybrid decision-making strategy."
+    },
+    {
+      "connector": "Start",
+      "formal_equivalent": "Initiate",
+      "additional_formal_equivalents": ["Commence", "Launch", "Embark", "Trigger", "Undertake"],
+      "example": "The simulation was initiated after system calibration."
+    },
+    {
+      "connector": "Show",
+      "formal_equivalent": "Illustrate",
+      "additional_formal_equivalents": ["Demonstrate", "Present", "Reveal", "Indicate", "Substantiate"],
+      "example": "The experimental outcomes illustrate a clear improvement."
+    },
+    {
+      "connector": "End",
+      "formal_equivalent": "Terminate",
+      "additional_formal_equivalents": ["Conclude", "Finalize", "Wrap up", "Wind down", "Cease"],
+      "example": "The monitoring process was terminated after 10 minutes."
+    },
+    {
+      "connector": "Think",
+      "formal_equivalent": "Contemplate",
+      "additional_formal_equivalents": ["Consider", "Reflect on", "Evaluate", "Examine", "Speculate"],
+      "example": "Researchers contemplated the implications of hybrid modeling."
+    },
+    {
+      "connector": "Big",
+      "formal_equivalent": "Considerable",
+      "additional_formal_equivalents": ["Significant", "Substantial", "Vast", "Tremendous", "Profound"],
+      "example": "A considerable enhancement in fault tolerance was achieved."
+    },
+    {
+      "connector": "Small",
+      "formal_equivalent": "Negligible",
+      "additional_formal_equivalents": ["Minimal", "Minor", "Limited", "Marginal", "Insignificant"],
+      "example": "The impact of temperature variation was negligible."
+    },
+    {
+      "connector": "Fast",
+      "formal_equivalent": "Accelerated",
+      "additional_formal_equivalents": ["Rapid", "Prompt", "Swift", "Expedited", "Immediate"],
+      "example": "An accelerated response is necessary for real-time applications."
+    }
+  ],
+"Academic_Connectors": [
+    {
+      "connector": "Increase",
+      "formal_equivalent": "Growth",
+      "synonyms": ["Rise", "Surge", "Expansion", "Escalation", "Amplification"],
+      "antonyms": ["Decrease", "Decline", "Reduction", "Drop", "Diminution"],
+      "formal_alternatives": ["Augmentation", "Upsurge", "Increment"],
+      "example_usage": "The growth in sensor precision led to improved detection rates."
+    },
+    {
+      "connector": "Improve",
+      "formal_equivalent": "Enhance",
+      "synonyms": ["Boost", "Refine", "Elevate", "Advance", "Augment"],
+      "antonyms": ["Worsen", "Degrade", "Deteriorate", "Compromise", "Impede"],
+      "formal_alternatives": ["Optimize", "Upgrade", "Fortify"],
+      "example_usage": "The algorithm was enhanced to support dynamic fault conditions."
+    },
+    {
+      "connector": "Use",
+      "formal_equivalent": "Utilize",
+      "synonyms": ["Employ", "Apply", "Implement", "Exploit", "Adopt"],
+      "antonyms": ["Avoid", "Neglect", "Discard", "Omit", "Disregard"],
+      "formal_alternatives": ["Leverage", "Make use of", "Deploy"],
+      "example_usage": "This study utilizes a hybrid deep learning architecture."
+    },
+    {
+      "connector": "Start",
+      "formal_equivalent": "Commence",
+      "synonyms": ["Initiate", "Launch", "Begin", "Trigger", "Undertake"],
+      "antonyms": ["Conclude", "End", "Finish", "Terminate", "Cease"],
+      "formal_alternatives": ["Set in motion", "Embark upon", "Inaugurate"],
+      "example_usage": "The simulation commenced with a calibration phase."
+    },
+    {
+      "connector": "Show",
+      "formal_equivalent": "Demonstrate",
+      "synonyms": ["Reveal", "Exhibit", "Present", "Indicate", "Display"],
+      "antonyms": ["Hide", "Conceal", "Suppress", "Obscure", "Distort"],
+      "formal_alternatives": ["Illustrate", "Substantiate", "Validate"],
+      "example_usage": "The results demonstrate the robustness of the proposed method."
+    },
+    {
+      "connector": "End",
+      "formal_equivalent": "Conclude",
+      "synonyms": ["Finish", "Terminate", "Cease", "Complete", "Wrap up"],
+      "antonyms": ["Initiate", "Commence", "Launch", "Start", "Begin"],
+      "formal_alternatives": ["Bring to a close", "Finalize", "Wind down"],
+      "example_usage": "The study concludes with suggestions for future research."
+    },
+    {
+      "connector": "Think",
+      "formal_equivalent": "Consider",
+      "synonyms": ["Contemplate", "Reflect", "Evaluate", "Examine", "Speculate"],
+      "antonyms": ["Ignore", "Dismiss", "Overlook", "Neglect", "Avoid"],
+      "formal_alternatives": ["Take into account", "Assess", "Regard"],
+      "example_usage": "Various fault scenarios are considered in the analysis."
+    },
+    {
+      "connector": "Big",
+      "formal_equivalent": "Significant",
+      "synonyms": ["Substantial", "Considerable", "Major", "Vast", "Profound"],
+      "antonyms": ["Minor", "Insignificant", "Trivial", "Negligible", "Marginal"],
+      "formal_alternatives": ["Extensive", "Meaningful", "Noteworthy"],
+      "example_usage": "A significant improvement was observed in detection accuracy."
+    },
+    {
+      "connector": "Small",
+      "formal_equivalent": "Minimal",
+      "synonyms": ["Tiny", "Insignificant", "Minor", "Negligible", "Limited"],
+      "antonyms": ["Large", "Substantial", "Extensive", "Considerable", "Major"],
+      "formal_alternatives": ["Marginal", "Slight", "Nominal"],
+      "example_usage": "Only a minimal variation was noticed in voltage readings."
+    },
+    {
+      "connector": "Fast",
+      "formal_equivalent": "Rapid",
+      "synonyms": ["Quick", "Swift", "Speedy", "Prompt", "Immediate"],
+      "antonyms": ["Slow", "Delayed", "Gradual", "Sluggish", "Prolonged"],
+      "formal_alternatives": ["Accelerated", "Expedited", "High-speed"],
+      "example_usage": "Rapid detection of anomalies is crucial for real-time systems."
+    }
+  ],
+ "Introduction": [
+    {
+      "connector": "However",
+      "synonyms": ["Nevertheless", "Nonetheless", "Yet"],
+      "antonyms": ["Therefore", "Thus"],
+      "formal_alternatives": ["Despite that", "In contrast"],
+      "example_usage": "However, previous studies have not addressed sensor accuracy under fault conditions."
+    },
+    {
+      "connector": "Moreover",
+      "synonyms": ["Furthermore", "In addition", "Also"],
+      "antonyms": ["Conversely", "On the contrary"],
+      "formal_alternatives": ["Additionally", "What is more"],
+      "example_usage": "Moreover, the proposed system outperforms baseline models in accuracy."
+    }
+  ],
+  "Methodology": [
+    {
+      "connector": "Subsequently",
+      "synonyms": ["Then", "Afterward", "Thereafter"],
+      "antonyms": ["Previously", "Before"],
+      "formal_alternatives": ["Later on", "As a next step"],
+      "example_usage": "Subsequently, the data were normalized before training."
+    },
+    {
+      "connector": "Whereas",
+      "synonyms": ["While", "Although", "Though"],
+      "antonyms": ["Likewise", "Similarly"],
+      "formal_alternatives": ["In contrast", "However"],
+      "example_usage": "The HMM model adapts sequentially, whereas SVM remains static."
+    }
+  ],
+  "Related Work": [
+    {
+      "connector": "Accordingly",
+      "synonyms": ["Consequently", "As a result", "Hence"],
+      "antonyms": ["Nonetheless", "Regardless"],
+      "formal_alternatives": ["In accordance", "As per"],
+      "example_usage": "Accordingly, several researchers have investigated alternative fault models."
+    },
+    {
+      "connector": "Conversely",
+      "synonyms": ["On the other hand", "However"],
+      "antonyms": ["Similarly", "Likewise"],
+      "formal_alternatives": ["In contrast", "Contrarily"],
+      "example_usage": "Conversely, traditional methods lack fault-tolerance capabilities."
+    }
+  ],
+  "Discussion": [
+    {
+      "connector": "Hence",
+      "synonyms": ["Thus", "Therefore", "Consequently"],
+      "antonyms": ["Nevertheless", "However"],
+      "formal_alternatives": ["For this reason", "It follows that"],
+      "example_usage": "Hence, the model is robust against drift faults."
+    },
+    {
+      "connector": "Notably",
+      "synonyms": ["Importantly", "Significantly", "Remarkably"],
+      "antonyms": ["Trivially", "Marginally"],
+      "formal_alternatives": ["It is worth noting", "Of significance"],
+      "example_usage": "Notably, the proposed method reduced false positives by 25%."
+    }
+  ],
+  "Conclusion": [
+    {
+      "connector": "Therefore",
+      "synonyms": ["Thus", "Hence", "Consequently"],
+      "antonyms": ["However", "Nevertheless"],
+      "formal_alternatives": ["Accordingly", "As a result"],
+      "example_usage": "Therefore, the method proves effective for real-time fault diagnosis."
+    },
+    {
+      "connector": "In summary",
+      "synonyms": ["To summarize", "To conclude", "In conclusion"],
+      "antonyms": ["Conversely", "On the other hand"],
+      "formal_alternatives": ["Overall", "In essence"],
+      "example_usage": "In summary, the model demonstrates high precision and low latency."
+    }
+  ],
+  "Future Work": [
+    {
+      "connector": "Subsequently",
+      "synonyms": ["Later", "Thereafter", "In the future"],
+      "antonyms": ["Previously", "Earlier"],
+      "formal_alternatives": ["In forthcoming studies", "In subsequent phases"],
+      "example_usage": "Subsequently, future work will focus on multi-sensor fusion strategies."
+    },
+    {
+      "connector": "Potentially",
+      "synonyms": ["Possibly", "Plausibly", "Likely"],
+      "antonyms": ["Certainly", "Definitely"],
+      "formal_alternatives": ["Prospectively", "Feasibly"],
+      "example_usage": "This approach potentially enables scalable deployment in CPS applications."
+    }
+  ],
+ "Introduction": [
+      {
+        "connector": "Recently",
+        "synonyms": ["Lately", "Of late", "In recent times"],
+        "antonyms": ["Formerly", "Previously"],
+        "formal_alternatives": ["In the past few years", "In the recent literature"],
+        "examples": [
+          "Recently, there has been a surge of interest in sensor fault detection.",
+          "Recently developed methods offer improved scalability."
+        ],
+        "academic_contexts": ["Background", "Motivation"],
+        "usage_tips": [
+          "Use to introduce current trends or recent developments.",
+          "Often followed by citations or prior studies."
+        ]
+      },
+      {
+        "connector": "There has been growing interest in",
+        "synonyms": ["An increasing focus on", "A surge in research on"],
+        "antonyms": ["A decline in attention to"],
+        "formal_alternatives": ["A notable increase in attention has been given to"],
+        "examples": [
+          "There has been growing interest in intelligent sensor systems.",
+          "There has been growing interest in integrating AI with CPS."
+        ],
+        "academic_contexts": ["Motivation", "Introduction"],
+        "usage_tips": [
+          "Effective for signaling relevance or justification for the research.",
+          "Can precede research problem or gap."
+        ]
+      }
+    ],
+    "Abstract": [
+      {
+        "connector": "This paper presents",
+        "synonyms": ["This study proposes", "This article introduces"],
+        "antonyms": ["This paper ignores", "This article omits"],
+        "formal_alternatives": ["The present work introduces"],
+        "examples": [
+          "This paper presents a novel approach for sensor fault detection.",
+          "This paper presents an end-to-end system for anomaly classification."
+        ],
+        "academic_contexts": ["Abstract", "Introduction"],
+        "usage_tips": [
+          "Used at the beginning of an abstract to clearly state contribution.",
+          "Follow with what and how concisely."
+        ]
+      },
+      {
+        "connector": "The results demonstrate",
+        "synonyms": ["The findings show", "The outcomes confirm"],
+        "antonyms": ["The results contradict", "The outcomes disprove"],
+        "formal_alternatives": ["Experimental results reveal"],
+        "examples": [
+          "The results demonstrate the effectiveness of the hybrid architecture.",
+          "The results demonstrate superior performance over baseline models."
+        ],
+        "academic_contexts": ["Abstract", "Conclusion"],
+        "usage_tips": [
+          "Use to conclude abstract and highlight key contributions.",
+          "Supports claims made earlier in the abstract."
+        ]
+      }
+    ],
+    "Related Work / Background": [
+      {
+        "connector": "Previous studies have shown",
+        "synonyms": ["Earlier work indicated", "Prior research demonstrated"],
+        "antonyms": ["No previous work has shown"],
+        "formal_alternatives": ["It has been previously established that"],
+        "examples": [
+          "Previous studies have shown that model-based techniques are effective.",
+          "Previous studies have shown limitations in scalability and accuracy."
+        ],
+        "academic_contexts": ["Literature Review", "Related Work"],
+        "usage_tips": [
+          "Often followed by a citation.",
+          "Summarize key points from existing literature."
+        ]
+      },
+      {
+        "connector": "However, these methods",
+        "synonyms": ["Nevertheless, those techniques", "Yet, such methods"],
+        "antonyms": ["Similarly, these methods"],
+        "formal_alternatives": ["Nonetheless, such approaches"],
+        "examples": [
+          "However, these methods fail to address real-time fault diagnosis.",
+          "However, these methods are limited to static conditions."
+        ],
+        "academic_contexts": ["Comparison", "Limitations", "Gap identification"],
+        "usage_tips": [
+          "Use to point out a research gap or limitation in past work.",
+          "Typically transitions to the motivation of your work."
+        ]
+      }
+    ],
+    "Methodology / System Design": [
+      {
+        "connector": "The proposed method",
+        "synonyms": ["Our approach", "The suggested technique"],
+        "antonyms": ["An existing method"],
+        "formal_alternatives": ["The method presented herein"],
+        "examples": [
+          "The proposed method consists of three main components.",
+          "The proposed method uses a hybrid SAE–SVM–FDNN model."
+        ],
+        "academic_contexts": ["Methodology", "Architecture", "Design"],
+        "usage_tips": [
+          "Introduce a novel methodology or model design.",
+          "Follow with components or flow description."
+        ]
+      },
+      {
+        "connector": "It is implemented using",
+        "synonyms": ["It is developed with", "It utilizes"],
+        "antonyms": ["It avoids using"],
+        "formal_alternatives": ["It has been implemented employing"],
+        "examples": [
+          "It is implemented using TensorFlow and Python.",
+          "It is implemented using real-time sensor data streams."
+        ],
+        "academic_contexts": ["Implementation", "System details"],
+        "usage_tips": [
+          "Use to specify tools, platforms, or libraries.",
+          "Provides technical details to the reader."
+        ]
+      }
+    ],
+    "Discussion / Results": [
+      {
+        "connector": "These findings suggest",
+        "synonyms": ["The results imply", "This indicates"],
+        "antonyms": ["These findings contradict"],
+        "formal_alternatives": ["It can be inferred that"],
+        "examples": [
+          "These findings suggest that the hybrid model improves classification accuracy.",
+          "These findings suggest a strong correlation between drift and error rate."
+        ],
+        "academic_contexts": ["Discussion", "Analysis", "Interpretation"],
+        "usage_tips": [
+          "Use to interpret and discuss implications of results.",
+          "Should follow figures/tables or comparative analysis."
+        ]
+      },
+      {
+        "connector": "Compared to previous methods",
+        "synonyms": ["Relative to earlier approaches", "In contrast with existing models"],
+        "antonyms": ["In similarity with", "Same as"],
+        "formal_alternatives": ["As opposed to conventional methods"],
+        "examples": [
+          "Compared to previous methods, our approach achieves higher precision.",
+          "Compared to previous methods, the latency is significantly lower."
+        ],
+        "academic_contexts": ["Comparison", "Evaluation", "Benchmarking"],
+        "usage_tips": [
+          "Use when benchmarking or making comparisons.",
+          "Follow with numerical or qualitative insights."
+        ]
+      }
+    ],
+    "Future Work": [
+      {
+        "connector": "Future work will focus on",
+        "synonyms": ["Subsequent efforts will address", "Further research will investigate"],
+        "antonyms": ["The work will not cover"],
+        "formal_alternatives": ["Prospective studies will aim at"],
+        "examples": [
+          "Future work will focus on real-time deployment.",
+          "Future work will focus on integrating uncertainty modeling."
+        ],
+        "academic_contexts": ["Future Work", "Conclusion"],
+        "usage_tips": [
+          "Outline scope for extension or improvements.",
+          "Use to indicate ongoing or next-phase research."
+        ]
+      },
+      {
+        "connector": "This opens up possibilities for",
+        "synonyms": ["This paves the way for", "This enables", "This initiates"],
+        "antonyms": ["This restricts further work"],
+        "formal_alternatives": ["This establishes a basis for"],
+        "examples": [
+          "This opens up possibilities for adaptive fault-tolerant systems.",
+          "This opens up possibilities for cross-domain deployment."
+        ],
+        "academic_contexts": ["Future Work", "Implications"],
+        "usage_tips": [
+          "Highlights broader impact and opportunities.",
+          "Good for last paragraph in discussion or conclusion."
+        ]
+      }
+    ],
+    "Conclusion": [
+      {
+        "connector": "In conclusion",
+        "synonyms": ["To summarize", "Overall", "In summary"],
+        "antonyms": ["To begin with"],
+        "formal_alternatives": ["In closing", "To conclude"],
+        "examples": [
+          "In conclusion, the proposed model outperforms traditional classifiers.",
+          "In conclusion, real-time fault detection is both feasible and effective."
+        ],
+        "academic_contexts": ["Conclusion", "Final Remarks"],
+        "usage_tips": [
+          "Use to begin the final paragraph of the paper.",
+          "Follow with summary of main contributions."
+        ]
+      },
+      {
+        "connector": "This study has demonstrated",
+        "synonyms": ["This paper has shown", "We have proven"],
+        "antonyms": ["This study has failed to demonstrate"],
+        "formal_alternatives": ["The research herein confirms"],
+        "examples": [
+          "This study has demonstrated the viability of deep learning for anomaly detection.",
+          "This study has demonstrated that the system scales well across deployments."
+        ],
+        "academic_contexts": ["Conclusion", "Abstract", "Findings"],
+        "usage_tips": [
+          "Summarize core achievement or takeaway.",
+          "Avoid introducing new data or references here."
+        ]
+      }
+    ],
+ "Emphasis": [
+      {
+        "connector": "Notably",
+        "synonyms": ["Significantly", "Importantly", "Remarkably"],
+        "antonyms": ["Marginally", "Unremarkably"],
+        "formal_alternatives": ["Of particular note", "It is worth mentioning"],
+        "examples": [
+          "Notably, the proposed algorithm reduces processing time by 30%.",
+          "Several methods were tested. Notably, Method C showed the highest precision."
+        ],
+        "academic_contexts": ["Discussion", "Results", "Conclusion"],
+        "usage_tips": [
+          "Use to highlight an important or striking point.",
+          "Typically placed at the beginning of a sentence to attract attention."
+        ]
+      },
+      {
+        "connector": "In fact",
+        "synonyms": ["Indeed", "Actually", "Truly"],
+        "antonyms": ["Falsely", "Incorrectly"],
+        "formal_alternatives": ["As a matter of fact", "It is important to note"],
+        "examples": [
+          "The technique is simple. In fact, it requires no additional hardware.",
+          "In fact, most researchers agree with this interpretation."
+        ],
+        "academic_contexts": ["Emphasis", "Support", "Clarification"],
+        "usage_tips": [
+          "Use to reinforce a previous statement or to provide additional support.",
+          "Avoid overuse; reserve for strong support points."
+        ]
+      }
+    ],
+    "Clarification": [
+      {
+        "connector": "In other words",
+        "synonyms": ["That is to say", "To put it differently", "Simply put"],
+        "antonyms": ["Ambiguously", "Obscurely"],
+        "formal_alternatives": ["Stated differently", "To rephrase"],
+        "examples": [
+          "The results were inconclusive. In other words, no definitive pattern was found.",
+          "In other words, the system failed to detect the anomaly in real-time."
+        ],
+        "academic_contexts": ["Explanation", "Clarification", "Discussion"],
+        "usage_tips": [
+          "Use to restate complex information in simpler terms.",
+          "Follow with a clearer or more straightforward sentence."
+        ]
+      },
+      {
+        "connector": "To clarify",
+        "synonyms": ["To explain", "To elaborate", "To expound"],
+        "antonyms": ["To confuse", "To obscure"],
+        "formal_alternatives": ["To make clear", "To be more specific"],
+        "examples": [
+          "To clarify, the second dataset refers to experimental results only.",
+          "The term 'sensor drift' refers to gradual changes. To clarify, it does not imply immediate errors."
+        ],
+        "academic_contexts": ["Discussion", "Methodology", "Terminology sections"],
+        "usage_tips": [
+          "Use when elaborating on a technical term or statement.",
+          "Often followed by a brief explanatory phrase."
+        ]
+      }
+    ],
+    "Examples": [
+      {
+        "connector": "For example",
+        "synonyms": ["For instance", "Such as", "Namely"],
+        "antonyms": ["In general", "Broadly speaking"],
+        "formal_alternatives": ["As an illustration", "To illustrate"],
+        "examples": [
+          "For example, temperature sensors were placed at three different locations.",
+          "Various classifiers were tested. For example, SVM and Random Forests were used."
+        ],
+        "academic_contexts": ["Methodology", "Literature Review", "Illustration"],
+        "usage_tips": [
+          "Use to provide specific illustrations of a general statement.",
+          "Follow with a concrete and relevant example."
+        ]
+      },
+      {
+        "connector": "Such as",
+        "synonyms": ["Including", "Namely", "Like"],
+        "antonyms": ["Excluding", "Omitting"],
+        "formal_alternatives": ["Particularly", "As exemplified by"],
+        "examples": [
+          "Various parameters such as accuracy, precision, and recall were evaluated.",
+          "Several sensors were tested, such as infrared and ultrasonic types."
+        ],
+        "academic_contexts": ["Methodology", "Examples", "Explanation"],
+        "usage_tips": [
+          "Use for listing or specifying parts of a broader category.",
+          "Ensure the listed items are representative and relevant."
+        ]
+      }
+    ],
+ "Addition": [
+      {
+        "connector": "Moreover",
+        "synonyms": ["Furthermore", "In addition", "Additionally", "What's more", "Besides"],
+        "antonyms": ["However", "On the other hand", "Conversely", "Nevertheless"],
+        "formal_alternatives": ["Over and above that", "Beyond that"],
+        "examples": [
+          "The study was comprehensive. Moreover, it provided new insights into the field.",
+          "The results were conclusive. Moreover, they aligned with previous research."
+        ],
+        "academic_contexts": ["Introduction", "Literature Review", "Discussion"],
+        "usage_tips": [
+          "Use to introduce an additional point that supports the previous statement.",
+          "Avoid overusing; ensure each addition is relevant and significant."
+        ]
+      },
+      {
+        "connector": "Furthermore",
+        "synonyms": ["Moreover", "In addition", "Additionally", "What's more", "Besides"],
+        "antonyms": ["However", "On the other hand", "Conversely", "Nevertheless"],
+        "formal_alternatives": ["Over and above that", "Beyond that"],
+        "examples": [
+          "The experiment was conducted meticulously. Furthermore, all variables were controlled.",
+          "The author provides a compelling argument. Furthermore, the evidence is robust."
+        ],
+        "academic_contexts": ["Methodology", "Results", "Discussion"],
+        "usage_tips": [
+          "Employ to add information that reinforces or extends the previous point.",
+          "Ensure the additional information is directly related to the topic."
+        ]
+      }
+    ],
+    "Contrast": [
+      {
+        "connector": "However",
+        "synonyms": ["Nevertheless", "Nonetheless", "Yet", "But", "Still"],
+        "antonyms": ["Moreover", "Furthermore", "In addition", "Additionally"],
+        "formal_alternatives": ["Be that as it may", "Having said that"],
+        "examples": [
+          "The hypothesis seemed plausible. However, the data did not support it.",
+          "The treatment was effective. However, side effects were observed."
+        ],
+        "academic_contexts": ["Discussion", "Results", "Conclusion"],
+        "usage_tips": [
+          "Use to introduce a statement that contrasts with or contradicts the previous one.",
+          "Place a comma after 'however' when it starts a sentence."
+        ]
+      },
+      {
+        "connector": "On the other hand",
+        "synonyms": ["Conversely", "In contrast", "Alternatively"],
+        "antonyms": ["Similarly", "Likewise", "Correspondingly"],
+        "formal_alternatives": ["By way of contrast", "In a different vein"],
+        "examples": [
+          "The first method is cost-effective. On the other hand, it is less efficient.",
+          "The theory is widely accepted. On the other hand, some scholars dispute its validity."
+        ],
+        "academic_contexts": ["Discussion", "Comparison", "Analysis"],
+        "usage_tips": [
+          "Use to present an alternative perspective or contrasting point.",
+          "Ensure the contrast is clear and directly related to the previous point."
+        ]
+      }
+    ],
+    "Cause and Effect": [
+      {
+        "connector": "Therefore",
+        "synonyms": ["Thus", "Consequently", "As a result", "Hence"],
+        "antonyms": ["Nevertheless", "However", "Nonetheless"],
+        "formal_alternatives": ["Accordingly", "For this reason"],
+        "examples": [
+          "The variables were controlled. Therefore, the results are reliable.",
+          "The sample size was small. Therefore, the findings may not be generalizable."
+        ],
+        "academic_contexts": ["Conclusion", "Discussion", "Results"],
+        "usage_tips": [
+          "Use to indicate a logical consequence or result.",
+          "Place a comma after 'therefore' when it starts a sentence."
+        ]
+      },
+      {
+        "connector": "Thus",
+        "synonyms": ["Therefore", "Consequently", "As a result", "Hence"],
+        "antonyms": ["Nevertheless", "However", "Nonetheless"],
+        "formal_alternatives": ["Accordingly", "For this reason"],
+        "examples": [
+          "The experiment was flawed. Thus, the results are inconclusive.",
+          "The data were incomplete. Thus, further research is needed."
+        ],
+        "academic_contexts": ["Conclusion", "Discussion", "Results"],
+        "usage_tips": [
+          "Use to indicate a conclusion drawn from the previous information.",
+          "Can be used at the beginning or in the middle of a sentence."
+        ]
+      }
+    ],
+    "Comparison": [
+      {
+        "connector": "Similarly",
+        "synonyms": ["Likewise", "In the same way", "Correspondingly"],
+        "antonyms": ["Conversely", "On the other hand", "In contrast"],
+        "formal_alternatives": ["By the same token", "In like manner"],
+        "examples": [
+          "The first study found significant results. Similarly, the second study confirmed these findings.",
+          "The theory applies to physics. Similarly, it can be applied to chemistry."
+        ],
+        "academic_contexts": ["Discussion", "Literature Review", "Comparison"],
+        "usage_tips": [
+          "Use to indicate that the following point is similar to the previous one.",
+          "Ensure the similarity is clear and relevant."
+        ]
+      },
+      {
+        "connector": "Likewise",
+        "synonyms": ["Similarly", "In the same way", "Correspondingly"],
+        "antonyms": ["Conversely", "On the other hand", "In contrast"],
+        "formal_alternatives": ["By the same token", "In like manner"],
+        "examples": [
+          "The results were promising. Likewise, the methodology was sound.",
+          "The author argues for reform. Likewise, other scholars support this view."
+        ],
+        "academic_contexts": ["Discussion", "Literature Review", "Comparison"],
+        "usage_tips": [
+          "Use to introduce a point that is similar to the previous one.",
+          "Typically used at the beginning of a sentence."
+        ]
+      }
+    ],
+    "Emphasis": [
+      {
+        "connector": "Indeed",
+        "synonyms": ["In fact", "Truly", "Certainly"],
+        "antonyms": ["Doubtfully", "Uncertainly"],
+        "formal_alternatives": ["Undoubtedly", "Without a doubt"],
+        "examples": [
+          "The results are impressive. Indeed, they exceed expectations.",
+          "The method is effective. Indeed, it has been adopted widely."
+        ],
+        "academic_contexts": ["Discussion", "Conclusion", "Introduction"],
+        "usage_tips": [
+          "Use to emphasize a point or confirm a previous statement.",
+          "Can be used to introduce additional supportive information."
+        ]
+	}
+]
 }
   
 }
