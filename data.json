@@ -1534,15 +1534,6 @@
     "The design integrates both theoretical and empirical elements..."
   ]
 },
-"Experiments": {
-  "phrases": [
-    "Experiments were conducted on...",
-    "The dataset used is sourced from...",
-    "Evaluation was carried out using...",
-    "Implementation details include...",
-    "All experiments were repeated to ensure consistency..."
-  ]
-},
 "Acknowledgments": {
   "phrases": [
     "The authors thank...",
@@ -1591,16 +1582,6 @@
     "Each phase of the process is described in detail...",
     "The model was developed using...",
     "An overview of the technique is illustrated in..."
-  ]
-},
-
-"Experiments": {
-  "phrases": [
-    "Experiments were conducted using...",
-    "The setup was configured to ensure...",
-    "Multiple runs were performed to evaluate consistency...",
-    "Evaluation metrics include accuracy, precision, and recall...",
-    "The experimental protocol was adapted from..."
   ]
 },
 
@@ -2246,16 +2227,6 @@
   ]
 },
 
-"Experiments": {
-  "phrases": [
-    "Datasets used mirror those in [31], enabling fair performance comparison...",
-    "The protocol outlined in [33] was adapted to this study's constraints...",
-    "Baseline models were replicated from configurations in [29]...",
-    "Evaluation metrics follow standard definitions as in [32]...",
-    "As in [35], results are averaged over multiple iterations to ensure reliability..."
-  ]
-},
-
 
 "Acknowledgments": {
   "phrases": [
@@ -2299,16 +2270,6 @@
   ]
 },
 
-"Experiments": {
-  "phrases": [
-    "Experimental configurations were aligned with the benchmark setup in [26], using standardized preprocessing routines...",
-    "The dataset introduced in [29] was employed to ensure reproducibility and domain fidelity...",
-    "We adopted the evaluation metrics from [31], including Macro-F1, weighted precision, and Matthews correlation coefficient...",
-    "Simulation parameters were derived from the configuration space delineated in [28]...",
-    "The data partitioning strategy mirrors stratified sampling principles implemented in [30] for performance consistency..."
-  ]
-},
-
 
 "Abstract": {
   "phrases": [
@@ -2340,15 +2301,6 @@
   ]
 },
 
-"Experiments": {
-  "phrases": [
-    "Datasets were collected using a high-frequency sensor array as described in [71], ensuring temporal fidelity...",
-    "The validation protocol aligns with sensor reliability frameworks outlined in [72] and includes five known fault types...",
-    "Calibration consistency is benchmarked against procedures in [73], maintaining <2% deviation across trials...",
-    "Experimental baselines include SAE, PCA, and SVM-based approaches noted in [74], ensuring fair comparison...",
-    "Noise profiles used for testing follow the Gaussian noise distributions modeled in [75] for analog sensors..."
-  ]
-},
 
 
 
@@ -2388,7 +2340,32 @@
     "Hyperparameter tuning was automated using Bayesian optimization as per [112]...",
     "To ensure statistical robustness, we adopted the stratified k-fold validation approach detailed in [113]...",
     "Baseline comparisons include transformer-based models referenced in [114], ensuring a comprehensive performance matrix...",
-    "Data augmentation techniques mirror the perturbation sets from [115], ensuring invariance under realistic conditions..."
+    "Data augmentation techniques mirror the perturbation sets from [115], ensuring invariance under realistic conditions...",
+"Experiments were conducted on...",
+    "The dataset used is sourced from...",
+    "Evaluation was carried out using...",
+    "Implementation details include...",
+    "All experiments were repeated to ensure consistency...",
+    "Experiments were conducted using...",
+    "The setup was configured to ensure...",
+    "Multiple runs were performed to evaluate consistency...",
+    "Evaluation metrics include accuracy, precision, and recall...",
+    "The experimental protocol was adapted from...",
+    "Datasets used mirror those in [31], enabling fair performance comparison...",
+    "The protocol outlined in [33] was adapted to this study's constraints...",
+    "Baseline models were replicated from configurations in [29]...",
+    "Evaluation metrics follow standard definitions as in [32]...",
+    "As in [35], results are averaged over multiple iterations to ensure reliability...",
+    "Experimental configurations were aligned with the benchmark setup in [26], using standardized preprocessing routines...",
+    "The dataset introduced in [29] was employed to ensure reproducibility and domain fidelity...",
+    "We adopted the evaluation metrics from [31], including Macro-F1, weighted precision, and Matthews correlation coefficient...",
+    "Simulation parameters were derived from the configuration space delineated in [28]...",
+    "The data partitioning strategy mirrors stratified sampling principles implemented in [30] for performance consistency...",
+    "Datasets were collected using a high-frequency sensor array as described in [71], ensuring temporal fidelity...",
+    "The validation protocol aligns with sensor reliability frameworks outlined in [72] and includes five known fault types...",
+    "Calibration consistency is benchmarked against procedures in [73], maintaining <2% deviation across trials...",
+    "Experimental baselines include SAE, PCA, and SVM-based approaches noted in [74], ensuring fair comparison...",
+    "Noise profiles used for testing follow the Gaussian noise distributions modeled in [75] for analog sensors..."
   ]
 },
 
